@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyrecswitch</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>marco.lertora@gmail.com</email>
+			<name>Marco Lertora</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A pure-python interface for controlling Ankuoo RecSwitch MS6126
+	</longdescription>
+</pkgmetadata>

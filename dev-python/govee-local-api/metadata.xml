@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">govee-local-api</remote-id>
+		<remote-id type="github">Galorhallen/govee-local-api</remote-id>
+		<bugs-to>https://github.com/Galorhallen/govee-local-api/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>andrea.ponte1987@gmail.com</email>
+			<name>Galorhallen</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Library to communicate with Govee local API
+	</longdescription>
+</pkgmetadata>

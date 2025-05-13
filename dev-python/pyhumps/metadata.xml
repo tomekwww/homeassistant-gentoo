@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyhumps</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>nficano@gmail.com</email>
+			<name>Nick Ficano</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		🐫  Convert strings (and dictionary keys) between snake case, camel case and pascal case in Python. Inspired by Humps for Node
+	</longdescription>
+</pkgmetadata>

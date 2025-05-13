@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aiostreammagic</remote-id>
+		<remote-id type="github">noahhusby/aiostreammagic</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>32528627+noahhusby@users.noreply.github.com</email>
+			<name>Noah Husby</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		An async python package for interfacing with Cambridge Audio / Stream Magic compatible streamers.
+	</longdescription>
+</pkgmetadata>

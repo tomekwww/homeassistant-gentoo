@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aiowithings</remote-id>
+		<remote-id type="github">joostlek/python-withings</remote-id>
+		<bugs-to>https://github.com/joostlek/python-withings/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>joostlek@outlook.com</email>
+			<name>Joost Lekkerkerker</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Asynchronous Python client for Withings.
+	</longdescription>
+</pkgmetadata>

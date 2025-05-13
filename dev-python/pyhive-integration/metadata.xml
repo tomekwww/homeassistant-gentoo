@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyhive-integration</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>khole_47@icloud.com</email>
+			<name>KJonline24</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A Python library to interface with the Hive API
+	</longdescription>
+</pkgmetadata>

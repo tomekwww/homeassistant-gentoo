@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyairvisual</remote-id>
+		<remote-id type="github">bachya/pyairvisual</remote-id>
+		<bugs-to>https://github.com/bachya/pyairvisual/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>bachya1208@gmail.com</email>
+			<name>Aaron Bach</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A simple API for AirVisual air quality data
+	</longdescription>
+</pkgmetadata>

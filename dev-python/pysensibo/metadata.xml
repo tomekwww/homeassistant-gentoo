@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pysensibo</remote-id>
+		<remote-id type="github">andrey-git/pysensibo</remote-id>
+		<bugs-to>https://github.com/andrey-git/pysensibo/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>goran.johansson@shiftit.se</email>
+			<name>G Johansson</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		asyncio-friendly python API for Sensibo
+	</longdescription>
+</pkgmetadata>

@@ -43,7 +43,6 @@
 		<flag name="et"></flag>
 		<flag name="orway_air"></flag>
 		<flag name="eymitt_ble"></flag>
-		<flag name="ina"></flag>
 		<flag name="obile_app"></flag>
 		<flag name="wntracks"></flag>
 		<flag name="mvtransport"></flag>
@@ -81,6 +80,7 @@
 		<flag name="irq"></flag>
 		<flag name="irzone_cloud"></flag>
 		<flag name="irzone"></flag>
+		<flag name="mazon_devices"></flag>
 		<flag name="mbient_network"></flag>
 		<flag name="mbient_station"></flag>
 		<flag name="pcupsd"></flag>
@@ -113,6 +113,7 @@
 		<flag name="cp_server"></flag>
 		<flag name="ue"></flag>
 		<flag name="map"></flag>
+		<flag name="mmich"></flag>
 		<flag name="pache_kafka"></flag>
 		<flag name="ef"></flag>
 		<flag name="ehlko"></flag>
@@ -695,6 +696,7 @@
 		<flag name="ron_os"></flag>
 		<flag name="etgear"></flag>
 		<flag name="etio"></flag>
+		<flag name="ina"></flag>
 		<flag name="obo_hub"></flag>
 		<flag name="ordpool"></flag>
 		<flag name="uki"></flag>
@@ -714,11 +716,13 @@
 		<flag name="verkiz"></flag>
 		<flag name="newire"></flag>
 		<flag name="alazzetti"></flag>
+		<flag name="aperless_ngx"></flag>
 		<flag name="lv"></flag>
 		<flag name="glab"></flag>
 		<flag name="jlink"></flag>
 		<flag name="laato"></flag>
 		<flag name="oint"></flag>
+		<flag name="robe_plus"></flag>
 		<flag name="rosegur"></flag>
 		<flag name="rusalink"></flag>
 		<flag name="s4"></flag>
@@ -746,6 +750,7 @@
 		<flag name="ky_hub"></flag>
 		<flag name="ma"></flag>
 		<flag name="mappee"></flag>
+		<flag name="marla"></flag>
 		<flag name="martthings"></flag>
 		<flag name="marty"></flag>
 		<flag name="mhi"></flag>
@@ -861,7 +866,6 @@
 		<flag name="oon"></flag>
 		<flag name="ova"></flag>
 		<flag name="pi_power"></flag>
-		<flag name="tsp_to_webrtc"></flag>
 		<flag name="ussound_rnet"></flag>
 		<flag name="uuvitag_ble"></flag>
 		<flag name="amaha"></flag>
@@ -983,6 +987,7 @@
 		<flag name="irelesstag"></flag>
 		<flag name="led"></flag>
 		<flag name="olflink"></flag>
+		<flag name="sdot"></flag>
 		<flag name="yoming"></flag>
 		<flag name="box"></flag>
 		<flag name="iaomi_ble"></flag>
@@ -1001,6 +1006,7 @@
 		<flag name="edia_extractor"></flag>
 		<flag name="abbix"></flag>
 		<flag name="amg"></flag>
+		<flag name="imi"></flag>
 		<flag name="eroconf"></flag>
 		<flag name="eversolar"></flag>
 		<flag name="ha"></flag>

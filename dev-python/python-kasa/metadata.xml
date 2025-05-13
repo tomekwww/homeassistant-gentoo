@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">python-kasa</remote-id>
+		<remote-id type="github">python-kasa/python-kasa</remote-id>
+		<bugs-to>https://github.com/python-kasa/python-kasa/issues</bugs-to>
+		<maintainer status="unknown">
+			<email></email>
+			<name>python-kasa developers</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python API for TP-Link Kasa and Tapo devices
+	</longdescription>
+</pkgmetadata>

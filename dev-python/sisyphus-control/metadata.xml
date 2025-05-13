@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">sisyphus_control</remote-id>
+		<remote-id type="github">jkeljo/sisyphus-control</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email></email>
+			<name>Jonathan Keljo</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Control your Sisyphus kinetic art tables (sisyphus-industries.com)
+	</longdescription>
+</pkgmetadata>

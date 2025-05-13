@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">satel-integra</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>krzysztof.machelski+pypi@gmail.com</email>
+			<name>Krzysztof Machelski</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Communication library and basic testing tool for Satel Integra alarm system. Communication via tcpip protocol published by SATEL.
+	</longdescription>
+</pkgmetadata>

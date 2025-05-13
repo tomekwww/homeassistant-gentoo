@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">amberelectric</remote-id>
+		<remote-id type="github">madpilot/amberelectric.py</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>dev@amber.com.au</email>
+			<name>Amber Electric Development Team</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Amber Electric Public API
+	</longdescription>
+</pkgmetadata>

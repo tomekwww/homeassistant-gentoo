@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">airtouch4pyapi</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>samsinnamon@hotmail.com</email>
+			<name>Sam Sinnamon</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		An api allowing control of AC state (temperature, on/off, mode) of an Airtouch 4 controller locally over TCP
+	</longdescription>
+</pkgmetadata>

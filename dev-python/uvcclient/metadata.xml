@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">uvcclient</remote-id>
+		<remote-id type="github">uilibs/uvcclient</remote-id>
+		<bugs-to>https://github.com/uilibs/uvcclient/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>dsmith+uvcclient@danplanet.com</email>
+			<name>Dan Smith</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A remote control client for Ubiquiti's UVC NVR
+	</longdescription>
+</pkgmetadata>

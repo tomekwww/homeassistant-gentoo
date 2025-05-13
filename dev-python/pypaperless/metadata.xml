@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pypaperless</remote-id>
+		<remote-id type="github">tb1337/paperless-api</remote-id>
+		<bugs-to>https://github.com/tb1337/paperless-api/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>public.dev@tbsch.de</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Little api client for paperless(-ngx).
+	</longdescription>
+</pkgmetadata>

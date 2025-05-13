@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">todoist_api_python</remote-id>
+		<remote-id type="github">Doist/todoist-api-python</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>dev@doist.com</email>
+			<name>Doist Developers</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Official Python SDK for the Todoist REST API.
+	</longdescription>
+</pkgmetadata>

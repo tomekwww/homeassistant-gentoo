@@ -1,0 +1,25 @@
+# Copyright 2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..13} )
+DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=True
+inherit distutils-r1 pypi
+
+DESCRIPTION="Python WebRTC models"
+HOMEPAGE="https://pypi.org/project/webrtc-models/"
+SRC_URI="https://files.pythonhosted.org/packages/80/e8/050ffe3b71ff44d3885eee2bed763ca937e2a30bc950d866f22ba657776b/webrtc_models-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+
+LICENSE="Apache-2.0"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE=""
+
+RESTRICT="test strip"
+
+RDEPEND="${PYTHON_DEPS}
+	<dev-python/mashumaro-4.13.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.10.7[${PYTHON_USEDEP}]
+"

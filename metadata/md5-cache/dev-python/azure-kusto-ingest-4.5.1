@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Kusto Ingest Client
+EAPI=8
+HOMEPAGE=https://github.com/Azure/azure-kusto-python
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python3_13
+KEYWORDS=amd64 arm arm64 x86
+LICENSE=MIT
+RDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) ~dev-python/azure-kusto-data-4.5.1[python_targets_python3_13(-)?] >=dev-python/azure-storage-blob-12.0.0[python_targets_python3_13(-)?] <dev-python/azure-storage-blob-13.0.0[python_targets_python3_13(-)?] >=dev-python/azure-storage-queue-12.0.0[python_targets_python3_13(-)?] <dev-python/azure-storage-queue-13.0.0[python_targets_python3_13(-)?] >=dev-python/tenacity-8.0.0[python_targets_python3_13(-)?] python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_13 )
+RESTRICT=test strip
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/d8/3f/b2dec0bc7f5bbdd2f2fa9759cb0e6b5f9b135d67ad0dd12944414ffdffed/azure-kusto-ingest-4.5.1.tar.gz -> azure-kusto-ingest-4.5.1.gh.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	e6fe2c451b7e577e827165580e5bdd64	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	0e08701ccfa3f73267c62f539b7ab456	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=0a064ff957cfde9b1b37d5bc4e1ef498

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aioharmony</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/harmony-libs/aioharmony/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>endrix_erik@hotmail.com</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		asyncio Python library for connecting to and controlling the Logitech Harmony
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pysmarlaapi</remote-id>
+		<remote-id type="github">Explicatis-GmbH/pysmarlaapi</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>robin.lintermann@explicatis.com</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Swing2Sleep Smarla API
+	</longdescription>
+</pkgmetadata>

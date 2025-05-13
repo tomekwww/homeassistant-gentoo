@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Memory efficient way of reading files linebyline from the end of file
+EAPI=8
+HOMEPAGE=https://github.com/RobinNil/file_read_backwards
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python3_13
+KEYWORDS=amd64 arm arm64 x86
+LICENSE=MIT
+RDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_13 )
+RESTRICT=test strip
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/91/7d/70e25cf8d8d181f2bf87da51db3eeeb984e0cb24dbb31ecbf7670727c306/file_read_backwards-2.0.0.tar.gz -> file-read-backwards-2.0.0.gh.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	e6fe2c451b7e577e827165580e5bdd64	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	0e08701ccfa3f73267c62f539b7ab456	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=036309cd715e29097b520d8883b38951

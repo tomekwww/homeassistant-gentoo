@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">simplisafe-python</remote-id>
+		<remote-id type="github">bachya/simplisafe-python</remote-id>
+		<bugs-to>https://github.com/bachya/simplipy/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>bachya1208@gmail.com</email>
+			<name>Aaron Bach</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A Python3, async interface to the SimpliSafe API
+	</longdescription>
+</pkgmetadata>

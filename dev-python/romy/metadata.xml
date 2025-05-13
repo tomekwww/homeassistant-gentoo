@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">romy</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/xeniter/romy/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>manuel.dipolt@robart.cc</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python program and library to control Wi-Fi enabled ROMY vacuum cleaners
+	</longdescription>
+</pkgmetadata>

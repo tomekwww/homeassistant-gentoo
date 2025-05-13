@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">async-interrupt</remote-id>
+		<remote-id type="github">bluetooth-devices/async_interrupt</remote-id>
+		<bugs-to>https://github.com/bluetooth-devices/async_interrupt/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>nick@koston.org</email>
+			<name>J. Nick Koston</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Context manager to raise an exception when a future is done
+	</longdescription>
+</pkgmetadata>

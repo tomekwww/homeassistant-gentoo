@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">python-socketio</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/miguelgrinberg/python-socketio/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>miguel.grinberg@gmail.com</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Socket.IO server and client for Python
+	</longdescription>
+</pkgmetadata>

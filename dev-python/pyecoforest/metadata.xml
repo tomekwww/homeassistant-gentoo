@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyecoforest</remote-id>
+		<remote-id type="github">pjanuario/pyecoforest</remote-id>
+		<bugs-to>https://github.com/pjanuario/pyecoforest/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>prnjanuario@gmail.com</email>
+			<name>Pedro Januário</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python library for ecoforest local device.
+	</longdescription>
+</pkgmetadata>

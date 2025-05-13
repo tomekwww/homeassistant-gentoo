@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">PyPubSub</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>oliver.schoenborn@gmail.com</email>
+			<name>Oliver Schoenborn (aka "schollii")</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python Publish-Subscribe Package
+	</longdescription>
+</pkgmetadata>

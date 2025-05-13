@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">meater-python</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>meater-api@billystevenson.co.uk</email>
+			<name>Billy Stevenson</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A wrapper for the Apption Labs Meater probe API v1
+	</longdescription>
+</pkgmetadata>

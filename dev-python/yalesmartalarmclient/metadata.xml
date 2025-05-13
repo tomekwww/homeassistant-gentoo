@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">yalesmartalarmclient</remote-id>
+		<remote-id type="github">domwillcode/yale-smart-alarm-client</remote-id>
+		<bugs-to>https://github.com/domwillcode/yale-smart-alarm-client/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>domwillcode@gmail.com</email>
+			<name>Dominic Willson</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Interact with Yale Smart Alarm systems
+	</longdescription>
+</pkgmetadata>

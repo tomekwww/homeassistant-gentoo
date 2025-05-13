@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyintesishome</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>james@nimmo.net.nz</email>
+			<name>James Nimmo</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A python3 library for running asynchronus communications with IntesisHome Smart AC Controllers
+	</longdescription>
+</pkgmetadata>

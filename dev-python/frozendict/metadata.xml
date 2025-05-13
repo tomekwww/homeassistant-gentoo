@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">frozendict</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/Marco-Sulla/python-frozendict/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>marcosullaroma@gmail.com</email>
+			<name>Marco Sulla</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A simple immutable dictionary
+	</longdescription>
+</pkgmetadata>

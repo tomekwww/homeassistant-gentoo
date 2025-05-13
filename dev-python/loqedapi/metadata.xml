@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">loqedAPI</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/cpolhout/loqedAPI/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>cpolhout@gmail.com</email>
+			<name>Casper Polhout</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python package to use the Loqed Smart Door Lock APIs in a local network. To be used by Home Assistant.
+	</longdescription>
+</pkgmetadata>

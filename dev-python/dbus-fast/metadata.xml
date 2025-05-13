@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">dbus-fast</remote-id>
+		<remote-id type="github">bluetooth-devices/dbus-fast</remote-id>
+		<bugs-to>https://github.com/bluetooth-devices/dbus-fast/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>bluetooth@koston.org</email>
+			<name>Bluetooth Devices Authors</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A faster version of dbus-next
+	</longdescription>
+</pkgmetadata>

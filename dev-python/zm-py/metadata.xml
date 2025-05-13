@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">zm-py</remote-id>
+		<remote-id type="github">rohankapoorcom/zm-py</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>rohan@rohankapoor.com</email>
+			<name>Rohan Kapoor</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A loose python wrapper around the ZoneMinder REST API.
+	</longdescription>
+</pkgmetadata>

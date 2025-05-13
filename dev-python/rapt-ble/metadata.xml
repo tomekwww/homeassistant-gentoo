@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">rapt-ble</remote-id>
+		<remote-id type="github">sairon/rapt-ble</remote-id>
+		<bugs-to>https://github.com/sairon/rapt-ble/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>sairon@sairon.cz</email>
+			<name>Jan Čermák</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Parser for the RAPT Pill hydrometer BLE packets.
+	</longdescription>
+</pkgmetadata>

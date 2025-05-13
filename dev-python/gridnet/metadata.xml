@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">gridnet</remote-id>
+		<remote-id type="github">klaasnicolaas/python-gridnet</remote-id>
+		<bugs-to>https://github.com/klaasnicolaas/python-gridnet/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>hello@student-techlife.com</email>
+			<name>Klaas Schoute</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Asynchronous Python client for a NET2GRID devices
+	</longdescription>
+</pkgmetadata>

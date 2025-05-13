@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">ld2410-ble</remote-id>
+		<remote-id type="github">930913/ld2410-ble</remote-id>
+		<bugs-to>https://github.com/930913/ld2410-ble/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>3722064+930913@users.noreply.github.com</email>
+			<name>930913</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Interface with LD2410B modules from HiLink
+	</longdescription>
+</pkgmetadata>

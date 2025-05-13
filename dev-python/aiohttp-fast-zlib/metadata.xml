@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aiohttp-fast-zlib</remote-id>
+		<remote-id type="github">bluetooth-devices/aiohttp-fast-zlib</remote-id>
+		<bugs-to>https://github.com/bluetooth-devices/aiohttp-fast-zlib/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>nick@koston.org</email>
+			<name>J. Nick Koston</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Use the fastest installed zlib compatible library with aiohttp
+	</longdescription>
+</pkgmetadata>

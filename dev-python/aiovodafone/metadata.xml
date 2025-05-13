@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aiovodafone</remote-id>
+		<remote-id type="github">chemelli74/aiovodafone</remote-id>
+		<bugs-to>https://github.com/chemelli74/aiovodafone/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>simone.chemelli@gmail.com</email>
+			<name>Simone Chemelli</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python library to control Vodafone Station
+	</longdescription>
+</pkgmetadata>

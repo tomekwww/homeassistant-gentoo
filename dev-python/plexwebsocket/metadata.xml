@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">plexwebsocket</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>jjlawren@users.noreply.github.com</email>
+			<name>Jason Lawrence</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Support for issuing callbacks in response to Plex websocket updates.
+	</longdescription>
+</pkgmetadata>

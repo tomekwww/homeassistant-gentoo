@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">kegtron-ble</remote-id>
+		<remote-id type="github">bluetooth-devices/kegtron-ble</remote-id>
+		<bugs-to>https://github.com/bluetooth-devices/kegtron-ble/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>e.klamer@gmail.com</email>
+			<name>E. Klamer</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Kegtron BLE support
+	</longdescription>
+</pkgmetadata>

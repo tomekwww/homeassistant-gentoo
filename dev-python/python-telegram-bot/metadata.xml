@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">python-telegram-bot</remote-id>
+		<remote-id type="github">python-telegram-bot/python-telegram-bot</remote-id>
+		<bugs-to>https://github.com/python-telegram-bot/python-telegram-bot/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>devs@python-telegram-bot.org</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		We have made you a wrapper you can't refuse
+	</longdescription>
+</pkgmetadata>

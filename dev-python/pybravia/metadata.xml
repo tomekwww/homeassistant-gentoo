@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pybravia</remote-id>
+		<remote-id type="github">Drafteed/pybravia</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>artemon_93@mail.ru</email>
+			<name>Arem Draft</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python async library for remote control of Sony Bravia TVs 2013 and newer.
+	</longdescription>
+</pkgmetadata>

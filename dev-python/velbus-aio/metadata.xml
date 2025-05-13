@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">velbus-aio</remote-id>
+		<remote-id type="github">Cereal2nd/velbus-aio</remote-id>
+		<bugs-to>https://github.com/Cereal2nd/velbus-aio/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>maikel.punie@gmail.com</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Open-source home automation platform running on Python 3.
+	</longdescription>
+</pkgmetadata>

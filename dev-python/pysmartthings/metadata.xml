@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pysmartthings</remote-id>
+		<remote-id type="github">pySmartThings/pysmartthings</remote-id>
+		<bugs-to>https://github.com/pySmartThings/pysmartthings/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>andrew@sayre.net</email>
+			<name>Andrew Sayre</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Asynchronous Python client for SmartThings.
+	</longdescription>
+</pkgmetadata>

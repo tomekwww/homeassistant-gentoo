@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pybalboa</remote-id>
+		<remote-id type="github">garbled1/pybalboa</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>natekspencer@gmail.com</email>
+			<name>Nathan Spencer</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Module to communicate with a Balboa spa wifi adapter.
+	</longdescription>
+</pkgmetadata>

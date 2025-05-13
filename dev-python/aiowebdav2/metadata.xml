@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aiowebdav2</remote-id>
+		<remote-id type="github">jpbede/aiowebdav2</remote-id>
+		<bugs-to>https://github.com/jpbede/aiowebdav2/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>jan-philipp@bnck.me</email>
+			<name>Jan-Philipp Benecke</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Async Python 3 client for WebDAV, based on aiowebdav and https://github.com/ezhov-evgeny/webdav-client-python-3
+	</longdescription>
+</pkgmetadata>

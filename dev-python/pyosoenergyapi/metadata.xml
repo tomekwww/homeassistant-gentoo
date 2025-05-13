@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyosoenergyapi</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/osohotwateriot/apyosohotwaterapi/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>osowh.iot@gmail.com</email>
+			<name>OSO Energy</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A Python library to interface with the OSO Energy API
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">AEMET-OpenData</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/Noltari/AEMET-OpenData/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>noltari@gmail.com</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		AEMET OpenData Rest API library
+	</longdescription>
+</pkgmetadata>

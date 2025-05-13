@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">vallox-websocket-api</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/yozik04/vallox_websocket_api/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>yozik04@gmail.com</email>
+			<name>Jevgeni Kiski</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Vallox WebSocket API
+	</longdescription>
+</pkgmetadata>

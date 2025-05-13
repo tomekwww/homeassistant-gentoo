@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">dlms-cosem</remote-id>
+		<remote-id type="github">pwitab/dlms-cosem</remote-id>
+		<bugs-to>https://github.com/pwitab/dlms-cosem/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>henrik@pwit.se</email>
+			<name>Henrik Palmlund Wahlgren @ Palmlund Wahlgren Innovative Technology AB</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A Python library for DLMS/COSEM
+	</longdescription>
+</pkgmetadata>

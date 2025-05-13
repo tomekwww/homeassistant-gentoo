@@ -1,0 +1,24 @@
+# Copyright 2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_13 )
+DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=True
+inherit distutils-r1 pypi
+
+DESCRIPTION="Python interface for the Zehnder ComfoConnect LAN C bridge"
+HOMEPAGE="https://github.com/michaelarnauts/comfoconnect"
+SRC_URI="https://files.pythonhosted.org/packages/94/89/af7373c167a890b75afcd4b2153538cfb2dad9338222a2cec77854fd25f4/pycomfoconnect-0.5.1.tar.gz -> ${P}.gh.tar.gz"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE=""
+
+RESTRICT="test strip"
+
+RDEPEND="${PYTHON_DEPS}
+
+"

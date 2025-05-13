@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">PsychroLib</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>didierthevenard@users.noreply.github.com</email>
+			<name>The PsychroLib Developers</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Library of psychrometric functions to calculate thermodynamic properties of air
+	</longdescription>
+</pkgmetadata>

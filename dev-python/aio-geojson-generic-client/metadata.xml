@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aio-geojson-generic-client</remote-id>
+		<remote-id type="github">exxamalte/python-aio-geojson-generic-client</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>coding@subspace.de</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		An generic async GeoJSON client library.
+	</longdescription>
+</pkgmetadata>

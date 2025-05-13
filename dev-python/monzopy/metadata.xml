@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">monzopy</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/JakeMartin-ICL/monzopy/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>jake_martin_@outlook.com</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A simple async python wrapper for the Monzo API, used primarily by the Monzo Home Assistant integration.
+	</longdescription>
+</pkgmetadata>

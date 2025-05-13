@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pytrydan</remote-id>
+		<remote-id type="github">dgomes/pytrydan</remote-id>
+		<bugs-to>https://github.com/dgomes/pytrydan/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>diogogomes@gmail.com</email>
+			<name>Diogo Gomes</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Library to interface with V2C EVSE Trydan
+	</longdescription>
+</pkgmetadata>

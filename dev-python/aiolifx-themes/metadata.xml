@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aiolifx-themes</remote-id>
+		<remote-id type="github">Djelibeybi/aiolifx-themes</remote-id>
+		<bugs-to>https://github.com/Djelibeybi/aiolifx-themes/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>me@dje.li</email>
+			<name>Avi Miller</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Async library that applies color themes to LIFX lights
+	</longdescription>
+</pkgmetadata>

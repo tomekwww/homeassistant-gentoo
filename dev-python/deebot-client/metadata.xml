@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">deebot-client</remote-id>
+		<remote-id type="github">DeebotUniverse/client.py</remote-id>
+		<bugs-to>https://github.com/DeebotUniverse/client.py/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>robert@resch.dev</email>
+			<name>Robert Resch</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Deebot client library in python 3
+	</longdescription>
+</pkgmetadata>

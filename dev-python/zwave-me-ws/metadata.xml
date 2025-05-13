@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">zwave-me-ws</remote-id>
+		<remote-id type="github">Z-Wave-Me/zwave-me-ws</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>kerbalspacema@gmail.com</email>
+			<name>Dmitry Vlasov</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Library, implementing websocket connection to ZWave-Me
+	</longdescription>
+</pkgmetadata>

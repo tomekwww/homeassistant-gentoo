@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pyblu</remote-id>
+		<remote-id type="github">LouisChrist/pyblu</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>mail@louischrist.de</email>
+			<name>Louis Christ</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		
+	</longdescription>
+</pkgmetadata>

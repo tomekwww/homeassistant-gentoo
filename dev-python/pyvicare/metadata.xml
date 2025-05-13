@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">PyViCare</remote-id>
+		<remote-id type="github">openviess/PyViCare</remote-id>
+		<bugs-to>https://github.com/openviess/PyViCare/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>mail+pyvicare@gillet.ninja</email>
+			<name>Simon Gillet</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Library to communicate with the Viessmann ViCare API.
+	</longdescription>
+</pkgmetadata>

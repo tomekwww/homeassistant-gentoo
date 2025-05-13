@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pynobo</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/echoromeo/pynobo/issues</bugs-to>
+		<maintainer status="unknown">
+			<email></email>
+			<name>echoromeo, capelevy, oyvindwe</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Nobø Hub / Nobø Energy Control TCP/IP Interface
+	</longdescription>
+</pkgmetadata>

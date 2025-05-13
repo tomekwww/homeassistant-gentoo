@@ -7,10 +7,10 @@ INHERIT=distutils-r1 pypi
 IUSE=python_targets_python3_13
 KEYWORDS=amd64 arm arm64 x86
 LICENSE=Apache-2.0
-RDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/aio-geojson-client-0.20.0[python_targets_python3_13(-)?] >=dev-python/aiohttp-3.7.4[python_targets_python3_13(-)?] <dev-python/aiohttp-4.0.0[python_targets_python3_13(-)?] >=dev-python/pytz-2019.1.0[python_targets_python3_13(-)?] python_targets_python3_13? ( dev-lang/python:3.13 )
+RDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/aio-geojson-client-0.20.0[python_targets_python3_13(-)?] <dev-python/aiohttp-4.0.0[python_targets_python3_13(-)?] >=dev-python/aiohttp-3.7.4[python_targets_python3_13(-)?] >=dev-python/pytz-2019.1.0[python_targets_python3_13(-)?] python_targets_python3_13? ( dev-lang/python:3.13 )
 REQUIRED_USE=|| ( python_targets_python3_13 )
 RESTRICT=test strip
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/18/31/846d2bb728122265bdda5304d9cbe1a52b1fdf373f89ef0d0a5af7aac8ce/aio_geojson_geonetnz_quakes-0.16.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/18/31/846d2bb728122265bdda5304d9cbe1a52b1fdf373f89ef0d0a5af7aac8ce/aio_geojson_geonetnz_quakes-0.16.tar.gz -> aio-geojson-geonetnz-quakes-0.16.0.gh.tar.gz
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	e6fe2c451b7e577e827165580e5bdd64	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	0e08701ccfa3f73267c62f539b7ab456	pypi	ad1b21f87d117ae9bb089bdb65b8f013
-_md5_=57aadda71050a38aa7a1657184f1c65a
+_md5_=f10412dafe953cae8d4de425a7c10014

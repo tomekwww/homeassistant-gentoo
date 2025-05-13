@@ -79,7 +79,12 @@ def remove_prerelease_identifiers(version_string, add):
         # Default to 0 for any missing components
         return f"{version.major + add[0]}.{version.minor + add[1]}.{version.micro + add[2]}"
 
-def parse_atom(dist, use_flags):
+def parse_atom(dist, use_flags, required_extras):
+    if dist == 'airtouch4pyapi==1.0.5':
+        return parse_atom('airtouch4pyapi==1.0.8', use_flags, required_extras)
+    if dist == 'aenum>=3.1.11':
+        return parse_atom('aenum<3.1.16,>=3.1.11', use_flags, required_extras)
+
     dependencies = []
     deps = []
     try:
@@ -89,8 +94,8 @@ def parse_atom(dist, use_flags):
 
         if req.marker:
             if 'extra' in str(req.marker):
-                if any(marker in str(req.marker) for marker in ['dev', 'all', 'security', 'doc', 'lint', 'test', 'gurobi']):
-                   return [dependencies, deps]
+                if not any(marker in str(req.marker) for marker in required_extras):
+                    return [dependencies, deps]
 
             if any(marker in str(req.marker) for marker in ['sys_platform', 'python_version', 'platform_system']):
                 environment = {
@@ -121,9 +126,9 @@ def parse_atom(dist, use_flags):
                 new_name = re.sub(r'-(\d+)$', r'_\1', new_name)
                 spec_version = remove_prerelease_identifiers(str(spec.version).replace('*', '0'), spec_major)
                 if not deps:
-                    deps = [new_name, spec_version, spec_operator]
+                    deps = [new_name, spec_version, spec_operator, req.extras]
                 elif spec.operator == '<' or spec.operator == '<=':
-                    deps = [new_name, spec_version, spec_operator]
+                    deps = [new_name, spec_version, spec_operator, req.extras]
                 if use_flags:
                     for use_flag in use_flags:
                         dependencies.append(f"\t{use_flag}? ( {spec_operator}dev-python/{new_name}-{spec_version}[${{PYTHON_USEDEP}}] )")
@@ -133,19 +138,19 @@ def parse_atom(dist, use_flags):
         else:
             new_name = f"{req.name.lower().replace('.', '-').replace('_', '-')}"
             new_name = re.sub(r'-(\d+)$', r'_\1', new_name)
-            deps = [new_name, '0.0.0', '>=']
+            deps = [new_name, '0.0.0', '>=', []]
             dep_str = f"\tdev-python/{new_name}[${{PYTHON_USEDEP}}]"
             dependencies.append(dep_str)
             return [dependencies, deps]
     except Exception as e:
         print(f"Error parssing requirement '{dist}': {e}")
 
-def parse_requires_dist(requires_dist):
+def parse_requires_dist(requires_dist, required_extras):
     dependencies = []
     deps = []
     if requires_dist:
         for dist in requires_dist:
-            atom = parse_atom(dist, [])
+            atom = parse_atom(dist, [], required_extras)
             dependencies.extend(atom[0])
             deps.append(atom[1])
     return [dependencies, deps]
@@ -166,7 +171,7 @@ def find_matching_license_file(license_string, license_dir="/var/db/repos/gentoo
     return 'BSD'
 
 
-def convert_to_ebuild(metadata):
+def convert_to_ebuild(metadata, required_extras):
     """Convert PyPI metadata to a simple Gentoo ebuild format."""
     info = metadata['info']
     package_name = info['name']
@@ -174,6 +179,7 @@ def convert_to_ebuild(metadata):
     homepage = info['home_page'] or info['project_url']
     urls = info['project_urls']
     repository = ''
+    src_uri = ''
     if urls and (urls.get('Repository', '') or '').startswith('https://github.com/'):
         repository = urls.get('Repository', '')
     if urls and (urls.get('repository', '') or '').startswith('https://github.com/'):
@@ -184,31 +190,47 @@ def convert_to_ebuild(metadata):
         repository = urls.get('Homepage', '')
     if urls and (urls.get('homepage', '') or '').startswith('https://github.com/'):
         repository = urls.get('homepage', '')
+    if urls and (urls.get('Download', '') or '').startswith('https://github.com/'):
+        src_uri = urls.get('Download', '')
     if (info.get('home_page', '') or '').startswith('https://github.com/'):
         repository = info.get('home_page', '')
     if (info.get('project_url', '') or '').startswith('https://github.com/'):
         repository = info.get('project_url', '')
 
     description = re.sub(r'[^a-zA-Z0-9 ]', '', (info.get('summary', '') or ''))
-    license_ =  find_matching_license_file((info.get('license', 'BSD') or 'BSD').split()[0])
+    license_ = find_matching_license_file((info.get('license', 'BSD') or 'BSD').split()[0])
     requires_python = info['requires_python']
     requires_dist = info.get('requires_dist', [])
-    src_uri = ''
+
     for url_entry in metadata['urls']:
         if url_entry['packagetype'] == 'sdist':
-            src_uri = url_entry['url']
+            src_uri = url_entry['url'] + ' -> ${P}.gh.tar.gz'
             break
     if not src_uri:
         if repository:
             response = requests.get(f"{repository}/archive/refs/tags/v{version}.tar.gz")
             if response.ok:
-                src_uri = f"{repository}/archive/refs/tags/v{version}.tar.gz"
+                src_uri = f"{repository}/archive/refs/tags/v{version}.tar.gz -> ${{P}}.gh.tar.gz"
             response = requests.get(f"{repository}/archive/refs/tags/{version}.tar.gz")
             if response.ok:
-                src_uri = f"{repository}/archive/refs/tags/{version}.tar.gz"
+                src_uri = f"{repository}/archive/refs/tags/{version}.tar.gz -> ${{P}}.gh.tar.gz"
         if not src_uri:
             if package_name == 'aioapcaccess':
-                src_uri = f"https://github.com/yuxincs/aioapcaccess/archive/refs/tags/v{version}.tar.gz"
+                src_uri = f"https://github.com/yuxincs/aioapcaccess/archive/refs/tags/v{version}.tar.gz -> ${{P}}.gh.tar.gz"
+            elif package_name == 'refoss-ha':
+                src_uri = f"https://github.com/ashionky/refoss_ha/archive/refs/tags/v{version}.tar.gz -> ${{P}}.gh.tar.gz"
+            elif package_name == 'pyoppleio-legacy':
+                src_uri = 'https://github.com/tinysnake/python-oppleio-legacy/archive/refs/heads/main.zip -> ${P}.gh.zip'
+            elif package_name == 'home-assistant-chip-clusters':
+                src_uri = 'https://github.com/project-chip/connectedhomeip/archive/refs/tags/v1.4.0.0.tar.gz -> ${P}.gh.tar.gz'
+            elif package_name == 'russound':
+                src_uri = 'https://github.com/laf/russound/archive/refs/heads/master.zip -> ${P}.gh.zip'
+            elif package_name == 'sensirion-ble':
+                src_uri = f"https://github.com/akx/sensirion-ble/archive/refs/tags/v{version}.tar.gz -> ${{P}}.gh.tar.gz"
+            elif package_name == 'tank-utility':
+                src_uri = f"https://github.com/krismolendyke/tank-utility/archive/refs/tags/{version}.tar.gz -> ${{P}}.gh.tar.gz"
+            elif package_name == 'wyoming':
+                src_uri = f"https://github.com/OHF-Voice/wyoming/archive/refs/tags/{version}.tar.gz -> ${{P}}.gh.tar.gz"
             else:
                 raise ValueError("src_uri can not be empty")
     python_compat = parse_python_compat(requires_python)
@@ -219,7 +241,7 @@ def convert_to_ebuild(metadata):
     else:
         python_compat_str = 'python3_13'
 
-    dependencies = parse_requires_dist(requires_dist)
+    dependencies = parse_requires_dist(requires_dist, required_extras)
     dependencies_str = '\n'.join(dependencies[0])
     ebuild_content = f"""# Copyright 2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
@@ -228,6 +250,7 @@ EAPI=8
 
 PYTHON_COMPAT=( {python_compat_str} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="{description}"
@@ -354,13 +377,13 @@ def get_package_versions(name, version, specifier):
         print(f"An error occurred while running the command: {e}")
         return None, None
 
-def create_ebuild(package_name, package_version, package_specifier):
+def create_ebuild(package_name, package_version, package_specifier, required_extras):
     exists = get_package_versions(package_name, package_version, package_specifier)
     if exists:
         return
     metadata = fetch_pypi_metadata(package_name, package_version, package_specifier)
     version = remove_prerelease_identifiers(metadata['info']['version'], [0, 0, 0])
-    e = convert_to_ebuild(metadata)
+    e = convert_to_ebuild(metadata, required_extras)
     ebuild_content = e[0]
     dependencies = e[1]
     save_ebuild(package_name, version, ebuild_content)
@@ -370,7 +393,7 @@ def create_ebuild(package_name, package_version, package_specifier):
     for d in dependencies:
         if d:
             print(d)
-            create_ebuild(d[0], d[1], d[2])
+            create_ebuild(d[0], d[1], d[2], d[3])
 
 def download_file(url):
     """Download the file from the given URL."""
@@ -394,7 +417,7 @@ def convert_to_gentoo_atom(lines):
             continue
         elif line.startswith('#'):
             continue  # Skip empty lines and comments
-        gentoo_atoms.append(parse_atom(line, use_flags))
+        gentoo_atoms.append(parse_atom(line, use_flags, []))
         use_flags = []
     return gentoo_atoms
 
@@ -422,7 +445,7 @@ RDEPEND=\"${{RDEPEND}}
     except Exception as e:
         print(f"An error occurred: {e}")
 
-def write_homeassistant_ebuild():
+def write_homeassistant_ebuild(version):
     return f"""# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
@@ -430,11 +453,12 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_13 )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi readme.gentoo-r1 systemd
 
 DESCRIPTION="Open-source home automation platform running on Python."
 HOMEPAGE="https://home-assistant.io/"
-SRC_URI="https://github.com/home-assistant/core/archive/${{PV}}.tar.gz -> ${{P}}.gh.tar.gz"
+SRC_URI="https://github.com/home-assistant/core/archive/{version}.tar.gz -> ${{P}}.gh.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -555,10 +579,11 @@ def get_iuse():
 
 def main():
     version = sys.argv[1]
-    file_name = f"app-misc/homeassistant/homeassistant-{version}.ebuild"
+    v = remove_prerelease_identifiers(version, [0, 0, 0])
+    file_name = f"app-misc/homeassistant/homeassistant-{v}.ebuild"
     rdeps = []
     with open(file_name, 'w') as file:
-        file.write(write_homeassistant_ebuild())
+        file.write(write_homeassistant_ebuild(version))
         use_deps = write_use_dependiecies(version)
         deps = write_package_constraints(version)
         iuse = get_iuse()
@@ -572,9 +597,13 @@ def main():
 
     write_ha_metadata()
     subprocess.run(['pkgdev', 'manifest', file_name])
+    start = False
     for d in rdeps:
-        print(d)
-        create_ebuild(d[0], d[1], d[2])
+        if d[0] == 'wyoming':
+            start = True
+        if start:
+            print(d)
+            create_ebuild(d[0], d[1], d[2], d[3])
 
 if __name__ == "__main__":
     main()

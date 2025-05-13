@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">av</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/PyAV-Org/PyAV/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>pyav@mikeboers.com</email>
+			<name>Mike Boers</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Pythonic bindings for FFmpeg's libraries.
+	</longdescription>
+</pkgmetadata>

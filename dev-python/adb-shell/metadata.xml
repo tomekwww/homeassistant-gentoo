@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">adb-shell</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>jefflirion@users.noreply.github.com</email>
+			<name>Jeff Irion</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A Python implementation of ADB with shell and FileSync functionality.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">opower</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>https://github.com/tronikos/opower/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>tronikos@gmail.com</email>
+			<name></name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A Python library for getting historical and forecasted usage/cost from utilities that use opower.com such as PG and E
+	</longdescription>
+</pkgmetadata>

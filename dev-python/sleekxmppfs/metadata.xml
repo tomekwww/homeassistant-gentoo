@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">sleekxmppfs</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>aszymanik@gmail.com</email>
+			<name>Alex Szymanik</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		A fork of SleekXMPP with TLS cert validation disabled, intended only to be used with the sucks project
+	</longdescription>
+</pkgmetadata>

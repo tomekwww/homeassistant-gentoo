@@ -1,0 +1,30 @@
+# Copyright 2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..13} )
+DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=True
+inherit distutils-r1 pypi
+
+DESCRIPTION="Python library to control Amazon devices"
+HOMEPAGE="https://pypi.org/project/aioamazondevices/"
+SRC_URI="https://files.pythonhosted.org/packages/74/d0/e51219541c1e15234392f118ad85edd99d8b6b0dcc3390ba1f16a27ef2bb/aioamazondevices-2.1.1.tar.gz -> ${P}.gh.tar.gz"
+
+LICENSE="Apache-2.0"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE=""
+
+RESTRICT="test strip"
+
+RDEPEND="${PYTHON_DEPS}
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/babel[${PYTHON_USEDEP}]
+	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	dev-python/colorlog[${PYTHON_USEDEP}]
+	dev-python/httpx[${PYTHON_USEDEP}]
+	dev-python/orjson[${PYTHON_USEDEP}]
+	dev-python/yarl[${PYTHON_USEDEP}]
+"

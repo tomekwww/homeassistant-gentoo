@@ -1,0 +1,37 @@
+# Copyright 2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{10..13} )
+DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=True
+inherit distutils-r1 pypi
+
+DESCRIPTION="Async client for aws services using botocore and aiohttp"
+HOMEPAGE="https://pypi.org/project/aiobotocore/"
+SRC_URI="https://files.pythonhosted.org/packages/9c/4c/113c4f5611103bba8e5252805fbee7944f5d9541addba9a96b091c0c4308/aiobotocore-2.22.0.tar.gz -> ${P}.gh.tar.gz"
+
+LICENSE="Apache-2.0"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE=""
+
+RESTRICT="test strip"
+
+RDEPEND="${PYTHON_DEPS}
+	>=dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/aioitertools-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aioitertools-0.5.1[${PYTHON_USEDEP}]
+	<dev-python/botocore-1.37.4[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.37.2[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.1.0[${PYTHON_USEDEP}]
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/multidict-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/multidict-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.10.10[${PYTHON_USEDEP}]
+"

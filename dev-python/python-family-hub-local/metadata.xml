@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">python-family-hub-local</remote-id>
+		<remote-id type="github">unknown</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>gregbenner1@gmail.com</email>
+			<name>Gregory Benner</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python API for accessing information from Samsung FamilyHub fridges locally.
+	</longdescription>
+</pkgmetadata>

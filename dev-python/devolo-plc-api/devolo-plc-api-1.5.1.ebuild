@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="devolo PLC devices in Python"
 HOMEPAGE="https://pypi.org/project/devolo-plc-api/"
 SRC_URI="https://files.pythonhosted.org/packages/94/df/64bb31926f3ad7676781eb31d9c91b28bc1306ec0749099da1a9980a2534/devolo_plc_api-1.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/devolo_plc_api-1.5.1"
 
 LICENSE="BSD"
 SLOT="0"

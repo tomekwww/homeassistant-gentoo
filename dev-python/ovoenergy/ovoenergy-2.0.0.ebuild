@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="OVO Energy"
 HOMEPAGE="https://github.com/timmo001/ovoenergy"
 SRC_URI="https://files.pythonhosted.org/packages/fe/1f/0b74f41fbf9c3e68addec42774f1b9a63972cd5a16f8896fcde0a0e8db31/ovoenergy-2.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ovoenergy-2.0.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

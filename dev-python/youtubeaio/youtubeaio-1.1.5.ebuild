@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for YouTube V3 API"
 HOMEPAGE="https://github.com/joostlek/python-youtube"
 SRC_URI="https://files.pythonhosted.org/packages/18/83/4d3c48b98e612a68d1c5dda3cda6056fad40a53892eb392ea175e031f82c/youtubeaio-1.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/youtubeaio-1.1.5"
 
 LICENSE="MIT"
 SLOT="0"

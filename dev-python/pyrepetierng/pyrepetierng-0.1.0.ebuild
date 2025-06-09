@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A updated python RepetierServer library based on Mtrabs library"
 HOMEPAGE="https://github.com/ShadowBr0ther/pyrepetier-ng"
 SRC_URI="https://files.pythonhosted.org/packages/ec/ca/2948fcbc159a889225fe2b5ddbc91dabc76fe402a29430907b13853bad97/pyrepetierng-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyrepetierng-0.1.0"
 
 LICENSE="BSD"
 SLOT="0"

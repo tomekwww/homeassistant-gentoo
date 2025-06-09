@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python port of Inquirerjs A collection of common interactive commandline user interfaces"
 HOMEPAGE="https://github.com/kazhala/InquirerPy"
 SRC_URI="https://files.pythonhosted.org/packages/64/73/7570847b9da026e07053da3bbe2ac7ea6cde6bb2cbd3c7a5a950fa0ae40b/InquirerPy-0.3.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/InquirerPy-0.3.4"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python library to communicate with Ring Door Bell httpsringcom"
 HOMEPAGE="https://pypi.org/project/ring-doorbell/"
 SRC_URI="https://files.pythonhosted.org/packages/42/fb/bd2c1466525c0e67d5486be366065c2133925362351ac06ecd6e61ac330e/ring_doorbell-0.9.13.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ring_doorbell-0.9.13"
 
 LICENSE="LGPL-3"
 SLOT="0"

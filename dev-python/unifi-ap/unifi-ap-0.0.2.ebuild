@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for UniFi accesspoints"
 HOMEPAGE="https://pypi.org/project/unifi-ap/"
 SRC_URI="https://files.pythonhosted.org/packages/dd/ca/783efbe0fb66f636d0f417098e235d82f123b63717ecfb39cd05907114bb/unifi_ap-0.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/unifi_ap-0.0.2"
 
 LICENSE="BSD"
 SLOT="0"

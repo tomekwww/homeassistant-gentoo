@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Query Sensoterra probes using the Customer API"
 HOMEPAGE="https://pypi.org/project/sensoterra/"
 SRC_URI="https://files.pythonhosted.org/packages/7b/86/a62eb7206173faca0974dc1f195b2400b49b5d0f0bf4141541c8b4189086/sensoterra-2.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sensoterra-2.0.1"
 
 LICENSE="BSD"
 SLOT="0"

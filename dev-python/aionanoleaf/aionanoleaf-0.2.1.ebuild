@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python package for the Nanoleaf API"
 HOMEPAGE="https://github.com/milanmeu/aionanoleaf"
 SRC_URI="https://files.pythonhosted.org/packages/7e/b1/5bc4116e8fdbd7aa8d1660f9a9dbe3a794f7acb50dbdb5588660345cc52e/aionanoleaf-0.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aionanoleaf-0.2.1"
 
 LICENSE="BSD"
 SLOT="0"

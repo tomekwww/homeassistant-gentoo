@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="SensorPro BLE Devices"
 HOMEPAGE="https://pypi.org/project/sensorpro-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/6b/dc/fceb14f2fba75a542660db276418ee190abbd396130298aa9bd9c2c9488a/sensorpro_ble-0.7.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sensorpro_ble-0.7.1"
 
 LICENSE="MIT"
 SLOT="0"

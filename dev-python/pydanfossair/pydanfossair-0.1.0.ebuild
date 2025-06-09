@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python interface for Danfoss Air HRV systems"
 HOMEPAGE="https://github.com/JonasPed/pydanfoss-air"
 SRC_URI="https://files.pythonhosted.org/packages/68/43/072f8d2a8d5877983660b9892ab5c00ffa5d53cbaf81eb0e2ba1a8f3bc15/pydanfossair-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydanfossair-0.1.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to emulate a roku server to serve as a proxyfor remotes such as Harmony"
 HOMEPAGE="https://gitlab.com/mindig.marton/emulated_roku"
 SRC_URI="https://files.pythonhosted.org/packages/a2/42/3635b7eb4c6fbfec354f69a834be308183c36962a4b7bd298c7b1cfbe5fe/emulated_roku-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/emulated_roku-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

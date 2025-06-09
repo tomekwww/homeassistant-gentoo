@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library for syncing Google Calendar to local storage"
 HOMEPAGE="https://github.com/allenporter/gcal_sync"
 SRC_URI="https://files.pythonhosted.org/packages/f9/49/76295d6a055cc7b6409688e613f2c74a2670f5570d306754ada407778339/gcal_sync-7.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gcal_sync-7.1.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

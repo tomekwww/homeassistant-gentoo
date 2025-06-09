@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API wrapper for Uptime Robot"
 HOMEPAGE="https://github.com/ludeeus/pyuptimerobot"
 SRC_URI="https://files.pythonhosted.org/packages/65/21/87e599501084c0f870250f857e8266cb8daed7e6fc5130179315278cb92b/pyuptimerobot-22.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyuptimerobot-22.2.0"
 
 LICENSE="MIT"
 SLOT="0"

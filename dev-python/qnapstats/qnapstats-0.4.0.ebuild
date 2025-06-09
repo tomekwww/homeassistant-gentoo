@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for obtaining QNAP NAS system stats"
 HOMEPAGE="https://github.com/colinodell/python-qnapstats"
 SRC_URI="https://files.pythonhosted.org/packages/12/1c/2cf54f392dbbb321de80d2aa858e5c2820f52fd7afe41f2c24eb1bb165ac/qnapstats-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/qnapstats-0.4.0"
 
 LICENSE="MIT"
 SLOT="0"

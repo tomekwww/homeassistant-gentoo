@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to interface an SMA Solar WebConnect module"
 HOMEPAGE="https://github.com/kellerza/pysma"
 SRC_URI="https://files.pythonhosted.org/packages/a8/de/9a43df4bc3350f5ef7db80030e2d2c394f5f7dd58d44ee9bb9ab57e78dd6/pysma-0.7.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysma-0.7.5"
 
 LICENSE="MIT"
 SLOT="0"

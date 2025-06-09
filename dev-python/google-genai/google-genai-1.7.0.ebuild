@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="GenAI Python SDK"
 HOMEPAGE="https://pypi.org/project/google-genai/"
 SRC_URI="https://files.pythonhosted.org/packages/5f/24/3f3282c82e0cd678ea7bdfe53bc5d908059fb9628643b783129724c3bcfb/google_genai-1.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/google_genai-1.7.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

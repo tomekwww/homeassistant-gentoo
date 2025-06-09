@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous API Library to work with Elmax devices"
 HOMEPAGE="https://github.com/albertogeniola/elmax-api"
 SRC_URI="https://files.pythonhosted.org/packages/81/6f/b9fac545ba3d4f82c6535077d74c027d9b1045160960323960065fc1d589/elmax_api-0.0.6.4rc0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/elmax_api-0.0.6.4rc0"
 
 LICENSE="MIT"
 SLOT="0"

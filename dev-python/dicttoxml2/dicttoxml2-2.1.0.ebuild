@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Converts a Python dictionary or other native data type into a valid XML string"
 HOMEPAGE="https://github.com/Ousret/dicttoxml"
 SRC_URI="https://files.pythonhosted.org/packages/0b/24/7a6d37b2770843e34685e470fd711955cb0f77c354c73d8ca64b02420bce/dicttoxml2-2.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dicttoxml2-2.1.0"
 
 LICENSE="GPL-2"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library and CLI for the Clementine Music Player remote protocol"
 HOMEPAGE="http://github.com/jjmontesl/python-clementine-remote"
 SRC_URI="https://files.pythonhosted.org/packages/a3/a4/9fadd261a67898edba7599f61ff5d5268912a154594352a26d9fbf2faa51/python-clementine-remote-1.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-clementine-remote-1.0.1"
 
 LICENSE="BSD"
 SLOT="0"

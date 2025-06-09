@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="DTLSSocket is a cython wrapper for tinydtls with a Socket like interface"
 HOMEPAGE="https://git.fslab.de/jkonra2m/tinydtls-cython"
 SRC_URI="https://files.pythonhosted.org/packages/97/b6/702c4197c37c7036d0b7d67a2963c83a4b7098525959566dc6e2284c9f89/dtlssocket-0.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dtlssocket-0.2.2"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Remote control your Mediaroom Setupbox"
 HOMEPAGE="http://github.com/dgomes/pymediaroom"
 SRC_URI="https://files.pythonhosted.org/packages/0a/3e/e63c67ebe800ba7345c147309b85cb8988f0371ea5a244d99c1e1029b3bb/pymediaroom-0.6.5.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pymediaroom-0.6.5.4"
 
 LICENSE="MIT"
 SLOT="0"

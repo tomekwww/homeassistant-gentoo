@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for accessing BleBox smart home devices"
 HOMEPAGE="https://github.com/blebox/blebox_uniapi"
 SRC_URI="https://files.pythonhosted.org/packages/2a/21/e4b93f2edc766ca9ae90353091e23403b7415edc0f92ff016fd1d055c5f3/blebox_uniapi-2.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/blebox_uniapi-2.5.0"
 
 LICENSE="BSD"
 SLOT="0"

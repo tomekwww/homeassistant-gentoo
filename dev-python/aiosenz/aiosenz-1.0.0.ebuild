@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Typed Python package for the nVent RAYCHEM SENZ RestAPI"
 HOMEPAGE="https://github.com/milanmeu/aiosenz"
 SRC_URI="https://files.pythonhosted.org/packages/de/4b/2616a878e3632437d836816ceb748ee936d7ef8a6238dba426d639cd1d5f/aiosenz-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiosenz-1.0.0"
 
 LICENSE="BSD"
 SLOT="0"

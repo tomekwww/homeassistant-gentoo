@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for interacting with hole"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-hole"
 SRC_URI="https://files.pythonhosted.org/packages/45/8b/6ae8e2083eb52baa81b1c11daa5ca2652f7d0e7942edae488ab9c1e0c170/hole-0.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/hole-0.8.0"
 
 LICENSE="MIT"
 SLOT="0"

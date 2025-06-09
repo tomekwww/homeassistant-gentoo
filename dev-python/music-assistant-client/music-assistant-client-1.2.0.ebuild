@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Music Assistant Client"
 HOMEPAGE="https://pypi.org/project/music-assistant-client/"
 SRC_URI="https://files.pythonhosted.org/packages/9d/5d/c183bc24a3fb431139f784a3e81bd346d83e0da8333201442f2164deb3de/music_assistant_client-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/music_assistant_client-1.2.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

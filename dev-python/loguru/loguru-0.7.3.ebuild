@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=flit
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python logging made stupidly simple"
 HOMEPAGE="https://pypi.org/project/loguru/"
 SRC_URI="https://files.pythonhosted.org/packages/3a/05/a1dae3dffd1116099471c643b8924f5aa6524411dc6c63fdae648c4f1aca/loguru-0.7.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/loguru-0.7.3"
 
 LICENSE="BSD"
 SLOT="0"

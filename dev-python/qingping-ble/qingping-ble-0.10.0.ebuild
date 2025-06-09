@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Qingping BLE support"
 HOMEPAGE="https://github.com/bluetooth-devices/qingping-ble"
 SRC_URI="https://files.pythonhosted.org/packages/a8/3b/2022a78b362fec07596ab54aa6d1c120094b50f32e4f5c539b14958a9f95/qingping_ble-0.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/qingping_ble-0.10.0"
 
 LICENSE="MIT"
 SLOT="0"

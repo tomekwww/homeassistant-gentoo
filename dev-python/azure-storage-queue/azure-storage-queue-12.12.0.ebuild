@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Microsoft Azure Azure Queue Storage Client Library for Python"
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-queue"
 SRC_URI="https://files.pythonhosted.org/packages/6c/b3/45bae4589fb9d1be0dc34db9422cb7c042a8290e015c59406cefdb22f93c/azure_storage_queue-12.12.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/azure_storage_queue-12.12.0"
 
 LICENSE="MIT"
 SLOT="0"

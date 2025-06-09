@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Modules to convert numbers to words Easily extensible"
 HOMEPAGE="https://github.com/savoirfairelinux/num2words"
 SRC_URI="https://files.pythonhosted.org/packages/f6/58/ad645bd38b4b648eb2fc2ba1b909398e54eb0cbb6a7dbd2b4953e38c9621/num2words-0.5.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/num2words-0.5.14"
 
 LICENSE="BSD"
 SLOT="0"

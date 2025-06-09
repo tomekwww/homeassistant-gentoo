@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Tool to read data from Rainforest Legacy Eagle"
 HOMEPAGE="https://github.com/hastarin/eagle100"
 SRC_URI="https://files.pythonhosted.org/packages/cc/c0/12089ffe32aa4f5c98e74ae8d1953a6670d498a0db75384ae3508efe7796/eagle100-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/eagle100-0.1.1"
 
 LICENSE="MIT"
 SLOT="0"

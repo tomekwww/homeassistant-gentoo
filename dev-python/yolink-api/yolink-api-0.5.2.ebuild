@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to authenticate with yolink device"
 HOMEPAGE="https://github.com/YoSmart-Inc/yolink-api"
 SRC_URI="https://files.pythonhosted.org/packages/8e/0b/f13bc083f8c917778458175bd86e320a8143cd5743aa06ac11ae67e426d8/yolink-api-0.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/yolink-api-0.5.2"
 
 LICENSE="MIT"
 SLOT="0"

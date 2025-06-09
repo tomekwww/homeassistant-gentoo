@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python client library for the Kaleidescape System Control Protocol"
 HOMEPAGE="https://github.com/SteveEasley/pykaleidescape"
 SRC_URI="https://files.pythonhosted.org/packages/e2/ab/3be1aa34f0a20d076d325428fd732acea56b7fc103e787ef28e995aa0165/pykaleidescape-1.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pykaleidescape-1.0.1"
 
 LICENSE="BSD"
 SLOT="0"

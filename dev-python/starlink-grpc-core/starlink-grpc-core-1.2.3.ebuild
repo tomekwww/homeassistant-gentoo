@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Core functions for Starlink gRPC communication"
 HOMEPAGE="https://github.com/sparky8512/starlink-grpc-tools"
 SRC_URI="https://github.com/sparky8512/starlink-grpc-tools/archive/refs/tags/v1.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/starlink-grpc-tools-1.2.3"
 
 LICENSE="BSD"
 SLOT="0"

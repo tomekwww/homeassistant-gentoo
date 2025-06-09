@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial package to access Cookidoo"
 HOMEPAGE="https://pypi.org/project/cookidoo-api/"
 SRC_URI="https://files.pythonhosted.org/packages/fd/8f/11edb8d132de2763d6dd5d031ddef86077780b16a4ca906adda9fa0800b4/cookidoo_api-0.12.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/cookidoo_api-0.12.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for interfacing with Motion Blinds"
 HOMEPAGE="https://github.com/starkillerOG/motion-blinds"
 SRC_URI="https://files.pythonhosted.org/packages/af/dc/d9e554318b1b32103b16e66764d054b503ba03fb6d1178d9f2eb05cd08fc/motionblinds-0.6.27.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/motionblinds-0.6.27"
 
 LICENSE="MIT"
 SLOT="0"

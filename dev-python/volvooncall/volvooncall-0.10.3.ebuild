@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Communicate with VOC"
 HOMEPAGE="https://github.com/molobrakos/volvooncall"
 SRC_URI="https://files.pythonhosted.org/packages/9b/12/a6a0961cb964f2f52d0d5225f0a7977af745052a54affb069b4a6c8062e9/volvooncall-0.10.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/volvooncall-0.10.3"
 
 LICENSE="Unlicense"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="client library for wifi thermostats sold by radiothermostatcom"
 HOMEPAGE="https://github.com/mhrivnak/radiotherm"
 SRC_URI="https://files.pythonhosted.org/packages/b1/d8/0e0f2525777db7f32c0477c82fb7979b1c0a7f1f33eded8c286c5b0b2208/radiotherm-2.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/radiotherm-2.1.0"
 
 LICENSE="BSD"
 SLOT="0"

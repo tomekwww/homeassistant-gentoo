@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python OWFS client library owserver protocol"
 HOMEPAGE="https://github.com/miccoli/pyownet"
 SRC_URI="https://files.pythonhosted.org/packages/13/97/03560c37663b70cf503e9e0896c60646996de6b5730fd1a6f2f79bb869e2/pyownet-0.10.0.post1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyownet-0.10.0.post1"
 
 LICENSE="BSD"
 SLOT="0"

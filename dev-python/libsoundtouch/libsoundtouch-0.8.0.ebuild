@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Bose Soundtouch Python library"
 HOMEPAGE="http://libsoundtouch.readthedocs.io"
 SRC_URI="https://files.pythonhosted.org/packages/58/13/39ac33ae2d01b51b46ecdc8c05aaceb1b21bab7782e1bade24c66d1c9160/libsoundtouch-0.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/libsoundtouch-0.8.0"
 
 LICENSE="BSD"
 SLOT="0"

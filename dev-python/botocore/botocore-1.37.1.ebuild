@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Lowlevel datadriven core of boto 3"
 HOMEPAGE="https://github.com/boto/botocore"
 SRC_URI="https://files.pythonhosted.org/packages/e5/01/3083bff25fd91193162298920cb093b9095609408416526d52b2826965b7/botocore-1.37.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/botocore-1.37.1"
 
 LICENSE="BSD"
 SLOT="0"

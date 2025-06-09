@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library for controlling YeeLight RGB bulbs"
 HOMEPAGE="https://pypi.org/project/yeelight/"
 SRC_URI="https://files.pythonhosted.org/packages/7a/b4/0332cd347105b57905bb29e7e16b028b4238ed334328b3a776b5946099be/yeelight-0.7.16.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/yeelight-0.7.16"
 
 LICENSE="BSD"
 SLOT="0"

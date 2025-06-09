@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library to interface with the OSO Energy API"
 HOMEPAGE="https://github.com/osohotwateriot/apyosohotwaterapi"
 SRC_URI="https://files.pythonhosted.org/packages/34/ec/73bf2b7de8589253b78bf7ac576f8cb19bcf76783476b58b8c5c239112f5/pyosoenergyapi-1.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyosoenergyapi-1.1.4"
 
 LICENSE="BSD"
 SLOT="0"

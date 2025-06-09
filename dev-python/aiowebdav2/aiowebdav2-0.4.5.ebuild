@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python 3 client for WebDAV based on aiowebdav and httpsgithubcomezhovevgenywebdavclientpython3"
 HOMEPAGE="https://pypi.org/project/aiowebdav2/"
 SRC_URI="https://files.pythonhosted.org/packages/e1/aa/3e2221434f851125b2311f6d6197469a19c9a5cf3bedb543c4d971e363fa/aiowebdav2-0.4.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiowebdav2-0.4.5"
 
 LICENSE="MIT"
 SLOT="0"

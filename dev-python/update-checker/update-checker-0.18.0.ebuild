@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python module that will check for package updates"
 HOMEPAGE="https://github.com/bboe/update_checker"
 SRC_URI="https://files.pythonhosted.org/packages/5c/0b/1bec4a6cc60d33ce93d11a7bcf1aeffc7ad0aa114986073411be31395c6f/update_checker-0.18.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/update_checker-0.18.0"
 
 LICENSE="BSD"
 SLOT="0"

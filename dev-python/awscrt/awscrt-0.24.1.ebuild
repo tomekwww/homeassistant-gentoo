@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A common runtime for AWS Python projects"
 HOMEPAGE="https://github.com/awslabs/aws-crt-python"
 SRC_URI="https://files.pythonhosted.org/packages/6a/c2/a3f55f5012923b4e1498717b4d733d49309523ffff3ddf87f73c15cc42a9/awscrt-0.24.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/awscrt-0.24.1"
 
 LICENSE="BSD"
 SLOT="0"

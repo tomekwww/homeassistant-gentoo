@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION=""
 HOMEPAGE="https://github.com/Guy293/Tami4EdgeAPI"
 SRC_URI="https://files.pythonhosted.org/packages/a3/bc/a0f9323d4a102b8867ebc0e0cd27e191d63651c343f800e7c208465bad02/tami4edgeapi-3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tami4edgeapi-3.0"
 
 LICENSE="MIT"
 SLOT="0"

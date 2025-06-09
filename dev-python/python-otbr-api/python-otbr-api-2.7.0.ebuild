@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API to interact with an OTBR via its REST API"
 HOMEPAGE="https://pypi.org/project/python-otbr-api/"
 SRC_URI="https://files.pythonhosted.org/packages/59/34/380adfa20bf26b4aa43891d83e061d982056c1b85a7e9ba88559580c5ffd/python_otbr_api-2.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_otbr_api-2.7.0"
 
 LICENSE="MIT"
 SLOT="0"

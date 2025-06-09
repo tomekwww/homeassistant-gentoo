@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API package for rememberthemilkcom"
 HOMEPAGE="https://bitbucket.org/rtmapi/rtmapi"
 SRC_URI="https://files.pythonhosted.org/packages/9d/f5/0faa3429619c46cc92b8d81eaa481c691de93b24bdd6447d41419cc69ba8/RtmAPI-0.7.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/RtmAPI-0.7.2"
 
 LICENSE="BSD"
 SLOT="0"

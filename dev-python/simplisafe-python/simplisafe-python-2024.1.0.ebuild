@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python3 async interface to the SimpliSafe API"
 HOMEPAGE="https://github.com/bachya/simplisafe-python"
 SRC_URI="https://files.pythonhosted.org/packages/1a/7b/b2895319988a1473abd171542c594a194fda508e37efda31c515249f94de/simplisafe_python-2024.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/simplisafe_python-2024.1.0"
 
 LICENSE="MIT"
 SLOT="0"

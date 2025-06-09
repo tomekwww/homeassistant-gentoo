@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="asyncio Python library for connecting to and controlling the Logitech Harmony"
 HOMEPAGE="https://pypi.org/project/aioharmony/"
 SRC_URI="https://files.pythonhosted.org/packages/cb/6e/99b2ea0ce45a2979386dfa8ebd7da0e6e7282e2ac1aee06fec7be8bbfd93/aioharmony-0.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioharmony-0.5.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

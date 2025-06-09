@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with Switchbot"
 HOMEPAGE="https://github.com/sblibs/pySwitchbot/"
 SRC_URI="https://files.pythonhosted.org/packages/d1/a9/a64b457a7d38bedd15d7e8af77f94c11561ff11a63ef739be6aac828e441/pyswitchbot-0.64.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyswitchbot-0.64.1"
 
 LICENSE="MIT"
 SLOT="0"

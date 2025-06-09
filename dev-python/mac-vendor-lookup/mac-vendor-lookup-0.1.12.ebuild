@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Find the vendor for a given MAC address"
 HOMEPAGE="https://github.com/bauerj/mac_vendor_lookup"
 SRC_URI="https://files.pythonhosted.org/packages/77/7c/2a5ae05d5cdec7f9b9a31d968914da17e716684505b052fd79cf6b30e447/mac_vendor_lookup-0.1.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mac_vendor_lookup-0.1.12"
 
 LICENSE="BSD"
 SLOT="0"

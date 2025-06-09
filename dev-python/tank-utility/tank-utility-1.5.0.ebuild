@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A smart propane tank monitor"
 HOMEPAGE="https://git.io/k20e"
 SRC_URI="https://github.com/krismolendyke/tank-utility/archive/refs/tags/1.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tank-utility-1.5.0"
 
 LICENSE="MIT"
 SLOT="0"

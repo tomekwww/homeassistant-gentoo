@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Higher level Datagram support for Asyncio"
 HOMEPAGE="https://github.com/jsbronder/asyncio-dgram"
 SRC_URI="https://files.pythonhosted.org/packages/34/6b/7c3e984ef144c2a034bd7c881f2ae0516df8e8f845909f757a3ae04e5532/asyncio-dgram-2.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/asyncio-dgram-2.2.0"
 
 LICENSE="MIT"
 SLOT="0"

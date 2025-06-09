@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Module for interacting with Wallbox EV charger api"
 HOMEPAGE="https://github.com/cliviu74/wallbox"
 SRC_URI="https://files.pythonhosted.org/packages/ff/51/6ea41031af8ca633a5478275f588398e7c71fb7e111b8af698855012cda1/wallbox-0.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/wallbox-0.9.0"
 
 LICENSE="BSD"
 SLOT="0"

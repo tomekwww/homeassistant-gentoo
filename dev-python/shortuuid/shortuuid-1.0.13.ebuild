@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A generator library for concise unambiguous and URLsafe UUIDs"
 HOMEPAGE="https://github.com/skorokithakis/shortuuid/"
 SRC_URI="https://files.pythonhosted.org/packages/8c/e2/bcf761f3bff95856203f9559baf3741c416071dd200c0fc19fad7f078f86/shortuuid-1.0.13.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/shortuuid-1.0.13"
 
 LICENSE="BSD"
 SLOT="0"

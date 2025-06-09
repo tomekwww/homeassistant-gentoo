@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Retrieve values from API at Nord Pool"
 HOMEPAGE="https://github.com/gjohansson-ST/pynordpool"
 SRC_URI="https://files.pythonhosted.org/packages/68/f0/9991882f93a55f084547ab373be191cc6a144ae40c61db03791eb1f403be/pynordpool-0.2.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pynordpool-0.2.4"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async GeoJSON client library for the US Geological Survey Earthquake Hazards Program"
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-usgs-earthquakes"
 SRC_URI="https://files.pythonhosted.org/packages/f0/ba/6d8da1ef4b49a6c080309a30474458c14786b3152e4a69b6074e4a91cba5/aio_geojson_usgs_earthquakes-0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio_geojson_usgs_earthquakes-0.3"
 
 LICENSE="BSD"
 SLOT="0"

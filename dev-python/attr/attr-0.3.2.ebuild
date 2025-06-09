@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple decorator to set attributes of target function or class in a DRY way"
 HOMEPAGE="https://github.com/denis-ryzhkov/attr"
 SRC_URI="https://files.pythonhosted.org/packages/e4/d2/d0a5e36049ec6f72f4951b7f843b359d21e5a208b120618686187234dd1d/attr-0.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/attr-0.3.2"
 
 LICENSE="MIT"
 SLOT="0"

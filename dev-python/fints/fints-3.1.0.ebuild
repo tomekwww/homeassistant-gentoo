@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Purepython FinTS 30 formerly known as HBCI implementation"
 HOMEPAGE="https://github.com/raphaelm/python-fints"
 SRC_URI="https://files.pythonhosted.org/packages/5e/75/d4f62f22d46229ceaa54b9fe8f6a5e714732eaf5dc6c2cf39d6cc575fcce/fints-3.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/fints-3.1.0"
 
 LICENSE="BSD"
 SLOT="0"

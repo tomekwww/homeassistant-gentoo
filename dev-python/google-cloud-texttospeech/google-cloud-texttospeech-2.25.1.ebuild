@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Google Cloud Texttospeech API client library"
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-texttospeech"
 SRC_URI="https://files.pythonhosted.org/packages/1e/3c/e1243561ce766940f080bc691b448db1228adca3ccd5fcff8a21b8464b97/google_cloud_texttospeech-2.25.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/google_cloud_texttospeech-2.25.1"
 
 LICENSE="BSD"
 SLOT="0"

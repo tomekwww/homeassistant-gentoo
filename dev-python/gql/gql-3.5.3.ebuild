@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="GraphQL client for Python"
 HOMEPAGE="https://github.com/graphql-python/gql"
 SRC_URI="https://files.pythonhosted.org/packages/34/ed/44ffd30b06b3afc8274ee2f38c3c1b61fe4740bf03d92083e43d2c17ac77/gql-3.5.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gql-3.5.3"
 
 LICENSE="MIT"
 SLOT="0"

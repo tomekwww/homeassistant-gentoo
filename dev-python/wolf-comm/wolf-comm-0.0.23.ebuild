@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to communicate with Wolf SmartSet Cloud"
 HOMEPAGE="https://github.com/janrothkegel/wolf-comm"
 SRC_URI="https://files.pythonhosted.org/packages/14/aa/81032e50f817ff6578955d072cd402a109cfdec752c1683cdea201df33cb/wolf_comm-0.0.23.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/wolf_comm-0.0.23"
 
 LICENSE="BSD"
 SLOT="0"

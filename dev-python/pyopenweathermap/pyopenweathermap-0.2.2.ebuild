@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="lib for OpenWeatherMap for Home Assistant"
 HOMEPAGE="https://github.com/freekode/pyopenweathermap"
 SRC_URI="https://files.pythonhosted.org/packages/eb/c6/6edd898e0171cd67a1b9ae9a8d45b622575db7455d111a4e4eb11faae6d5/pyopenweathermap-0.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyopenweathermap-0.2.2"
 
 LICENSE="MIT"
 SLOT="0"

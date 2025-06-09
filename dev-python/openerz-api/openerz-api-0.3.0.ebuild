@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python wrapper around the OpenERZ API"
 HOMEPAGE="https://github.com/misialq/openerz-api"
 SRC_URI="https://files.pythonhosted.org/packages/68/93/b6cc24fdc2a7b36c814e31ddcf647d8bf32b923e171ac49156c12427a624/openerz-api-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/openerz-api-0.3.0"
 
 LICENSE="BSD"
 SLOT="0"

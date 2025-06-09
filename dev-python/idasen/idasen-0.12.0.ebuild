@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="ikea IDSEN desk API and CLI"
 HOMEPAGE="https://github.com/newAM/idasen"
 SRC_URI="https://files.pythonhosted.org/packages/00/68/4efe8a2064036a3bc83321f68fcfe2290408cfdaa0f0e12a8243d27304e4/idasen-0.12.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/idasen-0.12.0"
 
 LICENSE="MIT"
 SLOT="0"

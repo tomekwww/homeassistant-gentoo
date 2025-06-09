@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python interface to the iZone airconditioner controller"
 HOMEPAGE="https://github.com/Swamp-Ig/pizone"
 SRC_URI="https://files.pythonhosted.org/packages/13/45/2cae4a3edfa431becfcfee5ce51f39e07c167d369732d8e8654c1d5b9f55/python-izone-1.2.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-izone-1.2.9"
 
 LICENSE="BSD"
 SLOT="0"

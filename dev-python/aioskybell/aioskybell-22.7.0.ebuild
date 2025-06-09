@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Skybell HD Python library running on Python 3"
 HOMEPAGE="https://github.com/tkdrob/aioskybell"
 SRC_URI="https://files.pythonhosted.org/packages/92/f3/23d7b255e87f76aef3e68652599576f21f27640219589522f4bfa3931665/aioskybell-22.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioskybell-22.7.0"
 
 LICENSE="MIT"
 SLOT="0"

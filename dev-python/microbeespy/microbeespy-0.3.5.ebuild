@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="microBees Python Library"
 HOMEPAGE="https://github.com/microBeesTech/pythonSDK/"
 SRC_URI="https://files.pythonhosted.org/packages/b4/3a/9f90afdd1cd084fff05aef72e6f45e03e6db0baaa081661438f8859b3cdc/microBeesPy-0.3.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/microBeesPy-0.3.5"
 
 LICENSE="MIT"
 SLOT="0"

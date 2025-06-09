@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Mozart platform API"
 HOMEPAGE="https://pypi.org/project/mozart-api/"
 SRC_URI="https://files.pythonhosted.org/packages/68/dd/68d764c8b3b6a1dd0f5412f72a599675c195b11051e844c48704ffcfe9f7/mozart_api-4.1.1.116.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mozart_api-4.1.1.116.6"
 
 LICENSE="MIT"
 SLOT="0"

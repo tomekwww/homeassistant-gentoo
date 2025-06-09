@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Reverse geocode the given latitude  longitude"
 HOMEPAGE="https://github.com/richardpenman/reverse_geocode/"
 SRC_URI="https://files.pythonhosted.org/packages/8b/7c/552b672bee743ff06f5165e67aa1bbbeea97a11d8242da8ff934ac74743d/reverse_geocode-1.6.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/reverse_geocode-1.6.5"
 
 LICENSE="BSD"
 SLOT="0"

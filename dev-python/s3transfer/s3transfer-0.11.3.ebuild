@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An Amazon S3 Transfer Manager"
 HOMEPAGE="https://github.com/boto/s3transfer"
 SRC_URI="https://files.pythonhosted.org/packages/39/24/1390172471d569e281fcfd29b92f2f73774e95972c965d14b6c802ff2352/s3transfer-0.11.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/s3transfer-0.11.3"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library for the Google Nest SDM API"
 HOMEPAGE="https://github.com/allenporter/python-google-nest-sdm"
 SRC_URI="https://files.pythonhosted.org/packages/b4/05/d3e455ab73653109ee3cc5c23d7888ee3d20fe719927b2e8cf406006ab9c/google_nest_sdm-7.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/google_nest_sdm-7.1.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

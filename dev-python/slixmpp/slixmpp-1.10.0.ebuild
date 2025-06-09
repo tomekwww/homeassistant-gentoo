@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=maturin
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Slixmpp is an elegant Python library for XMPP aka Jabber"
 HOMEPAGE="https://pypi.org/project/slixmpp/"
 SRC_URI="https://files.pythonhosted.org/packages/c6/79/0ceacbcdc5f84248a36c98e11c126494c4c262902bba69eb9bd536771f76/slixmpp-1.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/slixmpp-1.10.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API wrapper for ROVA calendar"
 HOMEPAGE="https://github.com/GidoHakvoort/rova"
 SRC_URI="https://files.pythonhosted.org/packages/f8/f5/da4474c914bdf5a4079e04eefd3169276e9f97c910992c97cb3041a160d3/rova-0.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/rova-0.4.1"
 
 LICENSE="BSD"
 SLOT="0"

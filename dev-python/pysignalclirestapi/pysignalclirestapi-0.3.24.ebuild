@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Small python library for the Signal Cli REST API"
 HOMEPAGE="https://github.com/bbernhard/pysignalclirestapi"
 SRC_URI="https://github.com/bbernhard/pysignalclirestapi/archive/refs/tags/0.3.24.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysignalclirestapi-0.3.24"
 
 LICENSE="BSD"
 SLOT="0"

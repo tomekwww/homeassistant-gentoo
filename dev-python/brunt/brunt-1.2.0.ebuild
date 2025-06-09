@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial python SDK for Brunt this package allows you to control your Brunt devices from code"
 HOMEPAGE="https://github.com/eavanvalkenburg/brunt-api"
 SRC_URI="https://files.pythonhosted.org/packages/3e/78/050066a1f560ddc99e7ed2ea144cc241e0735f24e58709898e544bacfd93/brunt-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/brunt-1.2.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="gTTS Google TexttoSpeech a Python library and CLI tool to interface with Google Translate texttospeech API"
 HOMEPAGE="https://pypi.org/project/gTTS/"
 SRC_URI="https://files.pythonhosted.org/packages/65/10/808aff49b155a10ba035ffabc79bfa4d907161c9206de65e2cee4d0879fa/gtts-2.5.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gtts-2.5.3"
 
 LICENSE="MIT"
 SLOT="0"

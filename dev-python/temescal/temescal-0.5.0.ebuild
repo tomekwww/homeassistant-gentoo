@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for controlling LG speakers"
 HOMEPAGE="http://github.com/google/python-temescal"
 SRC_URI="https://files.pythonhosted.org/packages/88/f7/b6e8502524794925a0ec7e2605be6df85edba2ff5afa0d63b511f74f6b98/temescal-0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/temescal-0.5"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{13..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=maturin
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Deebot client library in python 3"
 HOMEPAGE="https://pypi.org/project/deebot-client/"
 SRC_URI="https://files.pythonhosted.org/packages/25/db/ee7a8ff26e3396f70768f4e83157c8b02acbc035a2c6a54ab5973924da68/deebot_client-13.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/deebot_client-13.2.1"
 
 LICENSE="GPL-3"
 SLOT="0"

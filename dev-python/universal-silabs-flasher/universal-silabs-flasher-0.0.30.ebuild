@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Tool to flash firmware onto any Silicon Labs radio running EmberZNet CPC multiPAN or just a bare Gecko Bootloader"
 HOMEPAGE="https://pypi.org/project/universal-silabs-flasher/"
 SRC_URI="https://files.pythonhosted.org/packages/ed/45/620f77fc494e6e96c9a6b9de08967e830f849887b26dc945dfb3e4ba79d4/universal_silabs_flasher-0.0.30.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/universal_silabs_flasher-0.0.30"
 
 LICENSE="GPL-3"
 SLOT="0"

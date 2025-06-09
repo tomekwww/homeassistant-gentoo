@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python utilities for the Enphase Envoy"
 HOMEPAGE="https://pypi.org/project/envoy-utils/"
 SRC_URI="https://files.pythonhosted.org/packages/57/7c/341318b9c87eb55c2e3de149873a8cd0cfe1b9e659d15bce3624f05429fc/envoy_utils-0.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/envoy_utils-0.0.1"
 
 LICENSE="BSD"
 SLOT="0"

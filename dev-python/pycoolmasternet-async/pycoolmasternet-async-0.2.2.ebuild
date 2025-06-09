@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library to control CoolMasterNet HVAC bridges over asyncio"
 HOMEPAGE="https://github.com/OnFreund/pycoolmasternet-async"
 SRC_URI="https://files.pythonhosted.org/packages/bd/1e/25d3826a7d7efb8d75ccf8b9760598f38fad25829046e4e293ccf74f4877/pycoolmasternet_async-0.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pycoolmasternet_async-0.2.2"
 
 LICENSE="MIT"
 SLOT="0"

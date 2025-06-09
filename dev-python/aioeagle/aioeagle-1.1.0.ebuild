@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python module to talk to Rainforest EAGLE200"
 HOMEPAGE="https://github.com/home-assistant-libs/aioeagle"
 SRC_URI="https://files.pythonhosted.org/packages/40/f5/80548f947411d8bbcdf53ff44300659c30897cd87a620e00e0919945d81a/aioeagle-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioeagle-1.1.0"
 
 LICENSE="BSD"
 SLOT="0"

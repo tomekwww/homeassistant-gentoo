@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python3 library for running asynchronus communications with envisalink alarm control panel modules"
 HOMEPAGE="https://github.com/ufodone/pyenvisalink"
 SRC_URI="https://files.pythonhosted.org/packages/51/b5/4ab1338e19694f9448ead7aa889c048c34a9f405f98c62be7b3d59c003d9/pyenvisalink-4.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyenvisalink-4.7"
 
 LICENSE="MIT"
 SLOT="0"

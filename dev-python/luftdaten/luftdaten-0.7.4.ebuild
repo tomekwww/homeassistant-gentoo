@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for interacting with luftdateninfo"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-luftdaten"
 SRC_URI="https://files.pythonhosted.org/packages/20/2d/f97553b1b0493ae49e6e97a399fd78ef48cfe00f147ec5218fd902856ead/luftdaten-0.7.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/luftdaten-0.7.4"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Access Netgear routers using their SOAP API"
 HOMEPAGE="http://github.com/MatMaul/pynetgear"
 SRC_URI="https://files.pythonhosted.org/packages/0d/1b/925d4bf0b8e45e9898722a3fdc6e62b6d73a17dca9689f8a0f74884fcca2/pynetgear-0.10.10.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pynetgear-0.10.10"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An asynchronous modem implementation designed for Home Assistant for receiving caller id and call rejection"
 HOMEPAGE="https://github.com/tkdrob/phone_modem"
 SRC_URI="https://files.pythonhosted.org/packages/50/8f/b5a70d4021f987308d0cf58b5e369befb49cada70a44f39a75dbafc76d82/phone_modem-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/phone_modem-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

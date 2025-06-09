@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for Roku ECP"
 HOMEPAGE="https://github.com/ctalkington/python-rokuecp"
 SRC_URI="https://files.pythonhosted.org/packages/ad/6b/a152c41174baa085d3f0949c4dc3eaa6ad3c48c2f9c807fa9c2b647e663f/rokuecp-0.19.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/rokuecp-0.19.3"
 
 LICENSE="MIT"
 SLOT="0"

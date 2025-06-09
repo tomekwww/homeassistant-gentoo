@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="An asyncio HomeKit client"
 HOMEPAGE="https://pypi.org/project/aiohomekit/"
 SRC_URI="https://files.pythonhosted.org/packages/d4/d4/0c39204f5c5a260683e6c601cb33485af53a219fec38e87d2f9ff269fd62/aiohomekit-3.2.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohomekit-3.2.14"
 
 LICENSE="Apache-2.0"
 SLOT="0"

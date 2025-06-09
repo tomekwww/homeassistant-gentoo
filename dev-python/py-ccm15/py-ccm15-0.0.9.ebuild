@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to control Midea CCM15 data converter modules"
 HOMEPAGE="https://github.com/ocalvo/py-ccm15"
 SRC_URI="https://files.pythonhosted.org/packages/e6/86/0482a9bdcb8a4523d4fe290d175ee8985d699503baa4673c8e227f34a91f/py-ccm15-0.0.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-ccm15-0.0.9"
 
 LICENSE="BSD"
 SLOT="0"

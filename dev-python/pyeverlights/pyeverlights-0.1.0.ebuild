@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library for controlling an EverLights lighting system"
 HOMEPAGE="https://github.com/joncar/pyeverlights"
 SRC_URI="https://files.pythonhosted.org/packages/b8/23/c2094aa09aac5cd41a4793dea4e4ee54cfe9f485b5d249ab47fbef46aafe/pyeverlights-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyeverlights-0.1.0"
 
 LICENSE="MIT"
 SLOT="0"

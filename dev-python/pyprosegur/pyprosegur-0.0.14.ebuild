@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial Python library to interface with Prosegur Alarmes PTES"
 HOMEPAGE="https://github.com/dgomes/pyprosegur"
 SRC_URI="https://files.pythonhosted.org/packages/ed/70/4890790705d685d8a8cf2eeb5f01e71ab45e90512eb8e5cae4393eb3f291/pyprosegur-0.0.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyprosegur-0.0.14"
 
 LICENSE="MIT"
 SLOT="0"

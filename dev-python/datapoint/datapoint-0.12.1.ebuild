@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python interface to the Met Offices Datapoint API"
 HOMEPAGE="https://pypi.org/project/datapoint/"
 SRC_URI="https://files.pythonhosted.org/packages/e4/c3/9fcb0b93ac9ce2aa363bcfe53fbec0ef7a7a11ffd27fc595cdfd87e2139d/datapoint-0.12.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/datapoint-0.12.1"
 
 LICENSE="BSD"
 SLOT="0"

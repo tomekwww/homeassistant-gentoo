@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python3 library to communicate with Open Garage"
 HOMEPAGE="https://github.com/Danielhiversen/pyOpenGarage"
 SRC_URI="https://files.pythonhosted.org/packages/b7/b8/3c6bafc6b4353e17fd660c437d7ff8cc7691b777f0cb0848a1b31299d676/open_garage-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/open_garage-0.2.0"
 
 LICENSE="MIT"
 SLOT="0"

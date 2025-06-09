@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Open Home Foundation Matter Server"
 HOMEPAGE="https://pypi.org/project/python-matter-server/"
 SRC_URI="https://files.pythonhosted.org/packages/c8/a1/7ada33c245cec4800622d81e1e2f5e65462e91b922d94d0a5a3ea2722284/python_matter_server-7.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_matter_server-7.0.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

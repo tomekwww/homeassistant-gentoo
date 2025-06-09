@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for the Autarco Inverters"
 HOMEPAGE="https://github.com/klaasnicolaas/python-autarco"
 SRC_URI="https://files.pythonhosted.org/packages/99/ae/788cd390552e74ce6a6efb6dd4f19603b822f5572f39252132b3165c13d2/autarco-3.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/autarco-3.1.0"
 
 LICENSE="MIT"
 SLOT="0"

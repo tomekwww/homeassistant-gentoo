@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python client library for Google Photos Library API"
 HOMEPAGE="https://github.com/allenporter/python-google-photos-library-api"
 SRC_URI="https://files.pythonhosted.org/packages/c8/15/848db5653c6bfccea61437cca355a54881b1165a25b15e69913ba21f86d5/google_photos_library_api-0.12.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/google_photos_library_api-0.12.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

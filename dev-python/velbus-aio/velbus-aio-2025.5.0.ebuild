@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Opensource home automation platform running on Python 3"
 HOMEPAGE="https://pypi.org/project/velbus-aio/"
 SRC_URI="https://files.pythonhosted.org/packages/0f/fc/ec773e5af1c3f4b883374c25da782212b5e0601b1819cd3ab4f634f1329d/velbus_aio-2025.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/velbus_aio-2025.5.0"
 
 LICENSE="MIT"
 SLOT="0"

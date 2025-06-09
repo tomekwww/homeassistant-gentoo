@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library and CLI tools for interacting with buienradar"
 HOMEPAGE="https://github.com/mjj4791/python-buienradar"
 SRC_URI="https://files.pythonhosted.org/packages/cf/df/5f1a6469bc6d18435cfc190f4004ed67c46967571724ca5804a3cc7e1562/buienradar-1.0.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/buienradar-1.0.6"
 
 LICENSE="MIT"
 SLOT="0"

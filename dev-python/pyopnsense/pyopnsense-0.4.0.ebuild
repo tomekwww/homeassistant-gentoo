@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python API client for OPNsense"
 HOMEPAGE="https://pypi.org/project/pyopnsense/"
 SRC_URI="https://files.pythonhosted.org/packages/d3/08/1dc0e7948764c59635a560dfd14a15266a5efdb4e628ec737bcfb6a1d59e/pyopnsense-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyopnsense-0.4.0"
 
 LICENSE="BSD"
 SLOT="0"

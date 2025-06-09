@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Twinkly Twinkly Little Star"
 HOMEPAGE="https://github.com/jschlyter/ttls"
 SRC_URI="https://files.pythonhosted.org/packages/af/af/ab15dbece80c7eff4336bd73548d0403fa0e09e3f2ee834654c5e548820a/ttls-1.8.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ttls-1.8.3"
 
 LICENSE="BSD"
 SLOT="0"

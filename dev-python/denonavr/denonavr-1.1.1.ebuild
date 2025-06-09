@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Automation Library for Denon AVR receivers"
 HOMEPAGE="https://pypi.org/project/denonavr/"
 SRC_URI="https://files.pythonhosted.org/packages/85/6d/f4acb64ae4b5aa921043c4d4a92201f71c3df7240b8b27369fb856b8076e/denonavr-1.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/denonavr-1.1.1"
 
 LICENSE="MIT"
 SLOT="0"

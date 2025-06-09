@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python port of the fzy fuzzy string matching algorithm"
 HOMEPAGE="https://github.com/kazhala/pfzy"
 SRC_URI="https://files.pythonhosted.org/packages/d9/5a/32b50c077c86bfccc7bed4881c5a2b823518f5450a30e639db5d3711952e/pfzy-0.3.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pfzy-0.3.4"
 
 LICENSE="MIT"
 SLOT="0"

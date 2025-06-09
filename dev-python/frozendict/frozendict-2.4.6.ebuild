@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A simple immutable dictionary"
 HOMEPAGE="https://github.com/Marco-Sulla/python-frozendict"
 SRC_URI="https://files.pythonhosted.org/packages/bb/59/19eb300ba28e7547538bdf603f1c6c34793240a90e1a7b61b65d8517e35e/frozendict-2.4.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/frozendict-2.4.6"
 
 LICENSE="BSD"
 SLOT="0"

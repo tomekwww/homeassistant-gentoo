@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Neurio energy sensor and appliance automation API library"
 HOMEPAGE="https://github.com/jordanh/neurio-python"
 SRC_URI="https://files.pythonhosted.org/packages/fd/9a/5b6bb315929b93d2a9f32ae5e36968a4eb326cb2d95831f0137da27d3555/neurio-0.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/neurio-0.3.1"
 
 LICENSE="BSD"
 SLOT="0"

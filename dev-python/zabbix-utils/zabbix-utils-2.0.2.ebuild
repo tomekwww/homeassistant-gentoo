@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library with modules for working with Zabbix Zabbix API Zabbix sender Zabbix get"
 HOMEPAGE="https://github.com/zabbix/python-zabbix-utils"
 SRC_URI="https://files.pythonhosted.org/packages/d0/18/91f24d891dd8a5a0d4536faaa65a73384c8751e71c527ba07b2eed8ccad2/zabbix_utils-2.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/zabbix_utils-2.0.2"
 
 LICENSE="BSD"
 SLOT="0"

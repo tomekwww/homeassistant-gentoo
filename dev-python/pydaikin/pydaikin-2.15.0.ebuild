@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Daikin HVAC appliances interface"
 HOMEPAGE="https://pypi.org/project/pydaikin/"
 SRC_URI="https://files.pythonhosted.org/packages/37/84/9e4c799959f069c37d9913a9f351aaab18fda417a01664ce3af1b4dc9a54/pydaikin-2.15.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydaikin-2.15.0"
 
 LICENSE="BSD"
 SLOT="0"

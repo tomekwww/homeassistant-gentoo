@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Calculations for the position of the sun and moon"
 HOMEPAGE="https://github.com/sffjunkie/astral"
 SRC_URI="https://files.pythonhosted.org/packages/ad/c3/76dfe55a68c48a1a6f3d2eeab2793ebffa9db8adfba82774a7e0f5f43980/astral-2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/astral-2.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

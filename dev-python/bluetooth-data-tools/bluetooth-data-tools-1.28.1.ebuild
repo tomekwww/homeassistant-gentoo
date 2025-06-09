@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Tools for converting bluetooth data and packets"
 HOMEPAGE="https://pypi.org/project/bluetooth-data-tools/"
 SRC_URI="https://files.pythonhosted.org/packages/43/1c/de0db28a762cbdd09f8e23f799607ff2237266a7088a7f164e66659dc916/bluetooth_data_tools-1.28.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bluetooth_data_tools-1.28.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="YouTube chromecast api"
 HOMEPAGE="http://github.com/ur1katz/casttube"
 SRC_URI="https://files.pythonhosted.org/packages/78/54/f7e80d701c587940cf1c871fb6327b4a2682df4287896fbf9400cd0bbf21/casttube-0.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/casttube-0.2.1"
 
 LICENSE="MIT"
 SLOT="0"

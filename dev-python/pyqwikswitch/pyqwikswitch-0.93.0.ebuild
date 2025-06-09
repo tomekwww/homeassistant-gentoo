@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to interface Qwikswitch USB Hub"
 HOMEPAGE="https://github.com/kellerza/pyqwikswitch"
 SRC_URI="https://files.pythonhosted.org/packages/06/e6/05622cf9d1a4febdef9a7cd5c8988b83d086be7ea0f4def78aa0541d5a21/pyqwikswitch-0.93.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyqwikswitch-0.93"
 
 LICENSE="MIT"
 SLOT="0"

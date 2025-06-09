@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION=""
 HOMEPAGE="https://github.com/reefab/foobot_async"
 SRC_URI="https://files.pythonhosted.org/packages/d2/72/ccfdfaad21b350661295f078fff167b5068c5f0df73cc681627bb4123592/foobot_async-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/foobot_async-1.0.0"
 
 LICENSE="MIT"
 SLOT="0"

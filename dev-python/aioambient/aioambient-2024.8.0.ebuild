@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A clean asyncfriendly library for the Ambient Weather API"
 HOMEPAGE="https://github.com/bachya/aioambient"
 SRC_URI="https://files.pythonhosted.org/packages/83/68/0846033ed3676295f6769e24621dba75689a9c31020b7c16fa73b0127122/aioambient-2024.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioambient-2024.8.0"
 
 LICENSE="MIT"
 SLOT="0"

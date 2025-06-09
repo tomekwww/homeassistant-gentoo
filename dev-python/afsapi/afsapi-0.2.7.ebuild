@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Implementation of the Frontier Silicon API"
 HOMEPAGE="https://github.com/zhelev/python-afsapi.git"
 SRC_URI="https://files.pythonhosted.org/packages/5f/96/f767e4ae1b90f722c5a4bbf37addc1af602c3c87a4caae4dc8f0c299402d/afsapi-0.2.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/afsapi-0.2.7"
 
 LICENSE="BSD"
 SLOT="0"

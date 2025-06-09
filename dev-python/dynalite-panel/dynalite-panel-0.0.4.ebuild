@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Dynalite panel for Home Assistant"
 HOMEPAGE="https://pypi.org/project/dynalite-panel/"
 SRC_URI="https://files.pythonhosted.org/packages/29/23/26427908d920b317c615e80fb1d3869b29d70fadd6e28dc418763d671daf/dynalite-panel-0.0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dynalite-panel-0.0.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

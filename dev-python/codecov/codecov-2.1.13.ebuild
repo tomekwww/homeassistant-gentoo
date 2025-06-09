@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Hosted coverage reports for GitHub Bitbucket and Gitlab"
 HOMEPAGE="https://github.com/codecov/codecov-python"
 SRC_URI="https://files.pythonhosted.org/packages/2c/bb/594b26d2c85616be6195a64289c578662678afa4910cef2d3ce8417cf73e/codecov-2.1.13.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/codecov-2.1.13"
 
 LICENSE="BSD"
 SLOT="0"

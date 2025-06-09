@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to interact with the Microsoft Graph API for personal OneDrives"
 HOMEPAGE="https://pypi.org/project/onedrive-personal-sdk/"
 SRC_URI="https://files.pythonhosted.org/packages/3f/14/540470d4b44b758329d6450b1a3bc24298f3ce4700726fd6c564d37cfa7e/onedrive_personal_sdk-0.0.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/onedrive_personal_sdk-0.0.14"
 
 LICENSE="MIT"
 SLOT="0"

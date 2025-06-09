@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An asyncio wrapper for the UK Environment Agency Flood Monitoring API"
 HOMEPAGE="https://pypi.org/project/aioeafm/"
 SRC_URI="https://files.pythonhosted.org/packages/96/18/ba4e9ad61add87b4a854be4e2812fb1c76dce53d467c9752fc741c47854b/aioeafm-0.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioeafm-0.1.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

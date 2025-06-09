@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API wrapper for Tautulli"
 HOMEPAGE="https://github.com/ludeeus/pytautulli"
 SRC_URI="https://files.pythonhosted.org/packages/96/ec/66108771b1b1aa6b3c4406e5dfcfb9aa539d8873167fb03a9befe7b24c22/pytautulli-23.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pytautulli-23.1.1"
 
 LICENSE="MIT"
 SLOT="0"

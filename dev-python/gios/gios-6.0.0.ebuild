@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for getting air quality data from GIO servers"
 HOMEPAGE="https://pypi.org/project/gios/"
 SRC_URI="https://files.pythonhosted.org/packages/56/ac/e22c90f5242a1027cf61edfa4938a9c6196e34f783c1556a64c72252842c/gios-6.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gios-6.0.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

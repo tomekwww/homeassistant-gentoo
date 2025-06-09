@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Communication library and basic testing tool for Satel Integra alarm system Communication via tcpip protocol published by SATEL"
 HOMEPAGE="https://github.com/c-soft/satel_integra"
 SRC_URI="https://files.pythonhosted.org/packages/83/92/990186661fc9c8273e58ca07e41ae44810c66ad4ec9a18401100e0bcf115/satel_integra-0.3.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/satel_integra-0.3.7"
 
 LICENSE="MIT"
 SLOT="0"

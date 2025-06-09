@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interact with Total Connect 2 alarm systems"
 HOMEPAGE="https://pypi.org/project/total-connect-client/"
 SRC_URI="https://files.pythonhosted.org/packages/5e/a7/5509977a052b484229158432a6c9fc2621b345f961bc02030d4eb266741f/total_connect_client-2025.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/total_connect_client-2025.1.4"
 
 LICENSE="BSD"
 SLOT="0"

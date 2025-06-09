@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="motionEye client library Python Package"
 HOMEPAGE="https://github.com/dermotduffy/motioneye-client"
 SRC_URI="https://files.pythonhosted.org/packages/41/4e/48b3a9ed9fb8e87d05f57d2a1a9ca61386ec81c2680a637a94609cc82ecf/motioneye-client-0.3.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/motioneye-client-0.3.14"
 
 LICENSE="MIT"
 SLOT="0"

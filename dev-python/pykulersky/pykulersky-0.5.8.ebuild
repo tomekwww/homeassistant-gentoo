@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to control Brightech Kuler Sky Bluetooth LED smart lamps"
 HOMEPAGE="https://github.com/emlove/pykulersky"
 SRC_URI="https://files.pythonhosted.org/packages/83/0e/5868515fb089411aa3edd1aeb8a9d19d12e0e43d375fac294286c92bec6e/pykulersky-0.5.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pykulersky-0.5.8"
 
 LICENSE="BSD"
 SLOT="0"

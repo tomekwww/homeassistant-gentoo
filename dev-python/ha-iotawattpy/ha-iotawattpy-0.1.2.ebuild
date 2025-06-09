@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for the IoTaWatt Energy device"
 HOMEPAGE="https://github.com/gtdiehl/iotawattpy"
 SRC_URI="https://files.pythonhosted.org/packages/d9/17/78c760a97e780179bc6c3c822fd754f6bbccc87db2899161377ceafd047b/ha-iotawattpy-0.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ha-iotawattpy-0.1.2"
 
 LICENSE="BSD"
 SLOT="0"

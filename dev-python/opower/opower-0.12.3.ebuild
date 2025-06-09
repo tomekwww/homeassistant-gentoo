@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library for getting historical and forecasted usagecost from utilities that use opowercom such as PGE"
 HOMEPAGE="https://pypi.org/project/opower/"
 SRC_URI="https://files.pythonhosted.org/packages/43/ae/413a6b010b8fcead005b3c55ebb559f6b0edf937694bc386700109f91c06/opower-0.12.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/opower-0.12.3"
 
 LICENSE="Apache-2.0"
 SLOT="0"

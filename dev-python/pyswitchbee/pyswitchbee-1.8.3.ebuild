@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SwitchBee Python Integration"
 HOMEPAGE="https://pypi.org/project/pyswitchbee/"
 SRC_URI="https://files.pythonhosted.org/packages/fe/2c/d6434e4c6c173733a0976907925d44380b08d00d616afb59b7ded94f8719/pyswitchbee-1.8.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyswitchbee-1.8.3"
 
 LICENSE="BSD"
 SLOT="0"

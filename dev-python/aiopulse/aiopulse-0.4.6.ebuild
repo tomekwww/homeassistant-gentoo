@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to control Rollease Acmeda Automate roller blinds via a version 1 Pulse Hub"
 HOMEPAGE="https://pypi.org/project/aiopulse/"
 SRC_URI="https://files.pythonhosted.org/packages/68/4f/405ebdc4b8c494c009ff77c337460272ddb85dbfd1311569033eb9bde0b7/aiopulse-0.4.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiopulse-0.4.6"
 
 LICENSE="BSD"
 SLOT="0"

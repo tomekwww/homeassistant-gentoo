@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Opensource home automation platform running on Python 3"
 HOMEPAGE="https://pypi.org/project/pyDuotecno/"
 SRC_URI="https://files.pythonhosted.org/packages/07/af/d5bbd051dff3d3d8487c675445eaa867b68785bbf45003ce7307d4aad817/pyduotecno-2024.10.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyduotecno-2024.10.1"
 
 LICENSE="BSD"
 SLOT="0"

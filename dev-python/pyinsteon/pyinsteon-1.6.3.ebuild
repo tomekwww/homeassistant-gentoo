@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Opensource Insteon home automation module running on Python 3"
 HOMEPAGE="https://pypi.org/project/pyinsteon/"
 SRC_URI="https://files.pythonhosted.org/packages/1a/a2/c370577c010495284ab8dfadff1973ad323a29530d33c880b1873e987eed/pyinsteon-1.6.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyinsteon-1.6.3"
 
 LICENSE="MIT"
 SLOT="0"

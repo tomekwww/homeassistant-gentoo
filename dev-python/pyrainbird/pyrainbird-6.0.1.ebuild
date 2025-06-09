@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Rain Bird Controller"
 HOMEPAGE="https://github.com/allenporter/pyrainbird"
 SRC_URI="https://files.pythonhosted.org/packages/e9/ab/683ae9b1786b6257ff57feb9cd93abb37b75eab2446d07f58283d3e1c364/pyrainbird-6.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyrainbird-6.0.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python tools for interacting with the IFTTT Maker Channel"
 HOMEPAGE="https://github.com/briandconnelly/pyfttt"
 SRC_URI="https://files.pythonhosted.org/packages/d3/31/33a96715acbbf64de9fcb8787b800f55cf97428c044f8613ca5e4a751136/pyfttt-0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyfttt-0.3"
 
 LICENSE="BSD"
 SLOT="0"

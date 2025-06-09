@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="ClearPass API Python Library"
 HOMEPAGE="https://github.com/zemerick1/clearpasspy"
 SRC_URI="https://files.pythonhosted.org/packages/77/13/907e3b19fd1962f4683c86b3d2f11820c964fe91c0aa9589da6bdbc21ab2/clearpasspy-1.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/clearpasspy-1.0.2"
 
 LICENSE="BSD"
 SLOT="0"

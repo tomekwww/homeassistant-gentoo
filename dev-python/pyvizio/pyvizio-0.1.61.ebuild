@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for interfacing with Vizio SmartCast TVs and Sound Bars 2016 models"
 HOMEPAGE="https://github.com/vkorn/pyvizio"
 SRC_URI="https://files.pythonhosted.org/packages/60/97/a9e977a44617916f94a70b2f0f333eff275b9d2b5039975c86e8c7634016/pyvizio-0.1.61.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyvizio-0.1.61"
 
 LICENSE="BSD"
 SLOT="0"

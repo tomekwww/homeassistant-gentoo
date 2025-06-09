@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Interface for librespotjava"
 HOMEPAGE="http://github.com/uvjustin/pylibrespot-java/"
 SRC_URI="https://files.pythonhosted.org/packages/e8/61/9e0f6b6c7318d91d1fd9ba214d5026227808440f4c45d38ee042337392aa/pylibrespot-java-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pylibrespot-java-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

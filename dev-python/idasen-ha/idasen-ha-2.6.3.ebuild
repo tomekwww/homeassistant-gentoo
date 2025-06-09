@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Home Assistant helper lib for the IKEA Idasen Desk integration"
 HOMEPAGE="https://pypi.org/project/idasen-ha/"
 SRC_URI="https://files.pythonhosted.org/packages/3b/f0/640fbdffec4533fb308eb1b1791e9066bc88e02a1c86312ad3aaa3ae2275/idasen_ha-2.6.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/idasen_ha-2.6.3"
 
 LICENSE="BSD"
 SLOT="0"

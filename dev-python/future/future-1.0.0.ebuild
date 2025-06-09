@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Clean singlesource support for Python 3 and 2"
 HOMEPAGE="https://python-future.org"
 SRC_URI="https://files.pythonhosted.org/packages/a7/b2/4140c69c6a66432916b26158687e821ba631a4c9273c474343badf84d3ba/future-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/future-1.0.0"
 
 LICENSE="MIT"
 SLOT="0"

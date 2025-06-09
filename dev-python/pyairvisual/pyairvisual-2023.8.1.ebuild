@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A simple API for AirVisual air quality data"
 HOMEPAGE="https://github.com/bachya/pyairvisual"
 SRC_URI="https://files.pythonhosted.org/packages/b6/30/f3919d860a8bd4ed539fbf98161b15cb7208bf8e86d13307bf8ef5d03cde/pyairvisual-2023.8.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyairvisual-2023.8.1"
 
 LICENSE="MIT"
 SLOT="0"

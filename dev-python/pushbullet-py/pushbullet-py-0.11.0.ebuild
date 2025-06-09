@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A simple python client for pushbulletcom"
 HOMEPAGE="https://github.com/randomchars/pushbullet.py"
 SRC_URI="https://files.pythonhosted.org/packages/e7/cf/189c94d02f7c094a4d943004f7a08d854ca7624e1017d4f1c212e7fbdabd/pushbullet.py-0.11.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pushbullet.py-0.11.0"
 
 LICENSE="MIT"
 SLOT="0"

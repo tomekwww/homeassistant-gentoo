@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="KNX panel for Home Assistant"
 HOMEPAGE="https://pypi.org/project/knx-frontend/"
 SRC_URI="https://files.pythonhosted.org/packages/9d/f1/2e7b7bbbfd28f14bc284c96b14b3734fac151771a5c835d5cf614c50808c/knx_frontend-2025.4.1.91934.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/knx_frontend-2025.4.1.91934"
 
 LICENSE="MIT"
 SLOT="0"

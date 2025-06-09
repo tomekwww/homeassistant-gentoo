@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python wrapper for the Discord API forked from discordpy"
 HOMEPAGE="https://github.com/nextcord/nextcord"
 SRC_URI="https://files.pythonhosted.org/packages/f2/0e/347795cec6bc841ed426bc5e112380335869e9ba0922c5ed7ec7bb8ab1a5/nextcord-2.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nextcord-2.6.0"
 
 LICENSE="MIT"
 SLOT="0"

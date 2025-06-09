@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for the Arris TG2492LG"
 HOMEPAGE="https://github.com/vanbalken/arris-tg2492lg"
 SRC_URI="https://files.pythonhosted.org/packages/8f/52/a938f1178bba2c6480d92cb607f883f26f397c72ae5069015c33bcdd8d88/arris-tg2492lg-2.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/arris-tg2492lg-2.2.0"
 
 LICENSE="BSD"
 SLOT="0"

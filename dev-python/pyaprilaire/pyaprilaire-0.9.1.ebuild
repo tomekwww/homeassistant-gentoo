@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION=""
 HOMEPAGE="https://pypi.org/project/pyaprilaire/"
 SRC_URI="https://files.pythonhosted.org/packages/47/cf/2ee837bb2c6afdc74769e0c55a8d09c34f0af7fa0d670bee2212ce57c6c1/pyaprilaire-0.9.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyaprilaire-0.9.1"
 
 LICENSE="BSD"
 SLOT="0"

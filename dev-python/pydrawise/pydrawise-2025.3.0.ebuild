@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for interacting with Hydrawise sprinkler controllers"
 HOMEPAGE="https://pypi.org/project/pydrawise/"
 SRC_URI="https://files.pythonhosted.org/packages/bd/e1/c8b5091f53c5d9a171f5830548c9130a638cea1afa6bbb3b157ff88b1703/pydrawise-2025.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydrawise-2025.3.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

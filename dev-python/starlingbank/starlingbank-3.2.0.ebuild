@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An unofficial python package that provides access to parts of the Starling bank API Designed to be used for personal use ie using personal access tokens"
 HOMEPAGE="https://github.com/Dullage/starlingbank"
 SRC_URI="https://files.pythonhosted.org/packages/74/83/904e0a8be3cb14ddb314feebc8480c021f344f4f3335969ddd29891bbafd/starlingbank-3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/starlingbank-3.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python iCalendar implementation rfc 2445"
 HOMEPAGE="https://github.com/allenporter/ical"
 SRC_URI="https://files.pythonhosted.org/packages/89/c2/48593501904826043aa758ac664309e8048c3a67a0826a292c4b439df456/ical-10.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ical-10.0.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

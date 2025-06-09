@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Automated JSON API based communication with Samsung SyncThru Web Service"
 HOMEPAGE="https://github.com/nielstron/pysyncthru/"
 SRC_URI="https://files.pythonhosted.org/packages/8e/15/c61568c333c16f6f27b89da8ce006ae6dae25f86aee8b96bb27eb3ac8dd5/PySyncThru-0.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/PySyncThru-0.8.0"
 
 LICENSE="MIT"
 SLOT="0"

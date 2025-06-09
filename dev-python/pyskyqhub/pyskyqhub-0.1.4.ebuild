@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library for Sky Q hub"
 HOMEPAGE="https://github.com/RogerSelwyn/skyq_hub"
 SRC_URI="https://files.pythonhosted.org/packages/c3/c2/f787b37a294d1a750e1299986ad4777b3f7c967cdd5857fbb6ae7815cf94/pyskyqhub-0.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyskyqhub-0.1.4"
 
 LICENSE="MIT"
 SLOT="0"

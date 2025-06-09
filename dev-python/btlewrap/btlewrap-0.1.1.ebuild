@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="wrapper around different bluetooth low energy backends"
 HOMEPAGE="https://github.com/ChristianKuehnel/btlewrap"
 SRC_URI="https://files.pythonhosted.org/packages/8b/08/fce5925b2aea22fbd715abf6039214bdd7214b34a26c3c9d59eafb46a51e/btlewrap-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/btlewrap-0.1.1"
 
 LICENSE="MIT"
 SLOT="0"

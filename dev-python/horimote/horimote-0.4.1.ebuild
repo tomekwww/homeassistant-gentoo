@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async API wrapper for Samsumgs settop boxes SMTG7400 and SMTG7401"
 HOMEPAGE="https://github.com/benleb/horimote"
 SRC_URI="https://files.pythonhosted.org/packages/7e/c9/53653eaa596939de4e14758fd63d62ae1b5e715a34abdd18ad46dfa68136/horimote-0.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/horimote-0.4.1"
 
 LICENSE="MIT"
 SLOT="0"

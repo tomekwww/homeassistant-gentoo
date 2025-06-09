@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library to interface with V2C EVSE Trydan"
 HOMEPAGE="https://github.com/dgomes/pytrydan"
 SRC_URI="https://files.pythonhosted.org/packages/80/7c/c3d3275a0acf892ecd24398f3f93e8b7444c361d85edb7c401e4b40f293b/pytrydan-0.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pytrydan-0.8.0"
 
 LICENSE="MIT"
 SLOT="0"

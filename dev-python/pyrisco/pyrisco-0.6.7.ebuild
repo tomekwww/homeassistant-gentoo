@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library to communicate with Risco Cloud"
 HOMEPAGE="https://github.com/OnFreund/PyRisco"
 SRC_URI="https://files.pythonhosted.org/packages/d5/a5/8aac4be61fd3c95799786bfd637869b51240234cf0e0921f585c298d3151/pyrisco-0.6.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyrisco-0.6.7"
 
 LICENSE="MIT"
 SLOT="0"

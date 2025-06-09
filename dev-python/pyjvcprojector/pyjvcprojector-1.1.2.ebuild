@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library for controlling a JVC Projector over a network connection"
 HOMEPAGE="https://github.com/SteveEasley/pyjvcprojector"
 SRC_URI="https://files.pythonhosted.org/packages/d4/b6/4a0f964dee4e657ffae0d5b9c9b6db93f7a3c948cce538d13a10fc1eba38/pyjvcprojector-1.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyjvcprojector-1.1.2"
 
 LICENSE="BSD"
 SLOT="0"

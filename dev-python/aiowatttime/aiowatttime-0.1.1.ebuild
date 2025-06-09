@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An asynciobased Python3 library for interacting with WattTime"
 HOMEPAGE="https://github.com/bachya/aiowatttime"
 SRC_URI="https://files.pythonhosted.org/packages/53/25/0c6ae9b259a9f95ba9d77886b6ba28e28e5582b4e13903b6eb7d25caa3da/aiowatttime-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiowatttime-0.1.1"
 
 LICENSE="MIT"
 SLOT="0"

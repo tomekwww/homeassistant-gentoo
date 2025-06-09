@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for getting air quality data from Nettigo Air Monitor devices"
 HOMEPAGE="https://pypi.org/project/nettigo-air-monitor/"
 SRC_URI="https://files.pythonhosted.org/packages/fe/0c/e7a3b608abf20549355731659c133b80909f75f87ea77fc1a4ddab6aea37/nettigo_air_monitor-4.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nettigo_air_monitor-4.1.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

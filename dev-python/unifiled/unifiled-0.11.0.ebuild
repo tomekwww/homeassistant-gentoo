@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Easily connect to Ubiquiti Unifi led devices"
 HOMEPAGE="https://github.com/florisvdk/unifiled"
 SRC_URI="https://files.pythonhosted.org/packages/20/b9/7972dc1c156272e2e39a0eee42b08b6a45fdddf5313167fa08b7a48d353a/unifiled-0.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/unifiled-0.11"
 
 LICENSE="MIT"
 SLOT="0"

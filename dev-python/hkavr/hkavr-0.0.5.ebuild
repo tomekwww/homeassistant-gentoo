@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library for controlling a Harman Kardon AVR"
 HOMEPAGE="https://github.com/Devqon/hkavr"
 SRC_URI="https://files.pythonhosted.org/packages/49/c8/f90b4350a3012d3757ec8581947d76d37c40cb2f9c38a258af26079e7daa/hkavr-0.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/hkavr-0.0.5"
 
 LICENSE="MIT"
 SLOT="0"

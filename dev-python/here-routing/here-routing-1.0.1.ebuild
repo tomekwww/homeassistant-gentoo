@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for the HERE Routing V8 API"
 HOMEPAGE="https://pypi.org/project/here_routing/"
 SRC_URI="https://files.pythonhosted.org/packages/45/19/1c0d5af187a5a4424aa7d215023815f88b0d4e42ef5933565a657b3ffc34/here_routing-1.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/here_routing-1.0.1"
 
 LICENSE="BSD"
 SLOT="0"

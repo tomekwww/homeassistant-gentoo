@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper around nextcloud monitor api"
 HOMEPAGE="https://pypi.org/project/nextcloudmonitor/"
 SRC_URI="https://files.pythonhosted.org/packages/4a/39/b2350b17ea91fb790f3c2b8b629b50b574c8b50b4e88bb0602c4c5a7bc57/nextcloudmonitor-1.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nextcloudmonitor-1.5.1"
 
 LICENSE="BSD"
 SLOT="0"

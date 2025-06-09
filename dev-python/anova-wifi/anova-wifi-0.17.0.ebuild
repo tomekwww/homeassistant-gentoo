@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A package to get read only data from Anova precision cookers with wifi"
 HOMEPAGE="https://github.com/Lash-L/anova-wifi"
 SRC_URI="https://files.pythonhosted.org/packages/a4/29/270d4f9f0d7b3da5881dc709f977f2d67f7756cbccbe1b70d10316c14edb/anova_wifi-0.17.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/anova_wifi-0.17.0"
 
 LICENSE="MIT"
 SLOT="0"

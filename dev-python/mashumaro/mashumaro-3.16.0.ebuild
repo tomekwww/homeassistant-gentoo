@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Fast and well tested serialization library"
 HOMEPAGE="https://github.com/Fatal1ty/mashumaro"
 SRC_URI="https://files.pythonhosted.org/packages/d7/92/4c1ac8d819fba3d6988876cadd922803818905a50d22d2027581366e8142/mashumaro-3.16.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mashumaro-3.16"
 
 LICENSE="BSD"
 SLOT="0"

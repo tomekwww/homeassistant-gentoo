@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="The official Python library for the anthropic API"
 HOMEPAGE="https://pypi.org/project/anthropic/"
 SRC_URI="https://files.pythonhosted.org/packages/57/fd/8a9332f5baf352c272494a9d359863a53385a208954c1a7251a524071930/anthropic-0.52.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/anthropic-0.52.0"
 
 LICENSE="MIT"
 SLOT="0"

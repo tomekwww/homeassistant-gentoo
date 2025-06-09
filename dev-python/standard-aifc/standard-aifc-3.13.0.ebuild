@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Standard library aifc redistribution dead battery"
 HOMEPAGE="https://pypi.org/project/standard-aifc/"
 SRC_URI="https://files.pythonhosted.org/packages/c4/53/6050dc3dde1671eb3db592c13b55a8005e5040131f7509cef0215212cb84/standard_aifc-3.13.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/standard_aifc-3.13.0"
 
 LICENSE="PSF-2"
 SLOT="0"

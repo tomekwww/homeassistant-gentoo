@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python package for creating a client that talks with SIAbased alarm systems"
 HOMEPAGE="https://pypi.org/project/pysiaalarm/"
 SRC_URI="https://files.pythonhosted.org/packages/1e/7f/d59ec1f7abe14d0a1d86f7f5df0bfcc76928a8c212c10921a1fd3c2dd6d4/pysiaalarm-3.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysiaalarm-3.1.1"
 
 LICENSE="MIT"
 SLOT="0"

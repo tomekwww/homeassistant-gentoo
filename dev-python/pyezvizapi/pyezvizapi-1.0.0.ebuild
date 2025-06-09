@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Pilot your Ezviz cameras"
 HOMEPAGE="https://github.com/RenierM26/pyEzvizApi/"
 SRC_URI="https://files.pythonhosted.org/packages/41/a4/d065ed54d6f1a0c2f03dd6cbbd2a807ae912773e369d4beaaccc64e50cf9/pyezvizapi-1.0.0.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyezvizapi-1.0.0.9"
 
 LICENSE="BSD"
 SLOT="0"

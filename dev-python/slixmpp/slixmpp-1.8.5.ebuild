@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Slixmpp is an elegant Python library for XMPP aka Jabber"
 HOMEPAGE="https://codeberg.org/poezio/slixmpp"
 SRC_URI="https://files.pythonhosted.org/packages/d7/fa/90ab79fd2fffcee8558cd8daa69543486d3f89b25b84890011ff1a6b378f/slixmpp-1.8.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/slixmpp-1.8.5"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Reolink NVRcameras API package"
 HOMEPAGE="https://github.com/starkillerOG/reolink_aio"
 SRC_URI="https://files.pythonhosted.org/packages/5f/82/43767e6f2728f504e00640f608a71c7552607fdf22fc79f7fc58d3451faf/reolink_aio-0.13.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/reolink_aio-0.13.4"
 
 LICENSE="MIT"
 SLOT="0"

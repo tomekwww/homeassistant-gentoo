@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An asynchronous Python library to communicate with Sonos devices over websockets"
 HOMEPAGE="https://pypi.org/project/sonos-websocket/"
 SRC_URI="https://files.pythonhosted.org/packages/d7/67/8b62c744c1a0b8ef686ee28a9f43d082e82cad9986ac8c63d759abb7135f/sonos-websocket-0.1.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sonos-websocket-0.1.3"
 
 LICENSE="MIT"
 SLOT="0"

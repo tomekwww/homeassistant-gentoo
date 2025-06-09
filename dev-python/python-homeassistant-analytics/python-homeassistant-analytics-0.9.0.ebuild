@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for Homeassistant Analytics"
 HOMEPAGE="https://pypi.org/project/python-homeassistant-analytics/"
 SRC_URI="https://files.pythonhosted.org/packages/da/5d/4d6a425b9fab64a4406add833cbf74ae4ed48b54172d608e57f67dffc39f/python_homeassistant_analytics-0.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_homeassistant_analytics-0.9.0"
 
 LICENSE="MIT"
 SLOT="0"

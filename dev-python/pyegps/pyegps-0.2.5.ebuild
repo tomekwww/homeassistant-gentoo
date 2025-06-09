@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Controlling Energenie Power Strips with python"
 HOMEPAGE="https://pypi.org/project/pyEGPS/"
 SRC_URI="https://files.pythonhosted.org/packages/55/06/2173573103acfeab15b5dc396fb4622551a9b4094aecb768528fd6854c03/pyEGPS-0.2.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyEGPS-0.2.5"
 
 LICENSE="Apache-2.0"
 SLOT="0"

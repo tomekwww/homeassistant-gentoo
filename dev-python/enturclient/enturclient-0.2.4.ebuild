@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An API client for public transport data from Entur"
 HOMEPAGE="https://github.com/hfurubotten/enturclient"
 SRC_URI="https://files.pythonhosted.org/packages/0a/a0/66dfd159a753f8ce845974dbe8998a33844f5b0a6d1790aa3d296df3ac6e/enturclient-0.2.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/enturclient-0.2.4"
 
 LICENSE="MIT"
 SLOT="0"

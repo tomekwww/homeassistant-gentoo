@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="PS4 2nd Screen Python Library"
 HOMEPAGE="https://github.com/ktnrg45/pyps4-2ndscreen"
 SRC_URI="https://files.pythonhosted.org/packages/f6/a2/57d7fc4eb36aae838e068ea26f297407257d4a972c8b5d4c019b7b95d93f/pyps4_2ndscreen-1.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyps4_2ndscreen-1.3.1"
 
 LICENSE="BSD"
 SLOT="0"

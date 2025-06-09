@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for interacting with the Nissan Leaf Carwings telematics service"
 HOMEPAGE="https://github.com/filcole/pycarwings2"
 SRC_URI="https://files.pythonhosted.org/packages/9f/a2/e2163a5f55f89c52b37c4fad43c3a19951eba1314ce83acfc8d2a3f06d33/pycarwings2-2.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pycarwings2-2.14"
 
 LICENSE="BSD"
 SLOT="0"

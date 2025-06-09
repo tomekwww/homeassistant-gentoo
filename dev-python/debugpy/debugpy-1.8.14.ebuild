@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An implementation of the Debug Adapter Protocol for Python"
 HOMEPAGE="https://aka.ms/debugpy"
 SRC_URI="https://files.pythonhosted.org/packages/bd/75/087fe07d40f490a78782ff3b0a30e3968936854105487decdb33446d4b0e/debugpy-1.8.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/debugpy-1.8.14"
 
 LICENSE="MIT"
 SLOT="0"

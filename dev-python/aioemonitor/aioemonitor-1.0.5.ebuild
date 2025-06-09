@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asyncio Python lib for SiteSage Emonitor"
 HOMEPAGE="https://github.com/bdraco/aioemonitor"
 SRC_URI="https://files.pythonhosted.org/packages/e5/ad/3aea32b16aeb0da438d58e59f3252d25747d019a55f92e75313d4bab1d5c/aioemonitor-1.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioemonitor-1.0.5"
 
 LICENSE="BSD"
 SLOT="0"

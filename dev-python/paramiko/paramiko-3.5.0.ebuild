@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SSH2 protocol library"
 HOMEPAGE="https://paramiko.org"
 SRC_URI="https://files.pythonhosted.org/packages/1b/0f/c00296e36ff7485935b83d466c4f2cf5934b84b0ad14e81796e1d9d3609b/paramiko-3.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/paramiko-3.5.0"
 
 LICENSE="BSD"
 SLOT="0"

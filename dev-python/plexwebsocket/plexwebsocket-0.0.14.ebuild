@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Support for issuing callbacks in response to Plex websocket updates"
 HOMEPAGE="https://github.com/jjlawren/python-plexwebsocket/"
 SRC_URI="https://files.pythonhosted.org/packages/dd/53/e37efeb5e29bc2c3036cb4b06257fd2b4699a88a7269cc2233337b93e5c9/plexwebsocket-0.0.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/plexwebsocket-0.0.14"
 
 LICENSE="MIT"
 SLOT="0"

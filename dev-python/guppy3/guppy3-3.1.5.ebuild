@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Guppy 3  GuppyPE ported to Python 3"
 HOMEPAGE="https://github.com/zhuyifei1999/guppy3/"
 SRC_URI="https://files.pythonhosted.org/packages/0f/bb/d498ab5132830ea6246ba320358048b4ff046d8f063369f121750b807a1d/guppy3-3.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/guppy3-3.1.5"
 
 LICENSE="MIT"
 SLOT="0"

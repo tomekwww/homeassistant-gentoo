@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="DIDLLite Digital Item Declaration Language tools for Python"
 HOMEPAGE="https://github.com/StevenLooman/python-didl-lite"
 SRC_URI="https://files.pythonhosted.org/packages/dd/0a/01ec612e1585accad47edfd15d7281006f2906811353524d172825c3f3b9/python_didl_lite-1.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_didl_lite-1.4.1"
 
 LICENSE="BSD"
 SLOT="0"

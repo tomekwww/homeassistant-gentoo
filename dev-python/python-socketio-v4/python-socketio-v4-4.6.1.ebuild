@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SocketIO server"
 HOMEPAGE="http://github.com/bdraco/python-socketio-v4/"
 SRC_URI="https://files.pythonhosted.org/packages/99/ff/894dcc57658db343aa410d4a6f5208f021cf89bb5b650833af67225e817a/python-socketio-v4-4.6.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-socketio-v4-4.6.1"
 
 LICENSE="MIT"
 SLOT="0"

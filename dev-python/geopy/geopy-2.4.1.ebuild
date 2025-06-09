@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Geocoding Toolbox"
 HOMEPAGE="https://github.com/geopy/geopy"
 SRC_URI="https://files.pythonhosted.org/packages/0e/fd/ef6d53875ceab72c1fad22dbed5ec1ad04eb378c2251a6a8024bad890c3b/geopy-2.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/geopy-2.4.1"
 
 LICENSE="MIT"
 SLOT="0"

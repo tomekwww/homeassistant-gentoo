@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async GeoJSON client library for GeoNet NZ Quakes feed"
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-geonetnz-quakes"
 SRC_URI="https://files.pythonhosted.org/packages/18/31/846d2bb728122265bdda5304d9cbe1a52b1fdf373f89ef0d0a5af7aac8ce/aio_geojson_geonetnz_quakes-0.16.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio_geojson_geonetnz_quakes-0.16"
 
 LICENSE="Apache-2.0"
 SLOT="0"

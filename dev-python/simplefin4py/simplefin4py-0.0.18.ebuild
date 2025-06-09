@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION=""
 HOMEPAGE="https://pypi.org/project/simplefin4py/"
 SRC_URI="https://files.pythonhosted.org/packages/e2/65/fad11bba41909863b1b812286de243bce6433c0b782342ddb2b3cb54e684/simplefin4py-0.0.18.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/simplefin4py-0.0.18"
 
 LICENSE="MIT"
 SLOT="0"

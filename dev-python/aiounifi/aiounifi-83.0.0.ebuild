@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for communicating with UniFi Network Controller API"
 HOMEPAGE="https://pypi.org/project/aiounifi/"
 SRC_URI="https://files.pythonhosted.org/packages/98/fe/fbc3d80b52077f3eaea2b1aa584f1ed1a7ae874a29b73b8b4625966cbb77/aiounifi-83.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiounifi-83"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Library for Vivotek IP Cameras"
 HOMEPAGE="https://github.com/HarlemSquirrel/python-vivotek"
 SRC_URI="https://files.pythonhosted.org/packages/d9/0d/0fa80b1b3cb707eed1a52da6f6e2fcdefeb108d0ef8219d94291af587895/libpyvivotek-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/libpyvivotek-0.4.0"
 
 LICENSE="BSD"
 SLOT="0"

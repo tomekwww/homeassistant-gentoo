@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple wrapper client for the Vilfo router API"
 HOMEPAGE="https://github.com/mannew/vilfo-api-client-python"
 SRC_URI="https://files.pythonhosted.org/packages/e9/56/201d04ef265a0fd267169863192b2f431de6d33a154272779aac312429d6/vilfo-api-client-0.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/vilfo-api-client-0.5.0"
 
 LICENSE="MIT"
 SLOT="0"

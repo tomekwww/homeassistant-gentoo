@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to control QNAP QSW devices"
 HOMEPAGE="https://pypi.org/project/aioqsw/"
 SRC_URI="https://files.pythonhosted.org/packages/e3/a9/1221fa2d04f67c89f95e2a5f6e4aac9b6c3c299ca4cfc260d9c4d789ee66/aioqsw-0.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioqsw-0.4.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for TwinCAT ADS library"
 HOMEPAGE="https://github.com/MrLeeh/pyads"
 SRC_URI="https://files.pythonhosted.org/packages/28/2c/c0ed9c23551fe9cd8530dcf71043126ee51b941a611b86732d932d5fb62a/pyads-3.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyads-3.4.0"
 
 LICENSE="BSD"
 SLOT="0"

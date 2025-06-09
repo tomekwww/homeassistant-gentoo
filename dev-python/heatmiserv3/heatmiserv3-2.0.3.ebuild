@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library to interact with Heatmiser Themostats using V3 protocol"
 HOMEPAGE="https://pypi.org/project/heatmiserv3/"
 SRC_URI="https://files.pythonhosted.org/packages/63/4f/468e98d0fddefc736a2a493e69aeb6f734f5855258010eb3bfe9b7f81f60/heatmiserv3-2.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/heatmiserv3-2.0.3"
 
 LICENSE="MIT"
 SLOT="0"

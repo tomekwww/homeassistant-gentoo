@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library to connect to and interact with Flic buttons"
 HOMEPAGE="https://github.com/soldag/pyflic"
 SRC_URI="https://files.pythonhosted.org/packages/e3/07/89cf7f0636fb47a0253fa850f8c4b4a5a3a3e69227889d53e8d1e8b21aef/pyflic-2.0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyflic-2.0.4"
 
 LICENSE="MIT"
 SLOT="0"

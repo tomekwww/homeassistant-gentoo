@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python API wrapper to retrieve warnings from the german NINA app"
 HOMEPAGE="https://gitlab.com/DeerMaximum/pynina"
 SRC_URI="https://files.pythonhosted.org/packages/34/f6/eb79158bf34761eb9ceb8a1e85612cc2fec3bef029b04e0ec04ccbe81c87/pynina-0.3.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pynina-0.3.6"
 
 LICENSE="MIT"
 SLOT="0"

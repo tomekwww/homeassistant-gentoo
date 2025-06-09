@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python sdk for Tuya Open API which provides IoT capabilities maintained by Tuya official"
 HOMEPAGE="https://github.com/tuya/tuya-device-sharing-sdk"
 SRC_URI="https://files.pythonhosted.org/packages/b6/95/21737fb84c23571694a41518eef425d7a31d7d4e179be0927597754d713f/tuya-device-sharing-sdk-0.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tuya-device-sharing-sdk-0.2.1"
 
 LICENSE="MIT"
 SLOT="0"

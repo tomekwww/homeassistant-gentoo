@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An Dict like LRU container"
 HOMEPAGE="https://pypi.org/project/lru-dict/"
 SRC_URI="https://files.pythonhosted.org/packages/96/e3/42c87871920602a3c8300915bd0292f76eccc66c38f782397acbf8a62088/lru-dict-1.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/lru-dict-1.3.0"
 
 LICENSE="MIT"
 SLOT="0"

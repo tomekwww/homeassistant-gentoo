@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async version of apcaccess library implemented in python"
 HOMEPAGE="https://pypi.org/project/aioapcaccess/"
 SRC_URI="https://github.com/yuxincs/aioapcaccess/archive/refs/tags/v0.4.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioapcaccess-0.4.2"
 
 LICENSE="MIT"
 SLOT="0"

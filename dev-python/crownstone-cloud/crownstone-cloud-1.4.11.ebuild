@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION=""
 HOMEPAGE="https://github.com/Crownstone-Community/crownstone-lib-python-cloud"
 SRC_URI="https://files.pythonhosted.org/packages/49/93/04b79cfc0a5ba5ba4bbaaaeef721733ec8d347a3f01c6a68f89fa8c5d1ec/crownstone_cloud-1.4.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/crownstone_cloud-1.4.11"
 
 LICENSE="BSD"
 SLOT="0"

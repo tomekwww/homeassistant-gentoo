@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="multi backend asyncio cache"
 HOMEPAGE="https://github.com/aio-libs/aiocache"
 SRC_URI="https://files.pythonhosted.org/packages/7a/64/b945b8025a9d1e6e2138845f4022165d3b337f55f50984fbc6a4c0a1e355/aiocache-0.12.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiocache-0.12.3"
 
 LICENSE="BSD"
 SLOT="0"

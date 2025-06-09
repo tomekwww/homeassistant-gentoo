@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Related Straightforward nested object models in Python"
 HOMEPAGE="https://github.com/Antoni-Czaplicki/related-without-future"
 SRC_URI="https://files.pythonhosted.org/packages/f5/74/84685ef2dd329d56212cc16cf721494f925cf4407b351a48dd07e60807cc/related-without-future-0.7.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/related-without-future-0.7.4"
 
 LICENSE="MIT"
 SLOT="0"

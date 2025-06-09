@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interface Library for Venstar ColorTouch Thermostat API v5"
 HOMEPAGE="https://github.com/hpeyerl/venstar_colortouch"
 SRC_URI="https://files.pythonhosted.org/packages/90/9f/b0d7b82d8c770878865f5c49f0675ed10e5f24c17885a3cfa323368438b3/venstarcolortouch-0.19.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/venstarcolortouch-0.19"
 
 LICENSE="MIT"
 SLOT="0"

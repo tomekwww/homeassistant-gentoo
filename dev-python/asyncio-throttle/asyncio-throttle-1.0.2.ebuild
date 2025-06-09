@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple easytouse throttler for asyncio"
 HOMEPAGE="https://github.com/hallazzang/asyncio-throttle"
 SRC_URI="https://files.pythonhosted.org/packages/13/6f/0e2d42c0e95d50edf63147b8a742703061945e02760f25d6a0e8f028ccb0/asyncio-throttle-1.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/asyncio-throttle-1.0.2"
 
 LICENSE="MIT"
 SLOT="0"

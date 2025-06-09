@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Parser for Thermobeacon devices"
 HOMEPAGE="https://pypi.org/project/thermobeacon-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/73/37/8bcd1f3ab9487947cea227cb7601932f77c8680a5b213bb3422321fd7fc6/thermobeacon_ble-0.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/thermobeacon_ble-0.10.0"
 
 LICENSE="MIT"
 SLOT="0"

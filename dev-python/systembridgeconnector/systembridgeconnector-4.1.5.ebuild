@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="System Bridge Connector"
 HOMEPAGE="https://github.com/timmo001/system-bridge-connector"
 SRC_URI="https://files.pythonhosted.org/packages/d2/ff/b7fb7805ec2a424aaa60a205821015fc0cdc54d60b9f96c9ccb0db60de5e/systembridgeconnector-4.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/systembridgeconnector-4.1.5"
 
 LICENSE="Apache-2.0"
 SLOT="0"

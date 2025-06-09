@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="a library for controlling certain robot vacuums"
 HOMEPAGE="https://github.com/mib1185/py-sucks"
 SRC_URI="https://files.pythonhosted.org/packages/3c/ad/ca4ac217679b18a84f26de62e6f1e9f24819ced5bbed35e4a0420ad42af6/py-sucks-0.9.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-sucks-0.9.11"
 
 LICENSE="GPL-3"
 SLOT="0"

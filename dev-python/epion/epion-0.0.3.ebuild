@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python API wrapper for Epion Air senor data"
 HOMEPAGE="https://github.com/devenzo-com/epion_python"
 SRC_URI="https://files.pythonhosted.org/packages/bb/66/187fe93734d69efc68295f188352612578baa912fbd370b92d35800c49ec/epion-0.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/epion-0.0.3"
 
 LICENSE="MIT"
 SLOT="0"

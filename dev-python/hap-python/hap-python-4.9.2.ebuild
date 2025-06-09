@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="HomeKit Accessory Protocol implementation in python"
 HOMEPAGE="https://github.com/ikalchev/HAP-python"
 SRC_URI="https://files.pythonhosted.org/packages/4e/a6/b25430858a4d213e7a3bb1135b70d77d61d2bbc46480a38751b87ca2f9a1/hap_python-4.9.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/hap_python-4.9.2"
 
 LICENSE="BSD"
 SLOT="0"

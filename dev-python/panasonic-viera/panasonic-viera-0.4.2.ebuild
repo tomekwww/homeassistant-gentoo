@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library to control Panasonic Viera TVs"
 HOMEPAGE="https://pypi.org/project/panasonic-viera/"
 SRC_URI="https://files.pythonhosted.org/packages/ff/6c/1ff31d78c4392b901a8f55a0e76be1a61bea04019b5ef0c226dec7a5d7e3/panasonic_viera-0.4.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/panasonic_viera-0.4.2"
 
 LICENSE="MIT"
 SLOT="0"

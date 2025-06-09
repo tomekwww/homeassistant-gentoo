@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Synology SRM API"
 HOMEPAGE="https://github.com/aerialls/synology-srm"
 SRC_URI="https://files.pythonhosted.org/packages/cd/a1/452d3227810b23df4dc5099acf84d575d3e01fc2ed5f3df153a4104744f5/synology-srm-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/synology-srm-0.2.0"
 
 LICENSE="MIT"
 SLOT="0"

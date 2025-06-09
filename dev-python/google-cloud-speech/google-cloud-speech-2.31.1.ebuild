@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Google Cloud Speech API client library"
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-speech"
 SRC_URI="https://files.pythonhosted.org/packages/3e/06/d50873b1b621b929d5d0befacf1c12ee6bf01d7d119e9355e1b6b7c742f9/google_cloud_speech-2.31.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/google_cloud_speech-2.31.1"
 
 LICENSE="BSD"
 SLOT="0"

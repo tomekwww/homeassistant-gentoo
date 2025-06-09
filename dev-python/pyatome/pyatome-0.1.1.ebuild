@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Get your energy consumption from Atome Linky device"
 HOMEPAGE="http://github.com/baqs/pyAtome/"
 SRC_URI="https://files.pythonhosted.org/packages/62/39/97cb54bf9757d99f22b63c23096aeb42cc9ca3e0480a6091b9215289e96f/pyAtome-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyAtome-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

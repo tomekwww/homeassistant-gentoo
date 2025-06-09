@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for controlling Melcloud devices"
 HOMEPAGE="https://pypi.org/project/python-melcloud/"
 SRC_URI="https://files.pythonhosted.org/packages/57/49/88da8e2b415b43b83d184a5fd87d2fcef19f1f3248e48af30c3cedab7110/python_melcloud-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_melcloud-0.1.0"
 
 LICENSE="MIT"
 SLOT="0"

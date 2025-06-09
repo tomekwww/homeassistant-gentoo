@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Nibe heatpump communication library"
 HOMEPAGE="https://github.com/yozik04/nibe"
 SRC_URI="https://files.pythonhosted.org/packages/e7/ad/f0226424e69155dbd3a78af931c1c285d9b1a062115f4c12d8bf1d57207b/nibe-2.17.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nibe-2.17.0"
 
 LICENSE="BSD"
 SLOT="0"

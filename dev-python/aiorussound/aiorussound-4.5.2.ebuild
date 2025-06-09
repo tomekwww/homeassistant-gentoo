@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asyncio client for Russound RIO devices"
 HOMEPAGE="https://pypi.org/project/aiorussound/"
 SRC_URI="https://files.pythonhosted.org/packages/5e/9c/f8e86b19c000b7741a87f86b753bb497c8404aeda4968982c8d5d0fa4b6a/aiorussound-4.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiorussound-4.5.2"
 
 LICENSE="MIT"
 SLOT="0"

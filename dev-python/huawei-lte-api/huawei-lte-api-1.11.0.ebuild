@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API For huawei LANWAN LTE Modems"
 HOMEPAGE="https://github.com/Salamek/huawei-lte-api"
 SRC_URI="https://files.pythonhosted.org/packages/8f/ce/5b97c866656fa0d706e69acf6a79635837538599f98761756590c65e4a37/huawei-lte-api-1.11.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/huawei-lte-api-1.11.0"
 
 LICENSE="LGPL-3"
 SLOT="0"

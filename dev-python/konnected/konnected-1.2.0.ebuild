@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async Python library for interacting with Konnected home automation controllers see httpskonnectedio"
 HOMEPAGE="https://github.com/konnected-io/konnected-py"
 SRC_URI="https://files.pythonhosted.org/packages/36/5e/fbecfc52432d7c819fc8a4424ca32a2fe08b8e9338548705785c06efb769/konnected-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/konnected-1.2.0"
 
 LICENSE="MIT"
 SLOT="0"

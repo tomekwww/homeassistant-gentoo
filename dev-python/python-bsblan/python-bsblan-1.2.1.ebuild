@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for BSBLAN API"
 HOMEPAGE="https://github.com/liudger/python-bsblan"
 SRC_URI="https://files.pythonhosted.org/packages/34/4b/7da570332abb7f0bd4e017e08796cdb67dde6e9dcde2c3a2a2b44870a4be/python_bsblan-1.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_bsblan-1.2.1"
 
 LICENSE="MIT"
 SLOT="0"

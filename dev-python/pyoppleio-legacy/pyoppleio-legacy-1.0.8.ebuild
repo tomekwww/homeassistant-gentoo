@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for interfacing with old models of opple lights with wifi control"
 HOMEPAGE="https://github.com/tinysnake/python-oppleio-legacy"
 SRC_URI="https://github.com/tinysnake/python-oppleio-legacy/archive/refs/heads/main.zip -> ${P}.gh.zip"
+S="${WORKDIR}/python-oppleio-legacy-main"
 
 LICENSE="MIT"
 SLOT="0"

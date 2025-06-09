@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API for the Sense Energy Monitor"
 HOMEPAGE="https://github.com/scottbonline/sense"
 SRC_URI="https://files.pythonhosted.org/packages/ce/50/4d753fc19e0004e84ecbb615db9b7d11068808e135b879cbdfd3264860a5/sense_energy-0.13.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sense_energy-0.13.8"
 
 LICENSE="BSD"
 SLOT="0"

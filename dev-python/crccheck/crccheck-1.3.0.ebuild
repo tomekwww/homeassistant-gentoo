@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Calculation library for CRCs and checksums"
 HOMEPAGE="https://github.com/MartinScharrer/crccheck"
 SRC_URI="https://files.pythonhosted.org/packages/50/ee/92daff1ca6f8c31f97afe9666efa6d43c74f7ea0415a04ba19300cefef7c/crccheck-1.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/crccheck-1.3.0"
 
 LICENSE="MIT"
 SLOT="0"

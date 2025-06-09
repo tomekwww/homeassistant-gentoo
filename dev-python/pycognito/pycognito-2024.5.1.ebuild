@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python class to integrate Boto3s Cognito client so it is easy to login users With SRP support"
 HOMEPAGE="https://github.com/pvizeli/pycognito"
 SRC_URI="https://files.pythonhosted.org/packages/26/67/3975cf257fcc04903686ef87d39be386d894a0d8182f43d37e9cbfc9609f/pycognito-2024.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pycognito-2024.5.1"
 
 LICENSE="BSD"
 SLOT="0"

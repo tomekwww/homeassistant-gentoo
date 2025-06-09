@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python implementation of Aurora Protocol"
 HOMEPAGE="https://gitlab.com/energievalsabbia/aurorapy"
 SRC_URI="https://files.pythonhosted.org/packages/04/14/91ade78619d2663a3f52aa0342abe1b1caba417eacb6044e377ecdd39fa5/aurorapy-0.2.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aurorapy-0.2.7"
 
 LICENSE="MIT"
 SLOT="0"

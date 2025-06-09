@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for WLED"
 HOMEPAGE="https://github.com/frenck/python-wled"
 SRC_URI="https://files.pythonhosted.org/packages/1e/50/4a7b2b74276e3aaef4cc54f54004800232eaf55dd66bae6d1b881edd4a45/wled-0.21.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/wled-0.21.0"
 
 LICENSE="MIT"
 SLOT="0"

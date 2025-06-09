@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Nieoficjalne API do dzienniczka elektronicznego UONET"
 HOMEPAGE="https://github.com/kapi2289/vulcan-api"
 SRC_URI="https://files.pythonhosted.org/packages/23/d7/7f11fd4b727cf25dff4f0a88f3dd2831d608bba28bb3d2c547560b09b0e8/vulcan-api-2.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/vulcan-api-2.3.2"
 
 LICENSE="MIT"
 SLOT="0"

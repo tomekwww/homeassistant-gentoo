@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple Suplas OpenAPI async wrapper"
 HOMEPAGE="https://github.com/mwegrzynek/asyncpysupla"
 SRC_URI="https://files.pythonhosted.org/packages/76/28/4e56c84bfd1ece1fe26811cd92966ade64d97a5ea42efcb653d6df836dd1/asyncpysupla-0.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/asyncpysupla-0.0.5"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for Huum saunas"
 HOMEPAGE="https://github.com/frwickst/pyhuum"
 SRC_URI="https://files.pythonhosted.org/packages/14/c8/eb34c946bcaf6a7824170dd8a2bd255d8cd731c891e66da3bad100d9b215/huum-0.7.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/huum-0.7.12"
 
 LICENSE="MIT"
 SLOT="0"

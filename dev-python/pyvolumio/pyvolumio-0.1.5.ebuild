@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library to control Volumio"
 HOMEPAGE="https://github.com/OnFreund/PyVolumio"
 SRC_URI="https://files.pythonhosted.org/packages/02/36/58543cc0422bda2af5429d5df85cee810d09b900dbc5bcd2e95bc07b4424/pyvolumio-0.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyvolumio-0.1.5"
 
 LICENSE="MIT"
 SLOT="0"

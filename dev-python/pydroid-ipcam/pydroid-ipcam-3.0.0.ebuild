@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library for handling the Android IP Webcam app"
 HOMEPAGE="https://github.com/home-assistant-libs/pydroid-ipcam"
 SRC_URI="https://files.pythonhosted.org/packages/28/89/b5bc0394d703c1e3507efb7207d04c67ad3d89cfc701506868ee8cd13aa5/pydroid_ipcam-3.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydroid_ipcam-3.0.0"
 
 LICENSE="BSD"
 SLOT="0"

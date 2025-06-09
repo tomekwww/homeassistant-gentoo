@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Human friendly output for text interfaces using Python"
 HOMEPAGE="https://humanfriendly.readthedocs.io"
 SRC_URI="https://files.pythonhosted.org/packages/cc/3f/2c29224acb2e2df4d2046e4c73ee2662023c58ff5b113c4c1adac0886c43/humanfriendly-10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/humanfriendly-10.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Bluetooth parser for LeaOne devices"
 HOMEPAGE="https://pypi.org/project/leaone-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/8e/7d/49c3f516055e8b931ecb5b00933a04532c515d5a4e37afcf1c6be144fbd8/leaone_ble-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/leaone_ble-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library implementing websocket connection to ZWaveMe"
 HOMEPAGE="https://github.com/Z-Wave-Me/zwave-me-ws"
 SRC_URI="https://files.pythonhosted.org/packages/6c/da/bc194ffa707abc970d085dde29b50b6b3657f033adcc949687c1042e89d4/zwave_me_ws-0.4.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/zwave_me_ws-0.4.3"
 
 LICENSE="MIT"
 SLOT="0"

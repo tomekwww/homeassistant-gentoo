@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Manage Govee BLE devices"
 HOMEPAGE="https://pypi.org/project/govee-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/f3/ac/99b86f48eb585d6c8998a82351cf73a1ca693e5cb696cdfa1cdb0ea2f580/govee_ble-0.44.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/govee_ble-0.44.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

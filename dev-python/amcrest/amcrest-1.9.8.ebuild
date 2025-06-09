@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper implementation for Amcrest cameras"
 HOMEPAGE="http://github.com/tchellomello/python-amcrest"
 SRC_URI="https://files.pythonhosted.org/packages/30/41/61042da0114469309a499c651600f31f58f613f823ea1ba76349b9f327e8/amcrest-1.9.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/amcrest-1.9.8"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Parse London tube data into a dictionary"
 HOMEPAGE="https://github.com/robmarkcole/London-tube-status"
 SRC_URI="https://files.pythonhosted.org/packages/8a/27/f36d7dd851778906f1669fe61751bde840718d499bde0900ab670b442694/london-tube-status-0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/london-tube-status-0.5"
 
 LICENSE="BSD"
 SLOT="0"

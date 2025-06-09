@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library to interface with the Hive API"
 HOMEPAGE="https://github.com/Pyhive/pyhiveapi"
 SRC_URI="https://files.pythonhosted.org/packages/74/02/97a2d82f305f5dce7658123f5a8b7e8ae6526f72d55406d99d02cf6ec108/pyhive_integration-1.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyhive_integration-1.0.2"
 
 LICENSE="MIT"
 SLOT="0"

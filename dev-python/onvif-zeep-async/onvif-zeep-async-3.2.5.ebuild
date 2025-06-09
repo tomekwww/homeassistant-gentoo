@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python Client for ONVIF Camera"
 HOMEPAGE="http://github.com/hunterjm/python-onvif-zeep-async"
 SRC_URI="https://files.pythonhosted.org/packages/60/25/a61ba701157ac932e51a81173ef88cf39e3c3d3a12f6a09da967f22c653d/onvif_zeep_async-3.2.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/onvif_zeep_async-3.2.5"
 
 LICENSE="MIT"
 SLOT="0"

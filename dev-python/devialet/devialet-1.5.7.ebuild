@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Devialet API"
 HOMEPAGE="https://github.com/fwestenberg/devialet"
 SRC_URI="https://files.pythonhosted.org/packages/10/9f/43a7645d664b95153926d5b655826a39b84d0855c4bfd4b129712d6d2cb8/devialet-1.5.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/devialet-1.5.7"
 
 LICENSE="MIT"
 SLOT="0"

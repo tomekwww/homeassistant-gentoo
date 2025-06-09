@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An API client for getting pollution data from NILU sensor stations in Norway"
 HOMEPAGE="https://github.com/hfurubotten/niluclient"
 SRC_URI="https://files.pythonhosted.org/packages/80/23/1e1f75cf22d509a9806a717dc8469046a099bcb24a73a4dc9f5b411eff7c/niluclient-0.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/niluclient-0.1.2"
 
 LICENSE="MIT"
 SLOT="0"

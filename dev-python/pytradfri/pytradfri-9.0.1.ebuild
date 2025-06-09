@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="IKEA TrdfriTradfri API Control and observe your lights from Python"
 HOMEPAGE="https://github.com/home-assistant-libs/pytradfri"
 SRC_URI="https://files.pythonhosted.org/packages/8b/7a/8d48e116ca437c8737a748377577eed289d45d159ae0a4b67b62c2043b32/pytradfri-9.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pytradfri-9.0.1"
 
 LICENSE="MIT"
 SLOT="0"

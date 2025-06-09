@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for NextDNS API"
 HOMEPAGE="https://github.com/bieniu/nextdns"
 SRC_URI="https://files.pythonhosted.org/packages/58/a8/d31990b43451493e82e83a93d9f75e78bd509df489f17abc728dbc68c2f6/nextdns-4.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nextdns-4.0.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

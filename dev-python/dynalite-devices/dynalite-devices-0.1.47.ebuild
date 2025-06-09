@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An unofficial Dynalite DyNET interface creating devices"
 HOMEPAGE="https://github.com/ziv1234/python-dynalite-devices"
 SRC_URI="https://files.pythonhosted.org/packages/73/a7/e5a1a7f5f026b0f9f6834783921549c1223efa3ccd76121bb7b5c2599245/dynalite_devices-0.1.47.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dynalite_devices-0.1.47"
 
 LICENSE="BSD"
 SLOT="0"

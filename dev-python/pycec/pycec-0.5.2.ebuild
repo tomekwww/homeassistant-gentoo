@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Provide HDMI CEC devices as objects especially for use with Home Assistant"
 HOMEPAGE="https://github.com/konikvranik/pycec/"
 SRC_URI="https://files.pythonhosted.org/packages/f4/bb/d407b6285f6dd7c30b33568f4af50b3b7c57bc4e9382e7878a20ddefe1be/pyCEC-0.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyCEC-0.5.2"
 
 LICENSE="MIT"
 SLOT="0"

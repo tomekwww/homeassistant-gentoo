@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library interfacing to the Abode home security system"
 HOMEPAGE="https://pypi.org/project/jaraco.abode/"
 SRC_URI="https://files.pythonhosted.org/packages/b6/c0/ad6dcaa716732fe2a054c8b375e2ff8ce52603d4908969df53b6cbf9a1bf/jaraco_abode-6.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/jaraco_abode-6.2.1"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Push Notifications that work with just about every platform"
 HOMEPAGE="https://github.com/caronc/apprise"
 SRC_URI="https://files.pythonhosted.org/packages/88/f8/014fc92f4e6808da647e72a3478ea5df47de8f1e93cbac8ffcf8d771f6ca/apprise-1.9.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/apprise-1.9.1"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Manager Moat BLE Devices"
 HOMEPAGE="https://github.com/bluetooth-devices/moat-ble"
 SRC_URI="https://files.pythonhosted.org/packages/01/b4/7dcbef575b6d457db29af2b65d2e7cfb6c16e96c6359c179986841219791/moat-ble-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/moat-ble-0.1.1"
 
 LICENSE="MIT"
 SLOT="0"

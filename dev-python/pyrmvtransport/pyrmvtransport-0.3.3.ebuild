@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library to make use of transport information from opendatarmvde"
 HOMEPAGE="https://github.com/cgtobi/PyRMVtransport"
 SRC_URI="https://files.pythonhosted.org/packages/d0/1a/fbcb638a15872d59a158eed9da6f73f288ab535438eecf0abf3e0a90b1d4/PyRMVtransport-0.3.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/PyRMVtransport-0.3.3"
 
 LICENSE="MIT"
 SLOT="0"

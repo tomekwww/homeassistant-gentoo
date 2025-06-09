@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Emoji for Python"
 HOMEPAGE="https://github.com/carpedm20/emoji/"
 SRC_URI="https://files.pythonhosted.org/packages/73/eb/335ac266110ecc112c28d0360012c863fe3781c5555be52eb69790037751/emoji-2.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/emoji-2.8.0"
 
 LICENSE="BSD"
 SLOT="0"

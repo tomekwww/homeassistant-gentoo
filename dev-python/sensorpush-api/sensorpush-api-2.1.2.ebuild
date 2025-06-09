@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SensorPush Public API"
 HOMEPAGE="https://github.com/sstallion/sensorpush-api"
 SRC_URI="https://files.pythonhosted.org/packages/04/72/53594df5201cd56df628267eb88d9f89fb40eb9a5db84621fd3973d20f12/sensorpush_api-2.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sensorpush_api-2.1.2"
 
 LICENSE="BSD"
 SLOT="0"

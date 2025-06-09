@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Kusto Data Client"
 HOMEPAGE="https://github.com/Azure/azure-kusto-python"
 SRC_URI="https://files.pythonhosted.org/packages/a4/67/0dfd1ebb1a1ecf75a816d2e1b3c9f5349442dc23d78d7b6b49ee7ffc0482/azure-kusto-data-4.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/azure-kusto-data-4.5.1"
 
 LICENSE="MIT"
 SLOT="0"

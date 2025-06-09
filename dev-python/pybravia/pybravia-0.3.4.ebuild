@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python async library for remote control of Sony Bravia TVs 2013 and newer"
 HOMEPAGE="https://github.com/Drafteed/pybravia"
 SRC_URI="https://files.pythonhosted.org/packages/77/2a/249ef769c02d62b9185da3f8f426a44a2745c6969411a6e973ba3fe94a3c/pybravia-0.3.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pybravia-0.3.4"
 
 LICENSE="MIT"
 SLOT="0"

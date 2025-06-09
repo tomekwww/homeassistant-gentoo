@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python connector for WiZ light bulbs eg SLV Play"
 HOMEPAGE="https://github.com/sbidy/pywizlight"
 SRC_URI="https://files.pythonhosted.org/packages/83/ff/93994458ed65462ce9dca20b2b0354350a269bec17734ae5930b6b8d08a2/pywizlight-0.6.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pywizlight-0.6.2"
 
 LICENSE="MIT"
 SLOT="0"

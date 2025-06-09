@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python module to talk to Google Chromecast"
 HOMEPAGE="https://pypi.org/project/PyChromecast/"
 SRC_URI="https://files.pythonhosted.org/packages/c6/aa/0298ad9a60b888ccf15685c9654562000e55a1c7abaf72d9300c7b887824/pychromecast-14.0.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pychromecast-14.0.7"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Communicate with Telldus Live"
 HOMEPAGE="https://github.com/molobrakos/tellduslive"
 SRC_URI="https://files.pythonhosted.org/packages/51/61/faffb34f2aa448cf116e95586e5f1f544987bf0b821d5cf0b70cb66b1723/tellduslive-0.10.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tellduslive-0.10.12"
 
 LICENSE="BSD"
 SLOT="0"

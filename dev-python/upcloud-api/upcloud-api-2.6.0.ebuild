@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="UpCloud API Client"
 HOMEPAGE="https://github.com/UpCloudLtd/upcloud-python-api"
 SRC_URI="https://files.pythonhosted.org/packages/ea/57/417e84ac8d008424c46e4cefa161cf9b316b3d7a7c797a2d9d871c5c4455/upcloud_api-2.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/upcloud_api-2.6.0"
 
 LICENSE="MIT"
 SLOT="0"

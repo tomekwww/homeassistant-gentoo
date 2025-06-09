@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python wrapper for the Ohme API used by the Home Assistant integration"
 HOMEPAGE="https://pypi.org/project/ohme/"
 SRC_URI="https://files.pythonhosted.org/packages/fa/8a/38546f3d4582e39a149b8b63cce278d9b7546439f1ed069112ac5dc93cfe/ohme-1.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ohme-1.5.1"
 
 LICENSE="MIT"
 SLOT="0"

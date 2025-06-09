@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python module to talk to Logitech Squeezebox players directly without Logitech server"
 HOMEPAGE="https://pypi.org/project/aioslimproto/"
 SRC_URI="https://files.pythonhosted.org/packages/77/b4/69af4f53a7e7fed87f9c70dcf2eb3109c12ed8c5d918631fdc31f61f18c6/aioslimproto-3.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioslimproto-3.0.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

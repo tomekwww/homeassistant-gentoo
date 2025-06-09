@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python program and library to control WiFi enabled ROMY vacuum cleaners"
 HOMEPAGE="https://pypi.org/project/romy/"
 SRC_URI="https://files.pythonhosted.org/packages/ba/f2/927a48115ef51dabe56cd2e7f8d7d14c9a5fa8436d8c87034749d180cd44/romy-0.0.10.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/romy-0.0.10"
 
 LICENSE="BSD"
 SLOT="0"

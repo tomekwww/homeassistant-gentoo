@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Client for interaction of the LOOKin device with the Home Assistant"
 HOMEPAGE="https://github.com/ANMalko/aiolookin"
 SRC_URI="https://files.pythonhosted.org/packages/b0/58/15ff26d48ca167d076f717cc565528f0c9367a6f248e8de8606cf23445fb/aiolookin-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiolookin-1.0.0"
 
 LICENSE="BSD"
 SLOT="0"

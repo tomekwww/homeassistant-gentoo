@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library used by Home Assistant to interact with the WeatherFlow REST API"
 HOMEPAGE="https://pypi.org/project/weatherflow4py/"
 SRC_URI="https://files.pythonhosted.org/packages/9a/1a/dd2ff33c7c756143b3156d75d924a6722bf066a9cc86c7f0bfa995f7b3f4/weatherflow4py-1.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/weatherflow4py-1.3.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python3 library for Elexa Guardian water valves and sensors"
 HOMEPAGE="https://github.com/bachya/aioguardian"
 SRC_URI="https://files.pythonhosted.org/packages/9e/b9/0f1b58449b728914dbbbb54e0035997dbcb50b5268c59aae5fdd2d81eb41/aioguardian-2022.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioguardian-2022.7.0"
 
 LICENSE="MIT"
 SLOT="0"

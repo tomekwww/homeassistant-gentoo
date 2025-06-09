@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python wrapper for the AfterShip API"
 HOMEPAGE="https://github.com/ludeeus/pyaftership"
 SRC_URI="https://files.pythonhosted.org/packages/0d/90/93a90a92d645ccfd83c768a16978c9cdfad359e054ba83a6c5d1fc08fa5f/pyaftership-21.11.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyaftership-21.11.0"
 
 LICENSE="MIT"
 SLOT="0"

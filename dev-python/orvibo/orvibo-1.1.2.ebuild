@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Control Orvibo products"
 HOMEPAGE="https://github.com/happyleavesaoc/python-orvibo/"
 SRC_URI="https://files.pythonhosted.org/packages/06/a6/ec0d2be90fd23ab9cd9bb8832862f9528844451eda1f40eaa9f073987664/orvibo-1.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/orvibo-1.1.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Implements sirenppua API  public wrapper for apiukrainealarmcom API that returns info about Ukraine airraid alarms"
 HOMEPAGE="https://github.com/PaulAnnekov/uasiren"
 SRC_URI="https://files.pythonhosted.org/packages/43/ed/59d2366e795aa19950347c291f25dd6a28a05117e77d8db13b8c7e184c5e/uasiren-0.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/uasiren-0.0.1"
 
 LICENSE="MIT"
 SLOT="0"

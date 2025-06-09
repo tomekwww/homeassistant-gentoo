@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Wrapper for the Proxmox 2x API HTTP and SSH"
 HOMEPAGE="https://proxmoxer.github.io/docs/"
 SRC_URI="https://files.pythonhosted.org/packages/00/dd/629ec9dfdab26a75e3120403231bf3dc3ecda3ebe36db72c829ae30cbfca/proxmoxer-2.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/proxmoxer-2.0.1"
 
 LICENSE="MIT"
 SLOT="0"

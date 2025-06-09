@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="read and write audio tags for many formats"
 HOMEPAGE="https://github.com/quodlibet/mutagen"
 SRC_URI="https://files.pythonhosted.org/packages/81/e6/64bc71b74eef4b68e61eb921dcf72dabd9e4ec4af1e11891bbd312ccbb77/mutagen-1.47.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mutagen-1.47.0"
 
 LICENSE="GPL-2"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library for CLX Communications HTTP REST Messaging API"
 HOMEPAGE="https://github.com/clxcommunications/sdk-xms-python"
 SRC_URI="https://files.pythonhosted.org/packages/07/8f/f8a6bdf1002a701d26265b30b9dcaee3794847ca9e1fad9548582959ff63/clx-sdk-xms-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/clx-sdk-xms-1.0.0"
 
 LICENSE="BSD"
 SLOT="0"

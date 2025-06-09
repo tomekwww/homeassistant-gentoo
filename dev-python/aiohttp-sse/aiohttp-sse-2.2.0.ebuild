@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Serversent events  support for aiohttp"
 HOMEPAGE="https://github.com/aio-libs/aiohttp_sse/"
 SRC_URI="https://files.pythonhosted.org/packages/80/df/4ddb30e689695fd91cf41c072e154061120ed166e8baf6c9a0020f27dffc/aiohttp-sse-2.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohttp-sse-2.2.0"
 
 LICENSE="BSD"
 SLOT="0"

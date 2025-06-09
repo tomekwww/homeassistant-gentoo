@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Homematic interface"
 HOMEPAGE="https://github.com/danielperna84/pyhomematic"
 SRC_URI="https://files.pythonhosted.org/packages/8d/89/a33523d02fafd715ff4d08c1631240dc4c140bc0d31df2ef41cd9e62f0c8/pyhomematic-0.1.77.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyhomematic-0.1.77"
 
 LICENSE="MIT"
 SLOT="0"

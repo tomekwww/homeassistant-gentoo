@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A JSONRPC client library base interface"
 HOMEPAGE="http://github.com/emlove/jsonrpc-base"
 SRC_URI="https://files.pythonhosted.org/packages/b9/54/0b20d7e5e32221d759ad8f4282c03ceb54be6e48b4ff641affd35131f4ce/jsonrpc-base-2.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/jsonrpc-base-2.2.0"
 
 LICENSE="BSD"
 SLOT="0"

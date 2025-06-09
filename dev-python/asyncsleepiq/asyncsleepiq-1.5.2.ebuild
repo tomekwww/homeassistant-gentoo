@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="ASync SleepIQ API"
 HOMEPAGE="http://github.com/kbickar/asyncsleepiq"
 SRC_URI="https://files.pythonhosted.org/packages/a7/a4/f55d0868469781317422edb77083af05783389cfbe6e5ba5b9a40d6ea368/asyncsleepiq-1.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/asyncsleepiq-1.5.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Connection library for the abandoned Livisi Smart Home system"
 HOMEPAGE="https://pypi.org/project/livisi/"
 SRC_URI="https://files.pythonhosted.org/packages/08/18/bf943eda564bbd8fbb90ed12cf77dc87fe216477f387248fe08f5a0749b1/livisi-0.0.25.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/livisi-0.0.25"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -170,6 +170,15 @@ def find_matching_license_file(license_string, license_dir="/var/db/repos/gentoo
 
     return 'BSD'
 
+def get_srcuri(url):
+    if url.endswith('tar.gz'):
+        return url + ' -> ${P}.gh.tar.gz'
+    if url.endswith('tar.xz'):
+        return url + ' -> ${P}.gh.tar.xz'
+    if url.endswith('tar.bz2'):
+        return url + ' -> ${P}.gh.tar.bz2'
+    if url.endswith('zip'):
+        return url + ' -> ${P}.gh.zip'
 
 def convert_to_ebuild(metadata, required_extras):
     """Convert PyPI metadata to a simple Gentoo ebuild format."""
@@ -180,22 +189,22 @@ def convert_to_ebuild(metadata, required_extras):
     urls = info['project_urls']
     repository = ''
     src_uri = ''
+    if (info.get('home_page', '') or '').startswith('https://github.com/'):
+        repository = info.get('home_page', '')
+    if (info.get('project_url', '') or '').startswith('https://github.com/'):
+        repository = info.get('project_url', '')
+    if urls and (urls.get('Homepage', '') or '').startswith('https://github.com/'):
+        repository = urls.get('Homepage', '')
+    if urls and (urls.get('homepage', '') or '').startswith('https://github.com/'):
+        repository = urls.get('homepage', '')
     if urls and (urls.get('Repository', '') or '').startswith('https://github.com/'):
         repository = urls.get('Repository', '')
     if urls and (urls.get('repository', '') or '').startswith('https://github.com/'):
         repository = urls.get('repository', '')
     if urls and (urls.get('source Code', '') or '').startswith('https://github.com/'):
         repository = urls.get('Source Code', '')
-    if urls and (urls.get('Homepage', '') or '').startswith('https://github.com/'):
-        repository = urls.get('Homepage', '')
-    if urls and (urls.get('homepage', '') or '').startswith('https://github.com/'):
-        repository = urls.get('homepage', '')
     if urls and (urls.get('Download', '') or '').startswith('https://github.com/'):
-        src_uri = urls.get('Download', '')
-    if (info.get('home_page', '') or '').startswith('https://github.com/'):
-        repository = info.get('home_page', '')
-    if (info.get('project_url', '') or '').startswith('https://github.com/'):
-        repository = info.get('project_url', '')
+        src_uri = get_srcuri(urls.get('Download', ''))
 
     description = re.sub(r'[^a-zA-Z0-9 ]', '', (info.get('summary', '') or ''))
     license_ = find_matching_license_file((info.get('license', 'BSD') or 'BSD').split()[0])
@@ -204,8 +213,9 @@ def convert_to_ebuild(metadata, required_extras):
 
     for url_entry in metadata['urls']:
         if url_entry['packagetype'] == 'sdist':
-            src_uri = url_entry['url'] + ' -> ${P}.gh.tar.gz'
-            break
+            if not 'win-amd64' in url_entry['url']:
+                src_uri = get_srcuri(url_entry['url'])
+                break
     if not src_uri:
         if repository:
             response = requests.get(f"{repository}/archive/refs/tags/v{version}.tar.gz")

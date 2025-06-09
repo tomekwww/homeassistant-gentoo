@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Manage Sensirion BLE devices"
 HOMEPAGE="https://pypi.org/project/sensirion-ble/"
 SRC_URI="https://github.com/akx/sensirion-ble/archive/refs/tags/v0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sensirion-ble-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

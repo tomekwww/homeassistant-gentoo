@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Vsttrafik API"
 HOMEPAGE="https://github.com/Miicroo/python-vasttrafik"
 SRC_URI="https://files.pythonhosted.org/packages/96/aa/fdc369f3f17003a68506a16bc7161560cca10b2ec11d62dda1db6a7a6c00/vtjp-0.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/vtjp-0.2.1"
 
 LICENSE="MIT"
 SLOT="0"

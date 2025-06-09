@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for EDL21 smart meters using Smart Message Language SML"
 HOMEPAGE="https://pypi.org/project/pysml/"
 SRC_URI="https://files.pythonhosted.org/packages/13/a0/83b672fcc7eb047f473b623cc726f3c68d73102263071c63fdea0d23dd5b/pysml-0.0.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysml-0.0.12"
 
 LICENSE="MIT"
 SLOT="0"

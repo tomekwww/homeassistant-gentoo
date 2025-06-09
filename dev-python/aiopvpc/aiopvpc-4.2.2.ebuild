@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Retrieval of Spanish Electricity hourly prices PVPC"
 HOMEPAGE="https://github.com/azogue/aiopvpc"
 SRC_URI="https://files.pythonhosted.org/packages/ea/c8/42660e2ab680a949d5c9497b438c821979e8209914648c96bcce9856c051/aiopvpc-4.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiopvpc-4.2.2"
 
 LICENSE="MIT"
 SLOT="0"

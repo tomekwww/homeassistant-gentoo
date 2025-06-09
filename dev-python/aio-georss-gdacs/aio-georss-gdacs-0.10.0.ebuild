@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async GeoRSS client library for GDACS feeds"
 HOMEPAGE="https://github.com/exxamalte/python-aio-georss-gdacs"
 SRC_URI="https://files.pythonhosted.org/packages/c4/a7/4f2b3dd991ef56d06e4a89ab057fbb6c1f2684a9603b7f87ac5528265e18/aio_georss_gdacs-0.10.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio_georss_gdacs-0.10"
 
 LICENSE="Apache-2.0"
 SLOT="0"

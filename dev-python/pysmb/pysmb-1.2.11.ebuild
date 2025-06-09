@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="pysmb is an experimental SMBCIFS library written in Python to support file sharing between Windows and Linux machines"
 HOMEPAGE="https://miketeo.net/projects/pysmb"
-SRC_URI="https://files.pythonhosted.org/packages/b6/65/3740b332f66c3e50bb1f67b16eb6909f048f2898941f8f0beb23e524f4ee/pysmb-1.2.11.zip -> ${P}.gh.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b6/65/3740b332f66c3e50bb1f67b16eb6909f048f2898941f8f0beb23e524f4ee/pysmb-1.2.11.zip -> ${P}.gh.zip"
+S="${WORKDIR}/pysmb-1.2.11"
 
 LICENSE="BSD"
 SLOT="0"

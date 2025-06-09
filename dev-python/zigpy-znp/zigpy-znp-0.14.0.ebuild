@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library for zigpy which communicates with TI ZNP radios"
 HOMEPAGE="https://pypi.org/project/zigpy-znp/"
 SRC_URI="https://files.pythonhosted.org/packages/3f/1b/0031cc3604e5044d946efb4fa4a184cbbf404272617d1fd08ddd4e41c194/zigpy_znp-0.14.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/zigpy_znp-0.14.0"
 
 LICENSE="GPL-3"
 SLOT="0"

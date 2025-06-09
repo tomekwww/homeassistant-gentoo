@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to interface with the opentherm gateway through serial or network connection"
 HOMEPAGE="https://github.com/mvn23/pyotgw"
 SRC_URI="https://files.pythonhosted.org/packages/6e/9c/57e450180bd6be6453b8e39dd666e50fa489c33dd63447e79552d14c0cb8/pyotgw-2.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyotgw-2.2.2"
 
 LICENSE="BSD"
 SLOT="0"

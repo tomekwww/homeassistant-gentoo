@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A crossplatform Python module for entering passwords to a stdio terminal and displaying a  mask which getpass cannot do"
 HOMEPAGE="https://github.com/asweigart/stdiomask"
 SRC_URI="https://files.pythonhosted.org/packages/47/a2/f72fd263cecb11ed4cc96bd31608359e1df30349c665674e5c35ea9a72d6/stdiomask-0.0.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/stdiomask-0.0.6"
 
 LICENSE="BSD"
 SLOT="0"

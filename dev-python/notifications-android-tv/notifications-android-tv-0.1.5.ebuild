@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Notifications for AndroidFire TVs"
 HOMEPAGE="https://github.com/engrbm87/notifications_android_tv"
 SRC_URI="https://files.pythonhosted.org/packages/72/ae/376f65f28d8af46974b3c9c9d9f51458f66837ba06ef4ce168bc1afbe494/notifications_android_tv-0.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/notifications_android_tv-0.1.5"
 
 LICENSE="MIT"
 SLOT="0"

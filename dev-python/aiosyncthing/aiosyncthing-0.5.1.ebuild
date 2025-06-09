@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python client for the Syncthing REST API"
 HOMEPAGE="https://github.com/zhulik/aiosyncthing"
 SRC_URI="https://files.pythonhosted.org/packages/01/45/6b433500a6fe8455a970fbcdc6712376f9a3921a6f2fd1c31e5aa7b2c611/aiosyncthing-0.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiosyncthing-0.5.1"
 
 LICENSE="BSD"
 SLOT="0"

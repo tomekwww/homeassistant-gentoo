@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Versasense API consumer"
 HOMEPAGE="https://github.com/flamm3blemuff1n/pyversasense"
 SRC_URI="https://files.pythonhosted.org/packages/cd/e2/70ef5e7ee6d3218ed73846b372b89e99adee7b9d1d4f4eb89736bdbcded3/pyversasense-0.0.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyversasense-0.0.6"
 
 LICENSE="BSD"
 SLOT="0"

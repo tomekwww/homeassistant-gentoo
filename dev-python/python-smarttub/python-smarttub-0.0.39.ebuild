@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API to query and control hot tubs using the SmartTub system"
 HOMEPAGE="https://github.com/mdz/python-smarttub"
 SRC_URI="https://files.pythonhosted.org/packages/0b/1d/267323ce4d205c450b1d5f8d46dbe38544f6062048ad58c1c7747dac25cc/python_smarttub-0.0.39.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_smarttub-0.0.39"
 
 LICENSE="BSD"
 SLOT="0"

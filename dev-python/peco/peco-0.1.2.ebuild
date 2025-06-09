@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library for interacting with the PECO outage map to gain the numbers from it"
 HOMEPAGE="https://IceBotYT.github.io/peco-outage-api"
 SRC_URI="https://files.pythonhosted.org/packages/a8/12/be37f177e1feb3d2bb1dc8d9ecb1b77029dd009514e5cc0448a0c7c6b4fc/peco-0.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/peco-0.1.2"
 
 LICENSE="MIT"
 SLOT="0"

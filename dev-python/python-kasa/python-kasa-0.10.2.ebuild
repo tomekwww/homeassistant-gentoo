@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for TPLink Kasa and Tapo devices"
 HOMEPAGE="https://pypi.org/project/python-kasa/"
 SRC_URI="https://files.pythonhosted.org/packages/09/44/b3c88bb2560c55e57078aed1777ead1b60981e6d852c9d8b9c7351bd5c6e/python_kasa-0.10.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_kasa-0.10.2"
 
 LICENSE="GPL-3"
 SLOT="0"

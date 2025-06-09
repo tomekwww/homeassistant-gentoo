@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python client to interact with internal OverKiz API eg used by Somfy TaHoma"
 HOMEPAGE="https://pypi.org/project/pyoverkiz/"
 SRC_URI="https://files.pythonhosted.org/packages/83/53/2620f525b73676d5904b8c223a7e65b21cab1cf1b65aff23a269c14de778/pyoverkiz-1.17.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyoverkiz-1.17.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python client for getting Plaato Airlock and Keg data"
 HOMEPAGE="https://github.com/JohNan/pyplaato"
 SRC_URI="https://files.pythonhosted.org/packages/ed/5d/fd8569c2c916e240b7a41cfc1106dc5dc683cfae4743bcbb62120f7b4cff/pyplaato-0.0.19.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyplaato-0.0.19"
 
 LICENSE="BSD"
 SLOT="0"

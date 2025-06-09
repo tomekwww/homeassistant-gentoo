@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial API for Whirlpools 6th Sense appliances"
 HOMEPAGE="https://pypi.org/project/whirlpool-sixth-sense/"
 SRC_URI="https://files.pythonhosted.org/packages/cd/40/80c9fd97efcc83cf12dac19236f8ea1ba019e041c94a337e010b2a94fe19/whirlpool_sixth_sense-0.20.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/whirlpool_sixth_sense-0.20.0"
 
 LICENSE="BSD"
 SLOT="0"

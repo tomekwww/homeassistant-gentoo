@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for interfacing with Motionblinds using Bluetooth Low Energy BLE"
 HOMEPAGE="https://github.com/LennP/motionblindsble"
 SRC_URI="https://files.pythonhosted.org/packages/ea/19/f0239089ce95afe53f3fb2ff74b1bcffef10317ff80c7a9c2db9b20cdfa8/motionblindsble-0.1.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/motionblindsble-0.1.3"
 
 LICENSE="MIT"
 SLOT="0"

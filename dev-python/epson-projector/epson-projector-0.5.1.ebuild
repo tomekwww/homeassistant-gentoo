@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Epson projector support for Python"
 HOMEPAGE="https://github.com/pszafer/epson_projector"
 SRC_URI="https://files.pythonhosted.org/packages/f1/2c/3959c9b910fd9b48328a0f22dc4b83dcbd506cae6b02dcd2eb41fdd79b38/epson_projector-0.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/epson_projector-0.5.1"
 
 LICENSE="MIT"
 SLOT="0"

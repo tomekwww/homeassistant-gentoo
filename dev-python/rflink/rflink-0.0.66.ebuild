@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library and CLI tools for interacting with RFlink 433MHz transceiver"
 HOMEPAGE="https://github.com/aequitas/python-rflink"
 SRC_URI="https://files.pythonhosted.org/packages/bb/6e/488479f649d1ddb8c40f31edea5b0d7f1341ae427eda0a832950b4924a20/rflink-0.0.66.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/rflink-0.0.66"
 
 LICENSE="MIT"
 SLOT="0"

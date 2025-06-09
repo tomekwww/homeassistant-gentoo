@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async implementation of PyAcaia"
 HOMEPAGE="https://pypi.org/project/aioacaia/"
 SRC_URI="https://files.pythonhosted.org/packages/92/22/10fc565cbb1ebdd51d1183a9293180c4e0a06fc676949956ff769efe28b7/aioacaia-0.1.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioacaia-0.1.14"
 
 LICENSE="MIT"
 SLOT="0"

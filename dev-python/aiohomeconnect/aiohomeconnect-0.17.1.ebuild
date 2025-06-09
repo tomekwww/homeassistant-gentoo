@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An asyncio client for the Home Connect API"
 HOMEPAGE="https://pypi.org/project/aiohomeconnect/"
 SRC_URI="https://files.pythonhosted.org/packages/79/62/40ad4ba33c3c3db34b01b2af138852962263e411b9deaa5cd1ef867013a4/aiohomeconnect-0.17.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohomeconnect-0.17.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

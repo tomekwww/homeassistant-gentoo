@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Protocol for Rhasspy Voice Assistant"
 HOMEPAGE="http://github.com/rhasspy/wyoming"
 SRC_URI="https://github.com/OHF-Voice/wyoming/archive/refs/tags/1.5.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/wyoming-1.5.4"
 
 LICENSE="MIT"
 SLOT="0"

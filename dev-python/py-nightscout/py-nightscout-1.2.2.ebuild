@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library that provides a Python async interface to Nightscout"
 HOMEPAGE="https://github.com/marciogranzotto/py-nightscout"
 SRC_URI="https://files.pythonhosted.org/packages/6a/d7/6d0126e56371d1cec4546051f2bcecdc4f78f2b4eac04fafa9e136335625/py_nightscout-1.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py_nightscout-1.2.2"
 
 LICENSE="MIT"
 SLOT="0"

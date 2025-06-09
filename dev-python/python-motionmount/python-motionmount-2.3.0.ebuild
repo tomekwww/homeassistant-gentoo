@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Control your SIGNATURE MotionMount TVM7675 Pro using Python"
 HOMEPAGE="https://github.com/vogelsproducts/python-MotionMount"
 SRC_URI="https://files.pythonhosted.org/packages/fc/3b/53f86c11296134c88d41b035cd9691130117cffd969c5beb4a893e0852a4/python_motionmount-2.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_motionmount-2.3.0"
 
 LICENSE="BSD"
 SLOT="0"

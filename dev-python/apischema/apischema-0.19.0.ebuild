@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="JSON deserialization GraphQL and JSON schema generation using Python typing"
 HOMEPAGE="https://pypi.org/project/apischema/"
 SRC_URI="https://files.pythonhosted.org/packages/8f/53/ff03c63f973222627b897a70379f02263b28bee3c8fa8d80f6f0c449675c/apischema-0.19.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/apischema-0.19.0"
 
 LICENSE="MIT"
 SLOT="0"

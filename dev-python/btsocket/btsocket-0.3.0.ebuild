@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for BlueZ Bluetooth Management API"
 HOMEPAGE="https://github.com/ukBaz/python-btsocket"
 SRC_URI="https://files.pythonhosted.org/packages/b2/b1/0ae262ecf936f5d2472ff7387087ca674e3b88d8c76b3e0e55fbc0c6e956/btsocket-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/btsocket-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async resolver for aiohttp that supports MDNS"
 HOMEPAGE="https://pypi.org/project/aiohttp-asyncmdnsresolver/"
 SRC_URI="https://files.pythonhosted.org/packages/05/83/09fb97705e7308f94197a09b486669696ea20f28074c14b5811a38bdedc3/aiohttp_asyncmdnsresolver-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohttp_asyncmdnsresolver-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

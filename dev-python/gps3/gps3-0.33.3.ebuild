@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Python 2735 clients for gpsd"
 HOMEPAGE="https://github.com/wadda/gps3"
-SRC_URI="https://github.com/wadda/gps3/archive/master.zip"
+SRC_URI="https://github.com/wadda/gps3/archive/master.zip -> ${P}.gh.zip"
+S="${WORKDIR}/gps3-master"
 
 LICENSE="MIT"
 SLOT="0"

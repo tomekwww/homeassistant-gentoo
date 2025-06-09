@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Encrypted Content Encoding for HTTP"
 HOMEPAGE="https://github.com/martinthomson/encrypted-content-encoding"
 SRC_URI="https://files.pythonhosted.org/packages/7c/af/249d1576653b69c20b9ac30e284b63bd94af6a175d72d87813235caf2482/http_ece-1.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/http_ece-1.2.1"
 
 LICENSE="MIT"
 SLOT="0"

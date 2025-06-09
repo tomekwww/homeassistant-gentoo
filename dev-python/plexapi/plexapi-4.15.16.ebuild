@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python bindings for the Plex API"
 HOMEPAGE="https://github.com/pkkid/python-plexapi"
 SRC_URI="https://files.pythonhosted.org/packages/2a/28/c0920a19272f30bc86ead5f546fb97f9cb09175a27b805f9410ce08aa67e/PlexAPI-4.15.16.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/PlexAPI-4.15.16"
 
 LICENSE="BSD"
 SLOT="0"

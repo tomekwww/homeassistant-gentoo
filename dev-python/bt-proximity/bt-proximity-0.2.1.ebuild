@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Allows for querying of the RSSI values for nearby devices using pybluez Ported to Python 3 based on httpsgithubcomewenchoubluetoothproximity"
 HOMEPAGE="https://github.com/FrederikBolding/bluetooth-proximity"
 SRC_URI="https://files.pythonhosted.org/packages/00/fc/0dd534e55857af29c3f1f2d54f6a0d508cbe69e5ec2124ed238d1dfecf04/bt_proximity-0.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bt_proximity-0.2.1"
 
 LICENSE="BSD"
 SLOT="0"

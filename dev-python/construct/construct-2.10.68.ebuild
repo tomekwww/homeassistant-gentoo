@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A powerful declarative symmetric parserbuilder for binary data"
 HOMEPAGE="http://construct.readthedocs.org"
 SRC_URI="https://files.pythonhosted.org/packages/e0/b7/a4a032e94bcfdff481f2e6fecd472794d9da09f474a2185ed33b2c7cad64/construct-2.10.68.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/construct-2.10.68"
 
 LICENSE="MIT"
 SLOT="0"

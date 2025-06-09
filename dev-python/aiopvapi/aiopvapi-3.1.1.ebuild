@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Powerview blinds API wrapper"
 HOMEPAGE="https://github.com/sander76/aio-powerview-api"
 SRC_URI="https://github.com/sander76/aio-powerview-api/archive/refs/tags/v3.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio-powerview-api-3.1.1"
 
 LICENSE="MIT"
 SLOT="0"

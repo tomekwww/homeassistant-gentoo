@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python39 package to access the Tomorrowio API"
 HOMEPAGE="https://github.com/raman325/pytomorrowio"
 SRC_URI="https://files.pythonhosted.org/packages/a1/f3/e91d61bb3f8ffa5ae58e9e11217a049f97709e03056776410ff81f763d03/pytomorrowio-0.3.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pytomorrowio-0.3.6"
 
 LICENSE="MIT"
 SLOT="0"

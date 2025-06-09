@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Wrapper for psutil to allow it to be used several times in the same process"
 HOMEPAGE="https://github.com/home-assistant-libs/psutil-home-assistant"
 SRC_URI="https://files.pythonhosted.org/packages/01/4f/32a51f53d645044740d0513a6a029d782b35bdc51a55ea171ce85034f5b7/psutil-home-assistant-0.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/psutil-home-assistant-0.0.1"
 
 LICENSE="BSD"
 SLOT="0"

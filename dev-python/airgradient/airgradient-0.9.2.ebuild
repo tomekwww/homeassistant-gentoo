@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for AirGradient"
 HOMEPAGE="https://pypi.org/project/airgradient/"
 SRC_URI="https://files.pythonhosted.org/packages/9c/eb/df17b374618eea504ede93d7cd2e696448db97a9f3656e32975258c41606/airgradient-0.9.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/airgradient-0.9.2"
 
 LICENSE="MIT"
 SLOT="0"

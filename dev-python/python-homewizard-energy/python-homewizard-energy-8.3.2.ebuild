@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for the HomeWizard Energy"
 HOMEPAGE="https://github.com/homewizard/python-homewizard-energy"
 SRC_URI="https://files.pythonhosted.org/packages/b2/e1/6317289f983b95ff48ddd9e73ac6865bb884fda74835c408f3850c8c948f/python_homewizard_energy-8.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_homewizard_energy-8.3.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

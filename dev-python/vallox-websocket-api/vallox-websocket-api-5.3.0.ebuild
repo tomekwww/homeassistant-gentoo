@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Vallox WebSocket API"
 HOMEPAGE="https://github.com/yozik04/vallox_websocket_api"
 SRC_URI="https://files.pythonhosted.org/packages/7f/a0/ce722745b830c7d88531d9eb6d151b31b58a7a92e092ff32be06472f1052/vallox_websocket_api-5.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/vallox_websocket_api-5.3.0"
 
 LICENSE="BSD"
 SLOT="0"

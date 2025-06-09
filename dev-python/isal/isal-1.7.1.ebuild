@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Faster zlib and gzip compatible compression and decompression by providing python bindings for the ISAL library"
 HOMEPAGE="https://github.com/pycompression/python-isal"
 SRC_URI="https://files.pythonhosted.org/packages/e0/1d/13e35ebdbf8c63fc16ac8d04fdd0cb1aaf44df1ca856a3304e9b53822d98/isal-1.7.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/isal-1.7.1"
 
 LICENSE="PSF-2"
 SLOT="0"

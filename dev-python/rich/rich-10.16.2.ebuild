@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Render rich text tables progress bars syntax highlighting markdown and more to the terminal"
 HOMEPAGE="https://github.com/willmcgugan/rich"
 SRC_URI="https://files.pythonhosted.org/packages/74/c3/e55ebdd66540503cee29cd3bb18a90bcfd5587a0cf3680173c368be56093/rich-10.16.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/rich-10.16.2"
 
 LICENSE="MIT"
 SLOT="0"

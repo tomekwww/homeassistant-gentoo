@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Yet another gRPC reflection client"
 HOMEPAGE="https://github.com/sparky8512/yagrc"
 SRC_URI="https://files.pythonhosted.org/packages/7b/d2/d99f2bd77ed1112d920ec69e023971db13d72fde07601b1208b5513c7a2a/yagrc-1.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/yagrc-1.1.2"
 
 LICENSE="BSD"
 SLOT="0"

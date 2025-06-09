@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API client for Jellyfin"
 HOMEPAGE="https://pypi.org/project/jellyfin-apiclient-python/"
 SRC_URI="https://files.pythonhosted.org/packages/28/80/36494795ce450d8ff4c9aab5042db953fde21bd6105ddcb02b9681fed053/jellyfin_apiclient_python-1.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/jellyfin_apiclient_python-1.10.0"
 
 LICENSE="BSD"
 SLOT="0"

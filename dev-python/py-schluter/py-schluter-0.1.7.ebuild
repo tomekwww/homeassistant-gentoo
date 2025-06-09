@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for Schluter DITRAHEAT thermostat"
 HOMEPAGE="https://github.com/prairieapps/py-schluter"
 SRC_URI="https://files.pythonhosted.org/packages/75/23/85977ef9c34f3061c896460e768f91a712d977847e29670a84921af3d3b6/py-schluter-0.1.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-schluter-0.1.7"
 
 LICENSE="MIT"
 SLOT="0"

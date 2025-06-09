@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="PKCE Pyhton generator"
 HOMEPAGE="https://github.com/RomeoDespres/pkce"
 SRC_URI="https://files.pythonhosted.org/packages/29/ea/ddd845c2ec21bf1e8555c782b32dc39b82f0b12764feb9f73ccbb2470f13/pkce-1.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pkce-1.0.3"
 
 LICENSE="MIT"
 SLOT="0"

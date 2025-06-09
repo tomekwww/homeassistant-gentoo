@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Discover connect and control Gree based minisplit systems"
 HOMEPAGE="https://github.com/cmroche/greeclimate"
 SRC_URI="https://files.pythonhosted.org/packages/1c/7f/2285faf50df3c6e67bfad181215593ec0663a5b9e0a135274c6b5687998f/greeclimate-2.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/greeclimate-2.1.0"
 
 LICENSE="BSD"
 SLOT="0"

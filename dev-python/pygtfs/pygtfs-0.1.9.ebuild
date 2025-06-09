@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Models GTFS data in a database"
 HOMEPAGE="https://github.com/jarondl/pygtfs"
 SRC_URI="https://files.pythonhosted.org/packages/5c/86/8bc9a1b88d646a7b0e588293a9959d53ea60662c2651f47ed6c155164721/pygtfs-0.1.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pygtfs-0.1.9"
 
 LICENSE="MIT"
 SLOT="0"

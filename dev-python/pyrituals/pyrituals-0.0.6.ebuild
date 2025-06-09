@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python wrapper for the Rituals Perfume Genie API"
 HOMEPAGE="https://github.com/milanmeu/pyrituals"
 SRC_URI="https://files.pythonhosted.org/packages/8d/97/1364136ac7b9668f28def833beffcdbf1cee6adf9bc827934cf941fb3ebf/pyrituals-0.0.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyrituals-0.0.6"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION=""
 HOMEPAGE="https://github.com/crownstone/crownstone-lib-python-core"
 SRC_URI="https://files.pythonhosted.org/packages/4c/ba/b1a1b135b05b062a26ad613e98582ea41109be74b613329b484619947010/crownstone-core-3.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/crownstone-core-3.2.1"
 
 LICENSE="BSD"
 SLOT="0"

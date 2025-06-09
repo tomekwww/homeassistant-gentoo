@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION=""
 HOMEPAGE="https://pypi.org/project/airtouch5py/"
 SRC_URI="https://files.pythonhosted.org/packages/d1/c1/2ee96405ec91a47e9454edfd81828629c4f27400bad6d8584470ffb92b14/airtouch5py-0.2.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/airtouch5py-0.2.11"
 
 LICENSE="BSD"
 SLOT="0"

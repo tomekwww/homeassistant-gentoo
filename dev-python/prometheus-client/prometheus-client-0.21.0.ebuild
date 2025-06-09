@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for the Prometheus monitoring system"
 HOMEPAGE="https://github.com/prometheus/client_python"
 SRC_URI="https://files.pythonhosted.org/packages/e1/54/a369868ed7a7f1ea5163030f4fc07d85d22d7a1d270560dab675188fb612/prometheus_client-0.21.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/prometheus_client-0.21.0"
 
 LICENSE="BSD"
 SLOT="0"

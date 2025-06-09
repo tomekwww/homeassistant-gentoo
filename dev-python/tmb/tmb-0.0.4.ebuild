@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library that interacts with TMB API"
 HOMEPAGE="https://github.com/alemuro/tmb"
 SRC_URI="https://files.pythonhosted.org/packages/80/a3/bc555206712ba21b68b8cc2a16d59307164d3321c018273c9fcdf250da1a/tmb-0.0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tmb-0.0.4"
 
 LICENSE="MIT"
 SLOT="0"

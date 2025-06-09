@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with Switchmate"
 HOMEPAGE="https://github.com/Danielhiversen/pySwitchmate/"
 SRC_URI="https://files.pythonhosted.org/packages/bf/7b/2812616528e984cb05a7edb3918dc056e5a584311cbf98cb00a7f29e77c1/PySwitchmate-0.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/PySwitchmate-0.5.1"
 
 LICENSE="BSD"
 SLOT="0"

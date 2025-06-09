@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to authenticate with Windows LiveXbox Live and use their API"
 HOMEPAGE="https://pypi.org/project/xbox-webapi/"
 SRC_URI="https://files.pythonhosted.org/packages/f5/5a/7af2bdd9725ebf905adb89fdcc78bfaae2e16ea7637db294febbbea443f6/xbox-webapi-2.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/xbox-webapi-2.1.0"
 
 LICENSE="BSD"
 SLOT="0"

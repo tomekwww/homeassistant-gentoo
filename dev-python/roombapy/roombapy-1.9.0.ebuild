@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python program and library to control WiFi enabled iRobot Roombas"
 HOMEPAGE="https://github.com/pschmitt/roombapy"
 SRC_URI="https://files.pythonhosted.org/packages/ef/b9/d405ad8cf3422b21619f57bc905a7bbbd3a13894df90d1674d87e6d91566/roombapy-1.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/roombapy-1.9.0"
 
 LICENSE="MIT"
 SLOT="0"

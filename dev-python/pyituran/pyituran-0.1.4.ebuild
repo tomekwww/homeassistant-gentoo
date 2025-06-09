@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="A module to interact with Iturans web service"
 HOMEPAGE="https://github.com/shmuelzon/pyituran"
-SRC_URI="https://github.com/shmuelzon/pyituran/tarball/0.1.4"
+SRC_URI="https://github.com/shmuelzon/pyituran/archive/refs/tags/0.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyituran-0.1.4"
 
 LICENSE="MIT"
 SLOT="0"

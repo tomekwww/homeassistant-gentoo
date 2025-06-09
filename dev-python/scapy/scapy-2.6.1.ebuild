@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Scapy interactive packet manipulation tool"
 HOMEPAGE="https://pypi.org/project/scapy/"
 SRC_URI="https://files.pythonhosted.org/packages/df/2f/035d3888f26d999e9680af8c7ddb7ce4ea0fd8d0e01c000de634c22dcf13/scapy-2.6.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/scapy-2.6.1"
 
 LICENSE="GPL-2"
 SLOT="0"

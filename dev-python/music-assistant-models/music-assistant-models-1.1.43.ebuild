@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Music Assistant Base Models"
 HOMEPAGE="https://pypi.org/project/music-assistant-models/"
 SRC_URI="https://files.pythonhosted.org/packages/78/0b/f7724b37d54dd03a286457bc122a7d3d611e6e889a72f91d5ff4d2134d51/music_assistant_models-1.1.43.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/music_assistant_models-1.1.43"
 
 LICENSE="Apache-2.0"
 SLOT="0"

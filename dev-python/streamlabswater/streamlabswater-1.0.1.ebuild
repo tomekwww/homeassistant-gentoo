@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial Python library for the Streamlabs Water API"
 HOMEPAGE="https://github.com/cpopp/streamlabswater-python"
 SRC_URI="https://files.pythonhosted.org/packages/fb/e7/5c116f997010e8a9244d419719052c4152dd690c5df868c4616209f9f2b2/streamlabswater-1.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/streamlabswater-1.0.1"
 
 LICENSE="BSD"
 SLOT="0"

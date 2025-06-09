@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Big Ass Fans i6Haiku protocol asynchronous Python library"
 HOMEPAGE="https://github.com/jfroy/aiobafi6"
 SRC_URI="https://files.pythonhosted.org/packages/b8/75/410d61f4f6476798781f1370b7bdb34fdb31de962ebc8184d75c88f9f0db/aiobafi6-0.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiobafi6-0.9.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

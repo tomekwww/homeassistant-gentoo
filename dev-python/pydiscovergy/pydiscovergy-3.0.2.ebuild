@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python 3 library for interacting with Discovergy smart meters API"
 HOMEPAGE="https://github.com/jpbede/pydiscovergy"
 SRC_URI="https://files.pythonhosted.org/packages/72/98/2cfe1f240a36add3ff782201f1f6f54dc28568fd526622fa7dd318b35fdc/pydiscovergy-3.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydiscovergy-3.0.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Parser for iBeacon devices"
 HOMEPAGE="https://github.com/bluetooth-devices/ibeacon-ble"
 SRC_URI="https://files.pythonhosted.org/packages/2c/f7/7f078410bb2f9e9bd768be4aa54365210b0c39f0cd3040188f433d9e4e51/ibeacon_ble-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ibeacon_ble-1.2.0"
 
 LICENSE="MIT"
 SLOT="0"

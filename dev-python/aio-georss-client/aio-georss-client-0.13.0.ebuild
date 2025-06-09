@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async GeoRSS client library"
 HOMEPAGE="https://github.com/exxamalte/python-aio-georss-client"
 SRC_URI="https://files.pythonhosted.org/packages/7a/65/3342f3137b6353a0cfd72e8883afc16393ac2212e9d751e9712a1270cafb/aio_georss_client-0.13.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio_georss_client-0.13"
 
 LICENSE="Apache-2.0"
 SLOT="0"

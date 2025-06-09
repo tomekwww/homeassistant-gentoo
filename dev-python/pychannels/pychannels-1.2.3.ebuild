@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API client for the Channels app  httpsgetchannelscom"
 HOMEPAGE="https://github.com/fancybits/pychannels"
 SRC_URI="https://files.pythonhosted.org/packages/ae/2f/0507b87768ff74d20157bebb00207de8bb7f78e36fb8713a71c0ca45b13b/pychannels-1.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pychannels-1.2.3"
 
 LICENSE="BSD"
 SLOT="0"

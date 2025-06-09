@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Amber Electric Public API"
 HOMEPAGE="https://github.com/madpilot/amberelectric.py"
 SRC_URI="https://files.pythonhosted.org/packages/64/7f/1a99b7cb64588df60fd54509b7ab5b3ff8019833fb341d4dbf5f2fdf8c0a/amberelectric-2.0.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/amberelectric-2.0.12"
 
 LICENSE="Apache-2.0"
 SLOT="0"

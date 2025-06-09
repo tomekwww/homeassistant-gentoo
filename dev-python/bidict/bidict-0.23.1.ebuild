@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The bidirectional mapping library for Python"
 HOMEPAGE="https://pypi.org/project/bidict/"
 SRC_URI="https://files.pythonhosted.org/packages/9a/6e/026678aa5a830e07cd9498a05d3e7e650a4f56a42f267a53d22bcda1bdc9/bidict-0.23.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bidict-0.23.1"
 
 LICENSE="BSD"
 SLOT="0"

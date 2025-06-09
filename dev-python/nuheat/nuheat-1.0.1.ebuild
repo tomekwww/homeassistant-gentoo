@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library that allows control of connected NuHeat Signature radiant floor thermostats"
 HOMEPAGE="https://github.com/broox/python-nuheat"
 SRC_URI="https://files.pythonhosted.org/packages/96/1f/89b24cfec1b477f831f9eb9f1d7acd7364c6137dbffcb9d2b617aa83496c/nuheat-1.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nuheat-1.0.1"
 
 LICENSE="MIT"
 SLOT="0"

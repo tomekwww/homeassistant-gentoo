@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client library for the Habitica API"
 HOMEPAGE="https://pypi.org/project/Habiticalib/"
 SRC_URI="https://files.pythonhosted.org/packages/cf/d4/bbb30a3b08d3e668e28c3f7e3a96761cd09cf61c2e3d5fae8a27a0853df2/habiticalib-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/habiticalib-0.4.0"
 
 LICENSE="MIT"
 SLOT="0"

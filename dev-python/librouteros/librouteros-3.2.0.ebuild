@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python implementation of MikroTik RouterOS API"
 HOMEPAGE="https://github.com/luqasz/librouteros"
 SRC_URI="https://files.pythonhosted.org/packages/eb/fe/726f66871f7cf249bf284ace765cdc7d2ea6913678d4108d71a80a70b9e7/librouteros-3.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/librouteros-3.2.0"
 
 LICENSE="BSD"
 SLOT="0"

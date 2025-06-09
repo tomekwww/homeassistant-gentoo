@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interface with Rejseplanen API"
 HOMEPAGE="https://github.com/tomatpasser/python-rejseplanen"
 SRC_URI="https://files.pythonhosted.org/packages/8e/f6/ed06126ea59ca0bcd9054b5aabd426afe5d22475b0ca600c464231b73130/rjpl-0.3.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/rjpl-0.3.6"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/LouisChrist/pyblu"
 SRC_URI="https://files.pythonhosted.org/packages/49/32/69fe7684642e3238ed30b7787c074a1051d9d3cc26305b13a20ab5429d78/pyblu-2.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyblu-2.0.1"
 
 LICENSE="MIT"
 SLOT="0"

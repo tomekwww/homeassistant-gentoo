@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Provides a python api to interact with a Hikvision camera event stream and toggle motion detection"
 HOMEPAGE="https://github.com/mezz64/pyhik"
 SRC_URI="https://files.pythonhosted.org/packages/dd/7a/93029a8d2d3cf5b543d255845f5fda4f8c69d612799b08e7a66ebaa52872/pyHik-0.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyHik-0.3.2"
 
 LICENSE="MIT"
 SLOT="0"

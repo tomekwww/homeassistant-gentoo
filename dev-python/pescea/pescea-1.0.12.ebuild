@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python interface to the Escea fireplace controllers"
 HOMEPAGE="https://github.com/lazdavila/pescea"
 SRC_URI="https://files.pythonhosted.org/packages/a8/07/830fb1201b512e04aa23382303b33d9c555de45727e28ace14fdb2ab329e/pescea-1.0.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pescea-1.0.12"
 
 LICENSE="BSD"
 SLOT="0"

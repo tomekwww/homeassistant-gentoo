@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Library of psychrometric functions to calculate thermodynamic properties of air"
 HOMEPAGE="https://github.com/psychrometrics/psychrolib"
-SRC_URI="https://files.pythonhosted.org/packages/db/d2/f32c2db16c3a5a76a75897f854dbb28228f43a192f0b398f31f7b774e9b9/PsychroLib-2.5.0.zip -> ${P}.gh.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/d2/f32c2db16c3a5a76a75897f854dbb28228f43a192f0b398f31f7b774e9b9/PsychroLib-2.5.0.zip -> ${P}.gh.zip"
+S="${WORKDIR}/PsychroLib-2.5.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Functionalities for Roborock vacuum map parsing"
 HOMEPAGE="https://pypi.org/project/vacuum-map-parser-roborock/"
 SRC_URI="https://files.pythonhosted.org/packages/39/b4/82583167a6b667151a6432fe9084232a090b36985751cd5c428998b2d080/vacuum_map_parser_roborock-0.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/vacuum_map_parser_roborock-0.1.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

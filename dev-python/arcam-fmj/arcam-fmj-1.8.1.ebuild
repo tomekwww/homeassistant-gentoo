@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library for speaking to Arcam receivers"
 HOMEPAGE="https://github.com/elupus/arcam_fmj"
 SRC_URI="https://files.pythonhosted.org/packages/ab/0f/5511e6681bde911a9c997916e95fe02b0562099e28d0d8315f49f380e432/arcam_fmj-1.8.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/arcam_fmj-1.8.1"
 
 LICENSE="MIT"
 SLOT="0"

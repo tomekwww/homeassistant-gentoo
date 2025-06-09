@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python wrapper for the iRail API"
 HOMEPAGE="https://github.com/tjorim/pyrail"
 SRC_URI="https://files.pythonhosted.org/packages/f6/9e/1fb9cf702fac8cbd82362fb110731001bf115df4f48bdfc1b4f193b3377e/pyrail-0.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyrail-0.4.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

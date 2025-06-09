@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="High level compatibility layer for multiple asynchronous event loop implementations"
 HOMEPAGE="https://pypi.org/project/anyio/"
 SRC_URI="https://files.pythonhosted.org/packages/95/7d/4c1bd541d4dffa1b52bd83fb8527089e097a106fc90b467a7313b105f840/anyio-4.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/anyio-4.9.0"
 
 LICENSE="MIT"
 SLOT="0"

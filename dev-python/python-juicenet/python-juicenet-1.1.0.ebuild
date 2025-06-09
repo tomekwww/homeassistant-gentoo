@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Read and control JuicenetJuicepointJuicebox based EVSE devices"
 HOMEPAGE="http://github.com/jesserockz/python-juicenet"
 SRC_URI="https://files.pythonhosted.org/packages/45/e6/cae55c9d8e457acf353b0ec715695bc0f29ae836db9f8ff56fec6336da2d/python-juicenet-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-juicenet-1.1.0"
 
 LICENSE="MIT"
 SLOT="0"

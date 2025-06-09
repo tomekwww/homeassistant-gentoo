@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for DIO Chacon wifis protocol for shutters and switches"
 HOMEPAGE="https://github.com/cnico/dio-chacon-wifi-api"
 SRC_URI="https://github.com/cnico/dio-chacon-wifi-api/archive/refs/tags/v1.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dio-chacon-wifi-api-1.2.2"
 
 LICENSE="GPL-3"
 SLOT="0"

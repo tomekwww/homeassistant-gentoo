@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python interface for waterfurnace geothermal systems"
 HOMEPAGE="https://github.com/sdague/waterfurnace"
 SRC_URI="https://files.pythonhosted.org/packages/c2/4c/2e6e4c964140a26fa48c9c8b20b6570c40b02df142f2e7ba3cd92236cbeb/waterfurnace-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/waterfurnace-1.1.0"
 
 LICENSE="BSD"
 SLOT="0"

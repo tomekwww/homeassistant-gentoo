@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple Deluge Client"
 HOMEPAGE="https://github.com/JohnDoee/deluge-client"
 SRC_URI="https://files.pythonhosted.org/packages/f1/53/d6672ad7b44190d578ce7520822af34e7119760df9934cad4d730b0592a2/deluge-client-1.10.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/deluge-client-1.10.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python implementation of the La Marzocco API"
 HOMEPAGE="https://pypi.org/project/pylamarzocco/"
 SRC_URI="https://files.pythonhosted.org/packages/9a/b7/4f8ea02f9c6f76ab8ca622ebd7acbc813d04d63e5b8ad58deccd708bb089/pylamarzocco-2.0.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pylamarzocco-2.0.8"
 
 LICENSE="MIT"
 SLOT="0"

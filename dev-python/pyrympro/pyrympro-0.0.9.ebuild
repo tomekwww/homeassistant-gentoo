@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library to communitcate with Read Your Meter Pro httpsrymprocom"
 HOMEPAGE="https://github.com/OnFreund/pyrympro"
 SRC_URI="https://files.pythonhosted.org/packages/8f/c2/ac511683f86c9b805c85f0a6298facb792e02398082ccad96b6eec951d42/pyrympro-0.0.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyrympro-0.0.9"
 
 LICENSE="MIT"
 SLOT="0"

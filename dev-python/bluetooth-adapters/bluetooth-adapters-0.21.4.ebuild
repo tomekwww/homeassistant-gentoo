@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Tools to enumerate and find Bluetooth Adapters"
 HOMEPAGE="https://pypi.org/project/bluetooth-adapters/"
 SRC_URI="https://files.pythonhosted.org/packages/66/0e/425a18dae6f2e0b9e98e3d97198f9766fe09a53593e69d5cb85a2b9b36bc/bluetooth_adapters-0.21.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bluetooth_adapters-0.21.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

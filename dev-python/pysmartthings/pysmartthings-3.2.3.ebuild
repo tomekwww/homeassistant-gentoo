@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for SmartThings"
 HOMEPAGE="https://pypi.org/project/pysmartthings/"
 SRC_URI="https://files.pythonhosted.org/packages/40/27/f41bed6f87686aa0a22c4f4b72296118abe2a56599e466d6f86a1750344e/pysmartthings-3.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysmartthings-3.2.3"
 
 LICENSE="Apache-2.0"
 SLOT="0"

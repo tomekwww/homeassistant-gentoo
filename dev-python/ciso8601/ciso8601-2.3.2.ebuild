@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Fast ISO8601 date time parser for Python written in C"
 HOMEPAGE="https://github.com/closeio/ciso8601"
 SRC_URI="https://files.pythonhosted.org/packages/09/e9/d83711081c997540aee59ad2f49d81f01d33e8551d766b0ebde346f605af/ciso8601-2.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ciso8601-2.3.2"
 
 LICENSE="MIT"
 SLOT="0"

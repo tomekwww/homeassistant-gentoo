@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library to retrieve observations and forecasts from NWSNOAA"
 HOMEPAGE="https://pypi.org/project/pynws/"
 SRC_URI="https://files.pythonhosted.org/packages/6c/13/1d73ae2ce29a6c7f6fdfa9556df0911721c19204e46880a60b94c92a52d9/pynws-1.8.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pynws-1.8.2"
 
 LICENSE="MIT"
 SLOT="0"

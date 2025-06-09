@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python highlevel interface and ctypesbased bindings for PulseAudio libpulse"
 HOMEPAGE="http://github.com/mk-fg/python-pulse-control"
 SRC_URI="https://files.pythonhosted.org/packages/8d/df/73af0b1a7d9f29b97c9a78ef871767bfb02e90b6fde673b0228495fab214/pulsectl-23.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pulsectl-23.5.2"
 
 LICENSE="MIT"
 SLOT="0"

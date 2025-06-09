@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python module to talk to Philips Hue"
 HOMEPAGE="https://pypi.org/project/aiohue/"
 SRC_URI="https://files.pythonhosted.org/packages/d2/83/62d1d817a868fcaac0f95893302e94955a2f9c5c4672b3fd154f56265eff/aiohue-4.7.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohue-4.7.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

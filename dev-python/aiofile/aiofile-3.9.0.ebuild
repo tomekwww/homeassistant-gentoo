@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous file operations"
 HOMEPAGE="http://github.com/mosquito/aiofile"
 SRC_URI="https://files.pythonhosted.org/packages/67/e2/d7cb819de8df6b5c1968a2756c3cb4122d4fa2b8fc768b53b7c9e5edb646/aiofile-3.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiofile-3.9.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A lightweight Python wrapper for EPA AirNow Air Quality API"
 HOMEPAGE="https://github.com/asymworks/pyairnow"
 SRC_URI="https://files.pythonhosted.org/packages/92/02/9f81110037dafaf7e3e8e421580516a49d8e7288b386deb271ec5de3d1bb/pyairnow-1.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyairnow-1.2.1"
 
 LICENSE="MIT"
 SLOT="0"

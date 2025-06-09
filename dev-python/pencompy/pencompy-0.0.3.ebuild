@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Pencom relay controller over Ethernet"
 HOMEPAGE="https://github.com/dubnom/pencompy"
 SRC_URI="https://files.pythonhosted.org/packages/a1/ca/383d30119aacc23440e9d00923a06bf317cc85f6d839b8152f9df6dbf1dd/pencompy-0.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pencompy-0.0.3"
 
 LICENSE="BSD"
 SLOT="0"

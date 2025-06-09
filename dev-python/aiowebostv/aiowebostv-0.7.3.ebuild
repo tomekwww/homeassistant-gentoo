@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to control webOS based LG TV devices"
 HOMEPAGE="https://github.com/home-assistant-libs/aiowebostv"
 SRC_URI="https://files.pythonhosted.org/packages/fb/43/4ca2efcd511d14aa75e072771259786e333db78bb319062aba2d78c5bb42/aiowebostv-0.7.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiowebostv-0.7.3"
 
 LICENSE="BSD"
 SLOT="0"

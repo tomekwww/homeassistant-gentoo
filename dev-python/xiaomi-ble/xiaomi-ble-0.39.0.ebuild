@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Manage Xiaomi BLE devices"
 HOMEPAGE="https://pypi.org/project/xiaomi-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/e0/c4/44d171f9163adcc80c726d9aa4bb4935621faefa708665f996cb26766597/xiaomi_ble-0.39.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/xiaomi_ble-0.39.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

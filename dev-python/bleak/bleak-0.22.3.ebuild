@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Bluetooth Low Energy platform Agnostic Klient"
 HOMEPAGE="https://github.com/hbldh/bleak"
 SRC_URI="https://files.pythonhosted.org/packages/fb/96/15750b50c0018338e2cce30de939130971ebfdf4f9d6d56c960f5657daad/bleak-0.22.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bleak-0.22.3"
 
 LICENSE="MIT"
 SLOT="0"

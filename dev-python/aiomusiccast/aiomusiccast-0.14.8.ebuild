@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Companion library for musiccast devices intended for the Home Assistant integration"
 HOMEPAGE="https://pypi.org/project/aiomusiccast"
 SRC_URI="https://files.pythonhosted.org/packages/fc/c0/1d1fc503824934284aa0ab8185102eef1a0b3e4f368543430327e11f0423/aiomusiccast-0.14.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiomusiccast-0.14.8"
 
 LICENSE="MIT"
 SLOT="0"

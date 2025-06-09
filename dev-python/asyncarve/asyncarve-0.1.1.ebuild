@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple Arve library"
 HOMEPAGE="https://github.com/arvetech/asyncarve"
 SRC_URI="https://files.pythonhosted.org/packages/65/15/3a1e63847bad1c6952cac71353e5231b1237c8b26b6c80eca298f51391b5/asyncarve-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/asyncarve-0.1.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python ecotrendista Api"
 HOMEPAGE="https://github.com/Ludy87/pyecotrend-ista"
 SRC_URI="https://files.pythonhosted.org/packages/0d/ba/dc4bf82741c56bd4a410a767f17d6fa10e7cc5655fe6db1fa78af7e6698e/pyecotrend-ista-3.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyecotrend-ista-3.3.1"
 
 LICENSE="MIT"
 SLOT="0"

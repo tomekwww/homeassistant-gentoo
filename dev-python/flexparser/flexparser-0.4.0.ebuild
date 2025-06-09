@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Parsing made fun  using typing"
 HOMEPAGE="https://pypi.org/project/flexparser/"
 SRC_URI="https://files.pythonhosted.org/packages/82/99/b4de7e39e8eaf8207ba1a8fa2241dd98b2ba72ae6e16960d8351736d8702/flexparser-0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/flexparser-0.4"
 
 LICENSE="BSD"
 SLOT="0"

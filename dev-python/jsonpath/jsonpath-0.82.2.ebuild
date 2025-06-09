@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An XPath for JSON"
 HOMEPAGE="http://www.ultimate.com/phil/python/#jsonpath"
 SRC_URI="https://files.pythonhosted.org/packages/cf/a1/693351acd0a9edca4de9153372a65e75398898ea7f8a5c722ab00f464929/jsonpath-0.82.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/jsonpath-0.82.2"
 
 LICENSE="MIT"
 SLOT="0"

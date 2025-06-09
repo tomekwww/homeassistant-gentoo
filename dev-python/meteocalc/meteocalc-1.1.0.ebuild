@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Functions for calculation of meteorological variables"
 HOMEPAGE="https://github.com/malexer/meteocalc"
 SRC_URI="https://files.pythonhosted.org/packages/6c/f7/95473a929f0a02547461fa3698b7f8082ff40445ba5e21601f5d9a5e48ec/meteocalc-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/meteocalc-1.1.0"
 
 LICENSE="MIT"
 SLOT="0"

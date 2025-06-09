@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="AlarmDecoder extended"
 HOMEPAGE="https://github.com/ajschmidt8/adext"
 SRC_URI="https://files.pythonhosted.org/packages/70/83/8d647128d3fced010b482c4f22431d4f0b43a198ab8282c2209386c8c915/adext-0.4.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/adext-0.4.4"
 
 LICENSE="MIT"
 SLOT="0"

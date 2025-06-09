@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A simple statsd client"
 HOMEPAGE="https://github.com/jsocol/pystatsd"
 SRC_URI="https://files.pythonhosted.org/packages/89/1e/365c87f21df573198a6e889e243fddb66755087987000a07177e80bfffea/statsd-3.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/statsd-3.2.1"
 
 LICENSE="MIT"
 SLOT="0"

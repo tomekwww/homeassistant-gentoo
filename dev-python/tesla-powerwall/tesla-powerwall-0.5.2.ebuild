@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A simple API for accessing the Tesla Powerwall over your local network"
 HOMEPAGE="https://pypi.org/project/tesla-powerwall/"
 SRC_URI="https://files.pythonhosted.org/packages/5e/ab/6039491270ce1533a3d6d631bd76e47857e28f424171dfdcc753e0a43207/tesla_powerwall-0.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tesla_powerwall-0.5.2"
 
 LICENSE="MIT"
 SLOT="0"

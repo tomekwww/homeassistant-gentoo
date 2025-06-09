@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for interacting with transportopendatach"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-opendata-transport"
 SRC_URI="https://files.pythonhosted.org/packages/b5/85/07192a5fbff0e4111d526c32557b77fc30882208a9560d629634c31f5dbb/python_opendata_transport-0.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_opendata_transport-0.5.0"
 
 LICENSE="MIT"
 SLOT="0"

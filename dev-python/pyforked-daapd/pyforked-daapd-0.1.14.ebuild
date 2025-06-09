@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Interface for forkeddaapd"
 HOMEPAGE="http://github.com/uvjustin/pyforked-daapd/"
 SRC_URI="https://files.pythonhosted.org/packages/db/ea/56043b70b05f3be75ffa4158c4720e9ff952edc9999ed81860a459a50706/pyforked-daapd-0.1.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyforked-daapd-0.1.14"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="PurePython implementation of the blurhash algorithm"
 HOMEPAGE="https://github.com/halcy/blurhash-python"
 SRC_URI="https://files.pythonhosted.org/packages/02/96/363eae896ec6a699dfc63f19f9b857c09294fe4d791198f002baa495fc4e/blurhash-1.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/blurhash-1.1.4"
 
 LICENSE="MIT"
 SLOT="0"

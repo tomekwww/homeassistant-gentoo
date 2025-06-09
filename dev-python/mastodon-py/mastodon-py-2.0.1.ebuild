@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for the Mastodon API"
 HOMEPAGE="https://pypi.org/project/Mastodon.py/"
 SRC_URI="https://files.pythonhosted.org/packages/d4/40/8f962b2d1782fd097ea45a344094df7d56f980f1d64c62de0bfa1ef5b0fc/mastodon_py-2.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mastodon_py-2.0.1"
 
 LICENSE="MIT"
 SLOT="0"

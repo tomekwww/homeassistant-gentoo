@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Remote control Samsung televisions via TCPIP connection"
 HOMEPAGE="https://github.com/Ape/samsungctl"
 SRC_URI="https://files.pythonhosted.org/packages/33/13/d97749371984ebacc53e66106cd3d224650aa2e33b21f3a4fcb4375435b3/samsungctl-0.7.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/samsungctl-0.7.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Switcher Python Integration"
 HOMEPAGE="https://pypi.org/project/aioswitcher/"
 SRC_URI="https://files.pythonhosted.org/packages/cf/24/e0692c75c7f261348918f35716fbb750290ff0cdf7a23097ee382ef4aabf/aioswitcher-6.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioswitcher-6.0.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

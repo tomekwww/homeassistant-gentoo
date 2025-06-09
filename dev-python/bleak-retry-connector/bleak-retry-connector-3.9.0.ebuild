@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A connector for Bleak Clients that handles transient connection failures"
 HOMEPAGE="https://pypi.org/project/bleak-retry-connector/"
 SRC_URI="https://files.pythonhosted.org/packages/27/af/09820adb3c221ecdcf5973db23f5dc27927023898d5f745255af7983299d/bleak_retry_connector-3.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bleak_retry_connector-3.9.0"
 
 LICENSE="MIT"
 SLOT="0"

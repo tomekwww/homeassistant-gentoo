@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="The official Python library for the openai API"
 HOMEPAGE="https://pypi.org/project/openai/"
 SRC_URI="https://files.pythonhosted.org/packages/d5/48/e767710b07acc1fca1f6b8cacd743102c71b8fdeca603876de0749ec00f1/openai-1.76.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/openai-1.76.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A pure python module to connect to a pilight daemon to send and receive commands"
 HOMEPAGE="https://github.com/DavidLP/pilight"
 SRC_URI="https://files.pythonhosted.org/packages/be/24/bee3980c42d5f82f1cb86e7661fce1acbc19e506a6327f993e12fb98378a/pilight-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pilight-0.1.1"
 
 LICENSE="MIT"
 SLOT="0"

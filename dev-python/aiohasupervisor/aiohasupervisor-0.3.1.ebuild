@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous python client for Home Assistant Supervisor"
 HOMEPAGE="https://pypi.org/project/aiohasupervisor/"
 SRC_URI="https://files.pythonhosted.org/packages/28/c2/cd208f6b6bc78675130a4ed883bfd6de3e401131233ee85c4e3f6c231166/aiohasupervisor-0.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohasupervisor-0.3.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

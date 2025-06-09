@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Intellifire4Py"
 HOMEPAGE="https://github.com/jeeftor/intellifire4py"
 SRC_URI="https://files.pythonhosted.org/packages/ad/fb/7f349f424488ad66388400415937d8cd286ef2ae56670e79d114337827c6/intellifire4py-4.1.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/intellifire4py-4.1.9"
 
 LICENSE="MIT"
 SLOT="0"

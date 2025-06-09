@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Home Assistant cloud integration by Nabu Casa Inc"
 HOMEPAGE="https://pypi.org/project/hass-nabucasa/"
 SRC_URI="https://files.pythonhosted.org/packages/2c/b5/91e0240b0db6954f3c944f7a9b0c105cb69a186b4d1e864c4155d4d95990/hass_nabucasa-0.101.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/hass_nabucasa-0.101.0"
 
 LICENSE="BSD"
 SLOT="0"

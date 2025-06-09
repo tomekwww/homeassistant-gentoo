@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION=""
 HOMEPAGE="https://pypi.org/project/aioruuvigateway/"
 SRC_URI="https://files.pythonhosted.org/packages/66/6f/37b79a9f684f4fc87f23f93fa4fdbda5c4c1aee1e7589f9b546f4a601adc/aioruuvigateway-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioruuvigateway-0.1.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for Xeoma web server API"
 HOMEPAGE="https://github.com/jeradM/pyxeoma"
 SRC_URI="https://files.pythonhosted.org/packages/dd/79/ffd89a78cc7e129ff7c66f6e75bc2067bd301ea57a30de874309cf0a1e47/pyxeoma-1.4.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyxeoma-1.4.2"
 
 LICENSE="MIT"
 SLOT="0"

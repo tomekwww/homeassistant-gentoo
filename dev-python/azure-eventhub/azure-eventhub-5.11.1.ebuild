@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Microsoft Azure Event Hubs Client Library for Python"
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/eventhub/azure-eventhub"
-SRC_URI="https://files.pythonhosted.org/packages/fb/81/bcdc35b05a59ae830de15ba57b394875524cacaff6fd87795e35c114a881/azure-eventhub-5.11.1.zip -> ${P}.gh.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/81/bcdc35b05a59ae830de15ba57b394875524cacaff6fd87795e35c114a881/azure-eventhub-5.11.1.zip -> ${P}.gh.zip"
+S="${WORKDIR}/azure-eventhub-5.11.1"
 
 LICENSE="MIT"
 SLOT="0"
@@ -20,7 +21,7 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/azure-core-1.14.0[${PYTHON_USEDEP}]
 	<dev-python/azure-core-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/azure-core-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
 "

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The geodesic routines from GeographicLib"
 HOMEPAGE="https://geographiclib.sourceforge.io/Python/2.0"
 SRC_URI="https://files.pythonhosted.org/packages/96/cd/90271fd195d79a9c2af0ca21632b297a6cc3e852e0413a2e4519e67be213/geographiclib-2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/geographiclib-2.0"
 
 LICENSE="MIT"
 SLOT="0"

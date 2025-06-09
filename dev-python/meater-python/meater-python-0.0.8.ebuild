@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A wrapper for the Apption Labs Meater probe API v1"
 HOMEPAGE="https://github.com/Sotolotl/meater-python"
 SRC_URI="https://files.pythonhosted.org/packages/b9/99/35c5d3c51e36fa64581792b326f838e1f9caae0c8b72f62b836207dd969a/meater-python-0.0.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/meater-python-0.0.8"
 
 LICENSE="BSD"
 SLOT="0"

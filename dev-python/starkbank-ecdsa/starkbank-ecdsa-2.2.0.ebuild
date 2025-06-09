@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A lightweight and fast pure python ECDSA library"
 HOMEPAGE="https://github.com/starkbank/ecdsa-python.git"
 SRC_URI="https://files.pythonhosted.org/packages/a3/f8/a6091be6a60ed4df9ac806c89fbc5fe1a3416d0284f3ba70aa09a3419428/starkbank-ecdsa-2.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/starkbank-ecdsa-2.2.0"
 
 LICENSE="MIT"
 SLOT="0"

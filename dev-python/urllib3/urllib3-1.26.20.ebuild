@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="HTTP library with threadsafe connection pooling file post and more"
 HOMEPAGE="https://urllib3.readthedocs.io/"
 SRC_URI="https://files.pythonhosted.org/packages/e4/e8/6ff5e6bc22095cfc59b6ea711b687e2b7ed4bdb373f7eeec370a97d7392f/urllib3-1.26.20.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/urllib3-1.26.20"
 
 LICENSE="MIT"
 SLOT="0"

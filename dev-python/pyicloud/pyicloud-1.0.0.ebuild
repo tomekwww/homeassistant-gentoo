@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="PyiCloud is a module which allows pythonistas to interact with iCloud webservices"
 HOMEPAGE="https://github.com/picklepete/pyicloud"
 SRC_URI="https://files.pythonhosted.org/packages/c9/a0/249d8717e8a083f55bb1b1085f505fb19903b7f467311cadef7454aa5f4a/pyicloud-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyicloud-1.0.0"
 
 LICENSE="MIT"
 SLOT="0"

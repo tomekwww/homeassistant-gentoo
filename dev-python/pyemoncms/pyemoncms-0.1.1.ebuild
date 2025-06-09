@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library to interrogate emoncms API"
 HOMEPAGE="https://github.com/Open-Building-Management/pyemoncms"
 SRC_URI="https://files.pythonhosted.org/packages/58/26/676c37667153be906518fe261ef45e8e213d59e06d6a24a1f4677a669935/pyemoncms-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyemoncms-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

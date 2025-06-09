@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Convert voluptuous schemas to OpenAPI Schema object"
 HOMEPAGE="https://pypi.org/project/voluptuous-openapi/"
 SRC_URI="https://files.pythonhosted.org/packages/ba/20/ed87b130ae62076b731521b3c4bc502e6ba8cc92def09954e4e755934804/voluptuous_openapi-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/voluptuous_openapi-0.1.0"
 
 LICENSE="BSD"
 SLOT="0"

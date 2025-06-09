@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library implementing a Zigbee stack"
 HOMEPAGE="https://pypi.org/project/zigpy/"
 SRC_URI="https://files.pythonhosted.org/packages/bb/0f/d653caa8bd1ab2ee683dde4124e22dc9f645d3fe5bbf1c2c7ada70faea6c/zigpy-0.80.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/zigpy-0.80.1"
 
 LICENSE="GPL-3"
 SLOT="0"

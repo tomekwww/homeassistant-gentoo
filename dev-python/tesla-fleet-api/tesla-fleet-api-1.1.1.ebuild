@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Tesla Fleet API library for Python"
 HOMEPAGE="https://pypi.org/project/tesla-fleet-api/"
 SRC_URI="https://files.pythonhosted.org/packages/17/81/424ba26b3b6b69d6009c26fd76b030c5efc0fc82446aaa6521884ccd8e7b/tesla_fleet_api-1.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tesla_fleet_api-1.1.1"
 
 LICENSE="BSD"
 SLOT="0"

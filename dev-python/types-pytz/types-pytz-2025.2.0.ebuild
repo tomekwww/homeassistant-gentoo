@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Typing stubs for pytz"
 HOMEPAGE="https://pypi.org/project/types-pytz/"
 SRC_URI="https://files.pythonhosted.org/packages/bd/72/b0e711fd90409f5a76c75349055d3eb19992c110f0d2d6aabbd6cfbc14bf/types_pytz-2025.2.0.20250516.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/types_pytz-2025.2.0.20250516"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="BThome BLE support"
 HOMEPAGE="https://pypi.org/project/bthome-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/83/00/9b9f83ba3928bb42d16665fec68da6fdfb466b89573290e640600fb03304/bthome_ble-3.12.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bthome_ble-3.12.4"
 
 LICENSE="MIT"
 SLOT="0"

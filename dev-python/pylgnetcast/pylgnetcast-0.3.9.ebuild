@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Client for the LG Smart TV running NetCast 3 or 4"
 HOMEPAGE="https://github.com/Drafteed/python-lgnetcast"
 SRC_URI="https://files.pythonhosted.org/packages/ad/ba/deb9f1943487086ab899b8b67577c619c82811f2c99e301dbd0f6528df54/pylgnetcast-0.3.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pylgnetcast-0.3.9"
 
 LICENSE="MIT"
 SLOT="0"

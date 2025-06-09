@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A loose python wrapper around the ZoneMinder REST API"
 HOMEPAGE="https://github.com/rohankapoorcom/zm-py"
 SRC_URI="https://files.pythonhosted.org/packages/b6/20/4fc727c6661b22e4b8fb81e9da9f3a77a458b51789d42c329b20397f4d94/zm_py-0.5.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/zm_py-0.5.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

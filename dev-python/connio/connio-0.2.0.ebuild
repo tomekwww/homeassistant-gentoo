@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Concurrency agnostic socket API"
 HOMEPAGE="https://tiagocoutinho.github.io/connio/"
 SRC_URI="https://files.pythonhosted.org/packages/19/94/e7adc24adafd1230a122a259e5680cbddd73b5b0201aa92147f8431ba8f6/connio-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/connio-0.2.0"
 
 LICENSE="BSD"
 SLOT="0"

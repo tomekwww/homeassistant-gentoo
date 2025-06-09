@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Dremel 3D Printer Python Library running on Python 3"
 HOMEPAGE="https://github.com/godely/dremel3dpy"
 SRC_URI="https://files.pythonhosted.org/packages/71/b0/4f1b7161d2e99caef5693d2bd01b774a053271fdc19e39501412d384bd6d/dremel3dpy-2.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dremel3dpy-2.1.1"
 
 LICENSE="MIT"
 SLOT="0"

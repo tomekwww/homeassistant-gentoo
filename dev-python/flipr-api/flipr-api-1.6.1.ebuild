@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python client for flipr API"
 HOMEPAGE="https://github.com/cnico/flipr-api"
 SRC_URI="https://github.com/cnico/flipr-api/archive/refs/tags/1.6.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/flipr-api-1.6.1"
 
 LICENSE="GPL-3"
 SLOT="0"

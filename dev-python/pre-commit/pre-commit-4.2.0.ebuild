@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A framework for managing and maintaining multilanguage precommit hooks"
 HOMEPAGE="https://github.com/pre-commit/pre-commit"
 SRC_URI="https://files.pythonhosted.org/packages/08/39/679ca9b26c7bb2999ff122d50faa301e49af82ca9c066ec061cfbc0c6784/pre_commit-4.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pre_commit-4.2.0"
 
 LICENSE="MIT"
 SLOT="0"

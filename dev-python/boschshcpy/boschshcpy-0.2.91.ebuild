@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Bosch Smart Home Controller API Python Library"
 HOMEPAGE="https://github.com/tschamm/boschshcpy"
 SRC_URI="https://files.pythonhosted.org/packages/59/bc/60e0edb41baff9166df33bfd48238f2c5b44ef36d355abba8051584956bc/boschshcpy-0.2.91.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/boschshcpy-0.2.91"
 
 LICENSE="BSD"
 SLOT="0"

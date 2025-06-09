@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Parser for INKBIRD BLE devices"
 HOMEPAGE="https://pypi.org/project/inkbird-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/96/b0/86e83a4480bc6d3ad2deb2167c77e29071c4af5334cbd5b574cb9b987270/inkbird_ble-0.16.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/inkbird_ble-0.16.2"
 
 LICENSE="MIT"
 SLOT="0"

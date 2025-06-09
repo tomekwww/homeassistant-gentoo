@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Consume ServerSent Event SSE messages with HTTPX"
 HOMEPAGE="https://pypi.org/project/httpx-sse/"
 SRC_URI="https://files.pythonhosted.org/packages/4c/60/8f4281fa9bbf3c8034fd54c0e7412e66edbab6bc74c4996bd616f8d0406e/httpx-sse-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/httpx-sse-0.4.0"
 
 LICENSE="MIT"
 SLOT="0"

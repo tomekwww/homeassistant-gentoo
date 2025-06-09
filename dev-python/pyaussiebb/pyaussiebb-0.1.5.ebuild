@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Aussie Broadband API module"
 HOMEPAGE="https://github.com/yaleman/pyaussiebb"
 SRC_URI="https://files.pythonhosted.org/packages/ea/38/4944b2a811c054fa91f371218f1110c47191bf5b638b6b164649eb0faf5d/pyaussiebb-0.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyaussiebb-0.1.5"
 
 LICENSE="MIT"
 SLOT="0"

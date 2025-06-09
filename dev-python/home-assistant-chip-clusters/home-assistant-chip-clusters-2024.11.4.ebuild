@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Pythonbase APIs and tools for CHIP"
 HOMEPAGE="https://github.com/project-chip/connectedhomeip"
 SRC_URI="https://github.com/project-chip/connectedhomeip/archive/refs/tags/v1.4.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/connectedhomeip-1.4.0.0"
 
 LICENSE="BSD"
 SLOT="0"

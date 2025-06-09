@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interface for Pentair ScreenLogic connected pool controllers over IP via Python"
 HOMEPAGE="https://github.com/dieselrabbit/screenlogicpy"
 SRC_URI="https://files.pythonhosted.org/packages/cc/45/168391d2ecb10cf87f7c0d7c52f6d891f79c8a019999daa8b1f742db91a6/screenlogicpy-0.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/screenlogicpy-0.10.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Client library for the thingspeakcom API"
 HOMEPAGE="https://thingspeak.readthedocs.io/"
 SRC_URI="https://files.pythonhosted.org/packages/cb/d2/3b8aac07411c41f0a2b2da9420cdfb41e3a02e683d2ab5d8e4e550d1d33e/thingspeak-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/thingspeak-1.0.0"
 
 LICENSE="LGPL-3"
 SLOT="0"

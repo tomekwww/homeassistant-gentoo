@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Baidu AIP SDK"
 HOMEPAGE="https://github.com/Baidu-AIP"
 SRC_URI="https://files.pythonhosted.org/packages/9d/aa/23f134bcc8531a7166846c4fb17ae5ce30f8323a8f9da7d24549d39412d9/baidu-aip-1.6.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/baidu-aip-1.6.6.0"
 
 LICENSE="BSD"
 SLOT="0"

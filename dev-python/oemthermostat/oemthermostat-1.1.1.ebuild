@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat"
 HOMEPAGE="https://github.com/Cadair/openenergymonitor_thermostat"
 SRC_URI="https://files.pythonhosted.org/packages/b0/2f/d279f34e4484356e36752113a345d80238b4538229dbd32c15e99b97b146/oemthermostat-1.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/oemthermostat-1.1.1"
 
 LICENSE="BSD"
 SLOT="0"

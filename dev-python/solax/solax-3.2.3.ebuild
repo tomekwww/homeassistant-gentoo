@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Solax inverter API client"
 HOMEPAGE="https://github.com/squishykid/solax"
 SRC_URI="https://files.pythonhosted.org/packages/49/49/fe4002a9b48aaba833606d6dc2d9ecd3a5d52190b50cbc02e2b1c03534f4/solax-3.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/solax-3.2.3"
 
 LICENSE="MIT"
 SLOT="0"

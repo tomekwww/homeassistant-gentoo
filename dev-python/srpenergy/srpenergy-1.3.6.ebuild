@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An unofficial Python module for interacting with Srp Energy data"
 HOMEPAGE="https://github.com/lamoreauxlab/srpenergy-api-client-python"
 SRC_URI="https://files.pythonhosted.org/packages/8c/ab/6a3ebc0268cac7a3443416665a47e84e54946c41a047ef00a0cd6af2d814/srpenergy-1.3.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/srpenergy-1.3.6"
 
 LICENSE="MIT"
 SLOT="0"

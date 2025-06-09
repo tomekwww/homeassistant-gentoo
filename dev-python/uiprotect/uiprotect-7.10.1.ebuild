@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for Unifi Protect Unofficial"
 HOMEPAGE="https://pypi.org/project/uiprotect/"
 SRC_URI="https://files.pythonhosted.org/packages/9d/ab/4b90def6f9c8660b10c9bb351bfa2d77d1b383a9055b7c481a15355bfde9/uiprotect-7.10.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/uiprotect-7.10.1"
 
 LICENSE="MIT"
 SLOT="0"

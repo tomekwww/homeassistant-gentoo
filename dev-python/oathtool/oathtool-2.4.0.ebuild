@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Onetime password generator"
 HOMEPAGE="https://pypi.org/project/oathtool/"
 SRC_URI="https://files.pythonhosted.org/packages/36/80/d3a48e04d3092c3bbc88975d0a04974d0d9d3bd11b171e7fb45ea31974b4/oathtool-2.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/oathtool-2.4.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Control SNOOZ white noise machines"
 HOMEPAGE="https://github.com/AustinBrunkhorst/pysnooz"
 SRC_URI="https://files.pythonhosted.org/packages/31/32/04f0cb7c5e98cbce95b0fea7ae61ebdf08320276ded53423130e22180aad/pysnooz-0.8.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysnooz-0.8.6"
 
 LICENSE="MIT"
 SLOT="0"

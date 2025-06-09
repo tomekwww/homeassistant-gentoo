@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python wrapper library over Bond Local API"
 HOMEPAGE="https://github.com/bondhome/bond-async"
 SRC_URI="https://files.pythonhosted.org/packages/88/b8/8f687aef0f5ccf1ef9d5fe84b6b7cc9f30b3656b4182c84fc22d737b48d4/bond_async-0.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bond_async-0.2.1"
 
 LICENSE="MIT"
 SLOT="0"

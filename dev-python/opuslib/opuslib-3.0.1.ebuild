@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python bindings to the libopus IETF lowdelay audio codec"
 HOMEPAGE="https://github.com/onbeep/opuslib"
 SRC_URI="https://files.pythonhosted.org/packages/46/55/826befabb29fd3902bad6d6d7308790894c7ad4d73f051728a0c53d37cd7/opuslib-3.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/opuslib-3.0.1"
 
 LICENSE="BSD"
 SLOT="0"

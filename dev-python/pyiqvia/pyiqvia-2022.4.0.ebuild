@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A clean asyncfocused Python3 API for IQVIA data"
 HOMEPAGE="https://github.com/bachya/pyiqvia"
 SRC_URI="https://files.pythonhosted.org/packages/5c/4b/fb10324aa036a87b99ee85911887b05465a891a4ebe510749142dc0d4d42/pyiqvia-2022.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyiqvia-2022.4.0"
 
 LICENSE="MIT"
 SLOT="0"

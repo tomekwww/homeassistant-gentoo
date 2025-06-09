@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interface for dlink W215 Smart Plugs"
 HOMEPAGE="https://github.com/linuxchristian/pyW215"
 SRC_URI="https://files.pythonhosted.org/packages/6f/4a/c8cff44540c36235193a923b34df1d83c5be134dda9f08f3c5cce46046df/pyW215-0.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyW215-0.7.0"
 
 LICENSE="MIT"
 SLOT="0"

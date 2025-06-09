@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Twilio API client and TwiML generator"
 HOMEPAGE="https://github.com/twilio/twilio-python/"
 SRC_URI="https://files.pythonhosted.org/packages/ae/14/a6d03cc22f6a4a9d4c681f64e7ce374a74186afc51fccc7569005cf52e40/twilio-6.32.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/twilio-6.32.0"
 
 LICENSE="BSD"
 SLOT="0"

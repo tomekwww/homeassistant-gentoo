@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to gather information from ETS project files used for KNX"
 HOMEPAGE="https://pypi.org/project/xknxproject/"
 SRC_URI="https://files.pythonhosted.org/packages/73/67/91604150194b6336e78d0cc47f426e0e438295af9b2ee291bac1d4e01c00/xknxproject-3.8.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/xknxproject-3.8.2"
 
 LICENSE="GPL-2"
 SLOT="0"

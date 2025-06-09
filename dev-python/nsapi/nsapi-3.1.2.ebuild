@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="api wrapper for Dutch Railways NS"
 HOMEPAGE="https://pypi.org/project/nsapi/"
 SRC_URI="https://files.pythonhosted.org/packages/76/a3/1033128fe3ee644743ea47702aa3907cdf802bab94c71c3f49f0fd2e0288/nsapi-3.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nsapi-3.1.2"
 
 LICENSE="MIT"
 SLOT="0"

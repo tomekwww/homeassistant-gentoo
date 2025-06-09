@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library to retrieve information from Instituto Portugus do Mar e Atmosfera"
 HOMEPAGE="https://github.com/dgomes/pyipma"
 SRC_URI="https://files.pythonhosted.org/packages/43/01/dca12b07d40809d604ae36f064d14b814588534e74c515c59e63c330f3b5/pyipma-3.0.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyipma-3.0.9"
 
 LICENSE="MIT"
 SLOT="0"

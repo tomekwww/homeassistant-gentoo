@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Rulebased number formatting using Unicode CLDR data"
 HOMEPAGE="https://pypi.org/project/unicode-rbnf/"
 SRC_URI="https://files.pythonhosted.org/packages/ca/2d/e901fbe434971834eb8249865e27b04685ff0b61ffb4659458295d41c1d7/unicode_rbnf-2.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/unicode_rbnf-2.3.0"
 
 LICENSE="MIT"
 SLOT="0"

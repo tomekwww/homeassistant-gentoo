@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Runtime inspection utilities for typing module"
 HOMEPAGE="https://github.com/ilevkivskyi/typing_inspect"
 SRC_URI="https://files.pythonhosted.org/packages/dc/74/1789779d91f1961fa9438e9a8710cdae6bd138c80d7303996933d117264a/typing_inspect-0.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/typing_inspect-0.9.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Google Cloud PubSub API client library"
 HOMEPAGE="https://github.com/googleapis/python-pubsub"
 SRC_URI="https://files.pythonhosted.org/packages/d6/4d/1db6b937d76d4cb1dca484e4f61f138b5611f0658992bf1ad6679bbddfad/google_cloud_pubsub-2.29.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/google_cloud_pubsub-2.29.0"
 
 LICENSE="BSD"
 SLOT="0"

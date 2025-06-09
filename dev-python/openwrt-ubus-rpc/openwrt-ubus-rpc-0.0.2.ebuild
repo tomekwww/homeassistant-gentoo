@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="OpenWrt ubus RPC API library"
 HOMEPAGE="https://github.com/Noltari/python-ubus-rpc"
 SRC_URI="https://files.pythonhosted.org/packages/86/66/9748ef3e759ff9f99c0f62cd1ac698786b4f85929a20fa19167070269a1f/openwrt-ubus-rpc-0.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/openwrt-ubus-rpc-0.0.2"
 
 LICENSE="BSD"
 SLOT="0"

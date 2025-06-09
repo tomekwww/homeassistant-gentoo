@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python client for Apple WeatherKit API"
 HOMEPAGE="https://github.com/tjhorner/python-weatherkit"
 SRC_URI="https://files.pythonhosted.org/packages/1d/c8/62952a4244178cee533e742a2aac0519288f8942ac09cc1edcf44f5547b4/apple_weatherkit-1.1.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/apple_weatherkit-1.1.3"
 
 LICENSE="MIT"
 SLOT="0"

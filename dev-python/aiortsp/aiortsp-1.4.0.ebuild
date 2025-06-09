@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An asynciobased RTSP library"
 HOMEPAGE="https://github.com/marss/aiortsp"
 SRC_URI="https://files.pythonhosted.org/packages/a5/d6/69fc1d338619b87fe79b0c26e5a3b4dd6766725a483e62467db3daf3f461/aiortsp-1.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiortsp-1.4.0"
 
 LICENSE="BSD"
 SLOT="0"

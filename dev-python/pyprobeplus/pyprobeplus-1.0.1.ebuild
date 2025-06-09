@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A generic library to interact with a Probe Plus BLE device"
 HOMEPAGE="http://github.com/pantherale0/pyprobeplus"
 SRC_URI="https://files.pythonhosted.org/packages/b9/34/876a4ca27a45b5575e0d414207c24863d065b82a217a995c86340a662cb5/pyprobeplus-1.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyprobeplus-1.0.1"
 
 LICENSE="MIT"
 SLOT="0"

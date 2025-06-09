@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python3 library to communicate with Mill heaters using local Gen 3 API"
 HOMEPAGE="https://github.com/Danielhiversen/pyMillLocal"
 SRC_URI="https://files.pythonhosted.org/packages/21/9f/24d91716412db2c6350afbbdf9a5d066de66d505f26a2e0c4ba5035f9fd8/mill_local-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mill_local-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Pythonic bindings for FFmpegs libraries"
 HOMEPAGE="https://github.com/PyAV-Org/PyAV"
 SRC_URI="https://files.pythonhosted.org/packages/0c/9d/486d31e76784cc0ad943f420c5e05867263b32b37e2f4b0f7f22fdc1ca3a/av-13.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/av-13.1.0"
 
 LICENSE="BSD"
 SLOT="0"

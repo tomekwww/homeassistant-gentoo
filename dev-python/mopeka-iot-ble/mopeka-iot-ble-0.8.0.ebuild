@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Mopeka IOT BLE Parser"
 HOMEPAGE="https://github.com/bluetooth-devices/mopeka-iot-ble"
 SRC_URI="https://files.pythonhosted.org/packages/84/08/d9e83e04c46fc076dd24e0b5c126754bd83746987ef812c1d526a3f623f1/mopeka_iot_ble-0.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mopeka_iot_ble-0.8.0"
 
 LICENSE="MIT"
 SLOT="0"

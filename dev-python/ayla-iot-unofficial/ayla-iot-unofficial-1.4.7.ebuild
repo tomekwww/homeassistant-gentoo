@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for Ayla IoT products"
 HOMEPAGE="https://github.com/rewardone/ayla-iot-unofficial"
 SRC_URI="https://files.pythonhosted.org/packages/10/6e/d9d55d80b9b0eb48a17c97a190aeb2daa57f5f0b388e0b74b4dd5b566e54/ayla_iot_unofficial-1.4.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ayla_iot_unofficial-1.4.7"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="eBusd python integration library"
 HOMEPAGE="https://github.com/CrazYoshi/ebusdpy"
 SRC_URI="https://files.pythonhosted.org/packages/7d/cb/833e7592f9195dd0bd10c665d9e3421ca9ad431bb27a9b943c744c84df19/ebusdpy-0.0.17.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ebusdpy-0.0.17"
 
 LICENSE="BSD"
 SLOT="0"

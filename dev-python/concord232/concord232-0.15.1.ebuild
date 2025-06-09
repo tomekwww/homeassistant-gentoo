@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="GE Concord 4 RS232 Serial Interface Library and Server"
 HOMEPAGE="http://github.com/JasonCarter80/concord232"
 SRC_URI="https://files.pythonhosted.org/packages/bc/0b/73c2c75641d98984f9bd34582345d05c6cd07b7185dd79f83a62a414eb2e/concord232-0.15.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/concord232-0.15.1"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API Library for communicating with a Tesla Wall Connector"
 HOMEPAGE="https://github.com/einarhauks/tesla-wall-connector"
 SRC_URI="https://files.pythonhosted.org/packages/84/fd/c2da0cf0966d3a585c0191acf1cdfef4c9744847fa47715add6f5a3f77c4/tesla-wall-connector-1.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tesla-wall-connector-1.0.2"
 
 LICENSE="MIT"
 SLOT="0"

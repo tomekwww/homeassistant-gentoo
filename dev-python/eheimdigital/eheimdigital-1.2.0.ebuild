@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_13 )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Offers a Python API for the EHEIM Digital smart aquarium devices"
 HOMEPAGE="https://pypi.org/project/eheimdigital/"
 SRC_URI="https://files.pythonhosted.org/packages/28/be/0258a66b94eea5f97706bcb95f0e4640822433cf64ed34c10c0c4abb132c/eheimdigital-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/eheimdigital-1.2.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Retrieve values from public API at the Swedish Transport Administration Trafikverket"
 HOMEPAGE="https://github.com/gjohansson-ST/pytrafikverket"
 SRC_URI="https://files.pythonhosted.org/packages/45/30/538878f57307bdde4c422561fb36a4a3e67183b388c0001c6562af3d1815/pytrafikverket-1.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pytrafikverket-1.1.1"
 
 LICENSE="MIT"
 SLOT="0"

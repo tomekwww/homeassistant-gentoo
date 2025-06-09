@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python bindings and utilities for GeoJSON"
 HOMEPAGE="https://github.com/jazzband/geojson"
 SRC_URI="https://files.pythonhosted.org/packages/85/5a/33e761df75c732fcea94aaf01f993d823138581d10c91133da58bc231e63/geojson-3.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/geojson-3.2.0"
 
 LICENSE="BSD"
 SLOT="0"

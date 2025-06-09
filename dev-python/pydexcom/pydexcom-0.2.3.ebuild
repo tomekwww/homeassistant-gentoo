@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API to interact with Dexcom Share API"
 HOMEPAGE="https://github.com/gagebenne/pydexcom"
 SRC_URI="https://files.pythonhosted.org/packages/3d/83/eef794b472bbb4a63a500f95fd5bf7ae40e46b9db313cf5c038ab245e4ae/pydexcom-0.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydexcom-0.2.3"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="System Bridge Models"
 HOMEPAGE="https://github.com/timmo001/system-bridge-models"
 SRC_URI="https://files.pythonhosted.org/packages/aa/04/28abb1b673785d2138459fa0bdece1e363165751ced9603b9698aed81d40/systembridgemodels-4.2.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/systembridgemodels-4.2.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

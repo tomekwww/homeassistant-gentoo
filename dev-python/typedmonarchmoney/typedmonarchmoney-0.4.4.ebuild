@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Typed wrapper around Monarch Money"
 HOMEPAGE="https://pypi.org/project/typedmonarchmoney/"
 SRC_URI="https://files.pythonhosted.org/packages/b8/85/2356f5f0ba93babbcb6d1b57eafeb91314278e4804ac863523a346c00fea/typedmonarchmoney-0.4.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/typedmonarchmoney-0.4.4"
 
 LICENSE="MIT"
 SLOT="0"

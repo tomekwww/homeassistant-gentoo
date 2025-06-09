@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed"
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-geonetnz-volcano"
 SRC_URI="https://files.pythonhosted.org/packages/52/ae/15e0e8e6024e5a4c8877e37e0be620d10e7c393e5a96bf7340050fdeab26/aio_geojson_geonetnz_volcano-0.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio_geojson_geonetnz_volcano-0.9"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A fully featured modbus protocol stack in python"
 HOMEPAGE="https://pypi.org/project/pymodbus/"
 SRC_URI="https://files.pythonhosted.org/packages/f7/c7/95ad9774e7ba8547f52d657b09fee7fa02d87532866f561c6d2bb9068b8c/pymodbus-3.8.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pymodbus-3.8.3"
 
 LICENSE="BSD"
 SLOT="0"

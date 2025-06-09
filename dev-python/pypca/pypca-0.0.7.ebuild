@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python cli for PCA 301 smart plugs"
 HOMEPAGE="http://www.github.com/majuss/pypca"
 SRC_URI="https://files.pythonhosted.org/packages/43/17/3c986fdec0af60ff9614265b50f411b3f3d13cbd673e775192020950a61f/pypca-0.0.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pypca-0.0.7"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library to convert dataclasses into marshmallow schemas"
 HOMEPAGE="https://github.com/lovasoa/marshmallow_dataclass"
 SRC_URI="https://files.pythonhosted.org/packages/01/23/a863a5d569f03454d733f884a72415ac3f1e1b1b3215de3a9f4f621a83a6/marshmallow_dataclass-8.7.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/marshmallow_dataclass-8.7.1"
 
 LICENSE="MIT"
 SLOT="0"

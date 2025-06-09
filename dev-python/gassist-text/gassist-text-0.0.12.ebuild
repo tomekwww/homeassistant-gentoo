@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library for interacting with Google Assistant API via text"
 HOMEPAGE="https://pypi.org/project/gassist-text/"
 SRC_URI="https://files.pythonhosted.org/packages/31/83/349dd3db88f4471c03eadc67a203336cecf2001ade02bbcf7e7899699f1a/gassist_text-0.0.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gassist_text-0.0.12"
 
 LICENSE="Apache-2.0"
 SLOT="0"

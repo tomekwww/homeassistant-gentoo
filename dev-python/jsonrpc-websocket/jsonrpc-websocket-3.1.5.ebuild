@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A JSONRPC websocket client library for asyncio"
 HOMEPAGE="http://github.com/emlove/jsonrpc-websocket"
 SRC_URI="https://files.pythonhosted.org/packages/6c/b2/584df462e8a7791e6e3ef95fd5faab7ccc74252e7ee171c985947f7b7a11/jsonrpc-websocket-3.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/jsonrpc-websocket-3.1.5"
 
 LICENSE="BSD"
 SLOT="0"

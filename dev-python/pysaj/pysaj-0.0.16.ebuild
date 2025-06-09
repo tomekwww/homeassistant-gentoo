@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to communicate with SAJ inverters"
 HOMEPAGE="https://github.com/fredericvl/pysaj"
 SRC_URI="https://files.pythonhosted.org/packages/42/14/f00639c61aff0fdf42bbe3377ac75f45d2e1d158984dd6f428ee8ce5def1/pysaj-0.0.16.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysaj-0.0.16"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=flit
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Swing2Sleep Smarla API"
 HOMEPAGE="https://pypi.org/project/pysmarlaapi/"
 SRC_URI="https://files.pythonhosted.org/packages/99/aa/69c8ec0440156deb894cd34ef87e8594818c8ca695cddf6f0a1b9f996375/pysmarlaapi-0.8.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysmarlaapi-0.8.2"
 
 LICENSE="BSD"
 SLOT="0"

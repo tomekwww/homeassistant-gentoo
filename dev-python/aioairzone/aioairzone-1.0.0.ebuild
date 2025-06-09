@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to control Airzone devices"
 HOMEPAGE="https://pypi.org/project/aioairzone/"
 SRC_URI="https://files.pythonhosted.org/packages/26/eb/c2c807a1fdf8346bd9ad875b6f1bf489fb5be126bf7b1c6cf98b31c8a013/aioairzone-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioairzone-1.0.0"
 
 LICENSE="BSD"
 SLOT="0"

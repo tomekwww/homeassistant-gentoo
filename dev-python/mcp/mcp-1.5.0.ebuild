@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Model Context Protocol SDK"
 HOMEPAGE="https://pypi.org/project/mcp/"
 SRC_URI="https://files.pythonhosted.org/packages/6d/c9/c55764824e893fdebe777ac7223200986a275c3191dba9169f8eb6d7c978/mcp-1.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mcp-1.5.0"
 
 LICENSE="MIT"
 SLOT="0"

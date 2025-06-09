@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python wrapper for Dune HD media player API"
 HOMEPAGE="https://github.com/valentinalexeev/pdunehd"
 SRC_URI="https://files.pythonhosted.org/packages/bc/6f/7b94176ba29bb6cc6d3bcfce514d9ec7499ccadcddfe8cbbee834a5b1458/pdunehd-1.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pdunehd-1.3.2"
 
 LICENSE="BSD"
 SLOT="0"

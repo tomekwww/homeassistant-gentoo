@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for interacting with Glances"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-glances-api"
 SRC_URI="https://files.pythonhosted.org/packages/25/1d/0b6b9919310b9b319f8774efa69cbe4cba03d44595184e253b82ce5245d5/glances_api-0.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/glances_api-0.8.0"
 
 LICENSE="MIT"
 SLOT="0"

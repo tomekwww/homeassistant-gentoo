@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for qBittorrent v41 Web API"
 HOMEPAGE="https://pypi.org/project/qbittorrent-api/"
 SRC_URI="https://files.pythonhosted.org/packages/c6/33/b72fe2cca34c084f9206456add35752f003c4e77db47696efb6d7b9a3425/qbittorrent_api-2024.9.67.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/qbittorrent_api-2024.9.67"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for Spotify"
 HOMEPAGE="https://github.com/joostlek/python-spotify"
 SRC_URI="https://files.pythonhosted.org/packages/67/7c/97c4ee40d9a82ab4ca2287ead134b60c94da301a24be5f84a7bc072c55ce/spotifyaio-0.8.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/spotifyaio-0.8.11"
 
 LICENSE="MIT"
 SLOT="0"

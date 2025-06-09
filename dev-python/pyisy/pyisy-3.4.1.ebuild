@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python module to talk to ISY devices from UDI"
 HOMEPAGE="https://github.com/automicus/PyISY"
 SRC_URI="https://files.pythonhosted.org/packages/5c/a2/e7d599b83996ac8a8932a721eb05c2c5d9494c405016b71ce35640eb6a3e/pyisy-3.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyisy-3.4.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

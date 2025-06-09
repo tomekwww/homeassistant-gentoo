@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to control Logitech Media Server"
 HOMEPAGE="https://pypi.org/project/pysqueezebox/"
 SRC_URI="https://files.pythonhosted.org/packages/c5/3a/40e64d5d338e75945afc3b1483444fe333be708ae444c36f871cd8b45c5b/pysqueezebox-0.12.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysqueezebox-0.12.1"
 
 LICENSE="BSD"
 SLOT="0"

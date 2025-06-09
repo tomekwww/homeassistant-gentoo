@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library to interface with KM Tronic Web Relays"
 HOMEPAGE="https://github.com/dgomes/pykmtronic"
 SRC_URI="https://files.pythonhosted.org/packages/ba/c7/022e6a161ecabdf2effd685b029023be1c38db1fb540ab39288aa3737bb2/pykmtronic-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pykmtronic-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

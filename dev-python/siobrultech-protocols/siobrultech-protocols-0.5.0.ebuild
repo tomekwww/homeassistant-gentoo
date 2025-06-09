@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A SansIO Python client library for Brultech Devices"
 HOMEPAGE="https://pypi.org/project/siobrultech-protocols/"
 SRC_URI="https://files.pythonhosted.org/packages/56/67/ce79202612d8e6c191bda04b885f70b91d8c6ac76a360309a148f295e8eb/siobrultech-protocols-0.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/siobrultech-protocols-0.5.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interface with LD2410B modules from HiLink"
 HOMEPAGE="https://github.com/930913/ld2410-ble"
 SRC_URI="https://files.pythonhosted.org/packages/78/54/7721c847d46bcbd96300a0dbd4a396b15545fe556761c6f5621fdb1940a5/ld2410_ble-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ld2410_ble-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial package to access Bring shopping lists API"
 HOMEPAGE="https://pypi.org/project/bring-api/"
 SRC_URI="https://files.pythonhosted.org/packages/f9/01/b0f9622bda72bf5ba039abedaa5105db4ac105b1f8c36dfa607720c8eacd/bring_api-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bring_api-1.1.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Small Python library for process SRP requests for AWS Cognito This library was initially included in the Warranthttpswwwgithubcomcaplesswarrant library We decided to separate it because not all projects and workfows need all of the helper classes and functions in Warrant"
 HOMEPAGE="https://pypi.org/project/warrant-lite/"
 SRC_URI="https://files.pythonhosted.org/packages/81/1e/af3ae70a469a399d04a87eebe29eafac5d1281de88ab6405e13c10be9eba/warrant-lite-1.0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/warrant-lite-1.0.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

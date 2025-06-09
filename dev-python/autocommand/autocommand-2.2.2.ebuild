@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to create a commandline program from a function"
 HOMEPAGE="https://github.com/Lucretiel/autocommand"
 SRC_URI="https://files.pythonhosted.org/packages/5b/18/774bddb96bc0dc0a2b8ac2d2a0e686639744378883da0fc3b96a54192d7a/autocommand-2.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/autocommand-2.2.2"
 
 LICENSE="BSD"
 SLOT="0"

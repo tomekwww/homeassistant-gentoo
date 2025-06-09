@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for interacting with the openSenseMap API"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-opensensemap-api"
 SRC_URI="https://files.pythonhosted.org/packages/e1/b7/f5ebf6d3cb9379ef0a9b758833767f0e2a86552d929da54d95e614853177/opensensemap-api-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/opensensemap-api-0.2.0"
 
 LICENSE="MIT"
 SLOT="0"

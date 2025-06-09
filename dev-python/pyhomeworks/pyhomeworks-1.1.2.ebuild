@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Lutron Homeworks Series 4 and 8 interface over Ethernet"
 HOMEPAGE="https://pypi.org/project/pyhomeworks/"
 SRC_URI="https://files.pythonhosted.org/packages/2c/81/4f2f5c388b58b79c195fbdd5346845145e97f01777bdc108eade0fb56310/pyhomeworks-1.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyhomeworks-1.1.2"
 
 LICENSE="MIT"
 SLOT="0"

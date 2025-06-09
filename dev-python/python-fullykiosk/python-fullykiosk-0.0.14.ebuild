@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for Fully Kiosk Browser REST API"
 HOMEPAGE="https://github.com/cgarwood/python-fullykiosk"
 SRC_URI="https://files.pythonhosted.org/packages/a8/f0/7311c61e62c243f5ccf0ed58c7145759011fd79e5ee3034a571ca398dd4f/python-fullykiosk-0.0.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-fullykiosk-0.0.14"
 
 LICENSE="BSD"
 SLOT="0"

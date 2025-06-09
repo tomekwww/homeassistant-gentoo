@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for the Moehlenhoff Alpha2 underfloor heating system"
 HOMEPAGE="https://pypi.org/project/moehlenhoff-alpha2/"
 SRC_URI="https://files.pythonhosted.org/packages/98/87/ff96e60d147f66206cbf077a8b7cd3ea9588ea07243be5eb90990a94e51c/moehlenhoff_alpha2-1.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/moehlenhoff_alpha2-1.4.0"
 
 LICENSE="BSD"
 SLOT="0"

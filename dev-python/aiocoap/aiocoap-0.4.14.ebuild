@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python CoAP library"
 HOMEPAGE="https://pypi.org/project/aiocoap/"
 SRC_URI="https://files.pythonhosted.org/packages/28/76/de52f7fa51ddbb5255f7b80d8965903bfa718420ac5d21b0852f5d81c1b1/aiocoap-0.4.14.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiocoap-0.4.14"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial python API for Sighthound"
 HOMEPAGE="https://github.com/robmarkcole/simplehound"
 SRC_URI="https://files.pythonhosted.org/packages/de/78/1149e661c8ca044418baeb3578398cc5d18efc90f1cdd04a3792f09e4d91/simplehound-0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/simplehound-0.3"
 
 LICENSE="BSD"
 SLOT="0"

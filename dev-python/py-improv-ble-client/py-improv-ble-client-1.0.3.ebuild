@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API to provision devices which implement Improv via BLE"
 HOMEPAGE="https://pypi.org/project/py-improv-ble-client/"
 SRC_URI="https://files.pythonhosted.org/packages/aa/9c/2caa3f513793845f5aee052c62a85a4f8c405112b7b54d21010303466956/py-improv-ble-client-1.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-improv-ble-client-1.0.3"
 
 LICENSE="MIT"
 SLOT="0"

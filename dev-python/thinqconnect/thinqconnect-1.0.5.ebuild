@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="ThinQ Connect Python SDK"
 HOMEPAGE="https://github.com/thinq-connect/pythinqconnect"
 SRC_URI="https://files.pythonhosted.org/packages/36/71/4a39414f866f2eb20ac6789b18352ede1b5be2d2c0b5253d2a278918fda8/thinqconnect-1.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/thinqconnect-1.0.5"
 
 LICENSE="BSD"
 SLOT="0"

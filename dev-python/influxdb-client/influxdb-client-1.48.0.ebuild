@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="InfluxDB 20 Python client library"
 HOMEPAGE="https://github.com/influxdata/influxdb-client-python"
 SRC_URI="https://files.pythonhosted.org/packages/11/47/b756380917cb4b968bd871fc006128e2cc9897fb1ab4bcf7d108f9601e78/influxdb_client-1.48.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/influxdb_client-1.48.0"
 
 LICENSE="BSD"
 SLOT="0"

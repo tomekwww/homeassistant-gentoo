@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python implementation of the Kraken API"
 HOMEPAGE="https://github.com/dominiktraxl/pykrakenapi/"
 SRC_URI="https://files.pythonhosted.org/packages/6a/3f/32e3ac15dc7dca68481276e4c5eca43d53f4490f9c8bc80f7aa40130898f/pykrakenapi-0.1.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pykrakenapi-0.1.8"
 
 LICENSE="BSD"
 SLOT="0"

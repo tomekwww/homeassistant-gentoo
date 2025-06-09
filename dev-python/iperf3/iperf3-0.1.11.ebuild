@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper around iperf3"
 HOMEPAGE="https://github.com/thiezn/iperf3-python"
 SRC_URI="https://files.pythonhosted.org/packages/d5/c1/ca9dee2fdd3bf403e90f949da4978ae9ba5330476f867ee8fb28f8c1c26e/iperf3-0.1.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/iperf3-0.1.11"
 
 LICENSE="MIT"
 SLOT="0"

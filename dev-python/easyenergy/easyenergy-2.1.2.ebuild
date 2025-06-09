@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client providing energygas prices from easyEnergy"
 HOMEPAGE="https://github.com/klaasnicolaas/python-easyenergy"
 SRC_URI="https://files.pythonhosted.org/packages/b4/0b/a701838f113d4b6f69147c6b09e988a0969fafdff3f10a1331a05b26f615/easyenergy-2.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/easyenergy-2.1.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Communication with Lektricos chargers"
 HOMEPAGE="https://pypi.org/project/lektricowifi/"
 SRC_URI="https://files.pythonhosted.org/packages/2e/20/b93f257cd08132d15062c32eb4793cfa029b361eea21d4bcb90273bf5260/lektricowifi-0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/lektricowifi-0.1"
 
 LICENSE="MIT"
 SLOT="0"

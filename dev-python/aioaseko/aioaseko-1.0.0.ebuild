@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python package for the Aseko Pool Live API"
 HOMEPAGE="https://github.com/milanmeu/aioaseko"
 SRC_URI="https://files.pythonhosted.org/packages/34/ac/6d54b888648dc67a330245b0efc75cd1600bbcd70da4ea2f6f71c6f3ce7a/aioaseko-1.0.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioaseko-1.0.0"
 
 LICENSE="BSD"
 SLOT="0"

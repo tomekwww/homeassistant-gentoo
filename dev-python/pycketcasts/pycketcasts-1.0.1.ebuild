@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interact with PocketCasts unofficial API"
 HOMEPAGE="https://github.com/nwithan8/pycketcasts"
 SRC_URI="https://files.pythonhosted.org/packages/29/48/fbe663f78550b679af2dfc353e38f97344966074cd027aee54af31cf272a/pycketcasts-1.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pycketcasts-1.0.1"
 
 LICENSE="BSD"
 SLOT="0"

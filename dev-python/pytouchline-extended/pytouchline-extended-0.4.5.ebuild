@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Roth Touchline interface library"
 HOMEPAGE="https://github.com/brondum/pytouchline"
 SRC_URI="https://files.pythonhosted.org/packages/65/b3/272827f318b630c923a9d85d698d8ff01b7663956c016dffca64fb6b2373/pytouchline_extended-0.4.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pytouchline_extended-0.4.5"
 
 LICENSE="MIT"
 SLOT="0"

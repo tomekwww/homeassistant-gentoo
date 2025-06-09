@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to retrieve details of your Aquacell water softener device"
 HOMEPAGE="https://github.com/Jordi1990/aioaquacell"
 SRC_URI="https://files.pythonhosted.org/packages/c3/6d/309044f0e1c604258cab00e3a6c07ec38a7579e1e3da7f45b2b28f2aa835/aioaquacell-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioaquacell-0.2.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to control MadVR Envy over IP"
 HOMEPAGE="https://github.com/iloveicedgreentea/py-madvr"
 SRC_URI="https://files.pythonhosted.org/packages/77/dd/6c1f9924f6a0da4b81cca11c8d996160002edf54fee0c2836e9605f73b9d/py_madvr2-1.6.32.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py_madvr2-1.6.32"
 
 LICENSE="BSD"
 SLOT="0"

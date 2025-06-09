@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Convert voluptuous schemas to dictionaries"
 HOMEPAGE="http://github.com/balloob/voluptuous-serialize"
 SRC_URI="https://files.pythonhosted.org/packages/42/09/c26b38ab35d9f61e9bf5c3e805215db1316dd73c77569b47ab36a40d19b1/voluptuous-serialize-2.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/voluptuous-serialize-2.6.0"
 
 LICENSE="BSD"
 SLOT="0"

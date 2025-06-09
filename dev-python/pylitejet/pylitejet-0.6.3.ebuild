@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library for controlling a LiteJet lighting system"
 HOMEPAGE="https://pypi.org/project/pylitejet/"
 SRC_URI="https://files.pythonhosted.org/packages/3a/9f/d5bfcdd55ab35d5b2bb10b5f46f2a53776e0bbc941d9298237b00599c0e4/pylitejet-0.6.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pylitejet-0.6.3"
 
 LICENSE="MIT"
 SLOT="0"

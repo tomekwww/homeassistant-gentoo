@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API package for myUplink"
 HOMEPAGE="https://github.com/pajzo/myuplink"
 SRC_URI="https://files.pythonhosted.org/packages/25/b4/4bdfe693bf8544f7de1168e0fb50bd04e68ee01197593956a98ac016f4e5/myuplink-0.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/myuplink-0.7.0"
 
 LICENSE="BSD"
 SLOT="0"

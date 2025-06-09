@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Standard Protobuf Reflection Service for gRPC"
 HOMEPAGE="https://grpc.io"
 SRC_URI="https://files.pythonhosted.org/packages/14/91/ab7ea12c31ab7e58bbd94bb21f96569b08d89ffbf01b594cd9b3898e8c27/grpcio_reflection-1.72.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/grpcio_reflection-1.72.0"
 
 LICENSE="BSD"
 SLOT="0"

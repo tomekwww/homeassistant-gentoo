@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async OUI lookups"
 HOMEPAGE="https://pypi.org/project/aiooui/"
 SRC_URI="https://files.pythonhosted.org/packages/14/b7/ad0f86010bbabc4e556e98dd2921a923677188223cc524432695966f14fa/aiooui-0.1.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiooui-0.1.9"
 
 LICENSE="MIT"
 SLOT="0"

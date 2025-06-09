@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library for interacting with Android TV using the Android TV Remote protocol v2"
 HOMEPAGE="https://pypi.org/project/androidtvremote2/"
 SRC_URI="https://files.pythonhosted.org/packages/72/99/c203e2a4eb552633ed85f5481a08e427698f9228f48c0b2d22275f8f51f0/androidtvremote2-0.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/androidtvremote2-0.2.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to interface with NAD receivers through RS232 TCP and telnet"
 HOMEPAGE="https://github.com/joopert/nad_receiver"
 SRC_URI="https://files.pythonhosted.org/packages/0e/94/2cdf730855f776f476252341fe7f38c38aea55c66fbaaea6936c70e203fc/nad_receiver-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nad_receiver-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

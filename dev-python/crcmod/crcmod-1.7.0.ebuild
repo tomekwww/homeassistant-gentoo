@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="CRC Generator"
 HOMEPAGE="http://crcmod.sourceforge.net/"
 SRC_URI="https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/crcmod-1.7"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python3 library to communicate with Adax"
 HOMEPAGE="https://github.com/Danielhiversen/pyAdax"
 SRC_URI="https://files.pythonhosted.org/packages/38/e9/1d56cfe37df11539f10e7837efb3a771931abe6f11554e9fa9f0871bc289/adax-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/adax-0.4.0"
 
 LICENSE="MIT"
 SLOT="0"

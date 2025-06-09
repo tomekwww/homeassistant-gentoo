@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with the W800rf32 family of devices"
 HOMEPAGE="https://github.com/horga83/W800rf32"
 SRC_URI="https://files.pythonhosted.org/packages/39/59/ba638792c66d1caf492e3c1f7d6686070361047282d44aa90e9a6e2a21a4/pyW800rf32-0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyW800rf32-0.4"
 
 LICENSE="BSD"
 SLOT="0"

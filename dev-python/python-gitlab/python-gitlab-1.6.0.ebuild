@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interact with GitLab API"
 HOMEPAGE="https://github.com/python-gitlab/python-gitlab"
 SRC_URI="https://files.pythonhosted.org/packages/bf/0e/ae40d6261b87a4532651e94a65659b7d401cb9eab33a2a9799945d925cc2/python-gitlab-1.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-gitlab-1.6.0"
 
 LICENSE="BSD"
 SLOT="0"

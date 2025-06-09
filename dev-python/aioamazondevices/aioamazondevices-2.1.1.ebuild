@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library to control Amazon devices"
 HOMEPAGE="https://pypi.org/project/aioamazondevices/"
 SRC_URI="https://files.pythonhosted.org/packages/74/d0/e51219541c1e15234392f118ad85edd99d8b6b0dcc3390ba1f16a27ef2bb/aioamazondevices-2.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioamazondevices-2.1.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

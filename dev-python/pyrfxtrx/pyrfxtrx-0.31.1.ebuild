@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="a library to communicate with the RFXtrx family of devices"
 HOMEPAGE="https://github.com/Danielhiversen/pyRFXtrx"
 SRC_URI="https://files.pythonhosted.org/packages/cd/a7/6e38c0b57396d533e04fd933de6ce11640a372ffe09c77fd408bcd7197d5/pyrfxtrx-0.31.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyrfxtrx-0.31.1"
 
 LICENSE="BSD"
 SLOT="0"

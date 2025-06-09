@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Package to integrate with Flume Sensor"
 HOMEPAGE="https://github.com/ChrisMandich/PyFlume"
 SRC_URI="https://files.pythonhosted.org/packages/86/d5/c71684f08d1e60f9347d558acfd991bde1609f92b499588f382e3170bde7/PyFlume-0.6.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/PyFlume-0.6.5"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API to interact with a Dormakaba dkey lock via bluetooth"
 HOMEPAGE="https://pypi.org/project/py-dormakaba-dkey/"
 SRC_URI="https://files.pythonhosted.org/packages/b9/2d/92b83af2ed82c0cc1f86796b371bf0121d045e3eaaecdbb74ada163f2977/py-dormakaba-dkey-1.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-dormakaba-dkey-1.0.5"
 
 LICENSE="MIT"
 SLOT="0"

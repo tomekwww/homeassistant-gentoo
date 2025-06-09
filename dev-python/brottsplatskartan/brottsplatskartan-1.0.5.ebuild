@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple API wrapper to brottsplatskartanse"
 HOMEPAGE="https://github.com/chrillux/brottsplatskartan"
 SRC_URI="https://files.pythonhosted.org/packages/dc/f5/6fe35a80d63182f7849a67e519c9b84a989660caaae83092c2291444bb2d/brottsplatskartan-1.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/brottsplatskartan-1.0.5"
 
 LICENSE="MIT"
 SLOT="0"

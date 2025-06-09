@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library for communicating with devices from Axis Communications"
 HOMEPAGE="https://pypi.org/project/axis/"
 SRC_URI="https://files.pythonhosted.org/packages/4e/4a/506ebc61488cf37cc016639141ec6beae34a894a564a732bad9642638a1c/axis-64.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/axis-64"
 
 LICENSE="MIT"
 SLOT="0"

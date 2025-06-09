@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for Telldus home automation library"
 HOMEPAGE="https://github.com/erijo/tellcore-py"
 SRC_URI="https://files.pythonhosted.org/packages/f4/e1/d3b72948f6b5a3b6394c4e42e07709dda90ab71314c18f73e7b45cd9aeaa/tellcore-py-1.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tellcore-py-1.1.2"
 
 LICENSE="BSD"
 SLOT="0"

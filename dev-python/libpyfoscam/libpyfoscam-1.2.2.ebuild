@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Library for Foscam IP Cameras"
 HOMEPAGE="https://github.com/krmarien/python-foscam"
 SRC_URI="https://files.pythonhosted.org/packages/df/d6/03ac4173fcea8cb5462277d47db6c41c72dc438336735cd16bdf39c40a35/libpyfoscam-1.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/libpyfoscam-1.2.2"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Control of Greenwave Reality Lights"
 HOMEPAGE="https://github.com/dfiel/greenwavereality"
 SRC_URI="https://files.pythonhosted.org/packages/55/4d/a88bc4aee49ec48736c952466d8c9e8a19d34777506f560afb26130e34f1/greenwavereality-0.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/greenwavereality-0.5.1"
 
 LICENSE="MIT"
 SLOT="0"

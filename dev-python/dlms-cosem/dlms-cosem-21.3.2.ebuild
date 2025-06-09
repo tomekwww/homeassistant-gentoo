@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library for DLMSCOSEM"
 HOMEPAGE="https://github.com/pwitab/dlms-cosem"
 SRC_URI="https://files.pythonhosted.org/packages/e9/a7/523db52982be6321e0755278ae3ad3e9a7615c7baf8828e66d41e374596b/dlms-cosem-21.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dlms-cosem-21.3.2"
 
 LICENSE="MIT"
 SLOT="0"

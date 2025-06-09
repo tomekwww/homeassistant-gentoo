@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The Home Assistant Intent Language parser"
 HOMEPAGE="https://pypi.org/project/hassil/"
 SRC_URI="https://files.pythonhosted.org/packages/c9/f4/bf2f642321114c4ca4586efb194274905388a09b1c95e52529eba2fd4d51/hassil-2.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/hassil-2.2.3"
 
 LICENSE="Apache-2.0"
 SLOT="0"

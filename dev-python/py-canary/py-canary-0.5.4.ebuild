@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for Canary Security Camera"
 HOMEPAGE="https://github.com/snjoetw/py-canary"
 SRC_URI="https://files.pythonhosted.org/packages/ac/28/e97bbf7b34fa0621adc9c1d7973c30e5ebab812da22c309e4182ec86ecda/py_canary-0.5.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py_canary-0.5.4"
 
 LICENSE="BSD"
 SLOT="0"

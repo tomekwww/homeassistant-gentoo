@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Internationalization utilities"
 HOMEPAGE="https://babel.pocoo.org/"
 SRC_URI="https://files.pythonhosted.org/packages/15/d2/9671b93d623300f0aef82cde40e25357f11330bdde91743891b22a555bed/babel-2.15.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/babel-2.15.0"
 
 LICENSE="BSD"
 SLOT="0"

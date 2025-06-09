@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for the Radio Browser API"
 HOMEPAGE="https://github.com/frenck/python-radios"
 SRC_URI="https://files.pythonhosted.org/packages/f5/c5/35d111d76ab729c12df32a76c3fce0c4f351b9363d3c2f3e42c3b97e3397/radios-0.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/radios-0.3.2"
 
 LICENSE="MIT"
 SLOT="0"

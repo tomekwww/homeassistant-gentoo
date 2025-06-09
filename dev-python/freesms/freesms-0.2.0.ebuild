@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Send SMS with Free Mobile"
 HOMEPAGE="https://github.com/bfontaine/freesms"
 SRC_URI="https://files.pythonhosted.org/packages/c4/66/7eab9c01148d0120b795946f9c003c5a9421768b22946f59cf2beb821830/freesms-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/freesms-0.2.0"
 
 LICENSE="MIT"
 SLOT="0"

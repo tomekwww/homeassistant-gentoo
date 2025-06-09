@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python client for the Quby ToonAPI"
 HOMEPAGE="https://github.com/frenck/python-toonapi"
 SRC_URI="https://files.pythonhosted.org/packages/0f/fa/718b5c81aa7ecba08370993a348ba6f6d6a6eb843c9bf90fe74dfa3e353c/toonapi-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/toonapi-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

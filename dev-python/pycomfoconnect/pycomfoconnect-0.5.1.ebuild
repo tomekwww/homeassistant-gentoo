@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python interface for the Zehnder ComfoConnect LAN C bridge"
 HOMEPAGE="https://github.com/michaelarnauts/comfoconnect"
 SRC_URI="https://files.pythonhosted.org/packages/94/89/af7373c167a890b75afcd4b2153538cfb2dad9338222a2cec77854fd25f4/pycomfoconnect-0.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pycomfoconnect-0.5.1"
 
 LICENSE="MIT"
 SLOT="0"

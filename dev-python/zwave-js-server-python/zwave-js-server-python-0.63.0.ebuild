@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for zwavejsserver"
 HOMEPAGE="https://pypi.org/project/zwave-js-server-python/"
 SRC_URI="https://files.pythonhosted.org/packages/49/6d/e4c5328c1c5cd7301efb2630933293f7ea9da3cfb432b88a8bd107d44666/zwave_js_server_python-0.63.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/zwave_js_server_python-0.63.0"
 
 LICENSE="BSD"
 SLOT="0"

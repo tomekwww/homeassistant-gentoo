@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION=""
 HOMEPAGE="https://github.com/Crownstone-Community/crownstone-lib-python-sse"
 SRC_URI="https://files.pythonhosted.org/packages/ac/12/15b146db1fbae092dd15e5356b1f2cd98a2a926e7e52e1e34aea9cefc78c/crownstone_sse-2.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/crownstone_sse-2.0.5"
 
 LICENSE="BSD"
 SLOT="0"

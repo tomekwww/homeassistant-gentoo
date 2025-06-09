@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="AWS4 authentication for Requests"
 HOMEPAGE="https://github.com/tedder/requests-aws4auth"
 SRC_URI="https://files.pythonhosted.org/packages/e5/0e/af3754c15e79a6279df256b56a805f8c7512f641839f68c2aa63dafc8f3c/requests_aws4auth-1.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/requests_aws4auth-1.3.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Module for accessing APRSIS and parsing APRS packets"
 HOMEPAGE="https://github.com/rossengeorgiev/aprs-python"
 SRC_URI="https://files.pythonhosted.org/packages/15/2b/3c051f7bf65cb684040dfc13713d8836b72615f3b811107736aee59cab0d/aprslib-0.7.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aprslib-0.7.2"
 
 LICENSE="BSD"
 SLOT="0"

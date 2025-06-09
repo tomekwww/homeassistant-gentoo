@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python wrapper for the MyPermobil API"
 HOMEPAGE="https://github.com/IsakNyberg/MyPermobil-API"
 SRC_URI="https://files.pythonhosted.org/packages/4d/93/a1af48896adc417062bd0ca96a196b7766d1d47265c97d410659f36aa4c4/mypermobil-0.1.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mypermobil-0.1.8"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="AEMET OpenData Rest API library"
 HOMEPAGE="https://pypi.org/project/AEMET-OpenData/"
 SRC_URI="https://files.pythonhosted.org/packages/76/3e/0776af0bb8b7611506e075f25cc95f221f07c00acdf8df7dcc29f61e9668/aemet_opendata-0.6.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aemet_opendata-0.6.4"
 
 LICENSE="GPL-2"
 SLOT="0"

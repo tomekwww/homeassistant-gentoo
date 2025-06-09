@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Watch for USB devices to be plugged and unplugged"
 HOMEPAGE="https://pypi.org/project/aiousbwatcher/"
 SRC_URI="https://files.pythonhosted.org/packages/12/f9/e33c468d2f04555552bff81ead9657c3f6067628a9a34b126f2e23e0c81a/aiousbwatcher-1.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiousbwatcher-1.1.1"
 
 LICENSE="MIT"
 SLOT="0"

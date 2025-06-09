@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="PJLink is a standard for controlling data projectors"
 HOMEPAGE="https://github.com/benoitlouy/pypjlink"
 SRC_URI="https://files.pythonhosted.org/packages/b8/50/78c8d31e89c8c90a6404580527d2d310375b2229202998cbd11a2f133d82/pypjlink2-1.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pypjlink2-1.2.1"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="asyncio client for the Awair GraphQL and Local APIs"
 HOMEPAGE="https://github.com/ahayworth/python_awair"
 SRC_URI="https://files.pythonhosted.org/packages/49/8c/5616dc8a7ba7405374cc90ff49aae228f97126fecd7a878dee07d890cb3e/python-awair-0.2.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-awair-0.2.4"
 
 LICENSE="MIT"
 SLOT="0"

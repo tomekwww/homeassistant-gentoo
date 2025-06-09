@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SSE plugin for Starlette"
 HOMEPAGE="https://pypi.org/project/sse-starlette/"
 SRC_URI="https://files.pythonhosted.org/packages/8c/f4/989bc70cb8091eda43a9034ef969b25145291f3601703b82766e5172dfed/sse_starlette-2.3.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sse_starlette-2.3.6"
 
 LICENSE="BSD"
 SLOT="0"

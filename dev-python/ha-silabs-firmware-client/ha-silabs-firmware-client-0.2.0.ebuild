@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Home Assistant client for firmwares released with silabsfirmwarebuilder"
 HOMEPAGE="https://pypi.org/project/ha-silabs-firmware-client/"
 SRC_URI="https://files.pythonhosted.org/packages/fc/f3/c530fad5e9d9580ae2ce44c717c545a2da983490b9c2da396959223f0b68/ha_silabs_firmware_client-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ha_silabs_firmware_client-0.2.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

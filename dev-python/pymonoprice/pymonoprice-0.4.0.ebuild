@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for talking to Monoprice 6zone amplifier"
 HOMEPAGE="https://github.com/etsinko/pymonoprice"
 SRC_URI="https://files.pythonhosted.org/packages/70/61/f7bf7a480d47619761148e2968ff4583c119899d8053b78c123511568929/pymonoprice-0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pymonoprice-0.4"
 
 LICENSE="MIT"
 SLOT="0"

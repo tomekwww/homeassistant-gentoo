@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API wrapper to communicate locally with SolarEdge Inverters"
 HOMEPAGE="https://github.com/drobtravels/solaredge-local"
 SRC_URI="https://files.pythonhosted.org/packages/51/96/c24bc40ba8848ba2bc3c9894edcf46579dd6a36d39b73ab378d44eac7790/solaredge_local-0.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/solaredge_local-0.2.3"
 
 LICENSE="MIT"
 SLOT="0"

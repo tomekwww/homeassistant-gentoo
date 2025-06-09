@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for Internet Printing Protocol IPP"
 HOMEPAGE="https://github.com/ctalkington/python-ipp"
 SRC_URI="https://files.pythonhosted.org/packages/96/44/0859d4b5ee653642f4654dd255c7277b5485ca6f62f684245fb3e90a54d7/pyipp-0.17.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyipp-0.17.0"
 
 LICENSE="MIT"
 SLOT="0"

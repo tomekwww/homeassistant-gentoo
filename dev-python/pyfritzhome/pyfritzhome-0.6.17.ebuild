@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="FritzBox Smarthome Python Library"
 HOMEPAGE="http://github.com/hthiery/python-fritzhome"
 SRC_URI="https://files.pythonhosted.org/packages/e2/28/a37359f9648f4be977fc79cf54d9cdedee6ce7252f9d903caab6efa87579/pyfritzhome-0.6.17.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyfritzhome-0.6.17"
 
 LICENSE="MIT"
 SLOT="0"

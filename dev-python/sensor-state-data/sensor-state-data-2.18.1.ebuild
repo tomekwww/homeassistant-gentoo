@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Models for storing and converting Sensor Data state"
 HOMEPAGE="https://github.com/bluetooth-devices/sensor-state-data"
 SRC_URI="https://files.pythonhosted.org/packages/0c/49/c103f258fd5b9beec7c64405720a58e7836aa0fdabfac021df81dffe6d91/sensor_state_data-2.18.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sensor_state_data-2.18.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Google Spreadsheets Python API"
 HOMEPAGE="https://github.com/burnash/gspread"
 SRC_URI="https://files.pythonhosted.org/packages/a3/d3/e5c9aeca58be0e63c8147fbb0c734e69ec76d19cd65bc0ed12858e89ef87/gspread-5.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gspread-5.5.0"
 
 LICENSE="MIT"
 SLOT="0"

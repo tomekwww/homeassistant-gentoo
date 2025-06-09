@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A package to control Roborock vacuums"
 HOMEPAGE="https://github.com/humbertogontijo/python-roborock"
 SRC_URI="https://files.pythonhosted.org/packages/05/36/01daf7e5e8e670b0e2ab801f9310f6598f30ee4c8beccecd2e4ebb7c36d4/python_roborock-2.18.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_roborock-2.18.2"
 
 LICENSE="GPL-3"
 SLOT="0"

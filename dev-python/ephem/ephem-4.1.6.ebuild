@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Compute positions of the planets and stars"
 HOMEPAGE="http://rhodesmill.org/pyephem/"
 SRC_URI="https://files.pythonhosted.org/packages/45/eb/844403865b5c861736c85196112a791c74283f27bf4496de2381eb57c085/ephem-4.1.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ephem-4.1.6"
 
 LICENSE="MIT"
 SLOT="0"

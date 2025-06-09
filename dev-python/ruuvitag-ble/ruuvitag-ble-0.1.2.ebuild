@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Manage Ruuvitag BLE devices"
 HOMEPAGE="https://pypi.org/project/ruuvitag-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/f0/fd/724d7ed9681657c457a6f73ea38f43b1b89996baf235125423483b2ba10e/ruuvitag_ble-0.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ruuvitag_ble-0.1.2"
 
 LICENSE="BSD"
 SLOT="0"

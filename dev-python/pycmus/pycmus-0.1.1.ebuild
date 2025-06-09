@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python cmus remote library"
 HOMEPAGE="https://pypi.org/project/pycmus/"
 SRC_URI="https://files.pythonhosted.org/packages/7c/d6/430ff02d78508d1ec187c77ab595808de24475d45da9c394dbdd275ad208/pycmus-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pycmus-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

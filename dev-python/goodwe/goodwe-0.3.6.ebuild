@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Read data from GoodWe inverter via local network"
 HOMEPAGE="https://github.com/marcelblijleven/goodwe"
 SRC_URI="https://files.pythonhosted.org/packages/57/34/3defd8cc020c6407ea88e27625f6481bd340e11c44277b81c5aabf2ceb38/goodwe-0.3.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/goodwe-0.3.6"
 
 LICENSE="MIT"
 SLOT="0"

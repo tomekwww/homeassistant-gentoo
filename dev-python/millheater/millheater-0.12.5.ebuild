@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python3 library to communicate with Mill"
 HOMEPAGE="https://github.com/Danielhiversen/pymill"
 SRC_URI="https://files.pythonhosted.org/packages/88/18/b8b332df0e93ff463648d31ec402dd4023d01dffa8899cc426a1b5ae6aa5/millheater-0.12.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/millheater-0.12.5"
 
 LICENSE="MIT"
 SLOT="0"

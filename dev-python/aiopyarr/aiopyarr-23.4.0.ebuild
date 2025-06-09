@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An Asynchronous Lidarr Radarr Readarr Sonarr APIs for Python"
 HOMEPAGE="https://github.com/tkdrob/aiopyarr"
 SRC_URI="https://files.pythonhosted.org/packages/e6/c7/35fe34baeb662e403768d9bd46e831ffe6a07f749477c438369ddf8ba306/aiopyarr-23.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiopyarr-23.4.0"
 
 LICENSE="MIT"
 SLOT="0"

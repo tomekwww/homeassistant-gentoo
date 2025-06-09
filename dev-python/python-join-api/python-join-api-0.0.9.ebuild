@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for interacting with Join by joaoapps"
 HOMEPAGE="https://github.com/nkgilley/python-join-api"
 SRC_URI="https://files.pythonhosted.org/packages/27/72/fbbfcc9ab2db79b86cf7e3af4269478a80cb8aedee27f4f60393e7a90e52/python-join-api-0.0.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-join-api-0.0.9"
 
 LICENSE="MIT"
 SLOT="0"

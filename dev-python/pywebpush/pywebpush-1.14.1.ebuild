@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="WebPush publication library"
 HOMEPAGE="https://github.com/web-push-libs/pywebpush"
 SRC_URI="https://files.pythonhosted.org/packages/64/96/8640a3ad468cf45fd5709f7bdcc75d2acf8a65a18144f39d540e7bc36218/pywebpush-1.14.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pywebpush-1.14.1"
 
 LICENSE="BSD"
 SLOT="0"

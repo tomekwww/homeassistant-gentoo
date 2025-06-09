@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API For Flick Electric in New Zealand"
 HOMEPAGE="https://pypi.org/project/PyFlick/"
 SRC_URI="https://files.pythonhosted.org/packages/c4/2f/15af7421b8445ad2252ef1aa4ea9394acde47a9bfe0a8c6ff76a537685d6/pyflick-1.1.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyflick-1.1.3"
 
 LICENSE="BSD"
 SLOT="0"

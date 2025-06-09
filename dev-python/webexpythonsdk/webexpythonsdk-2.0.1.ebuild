@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Work with the Webex APIs in native Python"
 HOMEPAGE="https://github.com/WebexCommunity/WebexPythonSDK"
 SRC_URI="https://files.pythonhosted.org/packages/17/d0/29243379ad3bb637fc070b24daa757798f07b167b838926d77bef8c69073/webexpythonsdk-2.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/webexpythonsdk-2.0.1"
 
 LICENSE="MIT"
 SLOT="0"

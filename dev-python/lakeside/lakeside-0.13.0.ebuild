@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for controlling Eufy LED bulbs"
 HOMEPAGE="http://github.com/nkgilley/python-lakeside"
 SRC_URI="https://files.pythonhosted.org/packages/9f/cf/fa2dec81bff9e1573fee84ea227c0da4b9d204602fb9188fa42a5da6024c/lakeside-0.13.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/lakeside-0.13"
 
 LICENSE="BSD"
 SLOT="0"

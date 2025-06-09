@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client providing Open Data information of Amsterdam"
 HOMEPAGE="https://pypi.org/project/odp-amsterdam/"
 SRC_URI="https://files.pythonhosted.org/packages/ff/34/912f4c25c3f25b20da2bb9748866dc035aa49a3e1f11f9ec6e3d071d2746/odp_amsterdam-6.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/odp_amsterdam-6.1.1"
 
 LICENSE="MIT"
 SLOT="0"

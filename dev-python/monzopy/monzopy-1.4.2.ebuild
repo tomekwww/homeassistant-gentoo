@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A simple async python wrapper for the Monzo API used primarily by the Monzo Home Assistant integration"
 HOMEPAGE="https://pypi.org/project/monzopy/"
 SRC_URI="https://files.pythonhosted.org/packages/90/fd/2d913103ecf2d2e0eb9035fc52b4969949d1780bad6f12b17067ba29d0b5/monzopy-1.4.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/monzopy-1.4.2"
 
 LICENSE="BSD"
 SLOT="0"

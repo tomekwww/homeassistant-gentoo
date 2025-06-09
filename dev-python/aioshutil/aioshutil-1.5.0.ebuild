@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous shutil module"
 HOMEPAGE="https://github.com/kumaraditya303/aioshutil"
 SRC_URI="https://files.pythonhosted.org/packages/75/e4/ef86f1777a9bc0c51d50487b471644ae20941afe503591d3a4c86e456dac/aioshutil-1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioshutil-1.5"
 
 LICENSE="BSD"
 SLOT="0"

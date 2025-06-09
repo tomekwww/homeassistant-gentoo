@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for select Russound RNET commands to provide Russound support within homeassistantio"
 HOMEPAGE="https://github.com/laf/russound.git"
 SRC_URI="https://github.com/laf/russound/archive/refs/heads/master.zip -> ${P}.gh.zip"
+S="${WORKDIR}/russound-master"
 
 LICENSE="BSD"
 SLOT="0"

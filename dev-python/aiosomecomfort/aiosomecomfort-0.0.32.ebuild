@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A client for Honeywells USbased cloud devices"
 HOMEPAGE="https://github.com/mkmer/AIOSomecomfort"
 SRC_URI="https://files.pythonhosted.org/packages/d6/b2/ea798c493923e9f9a16c71f5a9b656b8af18fb7b39afe488bd5ed5fd8dcf/aiosomecomfort-0.0.32.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiosomecomfort-0.0.32"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Coinbase Advanced API Python SDK"
 HOMEPAGE="https://github.com/coinbase/coinbase-advanced-py"
 SRC_URI="https://files.pythonhosted.org/packages/9b/18/c79369fd09857f1c7a373c40dd7a49b9794feb589eb57c657c9f46625e5f/coinbase-advanced-py-1.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/coinbase-advanced-py-1.2.2"
 
 LICENSE="BSD"
 SLOT="0"

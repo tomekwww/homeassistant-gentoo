@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Google Geo Type API client library"
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-geo-type"
 SRC_URI="https://files.pythonhosted.org/packages/7d/35/d65554978a3d32415fd68fff6ef37dc506fdebc91407586c566c25e508b1/google_geo_type-0.3.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/google_geo_type-0.3.12"
 
 LICENSE="BSD"
 SLOT="0"

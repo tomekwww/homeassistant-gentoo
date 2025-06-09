@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Date parsing library designed to parse dates from HTML pages"
 HOMEPAGE="https://github.com/scrapinghub/dateparser"
 SRC_URI="https://files.pythonhosted.org/packages/bd/3f/d3207a05f5b6a78c66d86631e60bfba5af163738a599a5b9aa2c2737a09e/dateparser-1.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dateparser-1.2.1"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="a python library to interact with homee"
 HOMEPAGE="https://github.com/Taraman17/pyHomee"
 SRC_URI="https://files.pythonhosted.org/packages/59/fa/639b7f9e963d6957aefee31062243a8d46eeb24fba010e74a924d8c79720/pyhomee-1.2.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyhomee-1.2.8"
 
 LICENSE="MIT"
 SLOT="0"

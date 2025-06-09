@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="fast simple packet creation  parsing with definitions for the basic TCPIP protocols"
 HOMEPAGE="https://github.com/kbandla/dpkt"
 SRC_URI="https://files.pythonhosted.org/packages/c9/7d/52f17a794db52a66e46ebb0c7549bf2f035ed61d5a920ba4aaa127dd038e/dpkt-1.9.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dpkt-1.9.8"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async library to control Zerproc Bluetooth LED smart string lights"
 HOMEPAGE="https://github.com/emlove/pyzerproc"
 SRC_URI="https://files.pythonhosted.org/packages/5d/46/8bae873c87e83e122a38a76fb142b8bcbb67ed682974d25929f19f7bfcbe/pyzerproc-0.4.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyzerproc-0.4.8"
 
 LICENSE="BSD"
 SLOT="0"

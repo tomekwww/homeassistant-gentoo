@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Microsoft Azure Identity Library for Python"
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity"
 SRC_URI="https://files.pythonhosted.org/packages/41/52/458c1be17a5d3796570ae2ed3c6b7b55b134b22d5ef8132b4f97046a9051/azure_identity-1.23.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/azure_identity-1.23.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for talking to a MySensors gateway"
 HOMEPAGE="https://github.com/theolind/pymysensors"
 SRC_URI="https://files.pythonhosted.org/packages/b9/b7/5e3b5e8bf45feaa71836a0f6d57289ea0ea55f15e82053dc4fa79a2b14e6/pymysensors-0.24.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pymysensors-0.24.0"
 
 LICENSE="MIT"
 SLOT="0"

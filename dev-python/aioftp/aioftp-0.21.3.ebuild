@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="ftp clientserver for asyncio"
 HOMEPAGE="https://github.com/aio-libs/aioftp"
 SRC_URI="https://files.pythonhosted.org/packages/a2/17/418774e0d56619abcf74ed1a2c4e09eabe03c63a5b64e77b28b4d8c01aa5/aioftp-0.21.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioftp-0.21.3"
 
 LICENSE="Apache-2.0"
 SLOT="0"

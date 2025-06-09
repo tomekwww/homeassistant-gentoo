@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async ModBus python library"
 HOMEPAGE="https://github.com/tiagocoutinho/async_modbus"
 SRC_URI="https://github.com/tiagocoutinho/async_modbus/archive/refs/tags/v0.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/async_modbus-0.2.2"
 
 LICENSE="BSD"
 SLOT="0"

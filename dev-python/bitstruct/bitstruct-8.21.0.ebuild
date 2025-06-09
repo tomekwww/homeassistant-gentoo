@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="This module performs conversions between Python values and C bit field structs represented as Python byte strings"
 HOMEPAGE="https://pypi.org/project/bitstruct/"
 SRC_URI="https://files.pythonhosted.org/packages/ae/f5/ba6bf7ab575a095bb3d76ef40cccd4e60b1bda9996bfba8e640d54c00488/bitstruct-8.21.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bitstruct-8.21.0"
 
 LICENSE="BSD"
 SLOT="0"

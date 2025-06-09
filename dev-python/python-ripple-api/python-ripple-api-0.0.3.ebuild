@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for interacting with ripplecom"
 HOMEPAGE="https://github.com/nkgilley/python-ripple-api"
 SRC_URI="https://files.pythonhosted.org/packages/47/23/33832ff5e0e2e8108f9fb425490fbe9f1fec501c7d4931d792ec24516f31/python-ripple-api-0.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-ripple-api-0.0.3"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API to utilise the Slide Open Cloud and Local API"
 HOMEPAGE="https://github.com/ualex73/goslide-api"
 SRC_URI="https://files.pythonhosted.org/packages/77/2b/a69d1b589157c4796805bf2a3620cb9164deaa7ffb5a4c7ad9b19c46314f/goslide-api-0.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/goslide-api-0.7.0"
 
 LICENSE="BSD"
 SLOT="0"

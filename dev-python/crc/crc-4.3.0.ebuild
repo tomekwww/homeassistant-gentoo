@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library and CLI to calculate and verify all kinds of CRC checksums"
 HOMEPAGE="https://github.com/Nicoretti/crc"
 SRC_URI="https://files.pythonhosted.org/packages/c2/53/559a165c83ab16ad1d4a1639de239b77894fc02585bf767da88ad4288f40/crc-4.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/crc-4.3.0"
 
 LICENSE="BSD"
 SLOT="0"

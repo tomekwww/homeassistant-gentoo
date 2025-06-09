@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for WiLight in Home Assistant"
 HOMEPAGE="https://github.com/leofig-rj/pywilight"
 SRC_URI="https://files.pythonhosted.org/packages/5d/9b/21cb48ba5b1762002bf05efe57ade725b212e2d337933fb0bac3d29694d9/pywilight-0.0.74.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pywilight-0.0.74"
 
 LICENSE="BSD"
 SLOT="0"

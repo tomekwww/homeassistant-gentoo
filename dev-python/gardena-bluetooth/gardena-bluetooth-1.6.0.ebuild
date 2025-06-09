@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION=""
 HOMEPAGE="https://pypi.org/project/gardena-bluetooth/"
 SRC_URI="https://files.pythonhosted.org/packages/78/38/97bb7fd513624cdcb865c3c03d306fbf0fa07f4d4eb955dfc27dd9c26766/gardena_bluetooth-1.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gardena_bluetooth-1.6.0"
 
 LICENSE="MIT"
 SLOT="0"

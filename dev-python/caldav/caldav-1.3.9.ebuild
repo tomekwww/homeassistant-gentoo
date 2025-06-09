@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="CalDAV RFC4791 client library"
 HOMEPAGE="https://github.com/python-caldav/caldav"
 SRC_URI="https://files.pythonhosted.org/packages/30/8e/bfa3f96741911d3a1afc6891808f54111db84c8a56f48be475994e9bd6a8/caldav-1.3.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/caldav-1.3.9"
 
 LICENSE="BSD"
 SLOT="0"

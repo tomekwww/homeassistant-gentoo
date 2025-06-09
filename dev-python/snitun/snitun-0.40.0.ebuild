@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SNI proxy with TCP multiplexer"
 HOMEPAGE="https://pypi.org/project/snitun/"
 SRC_URI="https://files.pythonhosted.org/packages/9a/5d/c39d5dee7119017efa571e7ce09fcb4f098734cb367adab59bed497ae0e9/snitun-0.40.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/snitun-0.40.0"
 
 LICENSE="BSD"
 SLOT="0"

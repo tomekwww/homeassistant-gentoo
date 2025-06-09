@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="NOAA Aurora Wrapper for Home Assistant Integration"
 HOMEPAGE="https://github.com/djtimca/aurora-api"
 SRC_URI="https://files.pythonhosted.org/packages/4b/09/a194c09651e2b6423adc781477268bb0b7b328c79881355ce29c7761c39a/auroranoaa-0.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/auroranoaa-0.0.5"
 
 LICENSE="BSD"
 SLOT="0"

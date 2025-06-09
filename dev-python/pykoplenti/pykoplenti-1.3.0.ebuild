@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python RESTClient for Kostal Plenticore Solar Inverters"
 HOMEPAGE="https://github.com/stegm/pyclient_koplenti"
 SRC_URI="https://files.pythonhosted.org/packages/69/91/77b4718c686a8ae70393dc5716561e83a118863d1b222c36de56a8cb166d/pykoplenti-1.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pykoplenti-1.3.0"
 
 LICENSE="BSD"
 SLOT="0"

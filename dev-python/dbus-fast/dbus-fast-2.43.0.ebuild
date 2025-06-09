@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A faster version of dbusnext"
 HOMEPAGE="https://pypi.org/project/dbus-fast/"
 SRC_URI="https://files.pythonhosted.org/packages/16/42/b37c77b67f1c7aec0c30c75fe69ae94df4e592522c0b9bc206e2b183c4b6/dbus_fast-2.43.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dbus_fast-2.43.0"
 
 LICENSE="MIT"
 SLOT="0"

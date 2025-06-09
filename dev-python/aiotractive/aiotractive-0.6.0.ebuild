@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python client for the Tractive REST API"
 HOMEPAGE="https://github.com/zhulik/aiotractive"
 SRC_URI="https://files.pythonhosted.org/packages/db/d2/6c4cc1247ce4e057731664019822770a3f958290631a66030dcb2fd550f7/aiotractive-0.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiotractive-0.6.0"
 
 LICENSE="BSD"
 SLOT="0"

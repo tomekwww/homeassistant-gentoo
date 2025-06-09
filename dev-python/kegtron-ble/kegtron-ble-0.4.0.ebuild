@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Kegtron BLE support"
 HOMEPAGE="https://github.com/bluetooth-devices/kegtron-ble"
 SRC_URI="https://files.pythonhosted.org/packages/78/94/6e6e0ce44f92a69dca974f252c52c3abaab0525279abe6b7bbc3459ccbfe/kegtron-ble-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/kegtron-ble-0.4.0"
 
 LICENSE="MIT"
 SLOT="0"

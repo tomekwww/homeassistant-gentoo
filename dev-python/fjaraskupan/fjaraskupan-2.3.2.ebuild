@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library for speaking to fjrskupan"
 HOMEPAGE="https://github.com/elupus/fjaraskupan"
 SRC_URI="https://files.pythonhosted.org/packages/65/90/ba02e996862d7f6bf8a413a908820624d81a0c46cdad6a9f484cb1df113c/fjaraskupan-2.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/fjaraskupan-2.3.2"
 
 LICENSE="MIT"
 SLOT="0"

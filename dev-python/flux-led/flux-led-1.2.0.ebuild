@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library to communicate with the fluxled smart bulbs"
 HOMEPAGE="https://github.com/Danielhiversen/flux_led"
 SRC_URI="https://files.pythonhosted.org/packages/99/ef/7149fb51c43e6787975c5423d98cbe2eab4fc582d54465ba95274efe322d/flux_led-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/flux_led-1.2.0"
 
 LICENSE="LGPL-3"
 SLOT="0"

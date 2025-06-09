@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Electra Smart Python Integration"
 HOMEPAGE="https://pypi.org/project/pyElectra/"
 SRC_URI="https://github.com/jafar-atili/pyelectra//archive/refs/tags/1.2.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyElectra-1.2.4"
 
 LICENSE="BSD"
 SLOT="0"

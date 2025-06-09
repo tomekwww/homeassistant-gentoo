@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Format messages and post to Microsoft Teams"
 HOMEPAGE="https://github.com/rveachkc/pymsteams"
 SRC_URI="https://files.pythonhosted.org/packages/24/0a/73f5598bd047022d2f7557d90c9404c1164ecb24fe0ea289a5c6ef1bb784/pymsteams-0.1.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pymsteams-0.1.12"
 
 LICENSE="BSD"
 SLOT="0"

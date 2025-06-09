@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Pure python implementation of the adb client"
 HOMEPAGE="https://github.com/Swind/pure-python-adb"
 SRC_URI="https://files.pythonhosted.org/packages/0a/b7/1c4d6b2cbe499b4180177abcf3ae2bb2d8b36acf695ae7d8e9eb99ba00ea/pure-python-adb-0.3.0.dev0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pure-python-adb-0.3.0.dev0"
 
 LICENSE="MIT"
 SLOT="0"

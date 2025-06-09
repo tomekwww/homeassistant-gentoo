@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="EngineIO server"
 HOMEPAGE="http://github.com/bdraco/python-engineio-v3/"
 SRC_URI="https://files.pythonhosted.org/packages/ea/fb/491ad0a5d766cc075f4e29b0e49dba0ee903d83970935a6d491e112a75e2/python-engineio-v3-3.14.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-engineio-v3-3.14.2"
 
 LICENSE="MIT"
 SLOT="0"

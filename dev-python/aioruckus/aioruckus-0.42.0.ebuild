@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API to interact with Ruckus Unleashed and ZoneDirector devices"
 HOMEPAGE="https://github.com/ms264556/aioruckus"
 SRC_URI="https://files.pythonhosted.org/packages/07/32/9e1179008b75957d46c9dced781038b9d9b45e518d3a1e7fccc59df44381/aioruckus-0.42.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioruckus-0.42"
 
 LICENSE="BSD"
 SLOT="0"

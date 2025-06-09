@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python interface for the AlarmDecoder AD2 family of alarm devices which includes the AD2USB AD2SERIAL and AD2PI"
 HOMEPAGE="http://github.com/nutechsoftware/alarmdecoder"
 SRC_URI="https://files.pythonhosted.org/packages/5d/be/5b656ba9b2ea5be368735f4c389df268ce572597d86716fb5bf608cd76ab/alarmdecoder-1.13.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/alarmdecoder-1.13.12"
 
 LICENSE="MIT"
 SLOT="0"

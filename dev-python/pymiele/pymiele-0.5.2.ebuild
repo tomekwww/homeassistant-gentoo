@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for Miele integration with Home Assistant"
 HOMEPAGE="https://pypi.org/project/pymiele/"
 SRC_URI="https://files.pythonhosted.org/packages/b7/24/fc88ee0741b16421fab772050aba131c1c11139b1e71ec246708a9f9e6ce/pymiele-0.5.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pymiele-0.5.2"
 
 LICENSE="MIT"
 SLOT="0"

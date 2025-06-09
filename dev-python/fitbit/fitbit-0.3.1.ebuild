@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Fitbit API Wrapper"
 HOMEPAGE="https://github.com/orcasgit/python-fitbit"
 SRC_URI="https://files.pythonhosted.org/packages/05/46/47fb03b722f335c30b0d2734537c6932afdc465e22c5045008bfa2c122b1/fitbit-0.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/fitbit-0.3.1"
 
 LICENSE="BSD"
 SLOT="0"

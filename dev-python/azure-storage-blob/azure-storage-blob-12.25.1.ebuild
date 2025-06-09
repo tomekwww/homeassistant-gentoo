@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Microsoft Azure Blob Storage Client Library for Python"
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-blob"
 SRC_URI="https://files.pythonhosted.org/packages/8b/f3/f764536c25cc3829d36857167f03933ce9aee2262293179075439f3cd3ad/azure_storage_blob-12.25.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/azure_storage_blob-12.25.1"
 
 LICENSE="MIT"
 SLOT="0"

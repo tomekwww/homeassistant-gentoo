@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="IHC Python SDK"
 HOMEPAGE="https://github.com/dingusdk/PythonIhcSdk"
 SRC_URI="https://files.pythonhosted.org/packages/f8/78/ebea889d55bc3f359dc564856bcd14cbc7aaf411fb8fb024593e8dbbaaee/ihcsdk-2.8.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ihcsdk-2.8.5"
 
 LICENSE="GPL-3"
 SLOT="0"

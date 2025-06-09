@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Ordered YAML dropin replacement for PyYAML which preserves dict ordering"
 HOMEPAGE="https://github.com/wimglenn/oyaml"
 SRC_URI="https://files.pythonhosted.org/packages/00/71/c721b9a524f6fe6f73469c90ec44784f0b2b1b23c438da7cc7daac1ede76/oyaml-1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/oyaml-1.0"
 
 LICENSE="MIT"
 SLOT="0"

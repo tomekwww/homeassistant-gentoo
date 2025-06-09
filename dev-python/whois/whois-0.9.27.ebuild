@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python package for retrieving WHOIS information of domains"
 HOMEPAGE="https://github.com/DannyCork/python-whois/"
 SRC_URI="https://files.pythonhosted.org/packages/dd/46/d94f5de31d0a2eb53df836ac950acb99299f6665cde87ae3dd526a02ff76/whois-0.9.27.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/whois-0.9.27"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library to detect bad power supply on Raspberry Pi "
 HOMEPAGE="https://github.com/shenxn/rpi-bad-power"
 SRC_URI="https://files.pythonhosted.org/packages/93/e4/e6ab9c81148da6d1cbb7237402df6713c8b53852678285ee8ac826063347/rpi-bad-power-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/rpi-bad-power-0.1.0"
 
 LICENSE="MIT"
 SLOT="0"

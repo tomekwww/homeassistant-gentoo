@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="MQTT API for Qbus Home Automation"
 HOMEPAGE="https://github.com/Qbus-iot/qbusmqttapi"
 SRC_URI="https://files.pythonhosted.org/packages/a0/0b/ecd266d4db4bc7062ec046755e7f2c5d70c1be36bff2d5f40296f9b22348/qbusmqttapi-1.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/qbusmqttapi-1.3.0"
 
 LICENSE="MIT"
 SLOT="0"

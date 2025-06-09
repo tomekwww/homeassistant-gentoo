@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asyncio Duke Energy"
 HOMEPAGE="https://pypi.org/project/aiodukeenergy/"
 SRC_URI="https://files.pythonhosted.org/packages/26/4b/a10daff335073d801f20be1664488d4e1f91faa759d6d6fa1c419b7ac9e9/aiodukeenergy-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiodukeenergy-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

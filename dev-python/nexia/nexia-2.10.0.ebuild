@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for connecting to nexia"
 HOMEPAGE="https://pypi.org/project/nexia/"
 SRC_URI="https://files.pythonhosted.org/packages/64/f0/341d9df9eb9ce25aec550fe15d23ee9fb23e759e69ada7b60f0130b8bc6b/nexia-2.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nexia-2.10.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

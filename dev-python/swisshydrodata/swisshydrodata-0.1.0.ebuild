@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to fetch data from the Swiss federal Office for Environment FEON"
 HOMEPAGE="https://github.com/bouni/swisshydrodata"
 SRC_URI="https://files.pythonhosted.org/packages/03/2e/f5b256831944adf5898ec0db2bab0427ebddf3ebbccef83ac72276e0b0a0/swisshydrodata-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/swisshydrodata-0.1.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Calculate the distance between 2 points on Earth"
 HOMEPAGE="https://github.com/mapado/haversine"
 SRC_URI="https://files.pythonhosted.org/packages/1f/fe/5dc394a9db15c9f08c64ae050c03c01128227632fce07cc62aa5d32240d5/haversine-2.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/haversine-2.9.0"
 
 LICENSE="MIT"
 SLOT="0"

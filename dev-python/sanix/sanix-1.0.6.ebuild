@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for getting measurements data from Sanix devices"
 HOMEPAGE="https://github.com/tomaszsluszniak/sanix_py"
 SRC_URI="https://files.pythonhosted.org/packages/9d/fd/c9e4a9943f900b61b44d86201080142b92534cccdac1393ca825b67c5fe9/sanix-1.0.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sanix-1.0.6"
 
 LICENSE="MIT"
 SLOT="0"

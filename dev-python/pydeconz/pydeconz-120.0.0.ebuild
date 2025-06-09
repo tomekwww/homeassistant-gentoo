@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for communicating with deCONZ RESTAPI"
 HOMEPAGE="https://pypi.org/project/pydeconz/"
 SRC_URI="https://files.pythonhosted.org/packages/97/41/bec7d3be72fd6ba8c3be9ff6805fb56018b6b56c4f17e963a7358367da23/pydeconz-120.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydeconz-120"
 
 LICENSE="MIT"
 SLOT="0"

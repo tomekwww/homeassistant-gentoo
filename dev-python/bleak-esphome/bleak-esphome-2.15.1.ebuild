@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Bleak backend of ESPHome"
 HOMEPAGE="https://pypi.org/project/bleak-esphome/"
 SRC_URI="https://files.pythonhosted.org/packages/d5/e9/2c66de2f458a1d703061867d27278fde1ffaf507d3e4955c6ac4d5eae5f0/bleak_esphome-2.15.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bleak_esphome-2.15.1"
 
 LICENSE="MIT"
 SLOT="0"

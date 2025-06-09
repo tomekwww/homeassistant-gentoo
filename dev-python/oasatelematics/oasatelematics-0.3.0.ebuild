@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for the OASA Telematics API"
 HOMEPAGE="https://github.com/panosmz/oasatelematics"
 SRC_URI="https://files.pythonhosted.org/packages/40/0e/65cb94d9f8cf8c737bbb765825506511708ee03c0168f26232329b2ce217/oasatelematics-0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/oasatelematics-0.3"
 
 LICENSE="BSD"
 SLOT="0"

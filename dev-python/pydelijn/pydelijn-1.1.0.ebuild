@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Get realtime info on stop passages of De Lijn apidelijnbe"
 HOMEPAGE="https://github.com/bollewolle/pydelijn"
 SRC_URI="https://files.pythonhosted.org/packages/6d/72/c3b2782bd5b28c0c97a94433c1defe5ef817eb973104f223e8beaba75b2b/pydelijn-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pydelijn-1.1.0"
 
 LICENSE="MIT"
 SLOT="0"

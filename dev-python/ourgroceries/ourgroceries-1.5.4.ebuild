@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Our Groceries Unofficial Python Package"
 HOMEPAGE="https://github.com/ljmerza/py-our-groceries"
 SRC_URI="https://files.pythonhosted.org/packages/59/f5/8c6d796fc487245a118113ffad24e843a383e96882bf1f8fad06e93e4b91/ourgroceries-1.5.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ourgroceries-1.5.4"
 
 LICENSE="MIT"
 SLOT="0"

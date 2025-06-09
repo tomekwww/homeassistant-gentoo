@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Twilio SendGrid library for Python"
 HOMEPAGE="https://github.com/sendgrid/sendgrid-python/"
 SRC_URI="https://files.pythonhosted.org/packages/95/c4/fc38f4a2b7edfbacc3ffe861c24ea9745e3f24ca768d4692f7b5fbe4675b/sendgrid-6.8.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sendgrid-6.8.2"
 
 LICENSE="MIT"
 SLOT="0"

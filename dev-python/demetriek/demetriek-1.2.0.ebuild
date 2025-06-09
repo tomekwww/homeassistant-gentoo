@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for LaMetric TIME devices"
 HOMEPAGE="https://github.com/frenck/python-demetriek"
 SRC_URI="https://files.pythonhosted.org/packages/b1/14/f525b532899b55049e0459a2813d35bb7ecb2a009c373816308fe7d24f8f/demetriek-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/demetriek-1.2.0"
 
 LICENSE="MIT"
 SLOT="0"

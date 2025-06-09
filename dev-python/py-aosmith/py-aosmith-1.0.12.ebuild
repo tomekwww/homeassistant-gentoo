@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python client library for A O Smith water heaters"
 HOMEPAGE="https://github.com/bdr99/py-aosmith"
 SRC_URI="https://files.pythonhosted.org/packages/37/cc/d6e94b8405d99d1eadc45880bb48da7df6c99ceb02c8b74b2f75fd1f926d/py_aosmith-1.0.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py_aosmith-1.0.12"
 
 LICENSE="MIT"
 SLOT="0"

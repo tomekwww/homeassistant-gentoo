@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_13 )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python wrapper of the wsdotwagov APIs"
 HOMEPAGE="https://pypi.org/project/wsdot/"
 SRC_URI="https://files.pythonhosted.org/packages/4d/38/530d68ebd8188006f85d918fd74db178b5f0bf1e759a6702065c56e78f76/wsdot-0.0.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/wsdot-0.0.1"
 
 LICENSE="BSD"
 SLOT="0"

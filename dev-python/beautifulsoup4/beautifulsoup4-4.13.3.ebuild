@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Screenscraping library"
 HOMEPAGE="https://pypi.org/project/beautifulsoup4/"
 SRC_URI="https://files.pythonhosted.org/packages/f0/3c/adaf39ce1fb4afdd21b611e3d530b183bb7759c9b673d60db0e347fd4439/beautifulsoup4-4.13.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/beautifulsoup4-4.13.3"
 
 LICENSE="MIT"
 SLOT="0"

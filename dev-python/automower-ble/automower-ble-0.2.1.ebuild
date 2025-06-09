@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An unofficial reverse engineered Husqvarna Automower Connect BLE library"
 HOMEPAGE="https://pypi.org/project/automower-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/79/16/7c1bd3c188b37f2705c8619fa1190b75103eeefbc5d78683a3a1c448945d/automower_ble-0.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/automower_ble-0.2.1"
 
 LICENSE="BSD"
 SLOT="0"

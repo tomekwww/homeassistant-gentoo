@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python library for communicating with the ESP8266based wifi module from OpenEVSE"
 HOMEPAGE="https://github.com/miniconfig/python-openevse-wifi"
 SRC_URI="https://files.pythonhosted.org/packages/89/cc/e3f16c8967b884a4cf4dae2ffaf372f8bc4f2f7ff2a0e35d9eebce1cfea2/openevsewifi-1.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/openevsewifi-1.1.2"
 
 LICENSE="MIT"
 SLOT="0"

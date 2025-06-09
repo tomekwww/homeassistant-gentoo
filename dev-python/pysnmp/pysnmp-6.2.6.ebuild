@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python library for SNMP"
 HOMEPAGE="https://github.com/lextudio/pysnmp"
 SRC_URI="https://files.pythonhosted.org/packages/bc/a2/1d0f9cb0cff7e45c651be1ce9b646d0cc837697bc030fc9ffb90247303d4/pysnmp-6.2.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysnmp-6.2.6"
 
 LICENSE="BSD"
 SLOT="0"

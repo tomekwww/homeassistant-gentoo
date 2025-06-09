@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asyncio Network UPS Tools"
 HOMEPAGE="https://pypi.org/project/aionut/"
 SRC_URI="https://files.pythonhosted.org/packages/3d/1a/87db673c9a71667bcbf68702c6526ed577a735046e72e9f50f72d466d1e8/aionut-4.3.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aionut-4.3.4"
 
 LICENSE="Apache-2.0"
 SLOT="0"

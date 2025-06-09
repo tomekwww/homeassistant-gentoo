@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Minimalistic Python client for the NextBus public API for realtime transit arrival data"
 HOMEPAGE="https://github.com/vividboarder/py_nextbus"
 SRC_URI="https://files.pythonhosted.org/packages/a1/04/cd0ff3c2d6c9de828c0abee3016de83498a1c0b4e7fc56745d23427eeff6/py_nextbusnext-2.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py_nextbusnext-2.1.2"
 
 LICENSE="BSD"
 SLOT="0"

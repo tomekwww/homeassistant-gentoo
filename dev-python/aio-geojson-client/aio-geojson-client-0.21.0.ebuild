@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async GeoJSON client library"
 HOMEPAGE="https://pypi.org/project/aio-geojson-client/"
 SRC_URI="https://files.pythonhosted.org/packages/31/47/9213780f9599117fd01a3ccc08819cfbf720af2ad4b94a4913d9e2817376/aio_geojson_client-0.21.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio_geojson_client-0.21"
 
 LICENSE="BSD"
 SLOT="0"

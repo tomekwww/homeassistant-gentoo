@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="AES encryption for zipfile"
 HOMEPAGE="https://github.com/danifus/pyzipper"
 SRC_URI="https://files.pythonhosted.org/packages/ac/97/2f03c67b40e531b30f0e1357476b4db989097a92cd30c6d2389cfa12db49/pyzipper-0.3.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyzipper-0.3.6"
 
 LICENSE="MIT"
 SLOT="0"

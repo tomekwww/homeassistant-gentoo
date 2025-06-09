@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The official python SDK for Linode API v4"
 HOMEPAGE="https://github.com/linode/python-linode-api"
 SRC_URI="https://files.pythonhosted.org/packages/92/20/130641a81ede247f8c56347b84a34e7d5fb858f950d3c2c7c23fc1b83fbb/linode-api-4.1.9b1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/linode-api-4.1.9b1"
 
 LICENSE="BSD"
 SLOT="0"

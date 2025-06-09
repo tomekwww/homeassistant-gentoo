@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple creation of data classes from dictionaries"
 HOMEPAGE="https://github.com/konradhalas/dacite"
 SRC_URI="https://files.pythonhosted.org/packages/55/a0/7ca79796e799a3e782045d29bf052b5cde7439a2bbb17f15ff44f7aacc63/dacite-1.9.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dacite-1.9.2"
 
 LICENSE="MIT"
 SLOT="0"

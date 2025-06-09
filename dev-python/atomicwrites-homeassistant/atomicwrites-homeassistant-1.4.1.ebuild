@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Atomic file writes"
 HOMEPAGE="https://github.com/untitaker/python-atomicwrites"
 SRC_URI="https://files.pythonhosted.org/packages/9a/5a/10ff0fd9aa04f78a0b31bb617c8d29796a12bea33f1e48aa54687d635e44/atomicwrites-homeassistant-1.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/atomicwrites-homeassistant-1.4.1"
 
 LICENSE="MIT"
 SLOT="0"

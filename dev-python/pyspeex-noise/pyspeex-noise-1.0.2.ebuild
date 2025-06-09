@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Noise suppression and automatic gain with speex"
 HOMEPAGE="https://github.com/rhasspy/speex-noise"
 SRC_URI="https://files.pythonhosted.org/packages/ee/1d/7d2ebb8f73c2b2e929b4ba5370b35dbc91f37268ea53f4b6acd9afa532cb/pyspeex_noise-1.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyspeex_noise-1.0.2"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Microsoft Authentication Library extensions MSAL EX provides a persistence API that can save your data on disk encrypted on Windows macOS and Linux Concurrent data access will be coordinated by a file lock mechanism"
 HOMEPAGE="https://pypi.org/project/msal-extensions/"
 SRC_URI="https://files.pythonhosted.org/packages/01/99/5d239b6156eddf761a636bded1118414d161bd6b7b37a9335549ed159396/msal_extensions-1.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/msal_extensions-1.3.1"
 
 LICENSE="MIT"
 SLOT="0"

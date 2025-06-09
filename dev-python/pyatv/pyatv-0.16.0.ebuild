@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A client library for Apple TV and AirPlay devices"
 HOMEPAGE="https://pyatv.dev"
 SRC_URI="https://files.pythonhosted.org/packages/e4/e2/b1e91a1d14f9b5178e20f7072225f21f82c7003f6d4c5cc3073bb4a4d28e/pyatv-0.16.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyatv-0.16.0"
 
 LICENSE="MIT"
 SLOT="0"

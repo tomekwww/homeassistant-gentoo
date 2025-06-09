@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library to work with ember from EPH Controls"
 HOMEPAGE="https://github.com/roberty99/pyephember2"
 SRC_URI="https://files.pythonhosted.org/packages/8c/f6/bbf726b8755c259df7dc87c95a8a98fd33a9822111fc2fa3a278a9932244/pyephember2-0.4.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyephember2-0.4.12"
 
 LICENSE="MIT"
 SLOT="0"

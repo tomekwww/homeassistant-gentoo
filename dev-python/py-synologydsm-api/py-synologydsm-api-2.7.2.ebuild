@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for communication with Synology DSM"
 HOMEPAGE="https://github.com/mib1185/py-synologydsm-api#readme"
-SRC_URI="https://github.com/mib1185/py-synologydsm-api#readme/archive/refs/tags/2.7.2.tar.gz -> ${P}.gh.tar.gz"
+SRC_URI="https://github.com/mib1185/py-synologydsm-api/archive/refs/tags/v2.7.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-synologydsm-api-2.7.2"
 
 LICENSE="MIT"
 SLOT="0"

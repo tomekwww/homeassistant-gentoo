@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to fetch albums and assests from immich"
 HOMEPAGE="https://pypi.org/project/aioimmich/"
 SRC_URI="https://github.com/mib1185/aioimmich/archive/refs/tags/v0.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioimmich-0.7.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

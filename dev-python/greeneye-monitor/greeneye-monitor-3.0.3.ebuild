@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Receive data packets from GreenEye Monitor httpwwwbrultechcomgreeneye"
 HOMEPAGE="https://github.com/jkeljo/greeneye-monitor"
 SRC_URI="https://github.com/jkeljo/greeneye-monitor/archive/refs/tags/v3.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/greeneye-monitor-3.0.3"
 
 LICENSE="BSD"
 SLOT="0"

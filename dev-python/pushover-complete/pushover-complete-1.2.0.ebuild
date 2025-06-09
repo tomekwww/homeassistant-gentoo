@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python package for interacting with all aspects of the Pushover API"
 HOMEPAGE="https://pypi.org/project/pushover-complete/"
 SRC_URI="https://files.pythonhosted.org/packages/e6/09/78c00d2f1c50f6cd99181db83461dbaa617a840d48854f6a240a9bcc8f4f/pushover_complete-1.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pushover_complete-1.2.0"
 
 LICENSE="BSD"
 SLOT="0"

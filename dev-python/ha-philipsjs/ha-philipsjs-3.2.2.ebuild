@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="jointSPACE API for HomeAssistant"
 HOMEPAGE="https://github.com/danielperna84/ha-philipsjs"
 SRC_URI="https://files.pythonhosted.org/packages/c4/e9/3de06d7d8ffd3a65119be2f4fcf9740d1bd138499efae34fccce8addeb57/ha-philipsjs-3.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ha-philipsjs-3.2.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous client for the Tailscale API"
 HOMEPAGE="https://pypi.org/project/tailscale/"
 SRC_URI="https://files.pythonhosted.org/packages/e1/26/d72eaf4f89295eedd0cdc9441046297f9d1b5c7adbfd076587edcba145e0/tailscale-0.6.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/tailscale-0.6.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to interact with PrusaLink v2"
 HOMEPAGE="https://pypi.org/project/pyprusalink/"
 SRC_URI="https://files.pythonhosted.org/packages/95/22/0a138766bb2eaa9d5feb404f1cf8f69ff87b4520294ab147f96faa5d272d/pyprusalink-2.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyprusalink-2.1.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

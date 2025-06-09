@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Parser for SensorPush BLE devices"
 HOMEPAGE="https://pypi.org/project/sensorpush-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/91/ad/d0ee145a765494427a6180725d8704e0b5aaefd29c1fd93b05fe8ac522e2/sensorpush_ble-1.9.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sensorpush_ble-1.9.0"
 
 LICENSE="MIT"
 SLOT="0"

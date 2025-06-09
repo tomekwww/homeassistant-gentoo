@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="QVR Pro API wrapper"
 HOMEPAGE="https://github.com/oblogic7/pyqvrpro"
 SRC_URI="https://files.pythonhosted.org/packages/11/81/572fea59c62d7706dcc8540041b3217abce8b06ff018e01b06b910dfc643/pyqvrpro-0.52.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyqvrpro-0.52"
 
 LICENSE="MIT"
 SLOT="0"

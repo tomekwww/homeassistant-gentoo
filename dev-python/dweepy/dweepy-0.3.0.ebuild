@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Dweepy is a Python client for dweetio"
 HOMEPAGE="https://github.com/paddycarey/dweepy"
 SRC_URI="https://files.pythonhosted.org/packages/1b/da/a810d2a0fb08d7bf715363538a380072a5158ac40b2084992633ba2b85d9/dweepy-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/dweepy-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

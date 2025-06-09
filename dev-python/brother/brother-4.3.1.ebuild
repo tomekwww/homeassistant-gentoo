@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for getting data from Brother laser and inkjet printers via SNMP"
 HOMEPAGE="https://github.com/bieniu/brother"
 SRC_URI="https://files.pythonhosted.org/packages/c1/d1/f92b8281c8c7a22d811d7dda004d6bd6602b9c1184957f2c26516c5e7a92/brother-4.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/brother-4.3.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

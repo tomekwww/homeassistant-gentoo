@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for controlling the Geocaching API"
 HOMEPAGE="https://github.com/Sholofly/geocachingapi-python"
 SRC_URI="https://files.pythonhosted.org/packages/ff/04/d547a5105c353159b4c2a925428cd517e06f3703165eaaad84482e536a49/geocachingapi-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/geocachingapi-0.3.0"
 
 LICENSE="MIT"
 SLOT="0"

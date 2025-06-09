@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Bypassing reCaptcha V3 by sending HTTP requests  solving reCaptcha V2 using speech to text"
 HOMEPAGE="https://github.com/xHossein/PyPasser"
 SRC_URI="https://files.pythonhosted.org/packages/dc/18/405c919c0398ecdb9ff5fa62a6c092751d7c6d5865191633967f95ded134/PyPasser-0.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/PyPasser-0.0.5"
 
 LICENSE="MIT"
 SLOT="0"

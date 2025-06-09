@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Get MAC addresses of remote hosts and local interfaces"
 HOMEPAGE="https://github.com/GhostofGoes/getmac"
 SRC_URI="https://files.pythonhosted.org/packages/89/a8/4af8e06912cd83b1cc6493e9b5d0589276c858f7bdccaf1855df748983de/getmac-0.9.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/getmac-0.9.5"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple VAPID header generation library"
 HOMEPAGE="https://pypi.org/project/py-vapid/"
 SRC_URI="https://files.pythonhosted.org/packages/ff/57/5c1c61f27ce01f939443cf3f6c279a295f7ec0327b18a1cbbcfefe0b5456/py_vapid-1.9.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py_vapid-1.9.2"
 
 LICENSE="MPL-2.0"
 SLOT="0"

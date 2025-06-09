@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Control LimitlessLED products"
 HOMEPAGE="https://github.com/happyleavesaoc/python-limitlessled/"
 SRC_URI="https://files.pythonhosted.org/packages/11/b5/a6eda0cf64c484e82040902cac45173adb4e26fa349441f881f6337e0891/limitlessled-1.1.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/limitlessled-1.1.3"
 
 LICENSE="MIT"
 SLOT="0"

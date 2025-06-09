@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="RestrictedPython is a defined subset of the Python language which allows to provide a program input into a trusted environment"
 HOMEPAGE="https://github.com/zopefoundation/RestrictedPython"
 SRC_URI="https://files.pythonhosted.org/packages/76/f3/3cfd684abf456f536a842e4fabe1ca360a8e94d1fc329f261c34c1d98825/restrictedpython-8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/restrictedpython-8.0"
 
 LICENSE="ZPL"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Samsung Smart TV WS API wrapper"
 HOMEPAGE="https://github.com/xchwarze/samsung-tv-ws-api"
 SRC_URI="https://files.pythonhosted.org/packages/e4/c7/aa95581ad09e0ec2628f9fc5f80fbf6556b2a96af40937479bb252ed890b/samsungtvws-2.7.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/samsungtvws-2.7.2"
 
 LICENSE="LGPL-3"
 SLOT="0"

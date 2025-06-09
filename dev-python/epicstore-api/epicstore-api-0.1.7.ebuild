@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An API wrapper for Epic Games Store written in Python"
 HOMEPAGE="https://github.com/SD4RK/epicstore_api"
 SRC_URI="https://files.pythonhosted.org/packages/29/ac/6a97e6a9c06fafbcd7cb664706bb55329e241699bea18d0ae76e75b2cb56/epicstore_api-0.1.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/epicstore_api-0.1.7"
 
 LICENSE="MIT"
 SLOT="0"

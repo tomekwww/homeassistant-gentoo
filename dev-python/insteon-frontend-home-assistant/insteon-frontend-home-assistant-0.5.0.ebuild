@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The Insteon frontend for Home Assistant"
 HOMEPAGE="https://pypi.org/project/insteon-frontend-home-assistant/"
 SRC_URI="https://files.pythonhosted.org/packages/da/9f/589717619beeea513e06bf072047e288a2811ca2495772c19424d0107908/insteon-frontend-home-assistant-0.5.0.post1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/insteon-frontend-home-assistant-0.5.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="The official Python client for Ollama"
 HOMEPAGE="https://pypi.org/project/ollama/"
 SRC_URI="https://files.pythonhosted.org/packages/b0/6d/dc77539c735bbed5d0c873fb029fb86aa9f0163df169b34152914331c369/ollama-0.4.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ollama-0.4.7"
 
 LICENSE="MIT"
 SLOT="0"

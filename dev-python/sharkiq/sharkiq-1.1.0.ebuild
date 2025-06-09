@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for Shark IQ robots"
 HOMEPAGE="https://github.com/JeffResc/sharkiq-ng"
 SRC_URI="https://files.pythonhosted.org/packages/f6/2b/0df774028176ddd22198d42577efa79e756e322a69ea498e39d6fa36a68c/sharkiq-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/sharkiq-1.1.0"
 
 LICENSE="MIT"
 SLOT="0"

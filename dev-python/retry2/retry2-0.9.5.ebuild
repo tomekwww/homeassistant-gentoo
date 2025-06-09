@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Easy to use retry decorator"
 HOMEPAGE="https://github.com/eSAMTrade/retry"
 SRC_URI="https://github.com/eSAMTrade/retry/archive/refs/tags/0.9.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/retry-0.9.5"
 
 LICENSE="BSD"
 SLOT="0"

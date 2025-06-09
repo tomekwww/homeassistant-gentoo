@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Stookwijzer package"
 HOMEPAGE="https://github.com/fwestenberg/stookwijzer"
 SRC_URI="https://files.pythonhosted.org/packages/2d/2a/19f36aaec5fc5e50ab8c4a507a05c894f5bfc7c681c4454bc91ae36cc828/stookwijzer-1.6.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/stookwijzer-1.6.1"
 
 LICENSE="MIT"
 SLOT="0"

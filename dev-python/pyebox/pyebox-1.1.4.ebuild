@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Get your EBox consumption wwwweboxca"
 HOMEPAGE="http://github.com/titilambert/pyebox"
 SRC_URI="https://files.pythonhosted.org/packages/42/cb/75893f698038b46798dea6d237c09401479981308e1d759f2f4fd5700b37/pyebox-1.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyebox-1.1.4"
 
 LICENSE="BSD"
 SLOT="0"

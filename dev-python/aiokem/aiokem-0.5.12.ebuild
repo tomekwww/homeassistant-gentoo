@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async API for Kohler Energy Management"
 HOMEPAGE="https://pypi.org/project/aiokem/"
 SRC_URI="https://files.pythonhosted.org/packages/03/39/98c00bc1fab1162e788e2841ef64f53c341efb4c9d7bd1c7a05add36d845/aiokem-0.5.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiokem-0.5.12"
 
 LICENSE="MIT"
 SLOT="0"

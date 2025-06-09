@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python3 library to communicate with Tibber"
 HOMEPAGE="https://pypi.org/project/pyTibber/"
 SRC_URI="https://files.pythonhosted.org/packages/f4/19/164420317726af7e9c6dc29746b9681a40797c3f033528d4f132d1beae7b/pytibber-0.31.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pytibber-0.31.2"
 
 LICENSE="BSD"
 SLOT="0"

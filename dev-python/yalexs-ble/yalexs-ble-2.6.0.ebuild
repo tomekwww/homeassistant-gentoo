@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Bluetooth control of Yale and August locks"
 HOMEPAGE="https://pypi.org/project/yalexs-ble/"
 SRC_URI="https://files.pythonhosted.org/packages/c4/bb/77651df8850263c5e78ad96a044ce1e12a05395a05d09346a1c9652ca71d/yalexs_ble-2.6.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/yalexs_ble-2.6.0"
 
 LICENSE="GPL-3"
 SLOT="0"

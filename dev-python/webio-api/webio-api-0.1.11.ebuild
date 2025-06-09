@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION=""
 HOMEPAGE="https://github.com/nasWebio/webio_api"
 SRC_URI="https://files.pythonhosted.org/packages/ae/36/0e19fb888189d98b6a3c229ffc4416ebecdb0157baa9330c6e6e5d00bf22/webio_api-0.1.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/webio_api-0.1.11"
 
 LICENSE="BSD"
 SLOT="0"

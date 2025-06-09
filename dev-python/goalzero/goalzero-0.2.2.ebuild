@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Goal Zero REST Api Library"
 HOMEPAGE="https://github.com/tkdrob/goalzero"
 SRC_URI="https://files.pythonhosted.org/packages/e3/20/8ae82588aa3ee09c1ae532eb1e7071b8b7e0a5a5ace2b0ee0356e62b2e95/goalzero-0.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/goalzero-0.2.2"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python Library for Seamless LinkPlay Device Control"
 HOMEPAGE="https://pypi.org/project/python-linkplay/"
 SRC_URI="https://files.pythonhosted.org/packages/f3/d3/cb2148ba528d34a160ab1abf9d7aeef6f5737ad560b049ee4ef5a1fca3e7/python_linkplay-0.2.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python_linkplay-0.2.9"
 
 LICENSE="MIT"
 SLOT="0"

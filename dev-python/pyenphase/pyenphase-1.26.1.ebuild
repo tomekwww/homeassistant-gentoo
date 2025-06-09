@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library to control enphase envoy"
 HOMEPAGE="https://pypi.org/project/pyenphase/"
 SRC_URI="https://files.pythonhosted.org/packages/72/e7/1d3e5680a039deec2384331446758e08883a7d8c18d50a10ff7119e16eb8/pyenphase-1.26.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyenphase-1.26.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Coinbase API client library"
 HOMEPAGE="https://github.com/coinbase/coinbase-python/"
 SRC_URI="https://files.pythonhosted.org/packages/5d/1f/d38b33ad501073b45a1735329c015c45d6ba8ddd16ab260d13cb7bd4b551/coinbase-2.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/coinbase-2.1.0"
 
 LICENSE="BSD"
 SLOT="0"

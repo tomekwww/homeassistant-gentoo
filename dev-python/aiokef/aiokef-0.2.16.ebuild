@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asyncio Python API for KEF speakers"
 HOMEPAGE="https://github.com/basnijholt/aiokef"
 SRC_URI="https://files.pythonhosted.org/packages/c6/3f/ab93a56b63b251c56f649a6a25d2913cd1359a403c8fe08161f22d9bb7ed/aiokef-0.2.16.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiokef-0.2.16"
 
 LICENSE="MIT"
 SLOT="0"

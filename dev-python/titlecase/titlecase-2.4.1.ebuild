@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Port of John Grubers titlecasepl"
 HOMEPAGE="https://github.com/ppannuto/python-titlecase"
 SRC_URI="https://files.pythonhosted.org/packages/63/17/04d2d3e30e2bc5a3eefa1060b08e3fb628510440f938eaecabbe08976a26/titlecase-2.4.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/titlecase-2.4.1"
 
 LICENSE="MIT"
 SLOT="0"

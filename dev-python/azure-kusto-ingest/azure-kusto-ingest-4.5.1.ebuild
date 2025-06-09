@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Kusto Ingest Client"
 HOMEPAGE="https://github.com/Azure/azure-kusto-python"
 SRC_URI="https://files.pythonhosted.org/packages/d8/3f/b2dec0bc7f5bbdd2f2fa9759cb0e6b5f9b135d67ad0dd12944414ffdffed/azure-kusto-ingest-4.5.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/azure-kusto-ingest-4.5.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to retrieve FAA airport status"
 HOMEPAGE="https://pypi.org/project/faadelays/"
 SRC_URI="https://files.pythonhosted.org/packages/fe/92/243633587edf4e1758a9a8617226ac88a0227a1422b956fb5644aac34791/faadelays-2023.9.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/faadelays-2023.9.1"
 
 LICENSE="MIT"
 SLOT="0"

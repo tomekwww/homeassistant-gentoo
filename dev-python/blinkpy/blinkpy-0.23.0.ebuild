@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Blink camera Python Library"
 HOMEPAGE="https://pypi.org/project/blinkpy/"
 SRC_URI="https://files.pythonhosted.org/packages/29/83/b9e35a7aa266fce95905c51b85e9e4fc0ae9ef10283ef7764de4bea805d0/blinkpy-0.23.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/blinkpy-0.23.0"
 
 LICENSE="MIT"
 SLOT="0"

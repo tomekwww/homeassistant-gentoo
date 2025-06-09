@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="FCMGCM push notification client"
 HOMEPAGE="https://pypi.org/project/firebase-messaging/"
 SRC_URI="https://files.pythonhosted.org/packages/52/a0/20dc16682beff1b382ec10a9fba156f9bd5c33bfbbf227be5af437daff94/firebase_messaging-0.4.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/firebase_messaging-0.4.5"
 
 LICENSE="MIT"
 SLOT="0"

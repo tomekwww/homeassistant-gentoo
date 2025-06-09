@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python3 library to communicate with Airthings devices"
 HOMEPAGE="https://github.com/Danielhiversen/pyAirthings"
 SRC_URI="https://files.pythonhosted.org/packages/21/36/840f97a2c263aa47163604a38cf2e46d97fab035d6bceec16ae78738cc67/airthings_cloud-0.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/airthings_cloud-0.2.0"
 
 LICENSE="MIT"
 SLOT="0"

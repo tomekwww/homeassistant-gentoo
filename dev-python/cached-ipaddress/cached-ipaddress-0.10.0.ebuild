@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Cache construction of ipaddress objects"
 HOMEPAGE="https://pypi.org/project/cached-ipaddress/"
 SRC_URI="https://files.pythonhosted.org/packages/54/1c/b1139184bba60887208992121df972f2d76d246437dc4bfc430845ac1eb8/cached_ipaddress-0.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/cached_ipaddress-0.10.0"
 
 LICENSE="MIT"
 SLOT="0"

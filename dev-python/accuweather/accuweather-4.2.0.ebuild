@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for getting weather data from AccuWeather API"
 HOMEPAGE="https://pypi.org/project/accuweather/"
 SRC_URI="https://files.pythonhosted.org/packages/26/db/ea7ae388c61b9500074ab3870f6e8f3fd25c6e3e493ed79d9c0f10efd47d/accuweather-4.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/accuweather-4.2.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

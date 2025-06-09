@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An aiohttpbased client for Genius Hub systems"
 HOMEPAGE="https://github.com/manzanotti/geniushub-client"
 SRC_URI="https://files.pythonhosted.org/packages/a4/08/91577ed44a51010db08f4ec59ab8f31d49182bb5d7d2d729194b8c35057f/geniushub-client-0.7.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/geniushub-client-0.7.1"
 
 LICENSE="MIT"
 SLOT="0"

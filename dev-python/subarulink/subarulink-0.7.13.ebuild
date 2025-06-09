@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package for interacting with Subaru Starlink Remote Services API"
 HOMEPAGE="https://github.com/G-Two/subarulink"
 SRC_URI="https://files.pythonhosted.org/packages/b8/e1/037c16f4edddc0a9398f97385f64838a7d8c37a180d8b8ba5b381862a287/subarulink-0.7.13.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/subarulink-0.7.13"
 
 LICENSE="Apache-2.0"
 SLOT="0"

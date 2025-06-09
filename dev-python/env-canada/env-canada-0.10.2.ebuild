@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to access meteorological data from Environment Canada"
 HOMEPAGE="https://pypi.org/project/env-canada/"
 SRC_URI="https://files.pythonhosted.org/packages/35/c8/b206152dab5f49652a0f510b95b9e613ab645e842695f47b5561cb4196d5/env_canada-0.10.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/env_canada-0.10.2"
 
 LICENSE="BSD"
 SLOT="0"

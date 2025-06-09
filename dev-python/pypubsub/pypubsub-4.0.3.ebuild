@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python PublishSubscribe Package"
 HOMEPAGE="https://github.com/schollii/pypubsub"
 SRC_URI="https://github.com/schollii/pypubsub/archive/refs/tags/v4.0.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pypubsub-4.0.3"
 
 LICENSE="BSD"
 SLOT="0"

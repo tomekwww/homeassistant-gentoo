@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client providing energygas prices from EnergyZero"
 HOMEPAGE="https://github.com/klaasnicolaas/python-energyzero"
 SRC_URI="https://files.pythonhosted.org/packages/05/d6/18b09cb965df3fe1950ca28760c281bdb279610c292c10129ce94c9a8cd4/energyzero-2.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/energyzero-2.1.1"
 
 LICENSE="MIT"
 SLOT="0"

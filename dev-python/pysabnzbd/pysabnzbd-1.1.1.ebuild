@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Python wrapper for SABnzbd API"
 HOMEPAGE="https://github.com/jeradM/pysabnzbd"
-SRC_URI="https://github.com/jeradM/pysabnzbd/archive/1.1.0.tar.gz"
+SRC_URI="https://github.com/jeradM/pysabnzbd/archive/1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysabnzbd-1.1.0"
 
 LICENSE="BSD"
 SLOT="0"

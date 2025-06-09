@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Iskra devices interface"
 HOMEPAGE="https://github.com/Iskramis/pyiskra"
 SRC_URI="https://files.pythonhosted.org/packages/86/96/1446f90545fafee0411f24856fedad7b37a8b1376129ac35c578330843b1/pyiskra-0.1.19.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyiskra-0.1.19"
 
 LICENSE="BSD"
 SLOT="0"

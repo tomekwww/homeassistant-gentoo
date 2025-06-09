@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Unofficial Renson endura delta Python library"
 HOMEPAGE="https://github.com/jimmyd-be/Renson-endura-delta-library"
 SRC_URI="https://files.pythonhosted.org/packages/1d/7b/875c8843ef8579dcb1299d8355b7199815bf69a80fe360563c2097215d0a/renson_endura_delta-1.7.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/renson_endura_delta-1.7.2"
 
 LICENSE="MIT"
 SLOT="0"

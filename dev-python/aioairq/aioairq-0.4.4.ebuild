@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to retrieve data from airQ devices"
 HOMEPAGE="https://pypi.org/project/aioairq/"
 SRC_URI="https://files.pythonhosted.org/packages/92/82/a72a6fc8e195044ea9b81e23ea05ffdf5fc348a12c6d65d4bc3bc6b92776/aioairq-0.4.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioairq-0.4.4"
 
 LICENSE="BSD"
 SLOT="0"

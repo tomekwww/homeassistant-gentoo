@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python bindings for libgpiod"
 HOMEPAGE="https://pypi.org/project/gpiod/"
 SRC_URI="https://files.pythonhosted.org/packages/8f/74/cb43c6e2fe74cf1567160ccbf54db176f72481e5ac58567684a262672c7c/gpiod-2.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gpiod-2.3.0"
 
 LICENSE="LGPL-2"
 SLOT="0"

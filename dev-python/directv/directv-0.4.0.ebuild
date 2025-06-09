@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python client for DirecTV SHEF"
 HOMEPAGE="https://github.com/ctalkington/python-directv"
 SRC_URI="https://files.pythonhosted.org/packages/1d/12/ddf80684525f251f11c8825745f112a9cdffc0c4cd7a1f8cddee802cf4d2/directv-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/directv-0.4.0"
 
 LICENSE="MIT"
 SLOT="0"

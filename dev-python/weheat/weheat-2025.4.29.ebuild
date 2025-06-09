@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Weheat Backend client"
 HOMEPAGE="https://github.com/wefabricate/wh-python"
 SRC_URI="https://files.pythonhosted.org/packages/b5/c5/c434c66b4a25b44c3bdc6a9b38e90ec9a5e7793ea3618272469411ba0a17/weheat-2025.4.29.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/weheat-2025.4.29"
 
 LICENSE="MIT"
 SLOT="0"

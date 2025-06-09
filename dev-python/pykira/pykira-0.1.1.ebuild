@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Communicate with Kira IRIP modules"
 HOMEPAGE="https://github.com/stu-gott/pykira"
 SRC_URI="https://files.pythonhosted.org/packages/18/a5/55f48082e4103b3bc674a87dab1e86181c80a0e317eefb1eab08ece08cdb/pykira-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pykira-0.1.1"
 
 LICENSE="MIT"
 SLOT="0"

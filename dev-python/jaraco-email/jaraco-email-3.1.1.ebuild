@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Email facilities by jaraco"
 HOMEPAGE="https://github.com/jaraco/jaraco.email"
 SRC_URI="https://files.pythonhosted.org/packages/93/50/fa403ff5e1c41ebc3822d3d956d170f7d34ad06317a196b8d9f1adbcd695/jaraco.email-3.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/jaraco.email-3.1.1"
 
 LICENSE="BSD"
 SLOT="0"

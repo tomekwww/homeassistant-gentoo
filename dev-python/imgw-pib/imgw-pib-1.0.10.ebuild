@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python wrapper for IMGWPIB API"
 HOMEPAGE="https://pypi.org/project/imgw-pib/"
 SRC_URI="https://files.pythonhosted.org/packages/d4/ad/288c98839af1bf05a5bd2e4b0eda410e1db3050b7ab0c7d6674fec02c953/imgw_pib-1.0.10.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/imgw_pib-1.0.10"
 
 LICENSE="BSD"
 SLOT="0"

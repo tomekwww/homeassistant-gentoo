@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="PRAW an acronym for Python Reddit API Wrapper is a python package that allows for simple access to reddits API"
 HOMEPAGE="https://pypi.org/project/praw/"
 SRC_URI="https://files.pythonhosted.org/packages/2a/de/1c91dca0ea332bc06a0ed4649dd01f8a2e058299a4cb8252c1a264b12eec/praw-7.5.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/praw-7.5.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python client for Modern Forms fans"
 HOMEPAGE="https://github.com/wonderslug/aiomodernforms"
 SRC_URI="https://files.pythonhosted.org/packages/80/c3/889b1728c7279e3350d0e8f21b691b0f5967c8e71d83d79362c5df6184f6/aiomodernforms-0.1.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiomodernforms-0.1.8"
 
 LICENSE="MIT"
 SLOT="0"

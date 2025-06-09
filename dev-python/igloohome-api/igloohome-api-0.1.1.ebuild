@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python package for using igloohomes API"
 HOMEPAGE="https://pypi.org/project/igloohome-api/"
 SRC_URI="https://files.pythonhosted.org/packages/6e/37/ae50ef913203e3815b4ca24fdb832b0aaeb06aa77c577dca5ee113609a93/igloohome_api-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/igloohome_api-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

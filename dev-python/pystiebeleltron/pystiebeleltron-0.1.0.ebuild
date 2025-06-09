@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus for controlling integral ventilation units and heat pumps"
 HOMEPAGE="https://github.com/fucm/python-stiebel-eltron"
 SRC_URI="https://files.pythonhosted.org/packages/cb/4b/1575dfdb226ea786a3ac08c7c11cd2a6914505a6efb4900afc99f4f58c6f/pystiebeleltron-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pystiebeleltron-0.1.0"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interface to eSterownikpl eCoal water boiler controller"
 HOMEPAGE="https://github.com/matkor/ecoaliface"
 SRC_URI="https://files.pythonhosted.org/packages/11/c4/eecb05015ce672f35719ad4d1e759a2cf3c6d686c8c446976d841e6bd0f2/ecoaliface-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ecoaliface-0.4.0"
 
 LICENSE="BSD"
 SLOT="0"

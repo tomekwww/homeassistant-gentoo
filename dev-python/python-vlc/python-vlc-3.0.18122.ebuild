@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="VLC bindings for python"
 HOMEPAGE="http://wiki.videolan.org/PythonBinding"
 SRC_URI="https://files.pythonhosted.org/packages/a1/e3/acd9a2393c57a075207a9b2946c471ac92a03c6e6cdd565f10eeeb04df0f/python-vlc-3.0.18122.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-vlc-3.0.18122"
 
 LICENSE="LGPL-2.1+"
 SLOT="0"

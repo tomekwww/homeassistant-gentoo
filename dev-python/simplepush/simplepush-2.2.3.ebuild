@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simplepush Python Library"
 HOMEPAGE="https://pypi.org/project/simplepush/"
 SRC_URI="https://files.pythonhosted.org/packages/5b/7c/2d14b9571b6dd630023606d1a8de51343a03e661a009b8af3c38f3de03b3/simplepush-2.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/simplepush-2.2.3"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python 3 wrapper for playing media via gstreamer"
 HOMEPAGE="https://github.com/happyleavesaoc/gstreamer-player/"
 SRC_URI="https://files.pythonhosted.org/packages/ac/57/17ab891edcf513d7254df70281ec14163f3154e2daf80e40a71f9bb28b73/gstreamer-player-1.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/gstreamer-player-1.1.2"
 
 LICENSE="MIT"
 SLOT="0"

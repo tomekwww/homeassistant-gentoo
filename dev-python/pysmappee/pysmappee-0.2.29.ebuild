@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Offical Smappee dev API and MQTT python wrapper"
 HOMEPAGE="https://github.com/smappee/pysmappee"
 SRC_URI="https://files.pythonhosted.org/packages/89/ea/753fc91e4325eee236b213e3241adba91c14959f184372d39be1f3ee27c4/pysmappee-0.2.29.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysmappee-0.2.29"
 
 LICENSE="MIT"
 SLOT="0"

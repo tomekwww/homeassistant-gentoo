@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library to read data from the BMW Connected Drive portal"
 HOMEPAGE="https://github.com/bimmerconnected/bimmer_connected"
 SRC_URI="https://files.pythonhosted.org/packages/2f/60/194ff75f4ad17c4aed1936f0004f8a19a556832c131476429381efd8d29d/bimmer_connected-0.17.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bimmer_connected-0.17.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

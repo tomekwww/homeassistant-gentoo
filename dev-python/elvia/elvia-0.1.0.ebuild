@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python bindings for the Elvia API"
 HOMEPAGE="https://github.com/andersem/elvia-python"
 SRC_URI="https://files.pythonhosted.org/packages/d2/d0/f0081cdabb8ddd80c66437545e0a7aa0f8ac547f363d38645a3e838415f4/elvia-0.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/elvia-0.1.0"
 
 LICENSE="MIT"
 SLOT="0"

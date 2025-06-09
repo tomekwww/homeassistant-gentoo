@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An Asynchronous Library for the KNX protocol Documentation httpsxknxio"
 HOMEPAGE="https://pypi.org/project/xknx/"
 SRC_URI="https://files.pythonhosted.org/packages/f5/77/dd8c4057a52dfbc810954d86f11f680ad465ea0bd5275930d62f4d1262b1/xknx-3.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/xknx-3.8.0"
 
 LICENSE="MIT"
 SLOT="0"

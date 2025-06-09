@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Interface to the unofficial EcoNet API"
 HOMEPAGE="https://github.com/w1ll1am23/pyeconet"
 SRC_URI="https://files.pythonhosted.org/packages/ef/8d/f4d645527d42055253f4269a40fb8235de0b8700a9bc8ad4fb5450489287/pyeconet-0.1.28.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyeconet-0.1.28"
 
 LICENSE="BSD"
 SLOT="0"

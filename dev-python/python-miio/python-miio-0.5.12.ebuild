@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for interfacing with Xiaomi smart appliances"
 HOMEPAGE="https://github.com/rytilahti/python-miio"
 SRC_URI="https://files.pythonhosted.org/packages/16/8e/7e03014ed96b1d6355b1a9c22690cc7a60db0bb3444fa4a47ef4096b6ce7/python-miio-0.5.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-miio-0.5.12"
 
 LICENSE="GPL-3"
 SLOT="0"

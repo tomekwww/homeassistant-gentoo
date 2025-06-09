@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The Home Assistant frontend"
 HOMEPAGE="https://pypi.org/project/home-assistant-frontend/"
 SRC_URI="https://github.com/home-assistant/frontend/archive/refs/tags/20250531.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/frontend-20250531.0"
 
 LICENSE="BSD"
 SLOT="0"

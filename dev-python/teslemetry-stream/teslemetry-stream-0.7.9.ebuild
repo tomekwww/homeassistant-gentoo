@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Teslemetry Streaming API library for Python"
 HOMEPAGE="https://pypi.org/project/teslemetry-stream/"
 SRC_URI="https://files.pythonhosted.org/packages/d1/0f/11b8862a80fd21f244496fcbc773706925c808688366c91ecf4dac968dee/teslemetry_stream-0.7.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/teslemetry_stream-0.7.9"
 
 LICENSE="BSD"
 SLOT="0"

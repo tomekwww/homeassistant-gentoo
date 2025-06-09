@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Manage Airthings BLE devices"
 HOMEPAGE="https://github.com/Airthings/airthings-ble"
 SRC_URI="https://files.pythonhosted.org/packages/da/60/0eb1c697358221d8120bb74cbf5ff638295b2741687b904235317b223495/airthings_ble-0.9.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/airthings_ble-0.9.2"
 
 LICENSE="BSD"
 SLOT="0"

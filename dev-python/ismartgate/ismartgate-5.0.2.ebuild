@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="iSmartGate and GogoGate2 API"
 HOMEPAGE="https://pypi.org/project/ismartgate/"
 SRC_URI="https://files.pythonhosted.org/packages/86/41/97fe2bc71fa5066a2e5b615eaa87ec1ae3475b164a8812bcf26747db87e0/ismartgate-5.0.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ismartgate-5.0.2"
 
 LICENSE="MIT"
 SLOT="0"

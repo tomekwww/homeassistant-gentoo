@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SDK for Niko Home Control"
 HOMEPAGE="https://github.com/vandeurenglenn/nhc"
 SRC_URI="https://files.pythonhosted.org/packages/e8/7f/9d8333f618231741ea2d0163f2b771020343a89e15826a0df0c079a322df/nhc-0.4.12.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/nhc-0.4.12"
 
 LICENSE="MIT"
 SLOT="0"

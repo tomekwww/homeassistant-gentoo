@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Cron expression parser and evaluator"
 HOMEPAGE="https://github.com/cuu508/cronsim"
 SRC_URI="https://files.pythonhosted.org/packages/5b/d8/cfb8d51a51f6076ffa09902c02978c7db9764cca78f4ee832e691d20f44b/cronsim-2.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/cronsim-2.6"
 
 LICENSE="BSD"
 SLOT="0"

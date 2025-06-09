@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="KIWI Lock Client Library"
 HOMEPAGE="https://github.com/c7h/kiwiki_client"
 SRC_URI="https://files.pythonhosted.org/packages/ec/2e/4e017331e9786bed179d07c79d56c3e460392d5a8669b0c8969e0d48efbb/kiwiki_client-0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/kiwiki_client-0.1.1"
 
 LICENSE="BSD"
 SLOT="0"

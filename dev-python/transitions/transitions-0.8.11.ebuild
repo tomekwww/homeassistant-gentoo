@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A lightweight objectoriented Python state machine implementation with many extensions"
 HOMEPAGE="http://github.com/pytransitions/transitions"
 SRC_URI="https://files.pythonhosted.org/packages/0b/e2/694deb6e9f8b66c6a356a738237ddec13c57ac2aaa3906e5573345bf20ea/transitions-0.8.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/transitions-0.8.11"
 
 LICENSE="MIT"
 SLOT="0"

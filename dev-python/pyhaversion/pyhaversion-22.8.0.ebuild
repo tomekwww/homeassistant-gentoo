@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Get the latest Home Assistant version from various sources"
 HOMEPAGE="https://github.com/ludeeus/pyhaversion"
 SRC_URI="https://files.pythonhosted.org/packages/c7/9a/e640c3c697ff6f9560da145144aa664cb9cc6efb8b71c17b03e3affba410/pyhaversion-22.8.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyhaversion-22.8.0"
 
 LICENSE="MIT"
 SLOT="0"

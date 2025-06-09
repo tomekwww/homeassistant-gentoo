@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Freedompro API"
 HOMEPAGE="https://github.com/stefano055415/pyfreedompro"
 SRC_URI="https://files.pythonhosted.org/packages/f9/00/13bfc10afd2bc0656159115029e59cb420419be533dc6dda47f0c45d50c1/pyfreedompro-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyfreedompro-1.1.0"
 
 LICENSE="BSD"
 SLOT="0"

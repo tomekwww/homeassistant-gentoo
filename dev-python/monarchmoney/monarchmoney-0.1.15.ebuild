@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Monarch Money API for Python"
 HOMEPAGE="https://github.com/hammem/monarchmoney"
 SRC_URI="https://files.pythonhosted.org/packages/e4/fd/1ddc7ca4ff461c2420dbc08bfff7f6672815c7ca49e871338b1839d7b898/monarchmoney-0.1.15.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/monarchmoney-0.1.15"
 
 LICENSE="MIT"
 SLOT="0"

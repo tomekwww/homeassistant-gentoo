@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An easy to use Python wrapper for the Pterodactyl Panel API"
 HOMEPAGE="https://github.com/iamkubi/pydactyl"
 SRC_URI="https://files.pythonhosted.org/packages/79/9f/a29bdbf10c69ff2ef2fce032e7885b4f041b1d3518134c0d2d77fd9e98c2/py-dactyl-2.0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-dactyl-2.0.4"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The Microsoft Authentication Library MSAL for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts AAD and Microsoft Accounts MSA using industry standard OAuth2 and OpenID Connect"
 HOMEPAGE="https://github.com/AzureAD/microsoft-authentication-library-for-python"
 SRC_URI="https://files.pythonhosted.org/packages/3f/90/81dcc50f0be11a8c4dcbae1a9f761a26e5f905231330a7cacc9f04ec4c61/msal-1.32.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/msal-1.32.3"
 
 LICENSE="MIT"
 SLOT="0"

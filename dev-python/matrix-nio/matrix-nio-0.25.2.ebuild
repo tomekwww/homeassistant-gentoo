@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python Matrix client library designed according to sans IO principles"
 HOMEPAGE="https://pypi.org/project/matrix-nio/"
 SRC_URI="https://files.pythonhosted.org/packages/33/50/c20129fd6f0e1aad3510feefd3229427fc8163a111f3911ed834e414116b/matrix_nio-0.25.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/matrix_nio-0.25.2"
 
 LICENSE="BSD"
 SLOT="0"

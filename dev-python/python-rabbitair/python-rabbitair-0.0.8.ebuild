@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for local control of Rabbit Air air purifiers"
 HOMEPAGE="https://github.com/rabbit-air/python-rabbitair"
 SRC_URI="https://files.pythonhosted.org/packages/dd/e7/cd2a8015258e86ec7295ce790b17fb8a042670a29db76865a920c8b5b609/python-rabbitair-0.0.8.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/python-rabbitair-0.0.8"
 
 LICENSE="Apache-2.0"
 SLOT="0"

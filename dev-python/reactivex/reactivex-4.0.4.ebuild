@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="ReactiveX Rx for Python"
 HOMEPAGE="http://reactivex.io"
 SRC_URI="https://files.pythonhosted.org/packages/ef/63/f776322df4d7b456446eff78c4e64f14c3c26d57d46b4e06c18807d5d99c/reactivex-4.0.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/reactivex-4.0.4"
 
 LICENSE="MIT"
 SLOT="0"

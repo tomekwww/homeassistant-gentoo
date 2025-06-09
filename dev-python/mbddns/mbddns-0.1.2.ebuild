@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Mythic Beasts Dynamic DNS updater"
 HOMEPAGE="https://github.com/thinkl33t/mb-ddns"
 SRC_URI="https://files.pythonhosted.org/packages/f3/6d/cc17e70fd6d347475229dbf877e9ff359a38813e3d7a8b19aaf30317ccdf/mbddns-0.1.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/mbddns-0.1.2"
 
 LICENSE="MIT"
 SLOT="0"

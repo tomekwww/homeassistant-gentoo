@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Modern reliable and asyncready client for SignalR protocol"
 HOMEPAGE="https://github.com/baking-bad/pysignalr"
 SRC_URI="https://files.pythonhosted.org/packages/3a/9f/de6401378e236d77723d743b91bc39bffae6d8ab89689b97991363c94643/pysignalr-1.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pysignalr-1.1.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Renault API"
 HOMEPAGE="https://pypi.org/project/renault-api/"
 SRC_URI="https://files.pythonhosted.org/packages/48/1c/9da1a95f8802d6c4078b42c1cf9bbf23934c22643cd0cafc48e22f282a2f/renault_api-0.3.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/renault_api-0.3.1"
 
 LICENSE="MIT"
 SLOT="0"

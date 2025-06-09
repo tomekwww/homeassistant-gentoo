@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python API for Travis CI"
 HOMEPAGE="https://github.com/menegazzo/travispy"
 SRC_URI="https://files.pythonhosted.org/packages/d2/45/d1160172eff9409bb171c76cd364bb41dc22e709a49f8c75a8fef6d27d41/TravisPy-0.3.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/TravisPy-0.3.5"
 
 LICENSE="BSD"
 SLOT="0"

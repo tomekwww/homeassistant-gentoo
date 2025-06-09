@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A ServerSent Event python client base on aiohttp"
 HOMEPAGE="https://github.com/JelleZijlstra/aiohttp-sse-client2"
 SRC_URI="https://files.pythonhosted.org/packages/63/e5/d02277f6b7b7529ff67a476400a81f794410d068c5699750163a903b83e6/aiohttp-sse-client2-0.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohttp-sse-client2-0.3.0"
 
 LICENSE="BSD"
 SLOT="0"

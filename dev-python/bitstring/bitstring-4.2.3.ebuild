@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple construction analysis and modification of binary data"
 HOMEPAGE="https://pypi.org/project/bitstring/"
 SRC_URI="https://files.pythonhosted.org/packages/d8/d0/d6f57409bb50f54fe2894ec5a50b5c04cb41aa814c3bdb8a7eeb4a0f7697/bitstring-4.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bitstring-4.2.3"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python library for Lutron RadioRA 2"
 HOMEPAGE="http://github.com/thecynic/pylutron"
 SRC_URI="https://files.pythonhosted.org/packages/98/3a/60968194e7f1b4a3bd6e7537446684ac50793ae6144c8009ca8a08173c03/pylutron-0.2.18.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pylutron-0.2.18"
 
 LICENSE="MIT"
 SLOT="0"

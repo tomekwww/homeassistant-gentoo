@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Microsoft Azure Service Bus Client Library for Python"
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
-SRC_URI="https://files.pythonhosted.org/packages/4d/41/13ecf05ed4f9192d2aed22f7da8bd508abd2fe33f825f955d2738a9ccbad/azure-servicebus-7.10.0.zip -> ${P}.gh.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/41/13ecf05ed4f9192d2aed22f7da8bd508abd2fe33f825f955d2738a9ccbad/azure-servicebus-7.10.0.zip -> ${P}.gh.zip"
+S="${WORKDIR}/azure-servicebus-7.10.0"
 
 LICENSE="MIT"
 SLOT="0"

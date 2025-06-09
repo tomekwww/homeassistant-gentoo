@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API for local communication with LIFX devices over a LAN with asyncio"
 HOMEPAGE="http://github.com/aiolifx/aiolifx"
 SRC_URI="https://files.pythonhosted.org/packages/73/1b/206675b272fb7ba0296a3b8161d865caa4edde00f1d0bd2853420b662103/aiolifx-1.1.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiolifx-1.1.5"
 
 LICENSE="MIT"
 SLOT="0"

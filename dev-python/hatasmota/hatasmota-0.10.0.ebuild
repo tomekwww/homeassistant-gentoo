@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages"
 HOMEPAGE="https://github.com/emontnemery/hatasmota"
 SRC_URI="https://files.pythonhosted.org/packages/05/fb/feb4a4957facefe302dff8449d55676598875ede33d8e81627933f94f1a2/hatasmota-0.10.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/hatasmota-0.10.0"
 
 LICENSE="MIT"
 SLOT="0"

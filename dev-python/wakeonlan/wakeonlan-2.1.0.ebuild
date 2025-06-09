@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A small python module for wake on lan"
 HOMEPAGE="https://github.com/remcohaszing/pywakeonlan"
 SRC_URI="https://files.pythonhosted.org/packages/dc/40/eac9c66d5934ef99c69593cf32b75f6769aa05c034a1d9a6f3285a34120f/wakeonlan-2.1.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/wakeonlan-2.1.0"
 
 LICENSE="MIT"
 SLOT="0"

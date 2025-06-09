@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A wrapper for the Blue Current websocket api"
 HOMEPAGE="https://pypi.org/project/bluecurrent-api/"
 SRC_URI="https://files.pythonhosted.org/packages/c6/8d/c54357cdcf745ecd156058015ebfb715978dfeb95895fab2c709510ec24b/bluecurrent-api-1.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bluecurrent-api-1.2.3"
 
 LICENSE="MIT"
 SLOT="0"

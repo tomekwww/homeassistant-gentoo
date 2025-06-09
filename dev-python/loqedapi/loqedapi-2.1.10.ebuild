@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python package to use the Loqed Smart Door Lock APIs in a local network To be used by Home Assistant"
 HOMEPAGE="https://github.com/cpolhout/loqedAPI"
 SRC_URI="https://files.pythonhosted.org/packages/fc/e5/0edae81ffb68ccf3656cb65d3ef87c010667f7e5fc21d10159973ce8474a/loqedAPI-2.1.10.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/loqedAPI-2.1.10"
 
 LICENSE="BSD"
 SLOT="0"

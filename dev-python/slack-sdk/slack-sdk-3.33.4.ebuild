@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="The Slack API Platform SDK for Python"
 HOMEPAGE="https://github.com/slackapi/python-slack-sdk"
 SRC_URI="https://files.pythonhosted.org/packages/e6/ee/f1bd8fde0097d74ddc08d186726da17a1f041021ed6f422a8ac94ffc8e84/slack_sdk-3.33.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/slack_sdk-3.33.4"
 
 LICENSE="MIT"
 SLOT="0"

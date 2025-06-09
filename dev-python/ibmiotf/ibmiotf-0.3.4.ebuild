@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Client for IBM Watson IoT Platform"
 HOMEPAGE="https://github.com/ibm-watson-iot/iot-python"
 SRC_URI="https://files.pythonhosted.org/packages/a3/db/68e2127bbd56004f2b59f00b62e7163cf407b5bd23da411289633b785e07/ibmiotf-0.3.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/ibmiotf-0.3.4"
 
 LICENSE="BSD"
 SLOT="0"

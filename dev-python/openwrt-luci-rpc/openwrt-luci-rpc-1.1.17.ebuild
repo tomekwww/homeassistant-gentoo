@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Module for interacting with OpenWrt Luci RPC interface"
 HOMEPAGE="https://github.com/fbradyirl/openwrt-luci-rpc"
 SRC_URI="https://files.pythonhosted.org/packages/29/30/1f2bf85a5da8791569414a8b0b38551e389f59ca34ee26d057419427325f/openwrt-luci-rpc-1.1.17.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/openwrt-luci-rpc-1.1.17"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Networking tools by jaraco"
 HOMEPAGE="https://pypi.org/project/jaraco.net/"
 SRC_URI="https://files.pythonhosted.org/packages/a7/f7/7e67760f485a3aa058006b13aa85ec67254c7d59be7ab725c53be1add7bd/jaraco_net-10.2.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/jaraco_net-10.2.3"
 
 LICENSE="BSD"
 SLOT="0"

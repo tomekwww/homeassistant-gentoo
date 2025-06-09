@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="SDCP library to control Sony Projectors"
 HOMEPAGE="https://github.com/Galala7/pySDCP"
 SRC_URI="https://files.pythonhosted.org/packages/6b/b9/85bf4f08a2251e732caa6e7f3462e2c2d77a1e2b1f80d16d273710e1c08c/pySDCP-1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pySDCP-1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="A simple Python 3 library for Notion Home Monitoring"
 HOMEPAGE="https://github.com/bachya/aionotion"
 SRC_URI="https://files.pythonhosted.org/packages/35/27/672ac989a9b446511e1b05bb2f5e8d52f0b18d6115690651b27d8fa54843/aionotion-2024.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aionotion-2024.3.0"
 
 LICENSE="MIT"
 SLOT="0"

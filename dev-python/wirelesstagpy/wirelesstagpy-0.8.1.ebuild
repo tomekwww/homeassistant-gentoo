@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Simple python wrapper over wirelesstags REST API"
 HOMEPAGE="https://github.com/sergeymaysak/wirelesstagpy/"
 SRC_URI="https://files.pythonhosted.org/packages/f6/ba/ffa6588000be0319adf3750273c150e48f5a15e167839867e277401fa68a/wirelesstagpy-0.8.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/wirelesstagpy-0.8.1"
 
 LICENSE="MIT"
 SLOT="0"

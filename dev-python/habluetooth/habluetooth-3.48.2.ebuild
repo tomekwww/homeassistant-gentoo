@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="High availability Bluetooth"
 HOMEPAGE="https://pypi.org/project/habluetooth/"
 SRC_URI="https://files.pythonhosted.org/packages/ce/ff/35d6c582109913cbfeef4233df109072f03e4896328405e1b3c36d76a4c9/habluetooth-3.48.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/habluetooth-3.48.2"
 
 LICENSE="Apache-2.0"
 SLOT="0"

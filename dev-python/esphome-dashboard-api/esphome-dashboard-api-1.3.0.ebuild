@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="API to interact with ESPHome Dashboard"
 HOMEPAGE="https://pypi.org/project/esphome-dashboard-api/"
 SRC_URI="https://files.pythonhosted.org/packages/bd/cd/54f2a1b61544cc966583c92abd9b24cf5f6cbe97be31976b4d1a6657413f/esphome_dashboard_api-1.3.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/esphome_dashboard_api-1.3.0"
 
 LICENSE="MIT"
 SLOT="0"

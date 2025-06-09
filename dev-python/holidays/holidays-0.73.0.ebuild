@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Open World Holidays Framework"
 HOMEPAGE="https://pypi.org/project/holidays/"
 SRC_URI="https://files.pythonhosted.org/packages/46/48/6d0ef4f014d06cde97772f5cc6bf9befdfbd5b23050014de163a5e8e6848/holidays-0.73.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/holidays-0.73"
 
 LICENSE="BSD"
 SLOT="0"

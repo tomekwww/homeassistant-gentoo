@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async http clientserver framework asyncio"
 HOMEPAGE="https://github.com/aio-libs/aiohttp"
 SRC_URI="https://files.pythonhosted.org/packages/23/28/2d96dffe4deb40faa7f5615b4aa96c87528e65837d8cb5385da4aecf1c07/aiohttp-3.12.6.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiohttp-3.12.6"
 
 LICENSE="Apache-2.0"
 SLOT="0"

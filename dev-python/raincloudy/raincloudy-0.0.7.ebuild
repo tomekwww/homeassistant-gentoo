@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python library to communicate with Melnor RainCloud Smart Garden Watering Irrigation Timer httpswwwwmelnorcom"
 HOMEPAGE="https://github.com/tchellomello/raincloudy"
 SRC_URI="https://files.pythonhosted.org/packages/e8/21/25e89124757960803994308d9d4bf6ab847913f81286e63c87a3bd3318c1/raincloudy-0.0.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/raincloudy-0.0.7"
 
 LICENSE="BSD"
 SLOT="0"

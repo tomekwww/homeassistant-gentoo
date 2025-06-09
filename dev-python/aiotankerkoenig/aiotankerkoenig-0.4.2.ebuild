@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python 3 client for tankerkoenigde"
 HOMEPAGE="https://github.com/jpbede/aiotankerkoenig"
 SRC_URI="https://files.pythonhosted.org/packages/a5/65/75b2ff8cd74a998affdf3c94732cefc71ed056b04959694300d178ecf8b8/aiotankerkoenig-0.4.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiotankerkoenig-0.4.2"
 
 LICENSE="MIT"
 SLOT="0"

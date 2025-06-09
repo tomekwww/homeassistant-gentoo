@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to retrieve data from PEGELONLINE"
 HOMEPAGE="https://pypi.org/project/aiopegelonline/"
 SRC_URI="https://github.com/mib1185/aiopegelonline/archive/refs/tags/v0.1.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiopegelonline-0.1.1"
 
 LICENSE="Apache-2.0"
 SLOT="0"

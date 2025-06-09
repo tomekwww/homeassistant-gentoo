@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python cli for Lupusec alarm panels"
 HOMEPAGE="http://www.github.com/majuss/lupupy"
 SRC_URI="https://files.pythonhosted.org/packages/98/00/b9c9c4d34d9341eccfcf840e5f40c35ab00fabba579217021f8d01c8e0a6/lupupy-0.3.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/lupupy-0.3.2"
 
 LICENSE="MIT"
 SLOT="0"

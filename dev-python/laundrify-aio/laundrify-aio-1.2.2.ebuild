@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python package to communicate with the laundrify API"
 HOMEPAGE="https://github.com/laundrify/laundrify-pypi"
 SRC_URI="https://files.pythonhosted.org/packages/85/85/652b1666284fd0fd98af73b7704afa55f2bc5d8a44616069a30f978e45b7/laundrify_aio-1.2.2.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/laundrify_aio-1.2.2"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Control Linear Garage Doors with Python"
 HOMEPAGE="https://IceBotYT.github.io/linear-garage-door"
 SRC_URI="https://files.pythonhosted.org/packages/96/bd/c3258895bfd8ab4b5e06fa72bb09075378c33a89c256d49c667d11a0a88c/linear_garage_door-0.2.9.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/linear_garage_door-0.2.9"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Api wrapper for Melissa Climate httpseemelissacom"
 HOMEPAGE="https://github.com/kennedyshead/py-melissa-climate"
 SRC_URI="https://files.pythonhosted.org/packages/a6/b9/38d59252c9fab73630d9e929a9e88536f913056dff88432d00279df8393b/py-melissa-climate-2.1.4.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/py-melissa-climate-2.1.4"
 
 LICENSE="MIT"
 SLOT="0"

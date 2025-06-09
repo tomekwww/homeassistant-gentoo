@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Tools for converting python data types"
 HOMEPAGE="https://pypi.org/project/convertertools/"
 SRC_URI="https://files.pythonhosted.org/packages/fb/25/dc809e43ec94a42497d95bf251018b524d1b8b8bcd35705acef2afafa832/convertertools-0.6.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/convertertools-0.6.1"
 
 LICENSE="MIT"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async client for aws services using botocore and aiohttp"
 HOMEPAGE="https://pypi.org/project/aiobotocore/"
 SRC_URI="https://files.pythonhosted.org/packages/d2/dc/f5f872fb01ce37c09525cedc7ecfad7002ffe2a8a23f77d7d2c234399b51/aiobotocore-2.21.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiobotocore-2.21.1"
 
 LICENSE="BSD"
 SLOT="0"

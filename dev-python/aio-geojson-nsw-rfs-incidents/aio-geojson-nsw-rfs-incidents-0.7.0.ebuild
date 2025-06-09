@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async GeoJSON client library for NSW Rural Fire Service Incidents"
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-nsw-rfs-incidents"
 SRC_URI="https://files.pythonhosted.org/packages/42/2e/1b6db6b03cb5e0cad94f3961584730e9509869b53570e990e0637194bf74/aio_geojson_nsw_rfs_incidents-0.7.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aio_geojson_nsw_rfs_incidents-0.7"
 
 LICENSE="Apache-2.0"
 SLOT="0"

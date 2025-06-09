@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="JSON API to document parser"
 HOMEPAGE="https://github.com/noplay/json-api-doc"
 SRC_URI="https://files.pythonhosted.org/packages/82/5f/f2fea5059a8e60e38712eafbfda3fd254ca8f2c44c3b5b3dd94c398ae672/json-api-doc-0.15.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/json-api-doc-0.15.0"
 
 LICENSE="BSD"
 SLOT="0"

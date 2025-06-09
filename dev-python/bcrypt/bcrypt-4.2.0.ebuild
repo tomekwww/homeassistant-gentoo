@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Modern password hashing for your software and your servers"
 HOMEPAGE="https://pypi.org/project/bcrypt/"
 SRC_URI="https://files.pythonhosted.org/packages/e4/7e/d95e7d96d4828e965891af92e43b52a4cd3395dc1c1ef4ee62748d0471d0/bcrypt-4.2.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bcrypt-4.2.0"
 
 LICENSE="Apache-2.0"
 SLOT="0"

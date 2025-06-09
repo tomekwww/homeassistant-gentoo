@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Wireless Library"
 HOMEPAGE="http://wraith-wireless.github.io/PyRIC/"
 SRC_URI="https://files.pythonhosted.org/packages/08/64/a99f27d3b4347486c7bfc0aa516016c46dc4c0f380ffccbd742a61af1eda/PyRIC-0.1.6.3.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/PyRIC-0.1.6.3"
 
 LICENSE="BSD"
 SLOT="0"

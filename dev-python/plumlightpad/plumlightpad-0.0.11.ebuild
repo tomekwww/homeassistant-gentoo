@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A python package that interacts with the Plum Lightpad"
 HOMEPAGE="https://github.com/heathbar/plum-lightpad"
 SRC_URI="https://files.pythonhosted.org/packages/c9/76/a2e5091fd1a61a356b0675bf4c922f306d7199ba3975bc8d27e96fb96590/plumlightpad-0.0.11.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/plumlightpad-0.0.11"
 
 LICENSE="MIT"
 SLOT="0"

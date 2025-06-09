@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Nob Hub  Nob Energy Control TCPIP Interface"
 HOMEPAGE="https://github.com/echoromeo/pynobo"
 SRC_URI="https://files.pythonhosted.org/packages/8f/9c/8ba493dfa6fa58eefc8dd3a1fdeb8f388d57d9440b3258010c152d26890a/pynobo-1.8.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pynobo-1.8.1"
 
 LICENSE="BSD"
 SLOT="0"

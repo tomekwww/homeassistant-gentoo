@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python package for interacting with Yeelight Sunflower bulbs"
 HOMEPAGE="https://github.com/lindsaymarkward/python-yeelight-sunflower"
 SRC_URI="https://files.pythonhosted.org/packages/32/27/5460a60572d2a78339f33bfc2752eee8a90b2b8e046770d19b2734c110bb/yeelightsunflower-0.0.10.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/yeelightsunflower-0.0.10"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{11..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for Peblar EV chargers"
 HOMEPAGE="https://pypi.org/project/peblar/"
 SRC_URI="https://files.pythonhosted.org/packages/84/53/415daf4bac9bc1a5e8c84fd1708caaf3024988c9383eeee0dea0cdac9aff/peblar-0.4.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/peblar-0.4.0"
 
 LICENSE="MIT"
 SLOT="0"

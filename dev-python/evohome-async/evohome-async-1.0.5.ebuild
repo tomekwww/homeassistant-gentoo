@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="An async client for connecting to Honeywells TCC RESTful API"
 HOMEPAGE="https://pypi.org/project/evohome-async/"
 SRC_URI="https://files.pythonhosted.org/packages/77/fc/223c8294ee0ed09d54a620993c7ac7958f890e59c1ec6d63e7d464dafc76/evohome_async-1.0.5.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/evohome_async-1.0.5"
 
 LICENSE="Apache-2.0"
 SLOT="0"

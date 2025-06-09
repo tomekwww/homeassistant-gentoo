@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Raspberry Pi GPIO module"
 HOMEPAGE="http://abyz.me.uk/rpi/pigpio/python.html"
 SRC_URI="https://files.pythonhosted.org/packages/a9/4a/3ebdfd90906553fb5420e80a475eb52f0809f2a29b547ba3b260db0cbc8f/pigpio-1.78.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pigpio-1.78"
 
 LICENSE="BSD"
 SLOT="0"

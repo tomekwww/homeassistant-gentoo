@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="EnOcean serial protocol implementation"
 HOMEPAGE="https://github.com/kipe/enocean"
 SRC_URI="https://files.pythonhosted.org/packages/cc/c8/2199eaf14e90ff39684eb87b28fe54a7f1da690609d07e76df5b829ed501/enocean-0.50.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/enocean-0.50.0"
 
 LICENSE="BSD"
 SLOT="0"

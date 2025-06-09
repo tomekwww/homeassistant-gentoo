@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python3 asyncfriendly library for Flo by Moen Smart Water Detectors"
 HOMEPAGE="https://github.com/bachya/aioflo"
 SRC_URI="https://files.pythonhosted.org/packages/63/0c/0151056239383c7374d0be0cb63842dcc0dc93919d6c4e86916847dffa45/aioflo-2021.11.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioflo-2021.11.0"
 
 LICENSE="MIT"
 SLOT="0"

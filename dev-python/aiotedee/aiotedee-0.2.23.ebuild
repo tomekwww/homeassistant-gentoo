@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A package to interact with Tedee locks using asyncio"
 HOMEPAGE="https://pypi.org/project/aiotedee/"
 SRC_URI="https://files.pythonhosted.org/packages/24/38/236668c93a0249c10f8a02486cb7ecdf892a829d949db4264dadd5583f4e/aiotedee-0.2.23.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aiotedee-0.2.23"
 
 LICENSE="MIT"
 SLOT="0"

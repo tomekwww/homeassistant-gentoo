@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 "

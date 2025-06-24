@@ -23,8 +23,8 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/grpcio-1.51.3[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-2.14.1[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/google-api-core-1.34.0[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.22.0[${PYTHON_USEDEP}]
@@ -36,8 +36,8 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/grpcio-status-1.33.2[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.22.2[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.25.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-api-1.27.0[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-sdk-1.27.0[${PYTHON_USEDEP}]
 "

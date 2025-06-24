@@ -25,5 +25,4 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.3[${PYTHON_USEDEP}]
 	>=dev-python/websockets-13.0.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 "

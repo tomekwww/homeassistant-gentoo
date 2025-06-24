@@ -21,7 +21,7 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/azure-core-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/azure-core-1.14.0[${PYTHON_USEDEP}]
+	<dev-python/azure-core-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
 "

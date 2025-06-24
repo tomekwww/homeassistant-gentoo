@@ -23,9 +23,9 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]

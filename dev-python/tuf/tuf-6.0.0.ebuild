@@ -22,6 +22,6 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	<dev-python/securesystemslib-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
 "

@@ -26,7 +26,6 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/awesomeversion-21.10.1[${PYTHON_USEDEP}]
 	>=dev-python/backoff-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.10.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.8[${PYTHON_USEDEP}]
 	<dev-python/pycountry-25.0.0[${PYTHON_USEDEP}]

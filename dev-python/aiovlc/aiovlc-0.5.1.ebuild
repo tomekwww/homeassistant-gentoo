@@ -22,7 +22,6 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
-	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.12.0[${PYTHON_USEDEP}]
 "

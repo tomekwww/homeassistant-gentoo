@@ -23,6 +23,6 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.11[${PYTHON_USEDEP}]
-	<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 "

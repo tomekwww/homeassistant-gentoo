@@ -24,7 +24,7 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/orjson-3.9.13[${PYTHON_USEDEP}]
 	<dev-python/paho-mqtt-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
-	<dev-python/mashumaro-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.12.0[${PYTHON_USEDEP}]
+	<dev-python/mashumaro-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.0[${PYTHON_USEDEP}]
 "

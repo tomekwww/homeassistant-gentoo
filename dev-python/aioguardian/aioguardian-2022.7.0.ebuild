@@ -22,7 +22,7 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-	<dev-python/asyncio-dgram-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/asyncio-dgram-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/asyncio-dgram-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
 "

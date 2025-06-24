@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/pymodbus-3.6.9[${PYTHON_USEDEP}]
 	<dev-python/pymodbus-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pymodbus-3.6.9[${PYTHON_USEDEP}]
 "

@@ -21,5 +21,5 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 "

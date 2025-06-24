@@ -23,6 +23,6 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/bleak-0.20.2[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-3.0.2[${PYTHON_USEDEP}]
-	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-5.0.1[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]
 "

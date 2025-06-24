@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/geographiclib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/geographiclib-1.52.0[${PYTHON_USEDEP}]
+	<dev-python/geographiclib-3.0.0[${PYTHON_USEDEP}]
 "

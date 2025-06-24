@@ -26,11 +26,10 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/asyncclick-8.1.7[${PYTHON_USEDEP}]
 	>=dev-python/firebase-messaging-0.4.0[${PYTHON_USEDEP}]
-	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	>=dev-python/websockets-13.0.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 "

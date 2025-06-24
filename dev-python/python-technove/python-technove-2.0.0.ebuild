@@ -25,6 +25,5 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/awesomeversion-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
 "

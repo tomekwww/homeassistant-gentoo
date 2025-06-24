@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/aiohttp-3.11.7[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.11.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.11.7[${PYTHON_USEDEP}]
 	<dev-python/mashumaro-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.11.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
 "

@@ -27,6 +27,6 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.10.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
-	<dev-python/tenacity-10.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	<dev-python/tenacity-10.0.0[${PYTHON_USEDEP}]
 "

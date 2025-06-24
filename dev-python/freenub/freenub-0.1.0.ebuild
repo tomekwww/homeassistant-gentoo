@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/cbor2-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	>=dev-python/cbor2-5.6.4[${PYTHON_USEDEP}]
+	<dev-python/cbor2-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodomex-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
 "

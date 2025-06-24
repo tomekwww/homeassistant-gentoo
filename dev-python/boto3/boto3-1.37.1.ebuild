@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/botocore-1.38.0[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.37.1[${PYTHON_USEDEP}]
+	<dev-python/botocore-1.38.0[${PYTHON_USEDEP}]
 	>=dev-python/jmespath-0.7.1[${PYTHON_USEDEP}]
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/s3transfer-0.11.0[${PYTHON_USEDEP}]
 	<dev-python/s3transfer-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/s3transfer-0.11.0[${PYTHON_USEDEP}]
 "

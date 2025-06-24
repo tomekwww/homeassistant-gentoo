@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-2.4.2[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 "

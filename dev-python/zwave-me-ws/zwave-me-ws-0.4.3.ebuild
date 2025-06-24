@@ -23,6 +23,6 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/websocket-client-1.2.1[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 "

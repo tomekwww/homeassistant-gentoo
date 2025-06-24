@@ -23,7 +23,7 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 "

@@ -21,17 +21,16 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.2[${PYTHON_USEDEP}]
-	>=dev-python/aiomqtt-2.3.2[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiomqtt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiomqtt-2.3.2[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
-	>=dev-python/construct-2.10.57[${PYTHON_USEDEP}]
 	<dev-python/construct-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/construct-2.10.57[${PYTHON_USEDEP}]
 	<dev-python/paho-mqtt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyrate-limiter-3.7.0[${PYTHON_USEDEP}]

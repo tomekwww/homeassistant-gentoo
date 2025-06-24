@@ -21,14 +21,14 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
-	>=dev-python/pyserial-3.5.0[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/pyserial-asyncio-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5.0[${PYTHON_USEDEP}]
 	<dev-python/pyserial-asyncio-0.7.0[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-asyncio-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<dev-python/importlib-resources-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-resources-6.1.1[${PYTHON_USEDEP}]
 "

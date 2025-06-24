@@ -26,5 +26,4 @@ RDEPEND="${PYTHON_DEPS}
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
-	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 "

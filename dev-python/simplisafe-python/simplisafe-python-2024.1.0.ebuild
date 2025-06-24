@@ -26,6 +26,5 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
 	>=dev-python/websockets-8.1.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
 "

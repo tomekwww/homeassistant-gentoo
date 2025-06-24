@@ -23,6 +23,6 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.13.1[${PYTHON_USEDEP}]
 	<dev-python/mashumaro-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.13.1[${PYTHON_USEDEP}]
 "

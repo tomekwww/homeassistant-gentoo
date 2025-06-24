@@ -21,15 +21,15 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ical-8.0.1[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.12.0[${PYTHON_USEDEP}]
 	<dev-python/mashumaro-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-5.2.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]
 "

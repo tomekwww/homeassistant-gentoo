@@ -23,6 +23,5 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.6.1[${PYTHON_USEDEP}]
-	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 "

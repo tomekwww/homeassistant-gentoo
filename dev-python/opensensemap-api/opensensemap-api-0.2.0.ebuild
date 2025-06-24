@@ -21,7 +21,7 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 "

@@ -23,8 +23,8 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	<dev-python/graphql-core-3.2.7[${PYTHON_USEDEP}]
 	>=dev-python/graphql-core-3.2.0[${PYTHON_USEDEP}]
-	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-1.11.1[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.0.0[${PYTHON_USEDEP}]

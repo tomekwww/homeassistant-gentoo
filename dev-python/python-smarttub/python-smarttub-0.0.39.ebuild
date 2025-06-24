@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/inflection-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.4.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.8.0[${PYTHON_USEDEP}]

@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}]
 "

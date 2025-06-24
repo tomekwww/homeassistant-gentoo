@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/httpx-0.29.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.29.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.9.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 "

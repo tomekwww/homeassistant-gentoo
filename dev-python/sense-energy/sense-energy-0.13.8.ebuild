@@ -26,6 +26,7 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
+	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/kasa-crypt-0.2.0[${PYTHON_USEDEP}]
 "

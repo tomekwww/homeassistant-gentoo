@@ -25,6 +25,6 @@ RDEPEND="${PYTHON_DEPS}
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/geojson-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/geojson-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 "

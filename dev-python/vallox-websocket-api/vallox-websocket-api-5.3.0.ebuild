@@ -22,9 +22,8 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/websockets-9.1.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
-	>=dev-python/construct-2.9.0[${PYTHON_USEDEP}]
 	<dev-python/construct-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/construct-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 "

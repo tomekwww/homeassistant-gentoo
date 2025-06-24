@@ -25,7 +25,6 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/keyring-21.4.0[${PYTHON_USEDEP}]
 	>=dev-python/keyrings-alt-3.5.2[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 "

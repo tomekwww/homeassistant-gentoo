@@ -23,6 +23,6 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	>=dev-python/unicode-rbnf-2.2.0[${PYTHON_USEDEP}]
 	<dev-python/unicode-rbnf-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/unicode-rbnf-2.2.0[${PYTHON_USEDEP}]
 "

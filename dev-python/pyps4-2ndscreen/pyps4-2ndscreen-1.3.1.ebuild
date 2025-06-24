@@ -23,7 +23,6 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	>=dev-python/construct-2.9.45[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodomex-3.7.2[${PYTHON_USEDEP}]
 "

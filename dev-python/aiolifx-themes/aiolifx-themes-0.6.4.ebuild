@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/aiolifx-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiolifx-1.1.0[${PYTHON_USEDEP}]
+	<dev-python/aiolifx-2.0.0[${PYTHON_USEDEP}]
 "

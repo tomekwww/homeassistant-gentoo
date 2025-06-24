@@ -22,6 +22,6 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	dev-python/certifi[${PYTHON_USEDEP}]
-	<dev-python/h11-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/h11-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/h11-0.15.0[${PYTHON_USEDEP}]
 "

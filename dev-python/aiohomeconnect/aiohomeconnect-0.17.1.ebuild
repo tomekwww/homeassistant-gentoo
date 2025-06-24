@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.28.0[${PYTHON_USEDEP}]
-	<dev-python/httpx-sse-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-sse-0.4.0[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.13.1[${PYTHON_USEDEP}]
+	<dev-python/httpx-sse-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/mashumaro-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.13.1[${PYTHON_USEDEP}]
 "

@@ -22,6 +22,5 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	>=dev-python/bleak-0.20.0[${PYTHON_USEDEP}]
 "

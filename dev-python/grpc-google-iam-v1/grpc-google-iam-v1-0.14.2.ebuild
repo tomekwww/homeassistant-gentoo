@@ -23,8 +23,8 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.56.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 "

@@ -21,7 +21,7 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	>=dev-python/zigpy-0.79.0[${PYTHON_USEDEP}]

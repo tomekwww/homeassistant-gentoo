@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.8.0[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
 "

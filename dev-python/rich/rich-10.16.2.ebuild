@@ -23,8 +23,8 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.6.0[${PYTHON_USEDEP}]
-	<dev-python/commonmark-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/commonmark-0.9.0[${PYTHON_USEDEP}]
-	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/commonmark-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 "

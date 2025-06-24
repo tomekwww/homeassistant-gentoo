@@ -21,8 +21,7 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/monarchmoney-0.1.13[${PYTHON_USEDEP}]
 	<dev-python/monarchmoney-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/monarchmoney-0.1.13[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.1.0[${PYTHON_USEDEP}]
-	<dev-python/rich-11.1.0[${PYTHON_USEDEP}]
 "

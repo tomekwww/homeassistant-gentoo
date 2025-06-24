@@ -24,9 +24,7 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
-	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
-	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 "

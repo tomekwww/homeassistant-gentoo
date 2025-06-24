@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/anyio-3.5.0[${PYTHON_USEDEP}]
 	<dev-python/anyio-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/distro-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/distro-1.7.0[${PYTHON_USEDEP}]
+	<dev-python/distro-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jiter-0.4.0[${PYTHON_USEDEP}]

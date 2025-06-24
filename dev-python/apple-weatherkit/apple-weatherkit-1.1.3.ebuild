@@ -21,9 +21,9 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-retry-2.8.3[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-retry-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-retry-2.8.3[${PYTHON_USEDEP}]
 "

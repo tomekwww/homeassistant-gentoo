@@ -27,6 +27,6 @@ RDEPEND="${PYTHON_DEPS}
 	<dev-python/envs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/python-jose-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 "

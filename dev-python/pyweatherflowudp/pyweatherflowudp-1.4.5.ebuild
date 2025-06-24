@@ -22,6 +22,6 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/pint-0.19.0[${PYTHON_USEDEP}]
-	>=dev-python/psychrolib-2.5.0[${PYTHON_USEDEP}]
 	<dev-python/psychrolib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psychrolib-2.5.0[${PYTHON_USEDEP}]
 "

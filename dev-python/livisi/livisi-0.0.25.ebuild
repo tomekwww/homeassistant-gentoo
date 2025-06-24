@@ -24,5 +24,4 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/colorlog-6.8.2[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	>=dev-python/websockets-11.0.3[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 "

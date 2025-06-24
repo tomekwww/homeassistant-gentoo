@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/retry2-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/retry2-0.9.5[${PYTHON_USEDEP}]
+	<dev-python/retry2-0.10.0[${PYTHON_USEDEP}]
 "

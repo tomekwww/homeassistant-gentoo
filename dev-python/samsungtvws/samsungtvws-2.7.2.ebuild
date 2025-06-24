@@ -25,7 +25,6 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	>=dev-python/websockets-13.0.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
 	>=dev-python/py3rijndael-0.3.3[${PYTHON_USEDEP}]
 "

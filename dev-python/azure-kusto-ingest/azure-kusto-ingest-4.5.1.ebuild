@@ -22,9 +22,9 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	~dev-python/azure-kusto-data-4.5.1[${PYTHON_USEDEP}]
-	>=dev-python/azure-storage-blob-12.0.0[${PYTHON_USEDEP}]
 	<dev-python/azure-storage-blob-13.0.0[${PYTHON_USEDEP}]
-	>=dev-python/azure-storage-queue-12.0.0[${PYTHON_USEDEP}]
+	>=dev-python/azure-storage-blob-12.0.0[${PYTHON_USEDEP}]
 	<dev-python/azure-storage-queue-13.0.0[${PYTHON_USEDEP}]
+	>=dev-python/azure-storage-queue-12.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]
 "

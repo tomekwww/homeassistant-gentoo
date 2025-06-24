@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}]
 	<dev-python/ciso8601-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]

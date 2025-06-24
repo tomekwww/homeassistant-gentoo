@@ -22,7 +22,6 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]

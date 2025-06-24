@@ -22,7 +22,7 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	dev-python/awesomeversion[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/crcmod-1.7.0[${PYTHON_USEDEP}]
 	dev-python/getmac[${PYTHON_USEDEP}]
 	>=dev-python/intelhex-2.2.1[${PYTHON_USEDEP}]

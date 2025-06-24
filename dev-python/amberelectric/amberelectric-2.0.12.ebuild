@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/aenum-3.1.16[${PYTHON_USEDEP}]
 	>=dev-python/aenum-3.1.11[${PYTHON_USEDEP}]
+	<dev-python/aenum-3.1.16[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]

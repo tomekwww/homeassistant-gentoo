@@ -80,7 +80,7 @@
 		<flag name="irq"></flag>
 		<flag name="irzone_cloud"></flag>
 		<flag name="irzone"></flag>
-		<flag name="mazon_devices"></flag>
+		<flag name="lexa_devices"></flag>
 		<flag name="mbient_network"></flag>
 		<flag name="mbient_station"></flag>
 		<flag name="pcupsd"></flag>

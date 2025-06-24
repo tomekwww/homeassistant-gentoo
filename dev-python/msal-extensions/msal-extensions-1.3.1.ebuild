@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/msal-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/msal-1.29.0[${PYTHON_USEDEP}]
+	<dev-python/msal-2.0.0[${PYTHON_USEDEP}]
 "

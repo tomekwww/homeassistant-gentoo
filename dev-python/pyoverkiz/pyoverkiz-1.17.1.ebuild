@@ -21,14 +21,14 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.10.3[${PYTHON_USEDEP}]
-	<dev-python/attrs-26.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	<dev-python/attrs-26.0.0[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/boto3-1.18.59[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.18.59[${PYTHON_USEDEP}]
 	>=dev-python/pyhumps-3.8.0[${PYTHON_USEDEP}]
 	<dev-python/pyhumps-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/warrant-lite-1.0.4[${PYTHON_USEDEP}]

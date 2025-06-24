@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-retry-2.8.3[${PYTHON_USEDEP}]

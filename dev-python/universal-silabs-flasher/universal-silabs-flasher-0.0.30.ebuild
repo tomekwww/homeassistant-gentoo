@@ -25,7 +25,6 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/pyserial-asyncio-fast[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	>=dev-python/zigpy-0.70.0[${PYTHON_USEDEP}]
 	dev-python/crc[${PYTHON_USEDEP}]
 	>=dev-python/bellows-0.42.0[${PYTHON_USEDEP}]

@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/oauthlib-4.1.0[${PYTHON_USEDEP}]
-	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.24.0[${PYTHON_USEDEP}]
 "

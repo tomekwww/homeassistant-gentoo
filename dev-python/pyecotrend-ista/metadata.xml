@@ -6,7 +6,7 @@
 		<name>Tomasz Wojna</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="pypi">pyecotrend-ista</remote-id>
+		<remote-id type="pypi">pyEcoTrend-ista</remote-id>
 		<remote-id type="github">unknown</remote-id>
 		<bugs-to>https://github.com/Ludy87/pyecotrend-ista/issues</bugs-to>
 		<maintainer status="unknown">

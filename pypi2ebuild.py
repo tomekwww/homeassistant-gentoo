@@ -609,7 +609,7 @@ def main():
     subprocess.run(['pkgdev', 'manifest', file_name])
     start = False
     for d in rdeps:
-        if d[0] == 'wyoming':
+        if d[0] == 'pylast':
             start = True
         if start:
             print(d)

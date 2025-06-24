@@ -22,8 +22,8 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	>=dev-python/freenub-0.1.0[${PYTHON_USEDEP}]
 	<dev-python/freenub-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/freenub-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.15.0[${PYTHON_USEDEP}]
 	<dev-python/mashumaro-4.0.0[${PYTHON_USEDEP}]
 "

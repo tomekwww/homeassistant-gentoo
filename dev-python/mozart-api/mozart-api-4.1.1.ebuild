@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/aenum-3.1.16[${PYTHON_USEDEP}]
 	>=dev-python/aenum-3.1.11[${PYTHON_USEDEP}]
+	<dev-python/aenum-3.1.16[${PYTHON_USEDEP}]
 	>=dev-python/aioconsole-0.4.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.0[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]

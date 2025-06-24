@@ -22,8 +22,8 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
-	>=dev-python/pysnmpcrypto-0.0.4[${PYTHON_USEDEP}]
 	<dev-python/pysnmpcrypto-0.0.5[${PYTHON_USEDEP}]
+	>=dev-python/pysnmpcrypto-0.0.4[${PYTHON_USEDEP}]
 	>=dev-python/pysmi-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/pysmi-2.0.0[${PYTHON_USEDEP}]
 "

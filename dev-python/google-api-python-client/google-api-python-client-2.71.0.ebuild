@@ -26,8 +26,8 @@ RDEPEND="${PYTHON_DEPS}
 	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
-	>=dev-python/google-api-core-1.31.5[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/google-api-core-1.31.5[${PYTHON_USEDEP}]
 	<dev-python/uritemplate-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
 "

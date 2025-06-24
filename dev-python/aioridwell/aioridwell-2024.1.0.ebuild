@@ -24,7 +24,7 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
-	<dev-python/titlecase-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/titlecase-2.3.0[${PYTHON_USEDEP}]
+	<dev-python/titlecase-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
 "

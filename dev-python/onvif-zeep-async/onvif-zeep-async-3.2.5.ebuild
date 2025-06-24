@@ -21,10 +21,10 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
-	<dev-python/zeep-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/zeep-4.2.1[${PYTHON_USEDEP}]
+	<dev-python/zeep-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.10.0[${PYTHON_USEDEP}]
 "

@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/dbus-fast-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/dbus-fast-1.83.0[${PYTHON_USEDEP}]
+	<dev-python/dbus-fast-3.0.0[${PYTHON_USEDEP}]
 "

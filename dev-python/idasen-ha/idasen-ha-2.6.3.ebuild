@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/idasen-0.10.0[${PYTHON_USEDEP}]
 	<=dev-python/idasen-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/idasen-0.10.0[${PYTHON_USEDEP}]
 "

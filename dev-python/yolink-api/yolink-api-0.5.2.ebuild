@@ -22,8 +22,8 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
-	>=dev-python/aiomqtt-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiomqtt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiomqtt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
 "

@@ -21,6 +21,6 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	<dev-python/bitarray-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/bitarray-2.9.0[${PYTHON_USEDEP}]
+	<dev-python/bitarray-3.0.0[${PYTHON_USEDEP}]
 "

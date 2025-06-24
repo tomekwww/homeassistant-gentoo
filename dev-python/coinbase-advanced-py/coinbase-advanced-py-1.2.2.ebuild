@@ -25,6 +25,5 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/cryptography-42.0.4[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-12.0.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 "

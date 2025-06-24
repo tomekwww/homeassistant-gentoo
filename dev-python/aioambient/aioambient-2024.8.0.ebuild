@@ -28,6 +28,5 @@ RDEPEND="${PYTHON_DEPS}
 	<dev-python/python-socketio-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/python-socketio-4.6.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-11.0.1[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
 "

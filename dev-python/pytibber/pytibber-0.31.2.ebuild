@@ -24,5 +24,4 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
 	>=dev-python/gql-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-10.0.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-14.0.0[${PYTHON_USEDEP}]
 "

@@ -22,9 +22,7 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/shellingham-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.11.0[${PYTHON_USEDEP}]
-	<dev-python/rich-11.11.0[${PYTHON_USEDEP}]
 "

@@ -23,6 +23,5 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/bitstring-3.1.0[${PYTHON_USEDEP}]
-	<dev-python/bitstring-4.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-asyncio-0.6.0[${PYTHON_USEDEP}]
 "

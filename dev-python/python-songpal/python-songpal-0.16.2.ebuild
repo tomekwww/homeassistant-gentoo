@@ -25,5 +25,4 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/async-upnp-client-0.32.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 "

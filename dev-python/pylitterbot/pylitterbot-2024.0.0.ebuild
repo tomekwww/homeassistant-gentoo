@@ -25,8 +25,8 @@ RDEPEND="${PYTHON_DEPS}
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-6.2.1[${PYTHON_USEDEP}]
-	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/pycognito-2024.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
 	<dev-python/pycognito-2025.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pycognito-2024.2.0[${PYTHON_USEDEP}]
 "

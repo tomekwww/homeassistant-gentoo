@@ -22,8 +22,8 @@ RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 "

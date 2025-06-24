@@ -24,8 +24,8 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/voluptuous-0.15.2[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
-	<dev-python/async-timeout-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-didl-lite-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
 "

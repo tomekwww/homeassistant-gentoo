@@ -21,8 +21,8 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/backoff-1.9.0[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
 	~dev-python/reverse-geocode-1.6.5[${PYTHON_USEDEP}]

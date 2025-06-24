@@ -23,15 +23,15 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
-	<dev-python/azure-identity-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/azure-identity-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/azure-identity-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/msal-1.9.0[${PYTHON_USEDEP}]
 	<dev-python/msal-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/ijson-4.1.0[${PYTHON_USEDEP}]
 	>=dev-python/azure-core-1.11.0[${PYTHON_USEDEP}]
 	<dev-python/azure-core-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/asgiref-3.2.3[${PYTHON_USEDEP}]
 "

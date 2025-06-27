@@ -23,3 +23,17 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/bleak-0.20.2[${PYTHON_USEDEP}]
 "
+
+
+src_prepare() {
+    echo -ne '\n[build-system]\nrequires = ["setuptools"]\nbuild-backend = "setuptools.build_meta"\n' >> pyproject.toml || die
+    distutils-r1_src_prepare
+}
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

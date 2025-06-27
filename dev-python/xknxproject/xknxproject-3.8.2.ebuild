@@ -24,3 +24,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/pyzipper-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/striprtf-0.0.26[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

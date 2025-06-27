@@ -25,3 +25,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/dataclasses-json-0.6.3[${PYTHON_USEDEP}]
 	<dev-python/dataclasses-json-0.7.0[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

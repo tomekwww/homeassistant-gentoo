@@ -25,3 +25,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/home-assistant-bluetooth-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/mac-vendor-lookup-0.1.11[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

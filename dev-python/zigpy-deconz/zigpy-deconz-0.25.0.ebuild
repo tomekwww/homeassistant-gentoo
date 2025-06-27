@@ -24,3 +24,12 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	>=dev-python/zigpy-0.80.0[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

@@ -6,6 +6,8 @@ import subprocess
 import re
 from pathlib import Path
 
+missing_backend = False
+
 def get_tarball_extension(ebuild_path):
     """
     Extract the tarball extension from the SRC_URI variable in the ebuild file.
@@ -29,6 +31,7 @@ def get_tarball_extension(ebuild_path):
     raise ValueError(f"No tarball extension found in SRC_URI for {ebuild_path}")
 
 def parse_pyproject_toml(pyproject_content):
+    global missing_backend
     """
     Parse the pyproject.toml content from memory and extract the build-system section.
     """
@@ -42,12 +45,20 @@ def parse_pyproject_toml(pyproject_content):
         build_backend = build_system.get("build-backend", None)
         if build_backend:
             return re.split(r'[._]', build_backend)[0]
+        else:
+            missing_backend = True
+            return 'setuptools'
+    else:
+        missing_backend = True
+        return 'setuptools'
 
     poetry_section = pyproject_data.get("tool", {}).get("poetry", None)
     if poetry_section is not None:
         return 'poetry'
 
-    raise ValueError("No build-system section found in pyproject.toml")
+    pdm_section = pyproject_data.get("tool", {}).get("pdm", None)
+    if pdm_section is not None:
+        return 'pdm-backend'
 
 def extract_tarball_folder(tarball_path):
     """
@@ -64,12 +75,17 @@ def extract_tarball_folder(tarball_path):
             raise ValueError(f"Tarball {tarball_path} contains multiple or no top-level folders")
 
         for member in tar.getmembers():
-            if member.name.endswith('setup.py') or member.name.endswith('setup.cfg'):
-                return [unique_folders.pop(), 'setuptools']
-        for member in tar.getmembers():
             if member.name.endswith('pyproject.toml'):
                 with tar.extractfile(member) as file:
-                    return [unique_folders.pop(), parse_pyproject_toml(file.read().decode("utf-8"))]
+                    backend = parse_pyproject_toml(file.read().decode("utf-8"))
+                    if backend:
+                        return [unique_folders.pop(), backend]
+
+        for member in tar.getmembers():
+            if member.name.endswith('setup.py') or member.name.endswith('setup.cfg'):
+                return [unique_folders.pop(), 'setuptools']
+
+        raise ValueError("No build-system section found in pyproject.toml")
 
 def extract_top_level_folder_from_zip(zip_path):
     """
@@ -86,15 +102,20 @@ def extract_top_level_folder_from_zip(zip_path):
             raise ValueError(f"Zip file {zip_path} contains multiple or no top-level folders")
 
         for name in zip_file.namelist():
+            if name.endswith('pyproject.toml'):
+                with zip_file.open(name) as file:
+                    backend = parse_pyproject_toml(file.read().decode("utf-8"))
+                    if backend:
+                        return [unique_folders.pop(), backend]
+
+        for name in zip_file.namelist():
             if name.endswith('setup.py') or name.endswith('setup.cfg'):
                 return [unique_folders.pop(), 'setuptools']
 
-        for name in zip_file.namelist():
-            if name.endswith('pyproject.toml'):
-                with zip_file.open(name) as file:
-                    return [unique_folders.pop(), parse_pyproject_toml(file.read().decode("utf-8"))]
+        raise ValueError("No build-system section found in pyproject.toml")
 
 def update_ebuild(ebuild_path, s_variable_value, pep517_value):
+    global missing_backend
     """
     Update the ebuild file with the new S variable.
     """
@@ -109,6 +130,7 @@ def update_ebuild(ebuild_path, s_variable_value, pep517_value):
         pep517_value = 'pdm-backend'
     pep517_line = f'DISTUTILS_USE_PEP517={pep517_value}\n'
     s_variable_line = f'S="${{WORKDIR}}/{s_variable_value}"\n'
+
     updated = False
 
     for i, line in enumerate(lines):
@@ -129,6 +151,22 @@ def update_ebuild(ebuild_path, s_variable_value, pep517_value):
             if line.startswith('SRC_URI='):
                 lines.insert(i + 1, s_variable_line)
                 updated = True
+                break
+
+    if missing_backend:
+        for i, line in enumerate(lines):
+            if line.startswith('src_prepare'):
+                missing_backend = False
+                break
+
+    if missing_backend:
+        for i, line in enumerate(lines):
+            if line.startswith('src_install'):
+                lines.insert(i, "src_prepare() {\n")
+                lines.insert(i + 1, "    echo -ne '\\n[build-system]\\nrequires = [\"setuptools\"]\\nbuild-backend = \"setuptools.build_meta\"\\n' >> pyproject.toml || die\n")
+                lines.insert(i + 2, "    distutils-r1_src_prepare\n")
+                lines.insert(i + 3, "}\n\n")
+                missing_backend = False
                 break
 
     with ebuild_path.open('w') as file:

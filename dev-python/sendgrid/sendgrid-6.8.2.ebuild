@@ -24,3 +24,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/python-http-client-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/starkbank-ecdsa-1.0.0[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

@@ -25,3 +25,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/bleak-retry-connector-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/flux-led-0.28.32[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

@@ -32,3 +32,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/pycryptodomex-3.19.1[${PYTHON_USEDEP}]
 	>=dev-python/sensor-state-data-2.17.1[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

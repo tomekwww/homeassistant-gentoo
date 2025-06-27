@@ -24,3 +24,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/num2words-0.5.14[${PYTHON_USEDEP}]
 	>=dev-python/astral-2.2.0[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

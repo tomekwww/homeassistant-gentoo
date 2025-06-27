@@ -276,7 +276,15 @@ RESTRICT="test strip"
 
 RDEPEND="${{PYTHON_DEPS}}
 {dependencies_str}
-\"
+"
+
+src_install() {{
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${{_DISTUTILS_PREVIOUS_SITE}}/tests" ]] ; then
+        rm -r "${{_DISTUTILS_PREVIOUS_SITE}}/tests"
+    fi
+    distutils-r1_src_install
+}}
 """
     return [ebuild_content, dependencies[1]]
 
@@ -366,7 +374,7 @@ def get_package_versions(name, version, specifier):
             if output[0].startswith("!!!"):
                 return False
             for line in output:
-                if line.endswith('-'):
+                if line.endswith('-') or line.endswith('M'):
                     continue
                 parts = line.split()
                 if parts[1] in ['gentoo', 'homeassistant-gentoo']:

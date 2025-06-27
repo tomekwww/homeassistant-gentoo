@@ -25,3 +25,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/h11-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/h11-0.15.0[${PYTHON_USEDEP}]
 "
+
+
+src_install() {
+    # Remove all 'tests' directories from the installation image
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    fi
+    distutils-r1_src_install
+}

@@ -21,7 +21,7 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	dev-python/brotli[${PYTHON_USEDEP}]
+	app-arch/brotli[${PYTHON_USEDEP}]
 	dev-python/brotlicffi[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]

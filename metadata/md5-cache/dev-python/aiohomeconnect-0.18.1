@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=An asyncio client for the Home Connect API
+EAPI=8
+HOMEPAGE=https://pypi.org/project/aiohomeconnect/
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python3_11 python_targets_python3_12 python_targets_python3_13
+KEYWORDS=amd64 arm arm64 x86
+LICENSE=Apache-2.0
+RDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/httpx-0.28.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] <dev-python/httpx-1.0.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/httpx-sse-0.4.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] <dev-python/httpx-sse-1.0.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] <dev-python/mashumaro-4.0.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/mashumaro-3.13.1[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 )
+RESTRICT=test strip
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/55/55/5098cf1d9c52b9275134f74e55ca2dba3c89488f7898c6a43b06268a576a/aiohomeconnect-0.18.1.tar.gz -> aiohomeconnect-0.18.1.gh.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	9c45b7a544652d5b47888c9a419c6ccc	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	be1082db72eb0381081ef946a26e3a71	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=091b867fda9b1c17d1a5b6d37919adf9

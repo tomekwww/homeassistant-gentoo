@@ -102,7 +102,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/ulid-transform-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/uv-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/uv-0.7.1
 	~dev-python/voluptuous-openapi-0.1.0[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-serialize-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.15.2[${PYTHON_USEDEP}]

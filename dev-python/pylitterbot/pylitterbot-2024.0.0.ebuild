@@ -32,6 +32,13 @@ RDEPEND="${PYTHON_DEPS}
 "
 
 
+src_prepare() {
+    sed 's/0.0.0/${PV}/g' -i pyproject.toml || die
+    sed 's/, "poetry-dynamic-versioning"//g' -i pyproject.toml || die
+    sed 's/poetry_dynamic_versioning.backend/poetry.core.masonry.api/g' -i pyproject.toml || die
+    distutils-r1_src_prepare
+}
+
 src_install() {
     # Remove all 'tests' directories from the installation image
     if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then

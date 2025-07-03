@@ -27,6 +27,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+    cp packaging/* .
+    sed '9,10d' -i pyproject.toml
+    echo -e "[project]\nname = \"${PN}\"\nversion = \"${PV}\"\ndescription = \"\"\nreadme = \"README.md\"\nrequires-python = \">=3.8\"" >> pyproject.toml
+    distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

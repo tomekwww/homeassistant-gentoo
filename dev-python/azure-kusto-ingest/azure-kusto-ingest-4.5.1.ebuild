@@ -29,6 +29,10 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	sed -i -e '/namespace_packages/d' setup.py || die
+	distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

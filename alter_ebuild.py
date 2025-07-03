@@ -7,6 +7,7 @@ import re
 from pathlib import Path
 
 missing_backend = False
+poetry_versioning = False
 
 def get_tarball_extension(ebuild_path):
     """
@@ -32,6 +33,7 @@ def get_tarball_extension(ebuild_path):
 
 def parse_pyproject_toml(pyproject_content):
     global missing_backend
+    global poetry_versioning
     """
     Parse the pyproject.toml content from memory and extract the build-system section.
     """
@@ -44,6 +46,8 @@ def parse_pyproject_toml(pyproject_content):
     if build_system:
         build_backend = build_system.get("build-backend", None)
         if build_backend:
+            if build_backend == 'poetry_dynamic_versioning.backend':
+                poetry_versioning = True
             return re.split(r'[._]', build_backend)[0]
         else:
             missing_backend = True
@@ -116,6 +120,7 @@ def extract_top_level_folder_from_zip(zip_path):
 
 def update_ebuild(ebuild_path, s_variable_value, pep517_value):
     global missing_backend
+    global poetry_versioning
     """
     Update the ebuild file with the new S variable.
     """
@@ -151,6 +156,24 @@ def update_ebuild(ebuild_path, s_variable_value, pep517_value):
             if line.startswith('SRC_URI='):
                 lines.insert(i + 1, s_variable_line)
                 updated = True
+                break
+
+    if poetry_versioning:
+        for i, line in enumerate(lines):
+            if line.startswith('src_prepare'):
+                poetry_versioning = False
+                break
+
+    if poetry_versioning:
+        for i, line in enumerate(lines):
+            if line.startswith('src_install'):
+                lines.insert(i, "src_prepare() {\n")
+                lines.insert(i + 1, "    sed 's/0.0.0/${PV}/g' -i pyproject.toml || die\n")
+                lines.insert(i + 2, "    sed 's/, \"poetry-dynamic-versioning\"//g' -i pyproject.toml || die\n")
+                lines.insert(i + 3, "    sed 's/poetry_dynamic_versioning.backend/poetry.core.masonry.api/g' -i pyproject.toml || die\n")
+                lines.insert(i + 4, "    distutils-r1_src_prepare\n")
+                lines.insert(i + 5, "}\n\n")
+                poetry_versioning = False
                 break
 
     if missing_backend:

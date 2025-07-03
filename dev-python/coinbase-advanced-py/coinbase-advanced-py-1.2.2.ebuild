@@ -28,6 +28,15 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	touch requirements.txt
+	touch test_requirements.txt
+	touch lint_requirements.txt
+	mv ${S}/coinbase ${S}/coinbase-advanced-py
+	sed 's/packages=find_packages(exclude=("tests",))/packages=find_packages(exclude=["tests","tests.*"])/g' -i setup.py || die
+	eapply "${FILESDIR}"/rename-coinbase.patch
+	distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

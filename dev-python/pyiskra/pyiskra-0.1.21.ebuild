@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
@@ -25,6 +25,10 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/pymodbus[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+    sed -i '3i\build-backend = "setuptools.build_meta"\n' pyproject.toml || die
+    distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

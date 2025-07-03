@@ -15,6 +15,6 @@
 		</maintainer>
 	</upstream>
 	<longdescription>
-		Library and CLI to calculate and verify all kinds of CRC checksums
+		Pure Python CRC library
 	</longdescription>
 </pkgmetadata>

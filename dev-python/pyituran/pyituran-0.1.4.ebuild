@@ -24,6 +24,11 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+    sed "8c\VERSION = \"${PV}\"" -i setup.py || die
+    distutils-r1_src_prepare
+}
+
 
 src_install() {
     # Remove all 'tests' directories from the installation image

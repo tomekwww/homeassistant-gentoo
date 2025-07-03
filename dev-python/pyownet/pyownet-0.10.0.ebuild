@@ -24,6 +24,7 @@ RDEPEND="${PYTHON_DEPS}
 
 "
 
+PATCHES=( "${FILESDIR}/pyownet-${PV}-2to3.patch" )
 
 src_install() {
     # Remove all 'tests' directories from the installation image

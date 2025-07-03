@@ -7,7 +7,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="pypi">aioamazondevices</remote-id>
-		<remote-id type="github">chemelli74/aioamazondevices</remote-id>
+		<remote-id type="github">unknown</remote-id>
 		<bugs-to>https://github.com/chemelli74/aioamazondevices/issues</bugs-to>
 		<maintainer status="unknown">
 			<email>simone.chemelli@gmail.com</email>

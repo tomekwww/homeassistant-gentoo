@@ -24,6 +24,11 @@ RDEPEND="${PYTHON_DEPS}
 
 "
 
+src_prepare() {
+    sed 29d -i pyproject.toml
+    sed "5c\version = \"${PV}\"\n" -i pyproject.toml
+    distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

@@ -1,35 +1,26 @@
-# Copyright 2025 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=True
+PYTHON_COMPAT=( python3_{11..13} )
+DISTUTILS_USE_PEP517=standalone
 inherit distutils-r1 pypi
 
-DESCRIPTION="Pythonbase APIs and tools for CHIP"
-HOMEPAGE="https://github.com/project-chip/connectedhomeip"
-SRC_URI="https://github.com/project-chip/connectedhomeip/archive/refs/tags/v1.4.0.0.tar.gz -> ${P}.gh.tar.gz"
-S="${WORKDIR}/connectedhomeip-1.4.0.0"
+DESCRIPTION="Python-base APIs and tools for CHIP."
+HOMEPAGE="https://github.com/project-chip/connectedhomeip https://pypi.org/project/home-assistant-chip-clusters/"
+SRC_URI="$(pypi_wheel_url)"
+S=${WORKDIR}
 
-LICENSE="BSD"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-IUSE=""
 
-RESTRICT="test strip"
-
-RDEPEND="${PYTHON_DEPS}
-	dev-python/dacite[${PYTHON_USEDEP}]
+RDEPEND="
 	dev-python/aenum[${PYTHON_USEDEP}]
+	dev-python/aiorun[${PYTHON_USEDEP}]
 "
 
-
-src_install() {
-    # Remove all 'tests' directories from the installation image
-    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
-        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
-    fi
-    distutils-r1_src_install
+python_compile() {
+	distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/${PN//-/_}-${PV}-py3-none-any.whl"
 }

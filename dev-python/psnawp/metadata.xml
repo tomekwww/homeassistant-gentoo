@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">psnawp</remote-id>
+		<remote-id type="github">isFakeAccount/psnawp</remote-id>
+		<bugs-to>unknown@example.com</bugs-to>
+		<maintainer status="unknown">
+			<email>8bit_yoshikage_kira@proton.me</email>
+			<name>Yoshikage Kira</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		Python API Wrapper for PlayStation Network API.
+	</longdescription>
+</pkgmetadata>

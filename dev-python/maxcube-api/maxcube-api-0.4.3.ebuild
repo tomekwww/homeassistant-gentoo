@@ -24,6 +24,11 @@ RDEPEND="${PYTHON_DEPS}
 
 "
 
+src_prepare() {
+	sed -i "s/license=license,/license=\"MIT\",/g" -i setup.py || die
+	distutils-r1_src_prepare
+}
+
 
 src_install() {
     # Remove all 'tests' directories from the installation image

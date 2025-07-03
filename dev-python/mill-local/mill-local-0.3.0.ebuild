@@ -25,6 +25,10 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	touch requirements.txt
+	distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

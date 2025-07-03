@@ -26,6 +26,10 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/oathtool-2.3.1[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	touch requirements.txt
+	distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

@@ -26,6 +26,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+    touch requirements.txt
+    touch requirements_setup.txt
+    echo -ne '\n[build-system]\nrequires = ["setuptools"]\nbuild-backend = "setuptools.build_meta"\n' >> pyproject.toml || die
+    distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

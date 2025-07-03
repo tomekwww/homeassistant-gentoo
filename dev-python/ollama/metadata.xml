@@ -7,11 +7,11 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="pypi">ollama</remote-id>
-		<remote-id type="github">ollama/ollama-python</remote-id>
+		<remote-id type="github">unknown</remote-id>
 		<bugs-to>unknown@example.com</bugs-to>
 		<maintainer status="unknown">
 			<email>hello@ollama.com</email>
-			<name>Ollama</name>
+			<name></name>
 		</maintainer>
 	</upstream>
 	<longdescription>

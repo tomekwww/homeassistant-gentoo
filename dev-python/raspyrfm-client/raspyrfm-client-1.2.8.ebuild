@@ -24,6 +24,12 @@ RDEPEND="${PYTHON_DEPS}
 
 "
 
+src_prepare() {
+	sed -i "s/packages=find_packages()/packages=find_packages(exclude=['tests'])/g" -i setup.py || die
+	eapply "${FILESDIR}/${PN}_catch_git_queries.patch"
+	distutils-r1_src_prepare
+}
+
 
 src_install() {
     # Remove all 'tests' directories from the installation image

@@ -29,10 +29,19 @@ RDEPEND="${PYTHON_DEPS}
 "
 
 
+src_prepare() {
+	touch requirements.txt
+	touch test-requirements.txt
+	touch release-requirements.txt
+	echo -e "{\n  \"projectName\": \"${PN}\",\n  \"packageVersion\": \"${PV}\"\n}" >> options.json
+	sed -i '3i\build-backend = "setuptools.build_meta"\n' pyproject.toml || die
+	distutils-r1_src_prepare
+}
+
 src_install() {
     # Remove all 'tests' directories from the installation image
-    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
-        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/test" ]] ; then
+        rm -r "${_DISTUTILS_PREVIOUS_SITE}/test"
     fi
     distutils-r1_src_install
 }

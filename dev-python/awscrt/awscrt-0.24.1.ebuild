@@ -24,6 +24,11 @@ RDEPEND="${PYTHON_DEPS}
 
 "
 
+src_prepare() {
+    sed 's/VERSION 3.0/VERSION 3.9...3.31/g' -i crt/aws-lc/CMakeLists.txt || die
+    distutils-r1_src_prepare
+}
+
 
 src_install() {
     # Remove all 'tests' directories from the installation image

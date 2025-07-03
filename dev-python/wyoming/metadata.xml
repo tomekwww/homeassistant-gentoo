@@ -11,10 +11,10 @@
 		<bugs-to>unknown@example.com</bugs-to>
 		<maintainer status="unknown">
 			<email>mike@rhasspy.org</email>
-			<name>Michael Hansen</name>
+			<name></name>
 		</maintainer>
 	</upstream>
 	<longdescription>
-		Protocol for Rhasspy Voice Assistant
+		Peer-to-peer protocol for voice assistants
 	</longdescription>
 </pkgmetadata>

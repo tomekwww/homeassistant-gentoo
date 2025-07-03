@@ -24,6 +24,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/decorator-3.4.2[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	export PBR_VERSION=${PV}
+	mv ${WORKDIR}/retry-${PV} ${S}
+	distutils-r1_src_prepare
+}
+
 
 src_install() {
     # Remove all 'tests' directories from the installation image

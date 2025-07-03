@@ -10,11 +10,11 @@
 		<remote-id type="github">eulemitkeule/eq3btsmart</remote-id>
 		<bugs-to>unknown@example.com</bugs-to>
 		<maintainer status="unknown">
-			<email></email>
-			<name>Lennard Beers</name>
+			<email>l.beers@outlook.de</email>
+			<name></name>
 		</maintainer>
 	</upstream>
 	<longdescription>
-		
+		Python library to interact with eQ-3 Bluetooth Smart thermostats
 	</longdescription>
 </pkgmetadata>

@@ -31,6 +31,12 @@ RDEPEND="${PYTHON_DEPS}
 "
 
 
+src_prepare() {
+    sed 's/project.urls/tool.poetry.urls/g' -i pyproject.toml || die
+    distutils-r1_src_prepare
+}
+
+
 src_install() {
     # Remove all 'tests' directories from the installation image
     if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then

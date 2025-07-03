@@ -10,8 +10,8 @@
 		<remote-id type="github">unknown</remote-id>
 		<bugs-to>unknown@example.com</bugs-to>
 		<maintainer status="unknown">
-			<email></email>
-			<name>Nextcord Developers & Rapptz</name>
+			<email>code@nextcord.dev</email>
+			<name>Nextcord Developers</name>
 		</maintainer>
 	</upstream>
 	<longdescription>

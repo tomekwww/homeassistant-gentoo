@@ -615,10 +615,10 @@ def main():
 
     write_ha_metadata()
     subprocess.run(['pkgdev', 'manifest', file_name])
-    start = False
+    start = True
     for d in rdeps:
-        if d[0] == 'pylast':
-            start = True
+#        if d[0] == 'pyatv':
+#            start = True
         if start:
             print(d)
             create_ebuild(d[0], d[1], d[2], d[3])

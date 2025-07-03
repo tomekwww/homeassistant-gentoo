@@ -24,6 +24,10 @@ RDEPEND="${PYTHON_DEPS}
 
 "
 
+src_prepare() {
+	echo -ne "${PV}" > version.txt
+	distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Library implementing ZHA for Home Assistant
+EAPI=8
+HOMEPAGE=https://pypi.org/project/zha/
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python3_12 python_targets_python3_13
+KEYWORDS=amd64 arm arm64 x86
+LICENSE=Apache-2.0
+RDEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) ~dev-python/zigpy-0.80.1[python_targets_python3_12(-)?,python_targets_python3_13(-)?] ~dev-python/bellows-0.45.1[python_targets_python3_12(-)?,python_targets_python3_13(-)?] ~dev-python/zigpy-znp-0.14.1[python_targets_python3_12(-)?,python_targets_python3_13(-)?] ~dev-python/zigpy-deconz-0.25.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?] ~dev-python/zigpy-xbee-0.21.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?] ~dev-python/zigpy-zigate-0.13.3[python_targets_python3_12(-)?,python_targets_python3_13(-)?] ~dev-python/zha-quirks-0.0.139[python_targets_python3_12(-)?,python_targets_python3_13(-)?] ~dev-python/pyserial-3.5.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?] dev-python/pyserial-asyncio-fast[python_targets_python3_12(-)?,python_targets_python3_13(-)?] python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_12 python_targets_python3_13 )
+RESTRICT=test strip
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/18/9a/171c2b90ae32e57c194974d51b8d0615fe8551d9ff592561b2ffed40e884/zha-0.0.61.tar.gz -> zha-0.0.61.gh.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	9c45b7a544652d5b47888c9a419c6ccc	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	be1082db72eb0381081ef946a26e3a71	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=4b72a41f1ce3d7c8ad59b78ee6246e3e

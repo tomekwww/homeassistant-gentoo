@@ -26,6 +26,16 @@ RDEPEND="${PYTHON_DEPS}
 "
 
 
+src_prepare() {
+	sed -i "s/subprocess.check_output(\[\"git\", \"rev-parse\", \"--abbrev-ref\", \"HEAD\"\])/'master'/" -i setup.py || die
+	sed -i "s/GIT_BRANCH = GIT_BRANCH.decode()  //" -i setup.py || die
+	sed -i "s/packages=find_packages()/packages=find_packages(exclude=['tests','tests.*'])/g" -i setup.py || die
+	touch requirements.txt
+	touch test_requirements.txt
+	distutils-r1_src_prepare
+}
+
+
 src_install() {
     # Remove all 'tests' directories from the installation image
     if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then

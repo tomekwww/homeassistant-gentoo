@@ -25,6 +25,11 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/pyserial-3.1.0[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+    sed 's/project.urls/tool.poetry.urls/g' -i pyproject.toml || die
+    distutils-r1_src_prepare
+}
+
 
 src_install() {
     # Remove all 'tests' directories from the installation image

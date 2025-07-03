@@ -21,7 +21,7 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-
+	dev-python/versioningit
 "
 
 

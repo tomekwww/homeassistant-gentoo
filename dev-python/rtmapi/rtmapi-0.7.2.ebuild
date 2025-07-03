@@ -23,6 +23,7 @@ RESTRICT="test strip"
 RDEPEND="${PYTHON_DEPS}
 
 "
+PATCHES=( "${FILESDIR}/RtmAPI-0.7.2-2to3.patch" )
 
 
 src_install() {

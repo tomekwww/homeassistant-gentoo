@@ -24,11 +24,18 @@ RDEPEND="${PYTHON_DEPS}
 
 "
 
+src_prepare() {
+    sed "42,43d" -i setup.py || die
+    distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image
-    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/tests" ]] ; then
-        rm -r "${_DISTUTILS_PREVIOUS_SITE}/tests"
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/LICENSE.txt" ]] ; then
+        rm "${_DISTUTILS_PREVIOUS_SITE}/LICENSE.txt"
+    fi
+    if [[ -d "${_DISTUTILS_PREVIOUS_SITE}/README.rst" ]] ; then
+        rm "${_DISTUTILS_PREVIOUS_SITE}/README.rst"
     fi
     distutils-r1_src_install
 }

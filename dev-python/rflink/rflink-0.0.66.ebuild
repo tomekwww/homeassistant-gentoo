@@ -27,6 +27,11 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	sed -e "s;version=version_from_git();version='${PV}';" -i setup.py
+	distutils-r1_src_prepare
+}
+
 
 src_install() {
     # Remove all 'tests' directories from the installation image

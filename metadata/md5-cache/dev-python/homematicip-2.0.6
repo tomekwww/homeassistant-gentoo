@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=An API for the homematicip cloud
+EAPI=8
+HOMEPAGE=https://pypi.org/project/homematicip/
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python3_12 python_targets_python3_13
+KEYWORDS=amd64 arm arm64 x86
+LICENSE=GPL-3
+RDEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/requests-2.32.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/websockets-13.1.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/aiohttp-3.10.11[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/httpx-0.27.2[python_targets_python3_12(-)?,python_targets_python3_13(-)?] python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_12 python_targets_python3_13 )
+RESTRICT=test strip
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/f3/94/6ec0fee1e409d7745aeea00541ab4d7cc12a0273bc6ca2d7af97076904b8/homematicip-2.0.6.tar.gz -> homematicip-2.0.6.gh.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	9c45b7a544652d5b47888c9a419c6ccc	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	be1082db72eb0381081ef946a26e3a71	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=c011da405127de11be58e6cb21d728d7

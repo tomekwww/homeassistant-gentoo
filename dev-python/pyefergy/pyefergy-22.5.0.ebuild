@@ -28,6 +28,12 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/codecov-2.1.13[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+    sed 's/0.0.0/${PV}/g' -i pyproject.toml || die
+    sed 's/, "poetry-dynamic-versioning"//g' -i pyproject.toml || die
+    sed 's/poetry_dynamic_versioning.backend/poetry.core.masonry.api/g' -i pyproject.toml || die
+    distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

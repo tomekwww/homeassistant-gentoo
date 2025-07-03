@@ -29,6 +29,10 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	touch HISTORY.md
+	distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

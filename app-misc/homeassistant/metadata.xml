@@ -22,6 +22,7 @@
 		<flag name="omekit"></flag>
 		<flag name="asmota"></flag>
 		<flag name="astodon"></flag>
+		<flag name="laystation_network"></flag>
 		<flag name="oods"></flag>
 		<flag name="eneric"></flag>
 		<flag name="mage_upload"></flag>
@@ -173,6 +174,7 @@
 		<flag name="irtouch4"></flag>
 		<flag name="irtouch5"></flag>
 		<flag name="lpha_vantage"></flag>
+		<flag name="ltruist"></flag>
 		<flag name="mberelectric"></flag>
 		<flag name="mcrest"></flag>
 		<flag name="ndroidtv_remote"></flag>
@@ -279,7 +281,6 @@
 		<flag name="rop_connect"></flag>
 		<flag name="smr"></flag>
 		<flag name="wd_weather_warnings"></flag>
-		<flag name="weet"></flag>
 		<flag name="ynalite"></flag>
 		<flag name="asyenergy"></flag>
 		<flag name="busd"></flag>
@@ -375,6 +376,7 @@
 		<flag name="abitica"></flag>
 		<flag name="loud"></flag>
 		<flag name="plunk"></flag>
+		<flag name="ssist_satellite"></flag>
 		<flag name="onversation"></flag>
 		<flag name="ewish_calendar"></flag>
 		<flag name="eatmiser"></flag>
@@ -785,7 +787,6 @@
 		<flag name="p_ilo"></flag>
 		<flag name="zone"></flag>
 		<flag name="oaoapps_join"></flag>
-		<flag name="uicenet"></flag>
 		<flag name="plink"></flag>
 		<flag name="inkplay"></flag>
 		<flag name="irc"></flag>
@@ -934,6 +935,7 @@
 		<flag name="g_thinq"></flag>
 		<flag name="ikteck"></flag>
 		<flag name="ilt_ble"></flag>
+		<flag name="ilt_pi"></flag>
 		<flag name="mb"></flag>
 		<flag name="odoist"></flag>
 		<flag name="olo"></flag>
@@ -960,6 +962,7 @@
 		<flag name="wave_me"></flag>
 		<flag name="vc"></flag>
 		<flag name="allox"></flag>
+		<flag name="egehub"></flag>
 		<flag name="dw"></flag>
 		<flag name="elbus"></flag>
 		<flag name="enstar"></flag>

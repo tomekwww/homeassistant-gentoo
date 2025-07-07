@@ -4,13 +4,14 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
 DESCRIPTION="Function decoration for backoff and retry"
 HOMEPAGE="https://github.com/litl/backoff"
 SRC_URI="https://files.pythonhosted.org/packages/47/d7/5bbeb12c44d7c4f2fb5b56abce497eb5ed9f34d85701de869acedd602619/backoff-2.2.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/backoff-2.2.1"
 
 LICENSE="MIT"
 SLOT="0"

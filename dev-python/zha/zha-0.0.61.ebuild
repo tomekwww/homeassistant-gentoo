@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library implementing ZHA for Home Assistant"
 HOMEPAGE="https://pypi.org/project/zha/"
 SRC_URI="https://files.pythonhosted.org/packages/18/9a/171c2b90ae32e57c194974d51b8d0615fe8551d9ff592561b2ffed40e884/zha-0.0.61.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/zha-0.0.61"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to control Shelly devices"
 HOMEPAGE="https://pypi.org/project/aioshelly/"
 SRC_URI="https://files.pythonhosted.org/packages/1c/1b/ae952ac7558bd961d8cb45ab42c57a5c1f62e4ced8ad9e9ada021c442d14/aioshelly-13.7.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/aioshelly-13.7.0"
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Library implementing EZSP"
 HOMEPAGE="https://pypi.org/project/bellows/"
 SRC_URI="https://files.pythonhosted.org/packages/64/38/0031ea1febc938461aed3c8b9b22119f782cf40450c0cd7c14caec2230ca/bellows-0.45.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/bellows-0.45.1"
 
 LICENSE="GPL-3"
 SLOT="0"

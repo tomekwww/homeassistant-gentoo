@@ -477,6 +477,7 @@ inherit distutils-r1 pypi readme.gentoo-r1 systemd
 DESCRIPTION="Open-source home automation platform running on Python."
 HOMEPAGE="https://home-assistant.io/"
 SRC_URI="https://github.com/home-assistant/core/archive/{version}.tar.gz -> ${{P}}.gh.tar.gz"
+S="${{WORKDIR}}/core-${{PV}}"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -508,7 +509,8 @@ RDEPEND=\"${{RDEPEND}}
 
 def write_rdepend():
 
-    return f"""RESTRICT="!test? ( test )"
+    return f"""IUSE+=" systemd"
+RESTRICT="test strip"
 
 # external deps
 RDEPEND="${{PYTHON_DEPS}}
@@ -524,19 +526,18 @@ def write_body():
     return f"""\nINSTALL_DIR="/opt/${{PN}}"
 
 DISABLE_AUTOFORMATTING=1
-#DOC_CONTENTS="
-#The HA interface listens on port 8123
-#hass configuration is in: /etc/${{PN}}
-#daemon command line arguments are configured in: /etc/conf.d/${{PN}}
-#logging is to: /var/log/${{PN}}/{{server,errors,stdout}}.log
-#The sqlite db is by default in: /etc/${{PN}}
-#support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
-#"
+DOC_CONTENTS="
+The HA interface listens on port 8123
+hass configuration is in: /etc/${{PN}}
+daemon command line arguments are configured in: /etc/conf.d/${{PN}}
+logging is to: /var/log/${{PN}}/{{server,errors,stdout}}.log
+The sqlite db is by default in: /etc/${{PN}}
+"
 
-#DOCS="README.rst"
+DOCS="README.rst"
 
 python_install_all() {{
-#	dodoc ${{DOCS}}
+	dodoc ${{DOCS}}
 	distutils-r1_python_install_all
 	keepdir "$INSTALL_DIR"
 	keepdir "/etc/${{PN}}"
@@ -546,14 +547,6 @@ python_install_all() {{
 	newconfd "${{FILESDIR}}/${{PN}}.conf.d" "${{PN}}"
 	newinitd "${{FILESDIR}}/${{PN}}.init.d" "${{PN}}"
 	use systemd && systemd_dounit "${{FILESDIR}}/${{PN}}.service"
-	dobin "${{FILESDIR}}/hasstest"
-	if use socat ; then
-		newinitd "${{FILESDIR}}/socat-zwave.init.d" "socat-zwave"
-		sed -i -e 's/# need socat-zwave/need socat-zwave/g' "${{D}}/etc/init.d/${{PN}}" || die
-	fi
-	if use mqtt ; then
-		sed -i -e 's/# need mosquitto/need mosquitto/g' "${{D}}/etc/init.d/${{PN}}" || die
-	fi
 	insinto /etc/logrotate.d
 	newins "${{FILESDIR}}/${{PN}}.logrotate" "${{PN}}"
 	readme.gentoo_create_doc
@@ -563,7 +556,6 @@ pkg_postinst() {{
 	readme.gentoo_print_elog
 }}
 
-distutils_enable_tests pytest
 """
 
 def write_ha_metadata():

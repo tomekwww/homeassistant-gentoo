@@ -11,6 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with Switchbot"
 HOMEPAGE="https://github.com/sblibs/pySwitchbot/"
 SRC_URI="https://files.pythonhosted.org/packages/f7/df/80f24b1b3f398e746902de04473824357884d82cfab0730d93f59a7aee19/pyswitchbot-0.67.0.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/pyswitchbot-0.67.0"
 
 LICENSE="MIT"
 SLOT="0"
@@ -26,6 +27,11 @@ RDEPEND="${PYTHON_DEPS}
 	>=dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 "
+
+src_prepare() {
+    echo -ne '\n[build-system]\nrequires = ["setuptools"]\nbuild-backend = "setuptools.build_meta"\n' >> pyproject.toml || die
+    distutils-r1_src_prepare
+}
 
 src_install() {
     # Remove all 'tests' directories from the installation image

@@ -1,4 +1,4 @@
-BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?]
+BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/poetry-core-2.1.1[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?]
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=Library to control enphase envoy
 EAPI=8
@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( python_targets_python3_11 python_targets_python3_12 python_tar
 RESTRICT=test strip
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/42/27/f40905b6a0f899073ae69893ebd18eac2e6c9b52ec1177c34f114a46227c/pyenphase-2.2.0.tar.gz -> pyenphase-2.2.0.gh.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	be1082db72eb0381081ef946a26e3a71	pypi	ad1b21f87d117ae9bb089bdb65b8f013
-_md5_=06aef981d3aa1a6c6cffb3716cd96f0d
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	be1082db72eb0381081ef946a26e3a71	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=4b45d634eefc64a3568438386e378fbb

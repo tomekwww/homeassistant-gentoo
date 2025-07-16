@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Home Assistant cloud integration by Nabu Casa Inc
+EAPI=8
+HOMEPAGE=https://pypi.org/project/hass-nabucasa/
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python3_13
+KEYWORDS=amd64 arm arm64 x86
+LICENSE=BSD
+RDEPEND=python_targets_python3_13? ( dev-lang/python:3.13 ) ~dev-python/acme-4.1.1[python_targets_python3_13(-)?] >=dev-python/aiohttp-3.6.1[python_targets_python3_13(-)?] >=dev-python/async-timeout-4.0.0[python_targets_python3_13(-)?] ~dev-python/atomicwrites-homeassistant-1.4.1[python_targets_python3_13(-)?] >=dev-python/attrs-19.3.0[python_targets_python3_13(-)?] >=dev-python/ciso8601-2.3.0[python_targets_python3_13(-)?] >=dev-python/cryptography-42.0.0[python_targets_python3_13(-)?] >=dev-python/josepy-2.0.0[python_targets_python3_13(-)?] <dev-python/josepy-3.0.0[python_targets_python3_13(-)?] ~dev-python/pycognito-2024.5.1[python_targets_python3_13(-)?] >=dev-python/pyjwt-2.8.0[python_targets_python3_13(-)?] ~dev-python/snitun-0.40.0[python_targets_python3_13(-)?] <dev-python/webrtc-models-1.0.0[python_targets_python3_13(-)?] python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_13 )
+RESTRICT=test strip
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/29/b2/f9ebb8bf68fd0da8ceeb9291454f4cef082ae1a42b2fa093176a73bbb6eb/hass_nabucasa-0.106.0.tar.gz -> hass-nabucasa-0.106.0.gh.tar.gz
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	be1082db72eb0381081ef946a26e3a71	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=ced302fa262b088aab59206c835fa33c

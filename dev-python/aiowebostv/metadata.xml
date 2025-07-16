@@ -11,7 +11,7 @@
 		<bugs-to>unknown@example.com</bugs-to>
 		<maintainer status="unknown">
 			<email>hello@home-assistant.io</email>
-			<name>Home Assistant Team</name>
+			<name></name>
 		</maintainer>
 	</upstream>
 	<longdescription>

@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) >=dev-python/gpep517-16[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Async UPnP Client
+EAPI=8
+HOMEPAGE=https://pypi.org/project/async-upnp-client/
+INHERIT=distutils-r1 pypi
+IUSE=python_targets_python3_11 python_targets_python3_12 python_targets_python3_13
+KEYWORDS=amd64 arm arm64 x86
+LICENSE=BSD
+RDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) <dev-python/aiohttp-4.0.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >dev-python/aiohttp-3.9.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] <dev-python/async-timeout-6.0.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/async-timeout-3.0.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/defusedxml-0.6.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] <dev-python/python-didl-lite-1.5.0[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/voluptuous-0.15.2[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?] python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 )
+REQUIRED_USE=|| ( python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 )
+RESTRICT=test strip
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/fc/d1/a36e18d84a29fdd11d57ebbc1d5b09c248f3bec341ed7971aed8f2413184/async_upnp_client-0.45.0.tar.gz -> async-upnp-client-0.45.0.gh.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	601de75299d1a5fb14b475836969af0f	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	f3d2170134abd84aedf64566aa2af061	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=4c339df7f8e5efb39e35de4a93cbcd88

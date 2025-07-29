@@ -4,16 +4,16 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
-DISTUTILS_USE_PEP517=maturin
+DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=True
 inherit distutils-r1 pypi
 
-DESCRIPTION="cryptography is a package which provides cryptographic recipes and primitives to Python developers"
-HOMEPAGE="https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/a7/fe/c5fc4dc19d4547261b35abfa0df9f75cae692c40ca2c896b9b0e50402b45/cryptography-45.0.1.tar.gz -> ${P}.gh.tar.gz"
-S="${WORKDIR}/cryptography-45.0.1"
+DESCRIPTION="Status proto mapping for gRPC"
+HOMEPAGE="https://grpc.io"
+SRC_URI="https://files.pythonhosted.org/packages/50/b8/e563262a30065d3b52b61ca92c427fe2a1b04ba5dfca0415ae0df8ecdac8/grpcio_status-1.72.1.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/grpcio_status-1.72.1"
 
-LICENSE="Apache-2.0"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE=""
@@ -21,9 +21,11 @@ IUSE=""
 RESTRICT="test strip"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/cffi-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-6.30.0[${PYTHON_USEDEP}]
+	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.72.1[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.5.5[${PYTHON_USEDEP}]
 "
-
 
 src_install() {
     # Remove all 'tests' directories from the installation image

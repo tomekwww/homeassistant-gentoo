@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>tomasz.m.wojna@gmail.com</email>
+		<name>Tomasz Wojna</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">grpcio</remote-id>
+		<remote-id type="github">grpc/grpc</remote-id>
+		<bugs-to>https://github.com/grpc/grpc/issues</bugs-to>
+		<maintainer status="unknown">
+			<email>grpc-io@googlegroups.com</email>
+			<name>The gRPC Authors</name>
+		</maintainer>
+	</upstream>
+	<longdescription>
+		HTTP/2-based RPC framework
+	</longdescription>
+</pkgmetadata>
